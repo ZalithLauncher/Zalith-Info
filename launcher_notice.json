@@ -5,10 +5,10 @@
       "en_us": "Launcher download channel"
     },
     "content": {
-      "zh_cn": "你的 Zalith Launcher 是从官方渠道下载的吗？请注意，官方的下载渠道只有以下两种途径：\r\n\r\nGithub Release：\r\nhttps://github.com/MovTery/ZalithLauncher/releases\r\n官方 QQ 群：435667089\r\n\r\n如果你的启动器不是在官方途径下载的，那么其安全性将不能得到保障，请尽量在官方渠道下载 Zalith Launcher！\r\n\r\n（如果你使用的是社区定制版，那么也请注意在定制版的官方下载渠道内下载！）",
-      "zh_tw": "你的 Zalith Launcher 是否從官方渠道下載？請注意，官方的下載渠道僅有以下兩種途徑：\r\n\r\nGithub Release：\r\nhttps://github.com/MovTery/ZalithLauncher/releases\r\n官方 QQ 群：435667089\r\n\r\n如果你的啟動器並非從官方途徑下載，那麼其安全性將無法得到保障，請盡量在官方渠道下載 Zalith Launcher！\r\n\r\n（如果你使用的是社區定制版，那麼也請注意在定制版的官方下載渠道內下載！）",
-      "en_us": "Did you download your Zalith Launcher from an official channel? Please note that the only official download channel is as follows:\r\n\r\nGithub Release:\r\nhttps://github.com/MovTery/ZalithLauncher/releases\r\n\r\nIf your launcher was not downloaded from an official source, its security cannot be guaranteed. Please try to download Zalith Launcher from the official channel!\r\n\r\n(If you are using a community-customized version, please also ensure that you download it from the official download channel for the customized version!)"
+      "zh_cn": "你的 Zalith Launcher 是从官方渠道下载的吗？请注意，官方的下载渠道只有以下两种途径：\r\n\r\nGithub Release：\r\nhttps://github.com/ZalithLauncher/ZalithLauncher/releases\r\n官方 QQ 群：435667089\r\n\r\n如果你的启动器不是在官方途径下载的，那么其安全性将不能得到保障，请尽量在官方渠道下载 Zalith Launcher！\r\n\r\n（如果你使用的是社区定制版，那么也请注意在定制版的官方下载渠道内下载！）",
+      "zh_tw": "你的 Zalith Launcher 是否從官方渠道下載？請注意，官方的下載渠道僅有以下兩種途徑：\r\n\r\nGithub Release：\r\nhttps://github.com/ZalithLauncher/ZalithLauncher/releases\r\n官方 QQ 群：435667089\r\n\r\n如果你的啟動器並非從官方途徑下載，那麼其安全性將無法得到保障，請盡量在官方渠道下載 Zalith Launcher！\r\n\r\n（如果你使用的是社區定制版，那麼也請注意在定制版的官方下載渠道內下載！）",
+      "en_us": "Did you download your Zalith Launcher from an official channel? Please note that the only official download channel is as follows:\r\n\r\nGithub Release:\r\nhttps://github.com/ZalithLauncher/ZalithLauncher/releases\r\n\r\nIf your launcher was not downloaded from an official source, its security cannot be guaranteed. Please try to download Zalith Launcher from the official channel!\r\n\r\n(If you are using a community-customized version, please also ensure that you download it from the official download channel for the customized version!)"
     },
-    "date": "2024/12/01",
-    "numbering": 9
+    "date": "2024/12/03",
+    "numbering": 10
   }
