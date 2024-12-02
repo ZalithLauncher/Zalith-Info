@@ -1,0 +1,23 @@
+{
+  "version_code": 137800,
+  "version_name": "1.3.7.8",
+  "title": {
+    "en_us": "1.3.7.8",
+    "zh_cn": "1.3.7.8",
+    "zh_tw": "1.3.7.8"
+  },
+  "description": {
+    "en_us": "## Update Note:\r\n- Update [Download]: Display Mod loader icons when selecting resource versions.\r\n- Update [Download]: Allow users to jump to resource download links.\r\n- Update [Version Management]: Restructure the \"More Actions Panel\".\r\n- Update [Account]: Other accounts can now display skin avatars.\r\n---\r\n- Adjust [App Interface]: Adjust UI and language settings.\r\n- Adjust [Link]: Prompt users before redirecting.\r\n- Adjust [Account]: Require login before launching the game.\r\n- Adjust [Account]: Support previewing high-resolution skin avatars.\r\n- Adjust [Download]: Replace \"/\" characters when automatically filling in names.\r\n---\r\n- Fix [Download]: The filter selection box fails to properly exit when leaving the download page.",
+    "zh_cn": "## 更新内容：\n- 更新[下载]: 选择资源版本时展示 Mod 加载器图标\n- 更新[下载]: 允许用户跳转到资源的下载链接\n- 更新[版本管理]: 重构“更多操作面板”\n- 更新[账号]: 外置账号可以展示皮肤头像\n---\n- 调整[应用界面]: 调整UI、语言\n- 调整[链接]: 跳转前提醒用户\n- 调整[账号]: 在启动游戏前进行登录\n- 调整[账号]: 支持预览高像素皮肤头像\n- 调整[下载]: 自动补充名称时，替换“/”字符\n---\n- 修复[下载]: 退出下载页面时，筛选选择框未能正确退出",
+    "zh_tw": "## 更新內容：\n- 更新[下載]: 選擇資源版本時展示 Mod 加載器圖標\n- 更新[下載]: 允許用戶跳轉到資源的下載連結\n- 更新[版本管理]: 重構“更多操作面板”\n- 更新[帳號]: 外置帳號可以展示皮膚頭像\n---\n- 調整[應用界面]: 調整UI、語言\n- 調整[連結]: 跳轉前提醒用戶\n- 調整[帳號]: 在啟動遊戲前進行登錄\n- 調整[帳號]: 支援預覽高像素皮膚頭像\n- 調整[下載]: 自動補充名稱時，替換“/”字符\n---\n- 修復[下載]: 退出下載頁面時，篩選選擇框未能正確退出"
+  },
+  "published_at": "2024-11-30T05:38:34Z",
+  "file_size": {
+    "all": 206976026,
+    "arm": 128454719,
+    "arm64": 119694100,
+    "x86": 122365727,
+    "x86_64": 123248499
+  },
+  "pre_release": false
+}
