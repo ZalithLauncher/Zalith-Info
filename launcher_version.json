@@ -1,23 +1,23 @@
 {
-  "version_code": 137900,
-  "version_name": "1.3.7.9",
+  "version_code": 138000,
+  "version_name": "1.3.8",
   "title": {
-    "en_us": "1.3.7.9",
-    "zh_cn": "1.3.7.9",
-    "zh_tw": "1.3.7.9"
+    "en_us": "1.3.8",
+    "zh_cn": "1.3.8",
+    "zh_tw": "1.3.8"
   },
   "description": {
-    "en_us": "## Update Note:\r\n- Migrate [Project]: Migrated the project to the ZalithLauncher organization\r\n---\r\n- Adjust [Logs]: Disabled missing warning for flite, log warnings for LWJGL compatibility issues\r\n- Adjust [Account]: Adjusted account refresh and login logic\r\n- Adjust [Detection]: Added check cooldown for update detection and notification detection\r\n- Adjust [Install Game]: Adjusted the animation for entering the interface",
-    "zh_cn": "## 更新内容：\n- 迁移[项目]: 将项目迁移至 ZalithLauncher 组织\n---\n- 调整[日志]: 禁用 flite 缺失警告、LWGJL 兼容性问题的日志警告\n- 调整[账号]: 调整账号刷新、登录的逻辑\n- 调整[检测]: 为更新检测、通知检测添加检查冷却\n- 调整[安装游戏]: 调整进入界面的动画",
-    "zh_tw": "## 更新內容：\n- 遷移[專案]：將專案遷移至 ZalithLauncher 組織\n---\n- 調整[日誌]：禁用 flite 缺失警告、LWJGL 兼容性問題的日誌警告\n- 調整[帳號]：調整帳號刷新、登錄的邏輯\n- 調整[檢測]：為更新檢測、通知檢測增加檢查冷卻時間\n- 調整[安裝遊戲]：調整進入介面的動畫"
+    "en_us": "## Update Notes:\r\n- Updated [Settings]: Allowed customization of file download threads\r\n- Updated [Game]: Raised the game screen when the soft keyboard is invoked\r\n---\r\n- Adjusted [Account]: Removed deprecated progress listeners\r\n- Adjusted [Account]: Displayed step descriptions for Microsoft login\r\n- Adjusted [Control Layout]: Redesigned default control layout\r\n- Adjusted [Version Management]: Displayed version isolation indicator for isolated versions\r\n- Adjusted [File Management]: Displayed external file date and size\r\n- Adjusted [Settings]: Changed page transition animations\r\n- Adjusted [Control Layout]: Reworked menu interface\r\n---\r\n- Fixed [File Management]: Prevented import if the target file already exists\r\n",
+    "zh_cn": "## 更新内容：\n- 更新[设置]: 允许自定义文件下载线程\n- 更新[游戏]: 调出软键盘时，抬高游戏画面\n---\n- 调整[账号]: 移除废弃的进度监听器\n- 调整[账号]: 展示微软登录的步骤描述\n- 调整[控制布局]: 重做默认控制布局\n- 调整[版本管理]: 对开启版本隔离的版本，展示版本隔离的标识\n- 调整[文件管理]: 外显文件的日期、大小\n- 调整[设置]: 更改页面切换动画\n- 调整[控制布局]: 重构菜单界面\n---\n- 修复[文件管理]: 导入文件时，若目标文件已存在，将禁止导入\n",
+    "zh_tw": "## 更新內容：\n- 更新[設置]: 允許自定義文件下載線程\n- 更新[遊戲]: 調出軟鍵盤時，抬高遊戲畫面\n---\n- 調整[帳號]: 移除廢棄的進度監聽器\n- 調整[帳號]: 展示微軟登錄的步驟描述\n- 調整[控制佈局]: 重新設計默認控制佈局\n- 調整[版本管理]: 對開啟版本隔離的版本，展示版本隔離的標識\n- 調整[文件管理]: 外顯文件的日期與大小\n- 調整[設置]: 更改頁面切換動畫\n- 調整[控制佈局]: 重構菜單界面\n---\n- 修復[文件管理]: 導入文件時，若目標文件已存在，將禁止導入\n"
   },
-  "published_at": "2024-12-02T22:16:00Z",
+  "published_at": "2024-12-06T23:32:27Z",
   "file_size": {
-    "all": 207724471,
-    "arm": 129203164,
-    "arm64": 120442549,
-    "x86": 123114164,
-    "x86_64": 123996944
+    "all": 207720907,
+    "arm": 129606552,
+    "arm64": 120743881,
+    "x86": 122777520,
+    "x86_64": 123591192
   },
   "pre_release": false
 }
