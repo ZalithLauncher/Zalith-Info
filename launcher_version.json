@@ -1,23 +1,23 @@
 {
-  "version_code": 138000,
-  "version_name": "1.3.8",
+  "version_code": 138100,
+  "version_name": "1.3.8.1",
   "title": {
-    "en_us": "1.3.8",
-    "zh_cn": "1.3.8",
-    "zh_tw": "1.3.8"
+    "en_us": "1.3.8.1",
+    "zh_cn": "1.3.8.1",
+    "zh_tw": "1.3.8.1"
   },
   "description": {
-    "en_us": "## Update Notes:\r\n- Updated [Settings]: Allowed customization of file download threads\r\n- Updated [Game]: Raised the game screen when the soft keyboard is invoked\r\n---\r\n- Adjusted [Account]: Removed deprecated progress listeners\r\n- Adjusted [Account]: Displayed step descriptions for Microsoft login\r\n- Adjusted [Control Layout]: Redesigned default control layout\r\n- Adjusted [Version Management]: Displayed version isolation indicator for isolated versions\r\n- Adjusted [File Management]: Displayed external file date and size\r\n- Adjusted [Settings]: Changed page transition animations\r\n- Adjusted [Control Layout]: Reworked menu interface\r\n---\r\n- Fixed [File Management]: Prevented import if the target file already exists\r\n",
-    "zh_cn": "## 更新内容：\n- 更新[设置]: 允许自定义文件下载线程\n- 更新[游戏]: 调出软键盘时，抬高游戏画面\n---\n- 调整[账号]: 移除废弃的进度监听器\n- 调整[账号]: 展示微软登录的步骤描述\n- 调整[控制布局]: 重做默认控制布局\n- 调整[版本管理]: 对开启版本隔离的版本，展示版本隔离的标识\n- 调整[文件管理]: 外显文件的日期、大小\n- 调整[设置]: 更改页面切换动画\n- 调整[控制布局]: 重构菜单界面\n---\n- 修复[文件管理]: 导入文件时，若目标文件已存在，将禁止导入\n",
-    "zh_tw": "## 更新內容：\n- 更新[設置]: 允許自定義文件下載線程\n- 更新[遊戲]: 調出軟鍵盤時，抬高遊戲畫面\n---\n- 調整[帳號]: 移除廢棄的進度監聽器\n- 調整[帳號]: 展示微軟登錄的步驟描述\n- 調整[控制佈局]: 重新設計默認控制佈局\n- 調整[版本管理]: 對開啟版本隔離的版本，展示版本隔離的標識\n- 調整[文件管理]: 外顯文件的日期與大小\n- 調整[設置]: 更改頁面切換動畫\n- 調整[控制佈局]: 重構菜單界面\n---\n- 修復[文件管理]: 導入文件時，若目標文件已存在，將禁止導入\n"
+    "en_us": "## Update Notes:\r\n- Updated [Download]: Enabled simultaneous downloading of multiple files\r\n---\r\n- Adjusted [App Interface]: Modified UI components, structure, and default control layout\r\n- Adjusted [Control Layout]: Disabled uppercase letters on keys by default\r\n- Adjusted [Game]: Displayed a preview input box when the soft keyboard is invoked\r\n- Adjusted [Launcher]: Removed the old method for importing control layouts\r\n- Adjusted [Version Management]: Reorganized storage of version configuration files\r\n\r\n## Technical Adjustments:\r\n- Gradle: Removed unnecessary libraries\r\n- Project: Adjusted global string management\r\n- MainActivity: Adjusted the Z-axis of the background layer\r\n",
+    "zh_cn": "## 更新内容：\n- 更新[下载]: 允许同时下载多个文件\n---\n- 调整[应用界面]: 调整UI元件、结构、默认控制布局\n- 调整[控制布局]: 默认关闭按键字母大写\n- 调整[游戏]: 调出软键盘时，展示预览输入框\n- 调整[启动器]: 移除旧的导入控制布局的方法\n- 调整[版本管理]: 重新规划版本配置文件的存储\n\n## 技术调整：\n- Gradle: 移除了不必要的库\n- 项目: 调整全局的字符串管理\n- MainActivity: 调整背景层的Z轴\n",
+    "zh_tw": "## 更新內容：\n- 更新[下載]: 允許同時下載多個文件\n---\n- 調整[應用介面]: 調整UI元件、結構和默認控制佈局\n- 調整[控制佈局]: 默認關閉按鍵字母大寫\n- 調整[遊戲]: 調出軟鍵盤時，展示預覽輸入框\n- 調整[啟動器]: 移除舊的導入控制佈局方法\n- 調整[版本管理]: 重新規劃版本配置文件的存儲\n\n## 技術調整：\n- Gradle: 移除了不必要的庫\n- 項目: 調整全局的字符串管理\n- MainActivity: 調整背景層的Z軸\n"
   },
-  "published_at": "2024-12-06T23:32:27Z",
+  "published_at": "2024-12-11T08:09:14Z",
   "file_size": {
-    "all": 207720907,
-    "arm": 129606552,
-    "arm64": 120743881,
-    "x86": 122777520,
-    "x86_64": 123591192
+    "all": 207762355,
+    "arm": 129647388,
+    "arm64": 120784213,
+    "x86": 122817936,
+    "x86_64": 123631792
   },
   "pre_release": false
 }
