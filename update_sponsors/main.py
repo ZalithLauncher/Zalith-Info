@@ -60,7 +60,7 @@ def fetch_sponsors():
         for sponsor in sponsor_list:
             name = sponsor.get("user").get("name")
             pay_time = sponsor.get("last_pay_time")
-            pay_amount = sponsor.get("all_sum_amount", 0)
+            pay_amount = sponsor.get("current_plan").get("price", 0.0)
 
             all_sponsors.append(
                 {
