@@ -5,6 +5,9 @@ on:
     - cron: '0 8 * * *'  # UTC 时间 (每天 8 点)
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-sponsors:
     runs-on: ubuntu-latest
