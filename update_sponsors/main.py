@@ -6,13 +6,15 @@ import json
 import sys
 import time
 import hashlib
+
 import requests
 from datetime import datetime
 
 AFDIAN_USER_ID = os.environ.get("AFDIAN_USER_ID")
 AFDIAN_TOKEN = os.environ.get("AFDIAN_TOKEN")
 
-AFDIAN_API_URL = "https://afdian.com/api/open/query-sponsor"
+AFDIAN_ORDER_API_URL = "https://afdian.com/api/open/query-order"
+AFDIAN_SPONSOR_API_URL = "https://afdian.com/api/open/query-sponsor"
 
 
 def get_params(page=1, per_page=100):
@@ -27,13 +29,13 @@ def make_sign(token: str, user_id: str, params: str, ts: int) -> str:
     return sign
 
 
-def fetch_sponsors():
+def fetch_data(api_url: str, process_item_func, per_page=50):
     page = 1
     count = 1
-    all_sponsors = []
+    results = []
 
     while True:
-        params = get_params(page=page, per_page=50)
+        params = get_params(page=page, per_page=per_page)
         ts = int(time.time())
 
         sign = make_sign(
@@ -47,43 +49,72 @@ def fetch_sponsors():
             "sign": sign,
         }
 
-        response = requests.post(AFDIAN_API_URL, json=payload, timeout=10)
+        response = requests.post(api_url, json=payload, timeout=10)
         data = response.json()
+
         if count >= 4:
-            print("[ERROR] Cannot get information from AFDian")
+            print(f"[ERROR] Cannot get information from {api_url}")
             print(data)
             sys.exit(1)
         count += 1
 
-        sponsor_list = data.get("data", {}).get("list", [])
+        item_list = data.get("data", {}).get("list", [])
+        for item in item_list:
+            processed_item = process_item_func(item)
+            if processed_item:
+                results.append(processed_item)
 
-        for sponsor in sponsor_list:
-            name = sponsor.get("user").get("name")
-            pay_time = sponsor.get("last_pay_time")
-            pay_amount = sponsor.get("current_plan").get("price", 0.0)
-
-            all_sponsors.append(
-                {
-                    "name": name,
-                    "time": datetime.fromtimestamp(pay_time).strftime("%Y/%m/%d"),
-                    "amount": float(pay_amount),
-                }
-            )
-        if data.get("data", {}).get("total_page") is page:
+        if data.get("data", {}).get("total_page") == page:
             break
 
         page += 1
 
-    return all_sponsors
+    return results
+
+
+def process_sponsor(item):
+    user = item.get("user", {})
+    return {
+        "user_id": user.get("user_id"),
+        "user_name": user.get("name"),
+    }
+
+
+def process_order(item, sponsor_map):
+    user_id = item.get("user_id")
+    pay_time = item.get("create_time")
+    pay_amount = item.get("total_amount")
+
+    user_name = sponsor_map.get(user_id, None)
+
+    return {
+        "name": user_name,
+        "time": datetime.fromtimestamp(pay_time).strftime("%Y/%m/%d"),
+        "amount": float(pay_amount),
+    }
+
+
+def fetch_sponsors():
+    sponsors = fetch_data(AFDIAN_SPONSOR_API_URL, process_sponsor)
+    return {sponsor["user_id"]: sponsor["user_name"] for sponsor in sponsors}
+
+
+def fetch_orders():
+    sponsor_map = fetch_sponsors()
+    return fetch_data(
+        AFDIAN_ORDER_API_URL,
+        lambda item: process_order(item, sponsor_map)
+    )
+
 
 
 def main():
-    sponsors_data = fetch_sponsors()
-    if not sponsors_data:
-        print("No sponsor data fetched or API error.")
+    orders_data = fetch_orders()
+    if not orders_data:
+        print("No order data fetched or API error.")
         return
 
-    result_json = {"sponsors": sponsors_data}
+    result_json = {"sponsors": orders_data}
 
     with open("launcher_sponsor.json", "w", encoding="utf-8") as f:
         json.dump(result_json, f, ensure_ascii=False, indent=2)
