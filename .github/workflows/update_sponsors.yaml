@@ -1,0 +1,40 @@
+name: Update AFDian Sponsors
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # UTC 时间 (每天 8 点)
+  workflow_dispatch:
+
+jobs:
+  update-sponsors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: |
+          pip install requests
+
+      - name: Update sponsor data
+        env:
+          AFDIAN_USER_ID: ${{ secrets.AFDIAN_USER_ID }}
+          AFDIAN_TOKEN: ${{ secrets.AFDIAN_TOKEN }}
+        run: |
+          python update_sponsors/main.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add launcher_sponsor.json
+          git commit -m "chore: update AFDian sponsors data [skip ci]" || echo "No changes to commit"
+
+      - name: Push changes
+        run: |
+          git push
