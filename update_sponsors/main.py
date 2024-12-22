@@ -112,31 +112,35 @@ def fetch_orders():
 
 def main():
     orders_data = fetch_orders()
+
     if not orders_data:
         print("No order data fetched or API error.")
         return
 
     sponsor_file = "launcher_sponsor.json"
 
-    with open(sponsor_file, 'r', encoding='utf-8') as file:
-        local_sponsor_content = json.loads(file.read())
-        local_sponsor_list = local_sponsor_content.get("sponsors", [])
+    if os.path.exists(sponsor_file):
+        with open(sponsor_file, 'r', encoding='utf-8') as file:
+            local_sponsor_content = json.loads(file.read())
+            local_sponsor_list = local_sponsor_content.get("sponsors", [])
 
-    updated_sponsor_list_correct = []
-    for new_order in orders_data:
-        new_identifier = new_order["identifier"]
-        found = False
-        for old_order in reversed(local_sponsor_list):
-            old_identifier = old_order["identifier"]
-            if new_identifier == old_identifier:
-                updated_sponsor_list_correct.append(old_order)
-                found = True
-                break
-        if not found:
-            print(f"[INFO] New data has been added to the list: {new_identifier}")
-            updated_sponsor_list_correct.append(new_order)
+        updated_sponsor_list_correct = []
+        for new_order in orders_data:
+            new_identifier = new_order["identifier"]
+            found = False
+            for old_order in reversed(local_sponsor_list):
+                old_identifier = old_order["identifier"]
+                if new_identifier == old_identifier:
+                    updated_sponsor_list_correct.append(old_order)
+                    found = True
+                    break
+            if not found:
+                print(f"[INFO] New data has been added to the list: {new_identifier}")
+                updated_sponsor_list_correct.append(new_order)
 
-    result_json = {"sponsors": updated_sponsor_list_correct}
+        orders_data = updated_sponsor_list_correct
+
+    result_json = {"sponsors": orders_data}
 
     with open(sponsor_file, "w", encoding="utf-8") as f:
         json.dump(result_json, f, ensure_ascii=False, indent=2)
