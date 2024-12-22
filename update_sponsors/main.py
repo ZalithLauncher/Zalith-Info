@@ -81,6 +81,7 @@ def process_sponsor(item):
 
 
 def process_order(item, sponsor_map):
+    out_trade_no = item.get("out_trade_no")
     user_id = item.get("user_id")
     pay_time = item.get("create_time")
     pay_amount = item.get("total_amount")
@@ -90,6 +91,7 @@ def process_order(item, sponsor_map):
     return {
         "name": user_name,
         "time": datetime.fromtimestamp(pay_time).strftime("%Y/%m/%d"),
+        "identifier": out_trade_no,
         "amount": float(pay_amount),
     }
 
@@ -114,9 +116,29 @@ def main():
         print("No order data fetched or API error.")
         return
 
-    result_json = {"sponsors": orders_data}
+    sponsor_file = "launcher_sponsor.json"
 
-    with open("launcher_sponsor.json", "w", encoding="utf-8") as f:
+    with open(sponsor_file, 'r', encoding='utf-8') as file:
+        local_sponsor_content = json.loads(file.read())
+        local_sponsor_list = local_sponsor_content.get("sponsors", [])
+
+    updated_sponsor_list_correct = []
+    for new_order in orders_data:
+        new_identifier = new_order["identifier"]
+        found = False
+        for old_order in reversed(local_sponsor_list):
+            old_identifier = old_order["identifier"]
+            if new_identifier == old_identifier:
+                updated_sponsor_list_correct.append(old_order)
+                found = True
+                break
+        if not found:
+            print(f"[INFO] New data has been added to the list: {new_identifier}")
+            updated_sponsor_list_correct.append(new_order)
+
+    result_json = {"sponsors": updated_sponsor_list_correct}
+
+    with open(sponsor_file, "w", encoding="utf-8") as f:
         json.dump(result_json, f, ensure_ascii=False, indent=2)
 
     print(
