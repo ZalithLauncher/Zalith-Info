@@ -1,9 +1,12 @@
 name: Update AFDian Sponsors
 
 on:
-  schedule:
-    - cron: '0 8 * * *'  # UTC 时间 (每天 8 点)
   workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+    - cron: '0 12 * * *'
+    - cron: '0 18 * * *'
+    - cron: '0 0 * * *'
 
 permissions:
   contents: write
