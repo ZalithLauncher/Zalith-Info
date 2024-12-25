@@ -1,23 +1,23 @@
 {
-  "version_code": 139000,
-  "version_name": "1.3.9",
+  "version_code": 139100,
+  "version_name": "1.3.9.1",
   "title": {
-    "en_us": "1.3.9",
-    "zh_cn": "1.3.9",
-    "zh_tw": "1.3.9"
+    "en_us": "1.3.9.1",
+    "zh_cn": "1.3.9.1",
+    "zh_tw": "1.3.9.1"
   },
   "description": {
-    "en_us": "## Update Notes:\n- Updated [Version Management]: Allowed more custom configurations when version isolation is disabled\n- Updated [Game Menu]: Added draggable tutorial reminder\n- Updated [Version Management]: Allowed resetting control layout and customizing paths\n- Updated [Account]: Logged in as offline account when no internet is available\n- Updated [Settings]: Chose Java environment before entering execution environment\n---\n- Adjusted [Logs]: Output JVM parameters\n- Adjusted [Download]: Added screenshot for loading resources button\n- Adjusted [Language]: Adjusted some language translations\n- Adjusted [Game]: Added hint text to the input preview box\n- Adjusted [App Interface]: Adjusted UI, pop-up windows, and shadow effects\n- Adjusted [Version Management]: Disabled quick path functionality when accessing paths\n- Adjusted [Download]: Optimized resource version sorting logic\n- Adjusted [Startup]: Adjusted Java environment selection logic\n---\n- Fixed [Version Info]: Configuration strings cannot be null\n- Fixed [Version Management]: Prevented illegal operations during refresh\n\n## Technical Changes:\n- Gradle: Updated to 8.11.1\n",
-    "zh_cn": "## 更新内容：\n- 更新[版本管理]: 关闭版本隔离时，允许自定义更多配置\n- 更新[游戏菜单]: 添加可拖动的新手提醒\n- 更新[版本管理]: 可以重置控制布局、自定义路径\n- 更新[账号]: 无互联网时，将账号作为离线账号登录\n- 更新[设置]: 进入执行环境前，选择Java环境的方式\n---\n- 调整[日志]: 输出Jvm参数\n- 调整[下载]: 点击按钮加载资源的截图\n- 调整[语言]: 调整部分语言\n- 调整[游戏]: 为输入预览框加入提示文本\n- 调整[应用界面]: 调整UI、弹窗、阴影效果\n- 调整[版本管理]: 访问路径时，禁用快捷路径功能\n- 调整[下载]: 优化资源版本的排序逻辑\n- 调整[启动]: 调整Java环境选择逻辑\n---\n- 修复[版本信息]: 配置字符串不可为 null\n- 修复[版本管理]: 刷新时不可进行非法操作\n\n## 技术性更改:\n- Gradle: 更新至8.11.1\n",
-    "zh_tw": "## 更新內容：\n- 更新[版本管理]: 關閉版本隔離時，允許自定義更多配置\n- 更新[遊戲菜單]: 添加可拖動的新手提醒\n- 更新[版本管理]: 可以重置控制佈局和自定義路徑\n- 更新[帳號]: 無網絡時，將帳號作為離線帳號登錄\n- 更新[設置]: 進入執行環境前，選擇Java環境的方式\n---\n- 調整[日誌]: 輸出Jvm參數\n- 調整[下載]: 點擊按鈕加載資源的截圖\n- 調整[語言]: 調整部分語言\n- 調整[遊戲]: 為輸入預覽框加入提示文本\n- 調整[應用介面]: 調整UI、彈窗和陰影效果\n- 調整[版本管理]: 訪問路徑時，禁用快捷路徑功能\n- 調整[下載]: 優化資源版本的排序邏輯\n- 調整[啟動]: 調整Java環境選擇邏輯\n---\n- 修復[版本信息]: 配置字符串不可為 null\n- 修復[版本管理]: 刷新時不可進行非法操作\n\n## 技術性更改：\n- Gradle: 更新至 8.11.1\n"
+    "en_us": "## Update Notes:\r\n- Updated [Control Proxy]: Added experimental settings to support the TouchController mod\r\n- Updated [Download]: Toggleable option to include resource full names in custom filenames\r\n- Updated [Renderer]: Re-added Angle renderer\r\n- Updated [Jre]: Updated Java environment\r\n- Updated [Game Language]: Updated language list (pls - Ngiiwa)\r\n- Updated [Turnip]: Updated to version 24.3.2\r\n---\r\n- Adjusted [App Layout]: Modified UI and removed redundant buttons\r\n- Adjusted [Logs]: Output renderer names\r\n- Adjusted [Logs]: Improved log file sharing by bundling launcher logs\r\n- Adjusted [Language]: Improved some translations\r\n- Adjusted [Version Management]: Refined auto-selection logic for the current version\r\n- Adjusted [Hotbar]: Refreshed size in real-time\r\n- Adjusted [Options]: Checked and copied default options.txt file on game startup\r\n---\r\n- Fixed [Local Modpacks]: Error when importing non-compressed files\r\n",
+    "zh_cn": "## 更新内容：\n- 更新[控制代理]: 加入实验性设置，支持使用 TouchController 模组\n- 更新[下载]: 可开关在自定义文件名内添加资源的全名\n- 更新[渲染器]: 重新加入 Angle 渲染器\n- 更新[Jre]: 更新 Java 环境\n- 更新[游戏语言]: 更新语言列表 (pls - Ngiiwa)\n- 更新[Turnip]: 更新至 24.3.2\n---\n- 调整[应用布局]: 调整UI、移除多余的按钮\n- 调整[日志]: 输出渲染器名称\n- 调整[日志]: 改进日志文件分享，打包启动器日志\n- 调整[语言]: 改进部分语言\n- 调整[版本管理]: 调整当前版本的自动选择逻辑\n- 调整[Hotbar]: 及时刷新大小\n- 调整[options]: 启动游戏时检查并复制默认的 options.txt 文件\n---\n- 修复[本地整合包]: 导入的文件不是压缩包时的报错",
+    "zh_tw": "## 更新內容：\n- 更新[控制代理]: 加入實驗性設置，支持使用 TouchController 模組\n- 更新[下載]: 可開關在自定義文件名內添加資源的全名\n- 更新[渲染器]: 重新加入 Angle 渲染器\n- 更新[Jre]: 更新 Java 環境\n- 更新[遊戲語言]: 更新語言列表 (pls - Ngiiwa)\n- 更新[Turnip]: 更新至版本 24.3.2\n---\n- 調整[應用佈局]: 調整 UI，移除多餘的按鈕\n- 調整[日誌]: 輸出渲染器名稱\n- 調整[日誌]: 改進日誌文件分享，打包啟動器日誌\n- 調整[語言]: 改進部分語言\n- 調整[版本管理]: 調整當前版本的自動選擇邏輯\n- 調整[快捷欄]: 即時刷新大小\n- 調整[選項]: 啟動遊戲時檢查並複製默認的 options.txt 文件\n---\n- 修復[本地模組包]: 導入的文件不是壓縮包時的報錯\n"
   },
-  "published_at": "2024-12-18T15:54:04Z",
+  "published_at": "2024-12-25T02:43:51Z",
   "file_size": {
-    "all": 207777363,
-    "arm": 129662824,
-    "arm64": 120799717,
-    "x86": 122833820,
-    "x86_64": 123647072
+    "all": 203429179,
+    "arm": 111356439,
+    "arm64": 100045946,
+    "x86": 103858179,
+    "x86_64": 103687200
   },
   "pre_release": false
 }
