@@ -3,10 +3,7 @@ name: Update AFDian Sponsors
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'
     - cron: '0 12 * * *'
-    - cron: '0 18 * * *'
-    - cron: '0 0 * * *'
 
 permissions:
   contents: write
