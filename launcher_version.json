@@ -1,23 +1,23 @@
 {
-  "version_code": 139300,
-  "version_name": "1.3.9.3",
+  "version_code": 139400,
+  "version_name": "1.3.9.4",
   "title": {
-    "en_us": "1.3.9.3",
-    "zh_cn": "1.3.9.3",
-    "zh_tw": "1.3.9.3"
+    "en_us": "1.3.9.4",
+    "zh_cn": "1.3.9.4",
+    "zh_tw": "1.3.9.4"
   },
   "description": {
-    "en_us": "### New Features:\r\n- Zink Renderer: Lock GL/GLSL versions\r\n- Turnip: Updated to 24.3.3\r\n- Version Management: Added quick access to the screenshot folder\r\n- Version Management: Added favorites feature\r\n---\r\n### Adjustments:\r\n- Control Layout Management: Added reminder for setting as default\r\n- Control Layout Management: Improved layout of the more info popup\r\n- Account Management: Added reminder popup when deleting login methods\r\n- Network: Added timeout restrictions to some access\r\n- Slider: Prevent frequent saving of settings\r\n---\r\n### Fixes:\r\n- Popups: Fixed issues with abnormal view display on some systems\r\n- Renderer: Moved GL4ES initialization code\r\n- Account Management: Username length not checked when creating offline accounts\r\n- Download Resources: Quick clicks on versions caused overlapping of the version page in the created dependency popup\r\n",
-    "zh_cn": "### 更新内容:\n- Zink 渲染器: 锁定 GL/GLSL 版本\n- Turnip: 更新至 24.3.3\n- 版本管理: 添加屏幕截图文件夹的快捷访问\n- 版本管理: 添加收藏夹功能\n---\n### 调整内容:\n- 控制布局管理: 添加设为默认的提醒\n- 控制布局管理: 改良更多信息弹窗的排版\n- 账号管理: 删除登录方式时添加提醒弹窗\n- 网络: 一些访问加入超时限制\n- 滑动条: 避免频繁的保存设置\n---\n### 修复内容:\n- 弹窗: 一些系统上的视图展示不正常的问题\n- 渲染器: 移动 GL4ES 初始化代码\n- 账号管理: 创建离线账号未检查用户名长度\n- 下载资源: 快速点击版本，创建的依赖弹窗会导致版本页面重叠\n",
-    "zh_tw": "### 更新內容:\n- Zink 渲染器: 鎖定 GL/GLSL 版本\n- Turnip: 更新至 24.3.3\n- 版本管理: 新增螢幕截圖資料夾的快速存取\n- 版本管理: 新增收藏夾功能\n---\n### 調整內容:\n- 控制佈局管理: 新增設定為預設的提醒\n- 控制佈局管理: 改良更多資訊彈窗的排版\n- 帳號管理: 刪除登入方式時新增提醒彈窗\n- 網路: 某些訪問新增超時限制\n- 滑動條: 避免頻繁的儲存設定\n---\n### 修復內容:\n- 彈窗: 修正某些系統上視圖顯示異常的問題\n- 渲染器: 移動 GL4ES 初始化程式碼\n- 帳號管理: 創建離線帳號時未檢查使用者名稱長度\n- 下載資源: 快速點擊版本時，所創建的依賴彈窗會導致版本頁面重疊\n"
+    "en_us": "### New Features:\r\n- Pojav: Integrated the latest FFmpeg plugin\r\n---\r\n### Adjustments:\r\n- Version Favorites: Adjusted the background color of the selection box\r\n---\r\n### Fixes:\r\n- Version Favorites: Contents should refresh when renaming or deleting versions in the favorites\r\n- Selection Dialog: Click events were not set correctly\r\n- launcher_profiles.json: Failed to generate the launcher_profiles.json file in custom game paths\r\n",
+    "zh_cn": "### 更新内容:\n- Pojav: 引用最新的 FFmpeg 插件\n---\n### 调整内容:\n- 版本收藏夹: 调整选择框背景颜色\n---\n### 修复内容:\n- 版本收藏夹: 重命名版本、删除版本时，收藏夹内的内容应该刷新\n- 选择对话框: 点击事件未正确设置\n- launcher_profiles.json: 未能在自定义游戏路径下，生成 launcher_profiles.json 文件\n",
+    "zh_tw": "### 更新內容:\n- Pojav: 引入最新的 FFmpeg 插件\n---\n### 調整內容:\n- 版本收藏夾: 調整選擇框的背景顏色\n---\n### 修復內容:\n- 版本收藏夾: 在收藏夾中重新命名或刪除版本時，內容應該刷新\n- 選擇對話框: 點擊事件未正確設定\n- launcher_profiles.json: 無法在自定義遊戲路徑下生成 launcher_profiles.json 檔案\n"
   },
-  "published_at": "2025-01-11T11:12:57Z",
+  "published_at": "2025-01-12T10:14:27Z",
   "file_size": {
-    "all": 202360918,
-    "arm": 110956370,
-    "arm64": 99807033,
-    "x86": 103922578,
-    "x86_64": 103386195
+    "all": 202353035,
+    "arm": 110957675,
+    "arm64": 99797594,
+    "x86": 103923607,
+    "x86_64": 103387188
   },
   "pre_release": false
 }
