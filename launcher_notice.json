@@ -10,5 +10,5 @@
     "en_us": "If you encounter repeated \"network error\" issues while updating the launcher, it's not your problem—it's a vulnerability in the launcher!\r\n\r\nThis issue has been fixed in the latest version. Please update manually via Github:\r\nhttps://github.com/ZalithLauncher/ZalithLauncher/releases"
   },
   "date": "2025/01/12",
-  "numbering": 12
+  "numbering": 13
 }
