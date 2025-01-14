@@ -1,23 +1,23 @@
 {
-  "version_code": 139500,
-  "version_name": "1.3.9.5",
+  "version_code": 139600,
+  "version_name": "1.3.9.6",
   "title": {
-    "en_us": "1.3.9.5",
-    "zh_cn": "1.3.9.5",
-    "zh_tw": "1.3.9.5"
+    "en_us": "1.3.9.6",
+    "zh_cn": "1.3.9.6",
+    "zh_tw": "1.3.9.6"
   },
   "description": {
-    "en_us": "**Warning: If you repeatedly encounter \"network error\" issues when trying to update, it\u0027s not your problem but a bug in the current version of the launcher. Please update manually via GitHub! We sincerely apologize for the inconvenience caused.**\n\n### New Features:\n- Pojav: Adjusted keyboard behavior to move the input box\n---\n### Adjustments:\n- Version Management: Added a refresh cooldown mechanism\n---\n### Fixes:\n- launcher_profiles.json: Failed to generate the launcher_profiles.json file in custom game paths\n- Version Management: Fixed abnormal updates to the radio button status\n",
-    "zh_cn": "**警告: 如果您多次尝试更新，均因“网络异常”无法更新，那不是你的问题，而是当前版本的启动器存在漏洞，请手动前往 Github 更新！给您带来不便实在抱歉！**\n\n### 更新内容:\n- Pojav: 使键盘推动输入框移动\n---\n### 调整内容:\n- 版本管理: 加入刷新冷却机制\n---\n### 修复内容:\n- launcher_profiles.json: 未能在自定义游戏路径下，生成 launcher_profiles.json 文件\n- 版本管理: 单选框状态更新异常\n",
-    "zh_tw": "**警告: 如果您多次嘗試更新，均因“網路異常”無法更新，那不是您的問題，而是當前版本的啟動器存在漏洞，請手動前往 Github 更新！給您帶來不便實在抱歉！**\n\n### 更新內容:\n- Pojav: 調整鍵盤行為以推動輸入框移動\n---\n### 調整內容:\n- 版本管理: 新增刷新冷卻機制\n---\n### 修復內容:\n- launcher_profiles.json: 無法在自定義遊戲路徑下生成 launcher_profiles.json 檔案\n- 版本管理: 單選框狀態更新異常\n"
+    "en_us": "**Warning: If you repeatedly encounter \"network error\" issues when trying to update, it\u0027s not your problem but a bug in the current version of the launcher. Please update manually via GitHub! We sincerely apologize for the inconvenience caused.**\n\n### New Features:\n- Renderer: Added renderer plugin functionality to support external renderer integration\n---\n### Adjustments:\n- Renderer: Permanently removed the LTW renderer\n",
+    "zh_cn": "**警告: 如果您多次尝试更新，均因“网络异常”无法更新，那不是你的问题，而是当前版本的启动器存在漏洞，请手动前往 Github 更新！给您带来不便实在抱歉！**\n\n### 更新内容:\n- 渲染器: 加入渲染器插件功能，支持外部插入渲染器\n---\n### 调整内容:\n- 渲染器: 永久移除 LTW 渲染器\n",
+    "zh_tw": "**警告: 如果您多次嘗試更新，均因「網路異常」無法更新，那不是您的問題，而是當前版本的啟動器存在漏洞，請手動前往 Github 更新！給您帶來不便實在抱歉！**\n\n### 更新內容:\n- 渲染器: 新增渲染器插件功能，支援外部插入渲染器\n---\n### 調整內容:\n- 渲染器: 永久移除 LTW 渲染器\n"
   },
-  "published_at": "2025-01-13T11:18:51Z",
+  "published_at": "2025-01-14T14:44:16Z",
   "file_size": {
-    "all": 202353371,
-    "arm": 110958503,
-    "arm64": 99798670,
-    "x86": 103924311,
-    "x86_64": 103387516
+    "all": 198887090,
+    "arm": 110208592,
+    "arm64": 98937841,
+    "x86": 102983632,
+    "x86_64": 102479662
   },
   "pre_release": false
 }
