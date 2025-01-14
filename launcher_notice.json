@@ -1,14 +1,14 @@
 {
   "title": {
-    "zh_cn": "启动器无法更新",
-    "zh_tw": "啟動器無法更新",
-    "en_us": "Launcher Update Failed"
+    "zh_cn": "关于渲染器插件",
+    "zh_tw": "關於渲染器插件",
+    "en_us": "About Renderer Plugins"
   },
   "content": {
-    "zh_cn": "如果你在更新启动器时，反复遇到\"网络异常\"无法更新，那不是你的问题，是启动器存在漏洞！\r\n\r\n该漏洞已在最新版本修复，请前往 Github 手动更新！\r\nhttps://github.com/ZalithLauncher/ZalithLauncher/releases\r\n\r\n你也可以选择加入官方 QQ 群：435667089",
-    "zh_tw": "如果你在更新啟動器時，反覆遇到\"網路異常\"無法更新，那不是你的問題，是啟動器存在漏洞！\r\n\r\n該漏洞已在最新版本修復，請前往 Github 手動更新！\r\nhttps://github.com/ZalithLauncher/ZalithLauncher/releases\r\n\r\n你也可以選擇加入官方 QQ 群：435667089",
-    "en_us": "If you encounter repeated \"network error\" issues while updating the launcher, it's not your problem—it's a vulnerability in the launcher!\r\n\r\nThis issue has been fixed in the latest version. Please update manually via Github:\r\nhttps://github.com/ZalithLauncher/ZalithLauncher/releases"
+    "zh_cn": "在最新版本中，我加入了渲染器插件功能！你可以自行安装渲染器插件，以满足某些特殊需求！详情请查阅：\r\nhttps://github.com/ZalithLauncher/About/blob/main/notice/renderer_plugin_2025_01_14/zh_cn.md\r\n\r\n你也可以选择加入官方 QQ 群：435667089",
+    "zh_tw": "在最新版本中，我加入了渲染器插件功能！你可以自行安裝渲染器插件，以滿足某些特殊需求！詳情請查閱：\r\nhttps://github.com/ZalithLauncher/About/blob/main/notice/renderer_plugin_2025_01_14/zh_cn.md\r\n\r\n你也可以選擇加入官方 QQ 群：435667089",
+    "en_us": "In the latest version, I have added the renderer plugin feature! You can install renderer plugins to meet specific needs! For more details, please visit:\r\nhttps://github.com/ZalithLauncher/About/blob/main/notice/renderer_plugin_2025_01_14/en_us.md"
   },
-  "date": "2025/01/12",
-  "numbering": 14
+  "date": "2025/01/14",
+  "numbering": 15
 }
