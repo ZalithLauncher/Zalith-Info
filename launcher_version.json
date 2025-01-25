@@ -1,23 +1,23 @@
 {
-  "version_code": 139702,
-  "version_name": "1.3.9.7",
+  "version_code": 139800,
+  "version_name": "1.3.9.8_pre-release",
   "title": {
-    "en_us": "1.3.9.7",
-    "zh_cn": "1.3.9.7",
-    "zh_tw": "1.3.9.7"
+    "en_us": "1.3.9.8_pre-release",
+    "zh_cn": "1.3.9.8_pre-release",
+    "zh_tw": "1.3.9.8_pre-release"
   },
   "description": {
-    "en_us": "**Warning: If you repeatedly encounter \\\"network error\\\" issues when trying to update, it\\u0027s not your problem but a bug in the current version of the launcher. Please update manually via GitHub! We sincerely apologize for the inconvenience caused.**\n\n### New Features:\r\n- Vulkan Driver: Supports using driver plugins\r\n---\r\n### Adjustments:\r\n- Crash Screen: Logs shared now include launcher logs\r\n- Renderer Plugins: Improved method to retrieve currently installed plugins\r\n---\r\n### Fixes:\r\n- Renderer Plugins: Fixed issue where the renderer set in version configuration couldn\u0027t be used\r\n- Renderer: Unhandled error in environment variable\r\n",
-    "zh_cn": "**警告: 如果您多次尝试更新，均因“网络异常”无法更新，那不是你的问题，而是当前版本的启动器存在漏洞，请手动前往 Github 更新！给您带来不便实在抱歉！**\n\n### 更新内容:\n- Vulkan 驱动: 支持使用驱动插件\n---\n### 调整内容:\n- 崩溃界面: 分享的日志包括启动器日志\n- 渲染器插件: 更好的方式获取当前已安装的插件\n---\n### 修复内容:\n- 渲染器插件: 无法使用版本配置中单独设置的渲染器\n- 渲染器: 失误导致的启动游戏崩溃\n",
-    "zh_tw": "**警告: 如果您多次嘗試更新，均因「網路異常」無法更新，那不是您的問題，而是當前版本的啟動器存在漏洞，請手動前往 Github 更新！給您帶來不便實在抱歉！**\n\n### 更新內容:\n- Vulkan 驅動: 支援使用驅動插件\n---\n### 調整內容:\n- 崩潰界面: 分享的日誌現在包含啟動器日誌\n- 渲染器插件: 改善獲取當前已安裝插件的方式\n---\n### 修復內容:\n- 渲染器插件: 修正版本配置中單獨設置的渲染器無法使用的問題\n- 渲染器：因失誤導致啟動遊戲崩潰\n"
+    "en_us": "### New Features:\n- Settings: Added download buttons for renderers and drivers\n- Renderer Plugins: Changed the structure of local renderer plugins\n- Turnip: Updated to 24.3.4, provided better linkerhook for loading Turnip\n---\n### Adjustments:\n- Settings: Added constraints to prevent overly long text\n- Dialogs: Added screen margins for keyboard mapping and Mod dependency dialogs\n- Renderer Plugins: Split the `dlopen` list\n- Update Check: Option to receive pre-release updates\n---\n### Fixes:\n- Dropdown: Properly closed when the page is exited\n",
+    "zh_cn": "### 更新内容:\n- 设置: 为渲染器、驱动器加入下载按钮\n- 渲染器插件: 变更本地渲染器插件结构\n- Turnip: 更新至 24.3.4、为加载 Turnip 提供更好的 linkerhook\n---\n### 调整内容:\n- 设置: 添加约束，防止文本过长\n- 对话框: 键盘映射、Mod 依赖对话框增加屏幕边距\n- 渲染器插件: 拆分 dlopen 列表\n- 检查更新: 是否接收预发布版更新\n---\n### 修复内容:\n- 下拉选择框: 关闭页面时及时关闭\n",
+    "zh_tw": "### 更新內容:\n- 設定: 為渲染器、驅動器新增下載按鈕\n- 渲染器插件: 更改本地渲染器插件的結構\n- Turnip: 更新至 24.3.4，為載入 Turnip 提供更好的 linkerhook\n---\n### 調整內容:\n- 設定: 增加約束，防止文字過長\n- 對話框: 鍵盤映射與 Mod 依賴對話框增加螢幕邊距\n- 渲染器插件: 拆分 `dlopen` 列表\n- 檢查更新: 是否接收預發布版本更新\n---\n### 修復內容:\n- 下拉選擇框: 關閉頁面時及時關閉\n"
   },
-  "published_at": "2025-01-15T10:22:09Z",
+  "published_at": "2025-01-25T08:18:35Z",
   "file_size": {
-    "all": 198894742,
-    "arm": 110213512,
-    "arm64": 98942757,
-    "x86": 102989552,
-    "x86_64": 102485398
+    "all": 198936992,
+    "arm": 110243953,
+    "arm64": 98973358,
+    "x86": 103019921,
+    "x86_64": 102515833
   },
-  "pre_release": false
+  "pre_release": true
 }
