@@ -77,35 +77,38 @@ def process_sponsor(item):
     return {
         "user_id": user.get("user_id"),
         "user_name": user.get("name"),
+        "avatar": user.get("avatar"),
     }
 
 
-def process_order(item, sponsor_map):
+def process_order(item, sponsors):
     out_trade_no = item.get("out_trade_no")
     user_id = item.get("user_id")
     pay_time = item.get("create_time")
     pay_amount = item.get("total_amount")
 
-    user_name = sponsor_map.get(user_id, None)
+    sponsor_name_map = {
+        sponsor["user_id"]: {
+            "name": sponsor["user_name"],
+            "avatar": sponsor["avatar"]
+        } for sponsor in sponsors
+    }
+    user = sponsor_name_map.get(user_id, None)
 
     return {
-        "name": user_name,
+        "name": user["name"],
         "time": datetime.fromtimestamp(pay_time).strftime("%Y/%m/%d"),
         "identifier": out_trade_no,
+        "avatar": user["avatar"],
         "amount": float(pay_amount),
     }
 
 
-def fetch_sponsors():
-    sponsors = fetch_data(AFDIAN_SPONSOR_API_URL, process_sponsor)
-    return {sponsor["user_id"]: sponsor["user_name"] for sponsor in sponsors}
-
-
 def fetch_orders():
-    sponsor_map = fetch_sponsors()
+    sponsors = fetch_data(AFDIAN_SPONSOR_API_URL, process_sponsor)
     return fetch_data(
         AFDIAN_ORDER_API_URL,
-        lambda item: process_order(item, sponsor_map)
+        lambda item: process_order(item, sponsors)
     )
 
 
@@ -131,6 +134,7 @@ def main():
             for old_order in reversed(local_sponsor_list):
                 old_identifier = old_order["identifier"]
                 if new_identifier == old_identifier:
+                    old_order["avatar"] = new_order["avatar"]
                     updated_sponsor_list_correct.append(old_order)
                     found = True
                     break
