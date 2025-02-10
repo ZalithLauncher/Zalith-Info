@@ -1,23 +1,23 @@
 {
-  "version_code": 139901,
-  "version_name": "1.3.9.9",
+  "version_code": 139910,
+  "version_name": "1.4.0_pre-release",
   "title": {
-    "en_us": "1.3.9.9",
-    "zh_cn": "1.3.9.9",
-    "zh_tw": "1.3.9.9"
+    "en_us": "1.4.0_pre-release",
+    "zh_cn": "1.4.0_pre-release",
+    "zh_tw": "1.4.0_pre-release"
   },
   "description": {
-    "en_us": "**Warning: If you repeatedly encounter \"network error\" issues when trying to update, it\u0027s not your problem but a bug in the current version of the launcher. Please update manually via GitHub! We sincerely apologize for the inconvenience caused.**\n\n### New Features:\n- Launch: Disabled Sodium warning messages\n- Game Installation: Improved method for installing OptiFine\n- Mods: Parse all mods before launching and automatically enable specific features\n- Renderer: Added additional support for the Krypton Wrapper renderer plugin\n- Renderer: Independently manage all renderers to prevent overwriting due to ID conflicts\n- About: Added an official QQ group verification code generator for joining the launcher community\n---\n### Adjustments:\n- Renderer: Removed the Angle renderer\n- Version Management: Prevent issues caused by frequent refreshes\n- Renderer Plugins: After deleting a local renderer plugin, all renderers should be refreshed\n- Options: Improved `options.txt` handling\n- Language Texts: Updated explanatory text for mod dependencies\n---\n### Fixes:\n- Links: Fixed invalid renderer plugin download links\n- Filenames: More comprehensive illegal character checks\n- Game Installation: Check if the target file already exists before downloading mods\n- Launcher Settings: Improved stability\n- LWJGL: Fixed missing functions that prevented some mods from running\n",
-    "zh_cn": "**警告: 如果您多次尝试更新，均因“网络异常”无法更新，那不是你的问题，而是当前版本的启动器存在漏洞，请手动前往 Github 更新！给您带来不便实在抱歉！**\n\n### 更新内容:\n- 启动: 禁用Sodium的警告\n- 安装游戏: 更好的方式安装 OptiFine\n- Mod: 启动前解析所有 Mod，并自动开启特定功能\n- 渲染器: 添加对 Krypton Wrapper 渲染器插件的额外支持\n- 渲染器: 独立化管理所有渲染器，不再因 ID 冲突而导致覆盖\n- 关于: 加入启动器官方 QQ 群入群验证码生成器\n---\n### 调整内容:\n- 渲染器: 移除 Angle 渲染器\n- 版本管理: 避免频繁刷新带来的问题\n- 渲染器插件: 删除本地渲染器插件后，应该刷新全部渲染器\n- Options: 优化 options.txt 处理\n- 语言文本: 依赖模组的说明文本\n---\n### 修复内容:\n- 链接: 渲染器插件下载链接失效\n- 文件名: 更全面的非法性检查\n- 安装游戏: 下载 Mod 时应检查目标是否已存在\n- 启动器设置: 提升稳定性\n- LWJGL: 缺少部分函数，导致一些模组无法运行\n",
-    "zh_tw": "**警告: 如果您多次嘗試更新，均因「網路異常」無法更新，那不是您的問題，而是當前版本的啟動器存在漏洞，請手動前往 Github 更新！給您帶來不便實在抱歉！**\n\n### 更新內容:\n- 啟動: 禁用 Sodium 的警告訊息\n- 安裝遊戲: 改進 OptiFine 的安裝方式\n- Mod: 啟動前解析所有 Mod，並自動開啟特定功能\n- 渲染器: 增加對 Krypton Wrapper 渲染器插件的額外支援\n- 渲染器: 獨立管理所有渲染器，避免因 ID 衝突導致覆蓋\n- 關於: 新增啟動器官方 QQ 群入群驗證碼生成器\n---\n### 調整內容:\n- 渲染器: 移除 Angle 渲染器\n- 版本管理: 避免頻繁刷新導致的問題\n- 渲染器插件: 刪除本地渲染器插件後，應該刷新全部渲染器\n- Options: 優化 `options.txt` 處理\n- 語言文本: 更新模組依賴的說明文本\n---\n### 修復內容:\n- 連結: 修正渲染器插件下載連結失效的問題\n- 檔案名稱: 更全面的非法字符檢查\n- 安裝遊戲: 下載 Mod 時應檢查目標文件是否已存在\n- 啟動器設定: 提升穩定性\n- LWJGL: 修復缺少部分函數導致某些模組無法運行的問題\n"
+    "en_us": "**Warning: If you repeatedly encounter \"network error\" issues when trying to update, it\u0027s not your problem but a bug in the current version of the launcher. Please update manually via GitHub! We sincerely apologize for the inconvenience caused.**\n\n### New Features:\n- Sponsor List: Displays user avatars\n- Launch: Added environment variables for mod loaders\n- Renderer: Support for Mesa-based renderer plugins\n- Version Management: Display icons for LiteLoader versions\n---\n### Adjustments:\n- Version Management: Improved version information recognition\n- About Page: Added a dedicated page for the sponsor list\n- Account Management: Optimized code logic\n---\n### Fixes:\n- Renderer Plugins: Fixed incorrect path issues\n- Version Management: Fixed a series of inconsistent refresh mechanisms\n",
+    "zh_cn": "**警告: 如果您多次尝试更新，均因“网络异常”无法更新，那不是你的问题，而是当前版本的启动器存在漏洞，请手动前往 Github 更新！给您带来不便实在抱歉！**\n\n### 更新内容:\n- 赞助者列表: 展示用户头像\n- 启动: 为模组加载器添加环境变量\n- 渲染器: Mesa 类渲染器插件的支持\n- 版本管理: 为 LiteLoader 版本展示图标\n---\n### 调整内容:\n- 版本管理: 更强大的版本信息识别\n- 关于页面: 为赞助者列表添加单独的页面\n- 账号管理: 优化代码逻辑\n---\n### 修复内容:\n- 渲染器插件: 修复路径错误问题\n- 版本管理: 修复一系列混乱的刷新机制\n",
+    "zh_tw": "**警告: 如果您多次嘗試更新，均因「網路異常」無法更新，那不是您的問題，而是當前版本的啟動器存在漏洞，請手動前往 Github 更新！給您帶來不便實在抱歉！**\n\n### 更新內容:\n- 贊助者列表: 顯示使用者頭像\n- 啟動: 為模組加載器添加環境變數\n- 渲染器: 支援 Mesa 類渲染器插件\n- 版本管理: 為 LiteLoader 版本顯示圖示\n---\n### 調整內容:\n- 版本管理: 更強大的版本資訊識別\n- 關於頁面: 為贊助者列表新增獨立頁面\n- 帳號管理: 優化代碼邏輯\n---\n### 修復內容:\n- 渲染器插件: 修復路徑錯誤問題\n- 版本管理: 修復一系列混亂的刷新機制\n"
   },
-  "published_at": "2025-02-06T01:28:41Z",
+  "published_at": "2025-02-10T11:07:52Z",
   "file_size": {
-    "all": 196675327,
-    "arm": 94136477,
-    "arm64": 98644138,
-    "x86": 82612006,
-    "x86_64": 102061733
+    "all": 197898909,
+    "arm": 94379616,
+    "arm64": 98956711,
+    "x86": 82967605,
+    "x86_64": 102405459
   },
-  "pre_release": false
+  "pre_release": true
 }
