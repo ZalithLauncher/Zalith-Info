@@ -1,23 +1,23 @@
 {
-  "version_code": 140000,
-  "version_name": "1.4.0",
+  "version_code": 140010,
+  "version_name": "1.4.0.1_rc1",
   "title": {
-    "en_us": "1.4.0",
-    "zh_cn": "1.4.0",
-    "zh_tw": "1.4.0"
+    "en_us": "1.4.0.1_rc1",
+    "zh_cn": "1.4.0.1_rc1",
+    "zh_tw": "1.4.0.1_rc1"
   },
   "description": {
-    "en_us": "**Warning: If you repeatedly encounter \"network error\" issues when trying to update, it\u0027s not your problem but a bug in the current version of the launcher. Please update manually via GitHub! We sincerely apologize for the inconvenience caused.**\n\n### New Features:\n- Sponsor List: Displays user avatars\n- Launch: Added environment variables for mod loaders\n- Renderer: Support for Mesa-based renderer plugins\n- Version Management: Display icons for LiteLoader versions\n- Version Selection: Added a search function\n---\n### Adjustments:\n- Version Management: Improved version information recognition\n- About Page: Added a dedicated page for the sponsor list\n- Account Management: Optimized code logic\n- Downloads: Long press to reset MC versions\n---\n### Fixes:\n- Renderer Plugins: Fixed incorrect path issues\n- Version Management: Fixed a series of inconsistent refresh mechanisms\n- Account Management: If login fails, launch the game as an offline account\n- Authentication Server: Fixed improper handling of login failure exceptions\n",
-    "zh_cn": "**警告: 如果您多次尝试更新，均因“网络异常”无法更新，那不是你的问题，而是当前版本的启动器存在漏洞，请手动前往 Github 更新！给您带来不便实在抱歉！**\n\n### 更新内容:\n- 赞助者列表: 展示用户头像\n- 启动: 为模组加载器添加环境变量\n- 渲染器: Mesa 类渲染器插件的支持\n- 版本管理: 为 LiteLoader 版本展示图标\n- 版本选择: 加入搜索功能\n---\n### 调整内容:\n- 版本管理: 更强大的版本信息识别\n- 关于页面: 为赞助者列表添加单独的页面\n- 账号管理: 优化代码逻辑\n- 下载: MC 版本可长按重置\n---\n### 修复内容:\n- 渲染器插件: 修复路径错误问题\n- 版本管理: 修复一系列混乱的刷新机制\n- 账号管理: 登录失败时，作为离线账号启动游戏\n- 认证服务器: 登录失败的异常未进行正确的处理\n",
-    "zh_tw": "**警告: 如果您多次嘗試更新，均因“網路異常”無法更新，那不是您的問題，而是當前版本的啟動器存在漏洞，請手動前往 Github 更新！給您帶來不便實在抱歉！**\n\n### 更新內容:\n- 贊助者列表: 顯示使用者頭像\n- 啟動: 為模組加載器添加環境變數\n- 渲染器: 支援 Mesa 類渲染器插件\n- 版本管理: 為 LiteLoader 版本顯示圖示\n- 版本選擇: 新增搜尋功能\n---\n### 調整內容:\n- 版本管理: 更強大的版本資訊識別\n- 關於頁面: 為贊助者列表新增獨立頁面\n- 帳號管理: 優化代碼邏輯\n- 下載: MC 版本可長按重置\n---\n### 修復內容:\n- 渲染器插件: 修復路徑錯誤問題\n- 版本管理: 修復一系列混亂的刷新機制\n- 帳號管理: 登入失敗時，自動以離線帳號啟動遊戲\n- 認證伺服器: 修正登入失敗時異常未正確處理的問題\n"
+    "en_us": "**Warning: If you repeatedly encounter \"network error\" issues when trying to update, it\u0027s not your problem but a bug in the current version of the launcher. Please update manually via GitHub! We sincerely apologize for the inconvenience caused.**\n\n### New Features:\n- Downloads: Display current download speed\n---\n### Adjustments:\n- Launch: Check storage permissions for configurable renderer plugins\n- Downloads: Show a reminder after modpack installation is complete\n- Account Management: Adjusted server management operations\n---\n### Fixes:\n- LWJGL: Added missing methods and corrected path order\n- Downloads: Unhandled network exceptions\n- Downloads: Issues related to page transitions\n- Game Launch: Unable to retrieve library size when offline\n- Account Management: Launcher crash when failing to load avatars\n",
+    "zh_cn": "**警告: 如果您多次尝试更新，均因“网络异常”无法更新，那不是你的问题，而是当前版本的启动器存在漏洞，请手动前往 Github 更新！给您带来不便实在抱歉！**\n\n### 更新内容:\n- 下载: 展示当前下载速率\n---\n### 调整内容:\n- 启动: 为可配置的渲染器插件检查存储权限\n- 下载: 整合包模组安装完成后，给出提醒\n- 账号管理: 调整服务器管理操作方式\n---\n### 修复内容:\n- LWJGL: 添加缺失的方法、错误的路径顺序\n- 下载: 未处理的网络异常\n- 下载: 一些页面切换的相关问题\n- 启动游戏: 未连接互联网时，无法正常获取库大小\n- 账号管理: 无法加载头像时启动器崩溃\n",
+    "zh_tw": "**警告: 如果您多次嘗試更新，均因「網路異常」無法更新，那不是您的問題，而是當前版本的啟動器存在漏洞，請手動前往 Github 更新！給您帶來不便實在抱歉！**\n\n### 更新內容:\n- 下載: 顯示當前下載速率\n---\n### 調整內容:\n- 啟動: 為可配置的渲染器插件檢查存儲權限\n- 下載: 整合包模組安裝完成後，顯示提醒\n- 帳號管理: 調整伺服器管理的操作方式\n---\n### 修復內容:\n- LWJGL: 新增缺失的方法、修正錯誤的路徑順序\n- 下載: 未處理的網路異常\n- 下載: 一些頁面切換相關的問題\n- 啟動遊戲: 未連接網際網路時，無法正常獲取庫大小\n- 帳號管理: 無法載入頭像時導致啟動器崩潰\n"
   },
-  "published_at": "2025-02-11T06:14:44Z",
+  "published_at": "2025-02-22T07:09:23Z",
   "file_size": {
-    "all": 197902565,
-    "arm": 94383420,
-    "arm64": 98960887,
-    "x86": 82971289,
-    "x86_64": 102408807
+    "all": 198032273,
+    "arm": 94512460,
+    "arm64": 99090039,
+    "x86": 83101041,
+    "x86_64": 102537623
   },
-  "pre_release": false
+  "pre_release": true
 }
