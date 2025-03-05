@@ -1,23 +1,23 @@
 {
-  "version_code": 140100,
-  "version_name": "1.4.0.1",
+  "version_code": 140110,
+  "version_name": "1.4.0.2_rc1",
   "title": {
-    "en_us": "1.4.0.1",
-    "zh_cn": "1.4.0.1",
-    "zh_tw": "1.4.0.1"
+    "en_us": "1.4.0.2_rc1",
+    "zh_cn": "1.4.0.2_rc1",
+    "zh_tw": "1.4.0.2_rc1"
   },
   "description": {
-    "en_us": "**Warning: If you repeatedly encounter \"network error\" issues when trying to update, it\u0027s not your problem but a bug in the current version of the launcher. Please update manually via GitHub! We sincerely apologize for the inconvenience caused.**\n\n### New Features:\n- Downloads: Display current download speed\n---\n### Adjustments:\n- Launch: Check storage permissions for configurable renderer plugins\n- Downloads: Show a reminder after modpack installation is complete\n- Account Management: Adjusted server management operations\n---\n### Fixes:\n- LWJGL: Added missing methods and corrected path order\n- Downloads: Unhandled network exceptions\n- Downloads: Issues related to page transitions\n- Game Launch: Unable to retrieve library size when offline\n- Account Management: Launcher crash when failing to load avatars\n",
-    "zh_cn": "**警告: 如果您多次尝试更新，均因“网络异常”无法更新，那不是你的问题，而是当前版本的启动器存在漏洞，请手动前往 Github 更新！给您带来不便实在抱歉！**\n\n### 更新内容:\n- 下载: 展示当前下载速率\n---\n### 调整内容:\n- 启动: 为可配置的渲染器插件检查存储权限\n- 下载: 整合包模组安装完成后，给出提醒\n- 账号管理: 调整服务器管理操作方式\n---\n### 修复内容:\n- LWJGL: 添加缺失的方法、错误的路径顺序\n- 下载: 未处理的网络异常\n- 下载: 一些页面切换的相关问题\n- 启动游戏: 未连接互联网时，无法正常获取库大小\n- 账号管理: 无法加载头像时启动器崩溃\n",
-    "zh_tw": "**警告: 如果您多次嘗試更新，均因「網路異常」無法更新，那不是您的問題，而是當前版本的啟動器存在漏洞，請手動前往 Github 更新！給您帶來不便實在抱歉！**\n\n### 更新內容:\n- 下載: 顯示當前下載速率\n---\n### 調整內容:\n- 啟動: 為可配置的渲染器插件檢查存儲權限\n- 下載: 整合包模組安裝完成後，顯示提醒\n- 帳號管理: 調整伺服器管理的操作方式\n---\n### 修復內容:\n- LWJGL: 新增缺失的方法、修正錯誤的路徑順序\n- 下載: 未處理的網路異常\n- 下載: 一些頁面切換相關的問題\n- 啟動遊戲: 未連接網際網路時，無法正常獲取庫大小\n- 帳號管理: 無法載入頭像時導致啟動器崩潰\n"
+    "en_us": "### New Features:\r\n- Mod Check: Perform a check before launching and provide a mod report if necessary\r\n---\r\n### Adjustments:\r\n- UI: Adjusted the layout of some interfaces\r\n- JavaGUI: Prevent system screen timeout\r\n- Version List: Auto-scroll to the current version\r\n---\r\n### Fixes:\r\n- LWJGL: Fixed Angelica Mod crashes and added missing functions\r\n- Downloads: Fixed potential issues with mod dependency type detection\r\n- Downloads: Fixed a crash when switching the launcher back from the background on the resource version download page\r\n- Downloads: Fixed an issue where pressing the system back button on the resource version download page incorrectly skipped the parent page\r\n- Dialogs: Fixed content layout exceeding visible range\r\n- Game Menu: Fixed floating window not hiding correctly when switching to a layout with a \"Menu\" button\r\n- Gamepad: Handle directional key events when no associated device is detected\r\n",
+    "zh_cn": "### 更新内容:\n- Mod检查: 在启动前进行检查，并在必要时提供模组检查报告\n---\n### 调整内容:\n- UI: 调整了部分界面的布局\n- JavaGUI: 防止系统息屏\n- 版本列表: 自动滚动到当前版本处\n---\n### 修复内容:\n- LWJGL: Angelica Mod 崩溃、填补缺失的函数\n- 下载: 依赖模组类型判断可能存在的问题\n- 下载: 在资源版本下载页面将启动器从后台切回导致的崩溃\n- 下载: 资源版本下载页面按下系统返回键，将会错误的跳过父级页面\n- 对话框: 内容布局超出可见范围\n- 游戏菜单: 更换带有“菜单”按键的布局时，悬浮窗无法正确隐藏\n- 游戏手柄: 处理没有关联设备的方向键事件\n",
+    "zh_tw": "### 更新內容:\n- Mod 檢查: 在啟動前進行檢查，並在必要時提供模組檢查報告\n---\n### 調整內容:\n- UI: 調整部分介面的佈局\n- JavaGUI: 防止系統息屏\n- 版本列表: 自動滾動至當前版本\n---\n### 修復內容:\n- LWJGL: 修復 Angelica Mod 崩潰並補充缺失的函數\n- 下載: 修復模組依賴類型判斷可能存在的問題\n- 下載: 修正從背景切回資源版本下載頁面時導致的崩潰\n- 下載: 修復在資源版本下載頁面按下系統返回鍵，錯誤跳過父級頁面的問題\n- 對話框: 修正內容佈局超出可見範圍\n- 遊戲選單: 修正切換到帶有「選單」按鍵的佈局時，浮動視窗無法正確隱藏的問題\n- 遊戲手把: 處理沒有關聯設備時的方向鍵事件\n"
   },
-  "published_at": "2025-02-23T21:34:02Z",
+  "published_at": "2025-03-05T23:12:23Z",
   "file_size": {
-    "all": 198032153,
-    "arm": 94512808,
-    "arm64": 99089679,
-    "x86": 83100357,
-    "x86_64": 102537491
+    "all": 197880602,
+    "arm": 94361085,
+    "arm64": 98938120,
+    "x86": 82949214,
+    "x86_64": 102387036
   },
-  "pre_release": false
+  "pre_release": true
 }
