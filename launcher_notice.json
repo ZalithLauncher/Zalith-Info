@@ -5,10 +5,10 @@
     "en_us": "About MobileGlues"
   },
   "content": {
-    "zh_cn": "MobileGlues 渲染器插件已经正式发布啦！若想要在 Zalith Launcher 上使用这个渲染器插件，请将启动器更新到最新版本哦（1.4.0+）！\r\n\r\nMobileGlues 插件下载地址：\r\nhttps://github.com/Swung0x48/MobileGlues-release/releases",
-    "zh_tw": "MobileGlues 渲染器插件已經正式發布囉！若想要在 Zalith Launcher 上使用這個渲染器插件，請將啟動器更新到最新版本喔（1.4.0+）！\r\n\r\nMobileGlues 插件下載地址：\r\nhttps://github.com/Swung0x48/MobileGlues-release/releases",
-    "en_us": "The MobileGlues renderer plugin has been officially released! To use this renderer plugin on Zalith Launcher, please update the launcher to the latest version (1.4.0+)!\r\n\r\nMobileGlues plugin download address:\r\nhttps://github.com/Swung0x48/MobileGlues-release/releases"
+    "zh_cn": "MobileGlues 渲染器插件已经正式发布啦！若想要在 Zalith Launcher 上使用这个渲染器插件，请将启动器更新到最新版本哦（1.4.0+）！\r\n下载并安装 MobileGlues 渲染器插件安装包，像正常安装软件一样安装它，接着重启启动器，你就能够在渲染器设置内看到 MobileGlues 渲染器啦！\r\n\r\nMobileGlues 插件下载地址：\r\nhttps://github.com/Swung0x48/MobileGlues-release/releases\r\n\r\n如果你对这个项目感兴趣，你也可以使用你的设备，帮助 MobileGlues 团队测试渲染器!\r\nhttps://github.com/Swung0x48/MobileGlues-release/blob/main/README.md#call-to-action",
+    "zh_tw": "MobileGlues 渲染器插件已經正式發布啦！若想要在 Zalith Launcher 上使用這個渲染器插件，請將啟動器更新到最新版本哦（1.4.0+）！\r\n下載並安裝 MobileGlues 渲染器插件安裝包，像正常安裝軟體一樣安裝它，接著重啟啟動器，你就能夠在渲染器設定內看到 MobileGlues 渲染器啦！\r\n\r\nMobileGlues 插件下載地址：\r\nhttps://github.com/Swung0x48/MobileGlues-release/releases\r\n\r\n如果你對這個專案感興趣，你也可以使用你的設備，幫助 MobileGlues 團隊測試渲染器！\r\nhttps://github.com/Swung0x48/MobileGlues-release/blob/main/README.md#call-to-action",
+    "en_us": "The MobileGlues renderer plugin is now officially released! If you want to use this renderer plugin on Zalith Launcher, please update your launcher to the latest version (1.4.0+).\r\nDownload and install the MobileGlues renderer plugin package just like any other software. After installation, restart the launcher, and you will find the MobileGlues renderer in the renderer settings!\r\n\r\nMobileGlues plugin download link:\r\nhttps://github.com/Swung0x48/MobileGlues-release/releases\r\n\r\nIf you're interested in this project, you can also use your device to help the MobileGlues team test the renderer!\r\nhttps://github.com/Swung0x48/MobileGlues-release/blob/main/README.md#call-to-action"
   },
-  "date": "2025/02/11",
-  "numbering": 16
+  "date": "2025/03/06",
+  "numbering": 17
 }
