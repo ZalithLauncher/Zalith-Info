@@ -1,23 +1,23 @@
 {
-  "version_code": 140110,
-  "version_name": "1.4.0.2_rc1",
+  "version_code": 140111,
+  "version_name": "1.4.0.2_rc2",
   "title": {
-    "en_us": "1.4.0.2_rc1",
-    "zh_cn": "1.4.0.2_rc1",
-    "zh_tw": "1.4.0.2_rc1"
+    "en_us": "1.4.0.2_rc2",
+    "zh_cn": "1.4.0.2_rc2",
+    "zh_tw": "1.4.0.2_rc2"
   },
   "description": {
-    "en_us": "### New Features:\r\n- Mod Check: Perform a check before launching and provide a mod report if necessary\r\n---\r\n### Adjustments:\r\n- UI: Adjusted the layout of some interfaces\r\n- JavaGUI: Prevent system screen timeout\r\n- Version List: Auto-scroll to the current version\r\n---\r\n### Fixes:\r\n- LWJGL: Fixed Angelica Mod crashes and added missing functions\r\n- Downloads: Fixed potential issues with mod dependency type detection\r\n- Downloads: Fixed a crash when switching the launcher back from the background on the resource version download page\r\n- Downloads: Fixed an issue where pressing the system back button on the resource version download page incorrectly skipped the parent page\r\n- Dialogs: Fixed content layout exceeding visible range\r\n- Game Menu: Fixed floating window not hiding correctly when switching to a layout with a \"Menu\" button\r\n- Gamepad: Handle directional key events when no associated device is detected\r\n",
-    "zh_cn": "### 更新内容:\n- Mod检查: 在启动前进行检查，并在必要时提供模组检查报告\n---\n### 调整内容:\n- UI: 调整了部分界面的布局\n- JavaGUI: 防止系统息屏\n- 版本列表: 自动滚动到当前版本处\n---\n### 修复内容:\n- LWJGL: Angelica Mod 崩溃、填补缺失的函数\n- 下载: 依赖模组类型判断可能存在的问题\n- 下载: 在资源版本下载页面将启动器从后台切回导致的崩溃\n- 下载: 资源版本下载页面按下系统返回键，将会错误的跳过父级页面\n- 对话框: 内容布局超出可见范围\n- 游戏菜单: 更换带有“菜单”按键的布局时，悬浮窗无法正确隐藏\n- 游戏手柄: 处理没有关联设备的方向键事件\n",
-    "zh_tw": "### 更新內容:\n- Mod 檢查: 在啟動前進行檢查，並在必要時提供模組檢查報告\n---\n### 調整內容:\n- UI: 調整部分介面的佈局\n- JavaGUI: 防止系統息屏\n- 版本列表: 自動滾動至當前版本\n---\n### 修復內容:\n- LWJGL: 修復 Angelica Mod 崩潰並補充缺失的函數\n- 下載: 修復模組依賴類型判斷可能存在的問題\n- 下載: 修正從背景切回資源版本下載頁面時導致的崩潰\n- 下載: 修復在資源版本下載頁面按下系統返回鍵，錯誤跳過父級頁面的問題\n- 對話框: 修正內容佈局超出可見範圍\n- 遊戲選單: 修正切換到帶有「選單」按鍵的佈局時，浮動視窗無法正確隱藏的問題\n- 遊戲手把: 處理沒有關聯設備時的方向鍵事件\n"
+    "en_us": "### Fixes:\r\n- Game Menu: Entering the control layout editing mode kept adding new floating windows repeatedly\r\n",
+    "zh_cn": "### 修复内容:\n- 游戏菜单: 进入编辑控制布局模式会不断添加新的悬浮窗\n",
+    "zh_tw": "### 修復內容:\n- 遊戲選單: 進入編輯控制佈局模式時會不斷新增新的浮動視窗\n"
   },
-  "published_at": "2025-03-05T23:12:23Z",
+  "published_at": "2025-03-06T02:49:37Z",
   "file_size": {
-    "all": 197880602,
-    "arm": 94361085,
-    "arm64": 98938120,
-    "x86": 82949214,
-    "x86_64": 102387036
+    "all": 197880610,
+    "arm": 94361041,
+    "arm64": 98938392,
+    "x86": 82949146,
+    "x86_64": 102386864
   },
   "pre_release": true
 }
