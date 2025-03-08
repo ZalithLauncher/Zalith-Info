@@ -1,23 +1,23 @@
 {
-  "version_code": 140111,
-  "version_name": "1.4.0.2_rc2",
+  "version_code": 140112,
+  "version_name": "1.4.0.2_rc3",
   "title": {
-    "en_us": "1.4.0.2_rc2",
-    "zh_cn": "1.4.0.2_rc2",
-    "zh_tw": "1.4.0.2_rc2"
+    "en_us": "1.4.0.2_rc3",
+    "zh_cn": "1.4.0.2_rc3",
+    "zh_tw": "1.4.0.2_rc3"
   },
   "description": {
-    "en_us": "### Fixes:\r\n- Game Menu: Entering the control layout editing mode kept adding new floating windows repeatedly\r\n",
-    "zh_cn": "### 修复内容:\n- 游戏菜单: 进入编辑控制布局模式会不断添加新的悬浮窗\n",
-    "zh_tw": "### 修復內容:\n- 遊戲選單: 進入編輯控制佈局模式時會不斷新增新的浮動視窗\n"
+    "en_us": "### New Features:\r\n- Game Menu: Custom keycodes now support sending multiple keycodes\r\n- Updated caciocavallo17 for Java 25 compatibility\r\n---\r\n### Fixes:\r\n- MioLibPatcher: Fixed compatibility with the Distant Horizons mod\r\n",
+    "zh_cn": "### 更新内容:\n- 游戏菜单: 发送自定义键码允许发送多个键码\n- 更新 caciocavallo17 以兼容 Java25\n---\n### 修复内容:\n- MioLibPatcher: 修复 Distant Horizons 模组\n",
+    "zh_tw": "### 更新內容:\n- 遊戲選單: 自訂按鍵碼現在支援發送多個按鍵碼\n- 更新 caciocavallo17 以相容 Java 25\n---\n### 修復內容:\n- MioLibPatcher: 修復 Distant Horizons 模組的相容性問題\n"
   },
-  "published_at": "2025-03-06T02:49:37Z",
+  "published_at": "2025-03-08T01:50:53Z",
   "file_size": {
-    "all": 197880610,
-    "arm": 94361041,
-    "arm64": 98938392,
-    "x86": 82949146,
-    "x86_64": 102386864
+    "all": 195387033,
+    "arm": 93766919,
+    "arm64": 98336840,
+    "x86": 82277528,
+    "x86_64": 101767691
   },
   "pre_release": true
 }
