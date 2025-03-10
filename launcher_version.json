@@ -1,23 +1,23 @@
 {
-  "version_code": 140112,
-  "version_name": "1.4.0.2_rc3",
+  "version_code": 140200,
+  "version_name": "1.4.0.2",
   "title": {
-    "en_us": "1.4.0.2_rc3",
-    "zh_cn": "1.4.0.2_rc3",
-    "zh_tw": "1.4.0.2_rc3"
+    "en_us": "1.4.0.2",
+    "zh_cn": "1.4.0.2",
+    "zh_tw": "1.4.0.2"
   },
   "description": {
-    "en_us": "### New Features:\r\n- Game Menu: Custom keycodes now support sending multiple keycodes\r\n- Updated caciocavallo17 for Java 25 compatibility\r\n---\r\n### Fixes:\r\n- MioLibPatcher: Fixed compatibility with the Distant Horizons mod\r\n",
-    "zh_cn": "### 更新内容:\n- 游戏菜单: 发送自定义键码允许发送多个键码\n- 更新 caciocavallo17 以兼容 Java25\n---\n### 修复内容:\n- MioLibPatcher: 修复 Distant Horizons 模组\n",
-    "zh_tw": "### 更新內容:\n- 遊戲選單: 自訂按鍵碼現在支援發送多個按鍵碼\n- 更新 caciocavallo17 以相容 Java 25\n---\n### 修復內容:\n- MioLibPatcher: 修復 Distant Horizons 模組的相容性問題\n"
+    "en_us": "### New Features:\r\n- **Mod Check**: Perform checks before launch and provide a mod check report if necessary.\r\n- **Game Menu**: Sending custom key codes now allows multiple key codes.\r\n- - **Updated** caciocavallo17 for compatibility with Java 25.\r\n---\r\n### Adjustments:\r\n- **UI**: Adjusted some interface layouts.\r\n- **JavaGUI**: Prevent system screen timeout.\r\n- **Version List**: Auto-scroll to the current version.\r\n---\r\n### Fixes:\r\n- **LWJGL**: Fixed Angelica Mod crash and added missing functions.\r\n- **MioLibPatcher**: Fixed Distant Horizons mod compatibility.\r\n- **Download**: Fixed potential issues in determining dependency mod types.\r\n- **Download**: Fixed a crash caused by switching the launcher back from the background on the resource version download page.\r\n- **Download**: Pressing the system back button on the resource version download page incorrectly skipped the parent page.\r\n- **Dialog**: Fixed content layout exceeding the visible area.\r\n- **Game Menu**: Fixed floating window not hiding correctly when switching to a layout with a \"Menu\" button.\r\n- **Game Controller**: Handled directional key events without associated devices.\r\n",
+    "zh_cn": "### 更新内容:\n- Mod检查: 在启动前进行检查，并在必要时提供模组检查报告\n- 游戏菜单: 发送自定义键码允许发送多个键码\n- 更新 caciocavallo17 以兼容 Java25\n---\n### 调整内容:\n- UI: 调整了部分界面的布局\n- JavaGUI: 防止系统息屏\n- 版本列表: 自动滚动到当前版本处\n---\n### 修复内容:\n- LWJGL: Angelica Mod 崩溃、填补缺失的函数\n- MioLibPatcher: 修复 Distant Horizons 模组\n- 下载: 依赖模组类型判断可能存在的问题\n- 下载: 在资源版本下载页面将启动器从后台切回导致的崩溃\n- 下载: 资源版本下载页面按下系统返回键，将会错误的跳过父级页面\n- 对话框: 内容布局超出可见范围\n- 游戏菜单: 更换带有“菜单”按键的布局时，悬浮窗无法正确隐藏\n- 游戏手柄: 处理没有关联设备的方向键事件\n",
+    "zh_tw": "### 更新內容:\n- **模組檢查**: 啟動前執行檢查，並在必要時提供模組檢查報告。\n- **遊戲選單**: 傳送自訂鍵碼現在允許傳送多個鍵碼。\n- **更新** caciocavallo17 以相容 Java 25。\n---\n### 調整內容:\n- **UI**: 調整部分介面佈局。\n- **JavaGUI**: 防止系統自動息屏。\n- **版本列表**: 自動滾動至當前版本。\n---\n### 修復內容:\n- **LWJGL**: 修復 Angelica Mod 崩潰，補充缺失的函式。\n- **MioLibPatcher**: 修復 Distant Horizons 模組相容性問題。\n- **下載**: 修復判斷依賴模組類型時可能出現的問題。\n- **下載**: 修復在資源版本下載頁面將啟動器從後台切回時發生的崩潰。\n- **下載**: 在資源版本下載頁面按下系統返回鍵，錯誤地跳過了父級頁面。\n- **對話框**: 修復內容佈局超出可視範圍的問題。\n- **遊戲選單**: 修復切換至帶有“選單”按鍵的佈局時，浮動視窗無法正確隱藏的問題。\n- **遊戲手把**: 處理無關聯設備的方向鍵事件。\n"
   },
-  "published_at": "2025-03-08T01:50:53Z",
+  "published_at": "2025-03-10T03:11:16Z",
   "file_size": {
-    "all": 195387033,
-    "arm": 93766919,
-    "arm64": 98336840,
-    "x86": 82277528,
-    "x86_64": 101767691
+    "all": 195387841,
+    "arm": 93767631,
+    "arm64": 98337648,
+    "x86": 82278348,
+    "x86_64": 101768419
   },
-  "pre_release": true
+  "pre_release": false
 }
