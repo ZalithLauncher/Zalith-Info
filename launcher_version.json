@@ -1,23 +1,23 @@
 {
-  "version_code": 140200,
-  "version_name": "1.4.0.2",
+  "version_code": 140210,
+  "version_name": "1.4.0.3_rc1",
   "title": {
-    "en_us": "1.4.0.2",
-    "zh_cn": "1.4.0.2",
-    "zh_tw": "1.4.0.2"
+    "en_us": "NONE",
+    "zh_cn": "NONE",
+    "zh_tw": "NONE"
   },
   "description": {
-    "en_us": "### New Features:\r\n- **Mod Check**: Perform checks before launch and provide a mod check report if necessary.\r\n- **Game Menu**: Sending custom key codes now allows multiple key codes.\r\n- **Updated**: caciocavallo17 for compatibility with Java 25.\r\n---\r\n### Adjustments:\r\n- **UI**: Adjusted some interface layouts.\r\n- **JavaGUI**: Prevent system screen timeout.\r\n- **Version List**: Auto-scroll to the current version.\r\n---\r\n### Fixes:\r\n- **LWJGL**: Fixed Angelica Mod crash and added missing functions.\r\n- **MioLibPatcher**: Fixed Distant Horizons mod compatibility.\r\n- **Download**: Fixed potential issues in determining dependency mod types.\r\n- **Download**: Fixed a crash caused by switching the launcher back from the background on the resource version download page.\r\n- **Download**: Pressing the system back button on the resource version download page incorrectly skipped the parent page.\r\n- **Dialog**: Fixed content layout exceeding the visible area.\r\n- **Game Menu**: Fixed floating window not hiding correctly when switching to a layout with a \"Menu\" button.\r\n- **Game Controller**: Handled directional key events without associated devices.\r\n",
-    "zh_cn": "### 更新内容:\n- Mod检查: 在启动前进行检查，并在必要时提供模组检查报告\n- 游戏菜单: 发送自定义键码允许发送多个键码\n- 更新 caciocavallo17 以兼容 Java25\n---\n### 调整内容:\n- UI: 调整了部分界面的布局\n- JavaGUI: 防止系统息屏\n- 版本列表: 自动滚动到当前版本处\n---\n### 修复内容:\n- LWJGL: Angelica Mod 崩溃、填补缺失的函数\n- MioLibPatcher: 修复 Distant Horizons 模组\n- 下载: 依赖模组类型判断可能存在的问题\n- 下载: 在资源版本下载页面将启动器从后台切回导致的崩溃\n- 下载: 资源版本下载页面按下系统返回键，将会错误的跳过父级页面\n- 对话框: 内容布局超出可见范围\n- 游戏菜单: 更换带有“菜单”按键的布局时，悬浮窗无法正确隐藏\n- 游戏手柄: 处理没有关联设备的方向键事件\n",
-    "zh_tw": "### 更新內容:\n- **模組檢查**: 啟動前執行檢查，並在必要時提供模組檢查報告。\n- **遊戲選單**: 傳送自訂鍵碼現在允許傳送多個鍵碼。\n- **更新** caciocavallo17 以相容 Java 25。\n---\n### 調整內容:\n- **UI**: 調整部分介面佈局。\n- **JavaGUI**: 防止系統自動息屏。\n- **版本列表**: 自動滾動至當前版本。\n---\n### 修復內容:\n- **LWJGL**: 修復 Angelica Mod 崩潰，補充缺失的函式。\n- **MioLibPatcher**: 修復 Distant Horizons 模組相容性問題。\n- **下載**: 修復判斷依賴模組類型時可能出現的問題。\n- **下載**: 修復在資源版本下載頁面將啟動器從後台切回時發生的崩潰。\n- **下載**: 在資源版本下載頁面按下系統返回鍵，錯誤地跳過了父級頁面。\n- **對話框**: 修復內容佈局超出可視範圍的問題。\n- **遊戲選單**: 修復切換至帶有“選單”按鍵的佈局時，浮動視窗無法正確隱藏的問題。\n- **遊戲手把**: 處理無關聯設備的方向鍵事件。\n"
+    "en_us": "### New Features:\r\n- **Launcher Update**: Removed ghproxy download source.\r\n- **Main Interface**: The top bar’s primary color now adapts to the background image.\r\n- **UI**: Added ripple click effects to most UI elements.\r\n- **Game Menu**: Supports real-time FPS display and allows setting the information refresh rate.\r\n---\r\n### Adjustments:\r\n- **Java Environment Management**: Adjusted pop-up UI, sorted by JRE version, and modified misleading text.\r\n- **Java Environment Management**: Prevented deletion of the launcher’s built-in environment.\r\n- **Version Management**: Sorted version list.\r\n- **Game Launch**: Skips the game download step when not connected to the internet.\r\n- **Game Menu**: Limited memory information prefix text to 40 characters.\r\n---\r\n### Fixes:\r\n- **MioLibPatcher**: Fixed inability to disable warnings for the 1.20.1 Embeddium mod.\r\n- **File Management**: Fixed search floating window not hiding properly.\r\n- **Lib**: Fixed missing `imgui-java` library causing Axiom mod to fail.\r\n- **LWJGL**: Added missing functions.\r\n- **Service**: Fixed service type errors on Android 14+.\r\n",
+    "zh_cn": "### 更新内容:\n- 启动器更新: 移除 ghproxy 下载源\n- 主界面: 顶部条主色调跟随背景图片颜色变化\n- UI: 为多数 UI 添加波纹点击效果\n- 游戏菜单: 支持实时显示 FPS、允许设置信息刷新频率\n---\n### 调整内容:\n- Java 环境管理: 调整弹窗 UI、根据 Jre 版本排序、更改误导性文本\n- Java 环境管理: 禁止删除启动器内置的环境\n- 版本管理: 对版本进行排序\n- 启动游戏: 未连接互联网时，跳过下载游戏的步骤\n- 游戏菜单: 内存信息前缀文本限制 40 个字符\n---\n### 修复内容:\n- MioLibPatcher: 无法禁用 1.20.1 Embeddium 模组的警告\n- 文件管理: 搜索悬浮窗的无法正常隐藏\n- Lib: 缺少 imgui-java 库导致 Axiom 模组无法运行\n- LWJGL: 填补缺失的函数\n- 服务: Android 14+ 服务类型错误\n",
+    "zh_tw": "### 更新內容:\n- **啟動器更新**: 移除 ghproxy 下載源。\n- **主介面**: 頂部條主色調會隨背景圖片變化。\n- **UI**: 為大多數 UI 添加波紋點擊效果。\n- **遊戲選單**: 支援即時顯示 FPS，並允許設定資訊刷新頻率。\n---\n### 調整內容:\n- **Java 環境管理**: 調整彈出視窗 UI，根據 JRE 版本排序，更改誤導性文字。\n- **Java 環境管理**: 禁止刪除啟動器內建的環境。\n- **版本管理**: 對版本列表進行排序。\n- **啟動遊戲**: 未連接網路時，跳過下載遊戲步驟。\n- **遊戲選單**: 限制記憶體資訊前綴文字為 40 個字元。\n---\n### 修復內容:\n- **MioLibPatcher**: 修復無法禁用 1.20.1 Embeddium 模組警告的問題。\n- **文件管理**: 修復搜尋浮動視窗無法正常隱藏的問題。\n- **Lib**: 修復缺少 `imgui-java` 庫導致 Axiom 模組無法運行的問題。\n- **LWJGL**: 補充缺失的函式。\n- **服務**: 修復 Android 14+ 服務類型錯誤。\n"
   },
-  "published_at": "2025-03-10T03:11:16Z",
+  "published_at": "2025-03-15T11:15:05Z",
   "file_size": {
-    "all": 195387841,
-    "arm": 93767631,
-    "arm64": 98337648,
-    "x86": 82278348,
-    "x86_64": 101768419
+    "all": 202374480,
+    "arm": 95512998,
+    "arm64": 99980351,
+    "x86": 84317560,
+    "x86_64": 103653810
   },
-  "pre_release": false
+  "pre_release": true
 }
