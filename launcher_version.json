@@ -1,23 +1,23 @@
 {
-  "version_code": 140500,
-  "version_name": "1.4.0.5",
+  "version_code": 140600,
+  "version_name": "1.4.0.6",
   "title": {
     "en_us": "NONE",
     "zh_cn": "NONE",
     "zh_tw": "NONE"
   },
   "description": {
-    "en_us": "### New Features:\r\n- **Mod Check**: Added check for Borderless Window.\r\n- **MioLibPatcher**: Changed Fabric\u0027s incompatible popup behavior to throw an exception and exit.\r\n---\r\n### Fixes:\r\n- **LWJGL**: Fixed GL version number always being 0.",
-    "zh_cn": "### 更新内容:\n- **模组检查**: 检查 Borderless Window\n- **MioLibPatcher**: 将 Fabric 的不兼容弹窗的行为修改为异常退出\n---\n### 修复内容:\n- **LWJGL**: GL 版本号总是为 0\n",
-    "zh_tw": "### 更新內容:\n- **模組檢查**: 檢查 Borderless Window 模組。\n- **MioLibPatcher**: 將 Fabric 不相容的彈窗行為改為異常退出。\n---\n### 修復內容:\n- **LWJGL**: 修復 GL 版本號總是為 0 的問題。\n"
+    "en_us": "### Fixes:\r\n- **Yggdrasil**: Used an integer-based configuration for the User Agent.\r\n- **Renderer**: Fixed a typo in the renderer name.\r\n",
+    "zh_cn": "### 修复内容:\n- **Yggdrasil**: 使用整数配置 User Agent\n- **渲染器**: 渲染器名称中的拼写错误\n",
+    "zh_tw": "### 修復內容:\n- **Yggdrasil**: 使用整數型態配置 User Agent。\n- **渲染器**: 修正渲染器名稱中的拼寫錯誤。\n"
   },
-  "published_at": "2025-05-07T05:58:05Z",
+  "published_at": "2025-05-10T10:57:46Z",
   "file_size": {
     "all": 202384472,
-    "arm": 95522674,
-    "arm64": 99990051,
-    "x86": 84327448,
-    "x86_64": 103663578
+    "arm": 95522866,
+    "arm64": 99990347,
+    "x86": 84327692,
+    "x86_64": 103663798
   },
-  "pre_release": false
+  "pre_release": true
 }
