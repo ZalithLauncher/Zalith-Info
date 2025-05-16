@@ -1,14 +1,14 @@
 {
   "title": {
-    "zh_cn": "关于 MobileGlues",
-    "zh_tw": "關於 MobileGlues",
-    "en_us": "About MobileGlues"
+    "zh_cn": "Zalith Launcher 2！？？",
+    "zh_tw": "Zalith Launcher 2！？？",
+    "en_us": "Zalith Launcher 2!??"
   },
   "content": {
-    "zh_cn": "MobileGlues 渲染器插件已经正式发布啦！若想要在 Zalith Launcher 上使用这个渲染器插件，请将启动器更新到最新版本哦（1.4.0+）！\r\n下载并安装 MobileGlues 渲染器插件安装包，像正常安装软件一样安装它，接着重启启动器，你就能够在渲染器设置内看到 MobileGlues 渲染器啦！\r\n\r\nMobileGlues 插件下载地址：\r\nhttps://github.com/Swung0x48/MobileGlues-release/releases\r\n\r\n如果你对这个项目感兴趣，你也可以使用你的设备，帮助 MobileGlues 团队测试渲染器!\r\nhttps://github.com/Swung0x48/MobileGlues-release/blob/main/README.md#call-to-action",
-    "zh_tw": "MobileGlues 渲染器插件已經正式發布啦！若想要在 Zalith Launcher 上使用這個渲染器插件，請將啟動器更新到最新版本哦（1.4.0+）！\r\n下載並安裝 MobileGlues 渲染器插件安裝包，像正常安裝軟體一樣安裝它，接著重啟啟動器，你就能夠在渲染器設定內看到 MobileGlues 渲染器啦！\r\n\r\nMobileGlues 插件下載地址：\r\nhttps://github.com/Swung0x48/MobileGlues-release/releases\r\n\r\n如果你對這個專案感興趣，你也可以使用你的設備，幫助 MobileGlues 團隊測試渲染器！\r\nhttps://github.com/Swung0x48/MobileGlues-release/blob/main/README.md#call-to-action",
-    "en_us": "The MobileGlues renderer plugin is now officially released! If you want to use this renderer plugin on Zalith Launcher, please update your launcher to the latest version (1.4.0+).\r\nDownload and install the MobileGlues renderer plugin package just like any other software. After installation, restart the launcher, and you will find the MobileGlues renderer in the renderer settings!\r\n\r\nMobileGlues plugin download link:\r\nhttps://github.com/Swung0x48/MobileGlues-release/releases\r\n\r\nIf you're interested in this project, you can also use your device to help the MobileGlues team test the renderer!\r\nhttps://github.com/Swung0x48/MobileGlues-release/blob/main/README.md#call-to-action"
+    "zh_cn": "相信大家也能够感受到，Zalith Launcher 的开发正在逐渐放缓，甚至可以说是停滞更新了，这是怎么回事！？\n好吧，其实我们正在开发一个新的项目，那就是 Zalith Launcher 2！ZL2 是与当前项目完全区分开的独立项目，是采用 Jetpack Compose 搭配 Material Design 3 开发的新启动器！\nZL2 仍然使用 PojavLauncher 作为启动游戏的关键核心，但却计划拥有更强大的功能，诸如更好的安装版本、更好的账号管理等有意思的功能\n\nZL2 已经开放内测了（虽然名字听起来很私密，但是其实无所谓啦，这只是我们对于阶段的定义~），该项目仍然在持续开发中，大多数功能也在持续添加！更多信息请关注：\nhttps://zalithlauncher.cn/docs/zl2.html\nhttps://github.com/ZalithLauncher/ZalithLauncher2",
+    "zh_tw": "相信大家也能感受到，Zalith Launcher 的開發進度正在逐漸放緩，甚至可以說是停滯更新了，這是怎麼回事！？\n其實我們正在開發一個全新項目——Zalith Launcher 2！ZL2 是與當前版本完全區隔的獨立專案，採用 Jetpack Compose 搭配 Material Design 3 打造的全新啟動器！\nZL2 仍以 PojavLauncher 作為啟動遊戲的核心，但計劃加入更強大的功能，例如更完善的版本安裝系統、更直覺的帳號管理等實用功能\n\nZL2 已開放封閉測試（雖然名稱聽起來很神秘，但其實只是我們對開發階段的定義啦~），目前持續開發中，各項功能正在逐步完善！更多資訊請關注：\nhttps://zalithlauncher.cn/docs/zl2.html\nhttps://github.com/ZalithLauncher/ZalithLauncher2",
+    "en_us": "As you may have noticed, the development of Zalith Launcher has gradually slowed down, even to the point of stagnation. What's going on!?\nWell, the truth is we're working on a new project: Zalith Launcher 2! ZL2 is a completely independent project developed with Jetpack Compose and Material Design 3, separate from the current version.\nZL2 will still use PojavLauncher as its core for launching games, but plans to introduce more powerful features like enhanced version installation systems and improved account management.\n\nZL2 has now entered closed beta testing (though the name might sound exclusive, it's actually no big deal—it's just how we define the stages~). The project remains under active development with ongoing feature implementations. For more details, visit:\nhttps://zalithlauncher.cn/docs/zl2.html\nhttps://github.com/ZalithLauncher/ZalithLauncher2"
   },
-  "date": "2025/03/06",
-  "numbering": 17
+  "date": "2025/05/17",
+  "numbering": 18
 }
