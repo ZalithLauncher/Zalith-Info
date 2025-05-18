@@ -1,6 +1,20 @@
 {
   "sponsors": [
     {
+      "name": "Nyuhao",
+      "time": "2025/05/17",
+      "identifier": "202505172235515548974914623",
+      "avatar": "https://pic1.afdiancdn.com/user/592b86bca20211ec9ecd52540025c377/avatar/8f09c4fc87238913b3681962fe99b781_w800_h600_s684.png",
+      "amount": 36.0
+    },
+    {
+      "name": "lhy070017",
+      "time": "2025/05/17",
+      "identifier": "202505172222475510055137119",
+      "avatar": "https://pic1.afdiancdn.com/user/fc257576b22211eeb98a5254001e7c00/avatar/02ce2469d6cb8ec4e9d642cedf3d1876_w689_h689_s324.jpeg",
+      "amount": 12.0
+    },
+    {
       "name": "雨蚀",
       "time": "2025/05/17",
       "identifier": "202505171641065010249431674",
@@ -516,7 +530,7 @@
       "time": "2024/10/01",
       "identifier": "20241001120710101989718810",
       "amount": 6.0,
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png"
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
     },
     {
       "name": "爱发电用户_69273",
