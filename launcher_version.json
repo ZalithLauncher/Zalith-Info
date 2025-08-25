@@ -1,23 +1,23 @@
 {
-  "version_code": 140700,
-  "version_name": "1.4.0.7",
+  "version_code": 140800,
+  "version_name": "1.4.0.8",
   "title": {
     "en_us": "NONE",
     "zh_cn": "NONE",
     "zh_tw": "NONE"
   },
   "description": {
-    "en_us": "### New Features:\r\n- **MioLibPatcher**: Outputs the loaded mods for the Forge loader.\r\n---\r\n### Adjustments:\r\n- **ANGLE**: Updated to support new MoblieGlues features.\r\n---\r\n### Fixes:\r\n- **LWJGL**: Added missing functions to support certain mods.\r\n",
-    "zh_cn": "### 更新内容: \n- **MioLibPatcher**: 为 Forge 加载器输出已加载的模组 \n### 调整内容：\n- **ANGLE**：更新以支持 MoblieGlues 新特性\n### 修复内容：\n- **LWJGL**：补充缺失的函数以支持部分模组",
-    "zh_tw": "### 更新內容:\n- **MioLibPatcher**: 為 Forge 載入器輸出已加載的模組。\n---\n### 調整內容:\n- **ANGLE**: 已更新以支援 MoblieGlues 新功能。\n---\n### 修復內容:\n- **LWJGL**: 補充缺失的函式以支援部分模組。\n"
+    "en_us": "### New Features:\r\n- **About**: Added link to the official Discord server  \r\n- **caciocavallo17**: Updated to version 1.19.1  \r\n- **ANGLE**: Improved VK driver loading\n",
+    "zh_cn": "### 更新内容: \n- **关于**: 添加官方 Discord 服务器链接  \n- **caciocavallo17**: 更新至 1.19.1\n- **ANGLE**：改进VK驱动加载",
+    "zh_tw": "### 更新內容:\n- **關於**: 添加官方 Discord 伺服器連結  \n- **caciocavallo17**: 更新至 1.19.1  \n- **ANGLE**: 改進 VK 驅動載入  \n"
   },
-  "published_at": "2025-07-14T12:14:26Z",
+  "published_at": "2025-08-25T12:57:52Z",
   "file_size": {
-    "all": 202152532,
-    "arm": 95447726,
-    "arm64": 99949379,
-    "x86": 84280588,
-    "x86_64": 103597958
+    "all": 201942682,
+    "arm": 95423372,
+    "arm64": 99871565,
+    "x86": 84219014,
+    "x86_64": 103533724
   },
   "pre_release": false
 }
