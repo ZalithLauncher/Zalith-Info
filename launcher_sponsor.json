@@ -1,6 +1,13 @@
 {
   "sponsors": [
     {
+      "name": "EFP001",
+      "time": "2025/09/04",
+      "identifier": "202509042225395110051112127",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 6.0
+    },
+    {
       "name": "爱发电用户_b126e",
       "time": "2025/09/03",
       "identifier": "202509031014445254495142901",
