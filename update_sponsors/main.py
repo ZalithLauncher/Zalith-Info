@@ -31,7 +31,7 @@ def make_sign(token: str, user_id: str, params: str, ts: int) -> str:
 
 def fetch_data(api_url: str, process_item_func, per_page=50):
     page = 1
-    count = 1
+    retry_count = 0
     results = []
 
     while True:
@@ -52,11 +52,14 @@ def fetch_data(api_url: str, process_item_func, per_page=50):
         response = requests.post(api_url, json=payload, timeout=10)
         data = response.json()
 
-        if count >= 4:
-            print(f"[ERROR] Cannot get information from {api_url}")
-            print(data)
-            sys.exit(1)
-        count += 1
+        if data.get("ec") != 200:
+            retry_count += 1
+            print(f"[WARN] API returned error (attempt {retry_count}): {data}")
+            if retry_count >= 3:
+                print(f"[ERROR] Cannot get information from {api_url}")
+                sys.exit(1)
+            time.sleep(2)
+            continue
 
         item_list = data.get("data", {}).get("list", [])
         for item in item_list:
