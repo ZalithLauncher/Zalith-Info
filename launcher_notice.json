@@ -1,14 +1,14 @@
 {
   "title": {
-    "zh_cn": "官方 Discord",
-    "zh_tw": "官方 Discord",
-    "en_us": "Official Discord"
+    "zh_cn": "重要通知",
+    "zh_tw": "重要通知",
+    "en_us": "Important Notice"
   },
   "content": {
-    "zh_cn": "大家好！我们刚刚搭建了 ZalithLauncher 官方 Discord 社区！这里将是大家交流、分享、获取最新资讯的好地方。快来加入我们，一起探索更多精彩内容吧！✨\r\n\r\nhttps://discord.gg/yDDkTHp4cJ",
-    "zh_tw": "大家好！我們剛剛建立了 ZalithLauncher 官方 Discord 社群！這裡將會是大家交流、分享和獲取最新資訊的好地方。快來加入我們，一起探索更多精彩內容吧！✨\r\n\r\nhttps://discord.gg/yDDkTHp4cJ",
-    "en_us": "Hello everyone! We've just set up the official ZalithLauncher Discord community! This will be a great place for everyone to chat, share, and get the latest updates. Come join us and explore more exciting content together! ✨\r\n\r\nhttps://discord.gg/yDDkTHp4cJ"
+    "zh_cn": "ZalithLauncher 官方从不会在没有发布启动器公告的情况下，在任何平台搭建社区账号，官方社区仅有 Github、Discord、QQ群。\r\n若未在官方支持的社区内提及，则其他平台上的\"官方账号\"均为假冒账号！例如：X上的同名账号就是假冒账号。\r\n请大家注意辨别，不可信任任何非官方账号，避免上当受骗！\r\n\r\n✨加入官方 Discord？\r\n\r\nhttps://discord.gg/yDDkTHp4cJ",
+    "zh_tw": "ZalithLauncher 官方絕不會在沒有發布啟動器公告的情況下，在任何平台建立社區帳號，官方社區僅有 Github、Discord、QQ群。\r\n若未在官方支持的社區內提及，則其他平台上的「官方帳號」均為假冒帳號！例如：X上的同名帳號就是假冒帳號。\r\n請大家注意辨別，不可信任任何非官方帳號，避免上當受騙！\r\n\r\n✨加入官方 Discord？\r\n\r\nhttps://discord.gg/yDDkTHp4cJ",
+    "en_us": "ZalithLauncher will never create community accounts on any platform without an official launcher announcement. The only official communities are Github and Discord.\r\nIf not mentioned in an official supported community, any \"official account\" on other platforms is a counterfeit! For example, an account with the same name on X is a fake account.\r\nPlease be cautious and do not trust any unofficial accounts to avoid being deceived!\r\n\r\n✨Join the official Discord?\r\n\r\nhttps://discord.gg/yDDkTHp4cJ"
   },
-  "date": "2025/08/24",
-  "numbering": 19
+  "date": "2025/10/05",
+  "numbering": 20
 }
