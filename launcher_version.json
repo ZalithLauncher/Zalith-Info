@@ -1,6 +1,6 @@
 {
-  "version_code": 140900,
-  "version_name": "1.4.0.9",
+  "version_code": 141000,
+  "version_name": "1.4.1.0",
   "title": {
     "en_us": "NONE",
     "zh_cn": "NONE",
@@ -11,13 +11,13 @@
     "zh_cn": "### 更新内容:\n- **LWJGL**: 修复无法启动 25w43a 的问题 \n- **Vulkan**: 始终加载 Vulkan （#725）。",
     "zh_tw": "### 更新內容:\n- **LWJGL**: 修復無法啟動 25w43a 的問題。  \n- **Vulkan**: 始終載入 Vulkan (#725)。  \n"
   },
-  "published_at": "2025-10-28T14:32:33Z",
+  "published_at": "2025-10-28T19:22:49Z",
   "file_size": {
-    "all": 202507786,
-    "arm": 95646760,
-    "arm64": 100146285,
-    "x86": 84483126,
-    "x86_64": 103778128
+    "all": 202146750,
+    "arm": 95441844,
+    "arm64": 99943509,
+    "x86": 84274874,
+    "x86_64": 103592180
   },
   "pre_release": false
 }
