@@ -1,6 +1,27 @@
 {
   "sponsors": [
     {
+      "name": "爱发电用户_1f3a4",
+      "time": "2025/11/01",
+      "identifier": "202511011714115148985620209",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.2
+    },
+    {
+      "name": "爱发电用户_83dc8",
+      "time": "2025/11/01",
+      "identifier": "202511011709489949994930080",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 10.45
+    },
+    {
+      "name": "爱发电用户_7a038",
+      "time": "2025/10/31",
+      "identifier": "20251031235134545510143615",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.2
+    },
+    {
       "name": "LUCK1凯龙",
       "time": "2025/10/31",
       "identifier": "202510311153225051525545562",
