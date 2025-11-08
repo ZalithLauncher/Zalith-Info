@@ -1,6 +1,27 @@
 {
   "sponsors": [
     {
+      "name": "thirteen",
+      "time": "2025/11/08",
+      "identifier": "20251108194628525010159824",
+      "avatar": "https://pic1.afdiancdn.com/user/8292f46c961011f08f1752540025c377/avatar/ec500c29f4d7f4f67590c44af66451b2_w1080_h1080_s1142.png",
+      "amount": 5.2
+    },
+    {
+      "name": "Toon",
+      "time": "2025/11/07",
+      "identifier": "202511080705489997535724386",
+      "avatar": "https://pic1.afdiancdn.com/user/70e1a08cd25811ef93a752540025c377/avatar/780ec6a04aa31609a24084b7e084d390_w2048_h2048_s2220.png",
+      "amount": 5.2
+    },
+    {
+      "name": "wang",
+      "time": "2025/11/07",
+      "identifier": "202511080032449954535423077",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.2
+    },
+    {
       "name": "终死为碳",
       "time": "2025/11/06",
       "identifier": "202511061023375754555528903",
