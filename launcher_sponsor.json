@@ -1,6 +1,13 @@
 {
   "sponsors": [
     {
+      "name": "鸭了个鸭QWQ",
+      "time": "2025/11/20",
+      "identifier": "202511201813455710155517383",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f9e5857067c8ad9d1675462ced5f811c_w132_h132_s4.jpeg",
+      "amount": 10.45
+    },
+    {
       "name": "没名字",
       "time": "2025/11/19",
       "identifier": "202511191725385048515748635",
@@ -1433,7 +1440,7 @@
       "time": "2024/11/19",
       "identifier": "202411192108451009854547675",
       "amount": 12.0,
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png"
+      "avatar": "https://pic1.afdiancdn.com/user/d13ae094c2ce11eb82f052540025c377/avatar/9637b6f9229aa853cf3bd0d0aa8d6afb_w749_h953_s94.jpeg"
     },
     {
       "name": "已注销",
