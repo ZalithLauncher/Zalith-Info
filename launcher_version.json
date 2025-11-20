@@ -1,23 +1,23 @@
 {
-  "version_code": 141000,
-  "version_name": "1.4.1.0",
+  "version_code": 141100,
+  "version_name": "1.4.1.1",
   "title": {
     "en_us": "NONE",
     "zh_cn": "NONE",
     "zh_tw": "NONE"
   },
   "description": {
-    "en_us": "### New Features:\r\n- **LWJGL**: Fixed issue preventing launch of version 25w43a.  \r\n- **Vulkan**: Always load Vulkan (#725).  \r\n",
-    "zh_cn": "### 更新内容:\n- **LWJGL**: 修复无法启动 25w43a 的问题 \n- **Vulkan**: 始终加载 Vulkan （#725）。",
-    "zh_tw": "### 更新內容:\n- **LWJGL**: 修復無法啟動 25w43a 的問題。  \n- **Vulkan**: 始終載入 Vulkan (#725)。  \n"
+    "en_us": "### New Features:\r\n- Updated Chinese translation data for mods and modpacks.\r\n- **Mod Check**: Enhanced YSM mod checks (2.2.2 – 2.5.1).\r\n- **Game Launch**: Allowed mods to obtain local paths via environment variables for storing their native libraries.\r\n---\r\n### Fixes:\r\n- **Game Launch**: Filtered out unusable game dependency libraries to avoid duplication with those bundled in the launcher.\r\n",
+    "zh_cn": "### 更新内容:\n- 更新模组、整合包的中文翻译数据\n- **模组检查**: 增强对 YSM 的检查 （2.2.2 - 2.5.1）\n- **启动游戏**: 允许模组通过环境变量获取本地路径，用作其 native 库的存放位置\n---\n### 修复内容:\n- **启动游戏**: 过滤掉无法使用的游戏依赖库，避免与启动器自带的重复",
+    "zh_tw": "### 更新內容:\n- 更新模組、整合包的中文翻譯資料。\n- **模組檢查**: 加強對 YSM 的檢查（2.2.2 – 2.5.1）。\n- **啟動遊戲**: 允許模組透過環境變數取得本地路徑，作為其 native 函式庫的存放位置。\n---\n### 修復內容:\n- **啟動遊戲**: 過濾掉無法使用的遊戲相依函式庫，避免與啟動器自帶的重複。\n"
   },
-  "published_at": "2025-10-28T19:22:49Z",
+  "published_at": "2025-11-20T23:02:20Z",
   "file_size": {
-    "all": 202146750,
-    "arm": 95441844,
-    "arm64": 99943509,
-    "x86": 84274874,
-    "x86_64": 103592180
+    "all": 202288578,
+    "arm": 95583660,
+    "arm64": 100085449,
+    "x86": 84416542,
+    "x86_64": 103734048
   },
   "pre_release": false
 }
