@@ -1,6 +1,27 @@
 {
   "sponsors": [
     {
+      "name": "taluer",
+      "time": "2025/11/23",
+      "identifier": "20251123180237100481025928",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 10.45
+    },
+    {
+      "name": "执着的人",
+      "time": "2025/11/23",
+      "identifier": "202511231520525297985541888",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.2
+    },
+    {
+      "name": "妄安06",
+      "time": "2025/11/23",
+      "identifier": "202511231210265010051131997",
+      "avatar": "https://pic1.afdiancdn.com/user/a45dabce3eda11f0a38952540025c377/avatar/07ebcf095d4c67772accdc2a44699cec_w907_h907_s117.jpeg",
+      "amount": 5.2
+    },
+    {
       "name": "YongHeng0430",
       "time": "2025/11/21",
       "identifier": "20251121183752485148981456",
