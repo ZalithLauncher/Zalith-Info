@@ -1,6 +1,20 @@
 {
   "sponsors": [
     {
+      "name": "金时华碑",
+      "time": "2025/12/05",
+      "identifier": "20251205153425494853524109",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.2
+    },
+    {
+      "name": "小林xiaolin",
+      "time": "2025/12/04",
+      "identifier": "202512042043025410099129287",
+      "avatar": "https://pic1.afdiancdn.com/user/31e7d6d40d8511edb0a752540025c377/avatar/a06afa728c8ae90deb130a070ce54b98_w1079_h1080_s94.jpeg",
+      "amount": 20.0
+    },
+    {
       "name": "爱发电用户_JNvs",
       "time": "2025/12/03",
       "identifier": "202512030924599810050911569",
