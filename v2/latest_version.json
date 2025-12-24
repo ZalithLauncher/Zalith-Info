@@ -1,0 +1,223 @@
+{
+    "code": 190022,
+    "version": "2.0.0_beta-20251222a",
+    "created_at": "2025-12-22T12:24:14Z",
+    "files": [
+        {
+            "file_name": "ZalithLauncher-2.0.0_beta-20251222a-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_beta-20251222a/ZalithLauncher-2.0.0_beta-20251222a-arm64-v8a.apk",
+            "arch": "arm64",
+            "size": 125704649
+        },
+        {
+            "file_name": "ZalithLauncher-2.0.0_beta-20251222a-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_beta-20251222a/ZalithLauncher-2.0.0_beta-20251222a-armeabi-v7a.apk",
+            "arch": "arm",
+            "size": 119396790
+        },
+        {
+            "file_name": "ZalithLauncher-2.0.0_beta-20251222a-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_beta-20251222a/ZalithLauncher-2.0.0_beta-20251222a-x86.apk",
+            "arch": "x86",
+            "size": 109433007
+        },
+        {
+            "file_name": "ZalithLauncher-2.0.0_beta-20251222a-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_beta-20251222a/ZalithLauncher-2.0.0_beta-20251222a-x86_64.apk",
+            "arch": "x86_64",
+            "size": 129090965
+        },
+        {
+            "file_name": "ZalithLauncher-2.0.0_beta-20251222a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_beta-20251222a/ZalithLauncher-2.0.0_beta-20251222a.apk",
+            "arch": "all",
+            "size": 243242223
+        }
+    ],
+    "default_body": {
+        "language": "en",
+        "chunks": [
+            {
+                "title": "Updates",
+                "texts": [
+                    {
+                        "text": "Synchronized languages with the",
+                        "links": [
+                            {
+                                "text": "Weblate project",
+                                "link": "https://hosted.weblate.org/projects/zalithlauncher2/"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Controls: added support for joystick controls and introduced joystick appearance customization"
+                    },
+                    {
+                        "text": "Control Layout Editor: support independently configuring the launcher joystick style"
+                    },
+                    {
+                        "text": "Version List: added support for new version numbering rules"
+                    }
+                ]
+            },
+            {
+                "title": "Adjustments",
+                "texts": [
+                    {
+                        "text": "Control Layout Editor:"
+                    },
+                    {
+                        "text": "Button style preview now only displays “Normal” and “Pressed” states, and follows the selected appearance mode",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Added an interaction-blocking overlay when switching pages in the control edit dialog",
+                        "indentation": 1
+                    }
+                ]
+            },
+            {
+                "title": "Refactors",
+                "texts": [
+                    {
+                        "text": "UI-Related:"
+                    },
+                    {
+                        "text": "Settings page redesigned to follow the Android 16 settings style",
+                        "indentation": 1
+                    }
+                ]
+            },
+            {
+                "title": "Fixes",
+                "texts": [
+                    {
+                        "text": "Game Controls:"
+                    },
+                    {
+                        "text": "Fixed missing default values for game key events that follow changes in \"options.txt\"",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "In-Game Control Layout Editor:"
+                    },
+                    {
+                        "text": "Editor is now forcibly reset when exiting",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Control layout files are now reloaded asynchronously after saving",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Multiplayer: fixed occasional crashes caused by accounts not being fully initialized"
+                    },
+                    {
+                        "text": "Download-Related:"
+                    },
+                    {
+                        "text": "CurseForge: fixed installation not being interrupted when exceptions occurred while parsing mod download URLs in modpacks",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "IME: added compatibility for Baidu Input Method"
+                    }
+                ]
+            }
+        ]
+    },
+    "bodies": [
+        {
+            "language": "zh",
+            "chunks": [
+                {
+                    "title": "更新：",
+                    "texts": [
+                        {
+                            "text": "同步 Weblate 项目语言",
+                            "links": [
+                                {
+                                    "text": "Weblate",
+                                    "link": "https://hosted.weblate.org/projects/zalithlauncher2/"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "控制：支持使用摇杆控件，加入摇杆外观编辑"
+                        },
+                        {
+                            "text": "控制布局编辑器：支持独立设定启动器摇杆样式"
+                        },
+                        {
+                            "text": "版本列表：支持新版本号规则"
+                        }
+                    ]
+                },
+                {
+                    "title": "调整：",
+                    "texts": [
+                        {
+                            "text": "控制布局编辑器："
+                        },
+                        {
+                            "text": "按钮样式编辑预览框内仅显示“正常”、“按下时”两种按钮，可跟随外观模式改变",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "控件编辑对话框在切换页面时，添加操作屏蔽遮罩",
+                            "indentation": 1
+                        }
+                    ]
+                },
+                {
+                    "title": "重构：",
+                    "texts": [
+                        {
+                            "text": "UI 相关："
+                        },
+                        {
+                            "text": "设置页：重构为 Android 16 设置页风格",
+                            "indentation": 1
+                        }
+                    ]
+                },
+                {
+                    "title": "修复：",
+                    "texts": [
+                        {
+                            "text": "游戏控制："
+                        },
+                        {
+                            "text": "跟随 options.txt 变化的游戏按键事件未设置默认值",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "游戏内控制布局编辑器："
+                        },
+                        {
+                            "text": "退出编辑器时，强制重置编辑器",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "保存控制布局时，异步重载控制布局文件",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "多人联机：偶尔因账号未完成初始化导致崩溃"
+                        },
+                        {
+                            "text": "下载相关："
+                        },
+                        {
+                            "text": "CurseForge：解析整合包模组下载链接时出现异常未中断安装",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "输入法：适配百度输入法"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
