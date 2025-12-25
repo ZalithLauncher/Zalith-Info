@@ -1,44 +1,44 @@
 {
-    "code": 190022,
-    "version": "2.0.0_beta-20251222a",
-    "created_at": "2025-12-22T12:24:14Z",
+    "code": 190023,
+    "version": "2.0.0_pre-release_1",
+    "created_at": "2025-12-25T09:25:11Z",
     "files": [
         {
-            "file_name": "ZalithLauncher-2.0.0_beta-20251222a-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_beta-20251222a/ZalithLauncher-2.0.0_beta-20251222a-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.0.0_pre-release_1-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_pre-release_1/ZalithLauncher-2.0.0_pre-release_1-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 125704649
+            "size": 126548427
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_beta-20251222a-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_beta-20251222a/ZalithLauncher-2.0.0_beta-20251222a-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.0.0_pre-release_1-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_pre-release_1/ZalithLauncher-2.0.0_pre-release_1-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 119396790
+            "size": 120151246
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_beta-20251222a-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_beta-20251222a/ZalithLauncher-2.0.0_beta-20251222a-x86.apk",
+            "file_name": "ZalithLauncher-2.0.0_pre-release_1-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_pre-release_1/ZalithLauncher-2.0.0_pre-release_1-x86.apk",
             "arch": "x86",
-            "size": 109433007
+            "size": 110375067
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_beta-20251222a-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_beta-20251222a/ZalithLauncher-2.0.0_beta-20251222a-x86_64.apk",
+            "file_name": "ZalithLauncher-2.0.0_pre-release_1-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_pre-release_1/ZalithLauncher-2.0.0_pre-release_1-x86_64.apk",
             "arch": "x86_64",
-            "size": 129090965
+            "size": 130082024
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_beta-20251222a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_beta-20251222a/ZalithLauncher-2.0.0_beta-20251222a.apk",
+            "file_name": "ZalithLauncher-2.0.0_pre-release_1.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_pre-release_1/ZalithLauncher-2.0.0_pre-release_1.apk",
             "arch": "all",
-            "size": 243242223
+            "size": 246640468
         }
     ],
     "default_body": {
         "language": "en",
         "chunks": [
             {
-                "title": "Updates",
+                "title": "Updates:",
                 "texts": [
                     {
                         "text": "Synchronized languages with the",
@@ -50,77 +50,59 @@
                         ]
                     },
                     {
-                        "text": "Controls: added support for joystick controls and introduced joystick appearance customization"
+                        "text": "Joystick Controls: added option to enable or disable styles provided by control layouts"
                     },
                     {
-                        "text": "Control Layout Editor: support independently configuring the launcher joystick style"
+                        "text": "Built-in launcher update checking"
                     },
                     {
-                        "text": "Version List: added support for new version numbering rules"
+                        "text": "Added SDL3 library to ensure compatibility with the Legacy4J mod"
                     }
                 ]
             },
             {
-                "title": "Adjustments",
-                "texts": [
-                    {
-                        "text": "Control Layout Editor:"
-                    },
-                    {
-                        "text": "Button style preview now only displays “Normal” and “Pressed” states, and follows the selected appearance mode",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Added an interaction-blocking overlay when switching pages in the control edit dialog",
-                        "indentation": 1
-                    }
-                ]
-            },
-            {
-                "title": "Refactors",
+                "title": "Adjustments:",
                 "texts": [
                     {
                         "text": "UI-Related:"
                     },
                     {
-                        "text": "Settings page redesigned to follow the Android 16 settings style",
+                        "text": "Added state icons to toggle buttons",
                         "indentation": 1
+                    },
+                    {
+                        "text": "Adjusted colors for some disabled components",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Tweaked margin values for certain settings components",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Control Layout Editor: reduced the minimum button percentage size to 1%"
                     }
                 ]
             },
             {
-                "title": "Fixes",
+                "title": "Fixes:",
                 "texts": [
                     {
-                        "text": "Game Controls:"
+                        "text": "Joystick Controls: fixed borders being drawn outside the background bounds"
                     },
                     {
-                        "text": "Fixed missing default values for game key events that follow changes in \"options.txt\"",
-                        "indentation": 1
+                        "text": "UI-Related:"
                     },
                     {
-                        "text": "In-Game Control Layout Editor:"
+                        "text": "Fixed incorrect logic in list dialogs"
                     },
                     {
-                        "text": "Editor is now forcibly reset when exiting",
-                        "indentation": 1
+                        "text": "Fixed app name being incorrectly displayed at the top of the splash screen on some systems"
                     },
                     {
-                        "text": "Control layout files are now reloaded asynchronously after saving",
-                        "indentation": 1
+                        "text": "Game Launch: added integrity checks for corrupted files at launch and re-download them when possible"
                     },
                     {
-                        "text": "Multiplayer: fixed occasional crashes caused by accounts not being fully initialized"
-                    },
-                    {
-                        "text": "Download-Related:"
-                    },
-                    {
-                        "text": "CurseForge: fixed installation not being interrupted when exceptions occurred while parsing mod download URLs in modpacks",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "IME: added compatibility for Baidu Input Method"
+                        "text": "Replaced legacy fullscreen handling logic and fixed fullscreen disabling issues on some devices"
                     }
                 ]
             }
@@ -143,13 +125,13 @@
                             ]
                         },
                         {
-                            "text": "控制：支持使用摇杆控件，加入摇杆外观编辑"
+                            "text": "摇杆控制：支持设置是否启用控制布局提供的样式"
                         },
                         {
-                            "text": "控制布局编辑器：支持独立设定启动器摇杆样式"
+                            "text": "内置启动器检查更新"
                         },
                         {
-                            "text": "版本列表：支持新版本号规则"
+                            "text": "添加 SDL3 库确保能够运行 Legacy4J 模组"
                         }
                     ]
                 },
@@ -157,27 +139,22 @@
                     "title": "调整：",
                     "texts": [
                         {
-                            "text": "控制布局编辑器："
-                        },
-                        {
-                            "text": "按钮样式编辑预览框内仅显示“正常”、“按下时”两种按钮，可跟随外观模式改变",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "控件编辑对话框在切换页面时，添加操作屏蔽遮罩",
-                            "indentation": 1
-                        }
-                    ]
-                },
-                {
-                    "title": "重构：",
-                    "texts": [
-                        {
                             "text": "UI 相关："
                         },
                         {
-                            "text": "设置页：重构为 Android 16 设置页风格",
+                            "text": "为切换按钮添加状态图标",
                             "indentation": 1
+                        },
+                        {
+                            "text": "调整部分组件被禁用时的颜色",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "部分设置组件的边距值",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "控制布局编辑器：按钮百分比大小最小值降低至 1%"
                         }
                     ]
                 },
@@ -185,35 +162,24 @@
                     "title": "修复：",
                     "texts": [
                         {
-                            "text": "游戏控制："
+                            "text": "摇杆控制：边框超出背景范围绘制"
                         },
                         {
-                            "text": "跟随 options.txt 变化的游戏按键事件未设置默认值",
+                            "text": "UI 相关："
+                        },
+                        {
+                            "text": "修复列表对话框的错误逻辑",
                             "indentation": 1
                         },
                         {
-                            "text": "游戏内控制布局编辑器："
-                        },
-                        {
-                            "text": "退出编辑器时，强制重置编辑器",
+                            "text": "部分系统启动页顶部异常显示应用名的问题",
                             "indentation": 1
                         },
                         {
-                            "text": "保存控制布局时，异步重载控制布局文件",
-                            "indentation": 1
+                            "text": "启动游戏：在启动时尽可能检查损坏的文件，并重新下载"
                         },
                         {
-                            "text": "多人联机：偶尔因账号未完成初始化导致崩溃"
-                        },
-                        {
-                            "text": "下载相关："
-                        },
-                        {
-                            "text": "CurseForge：解析整合包模组下载链接时出现异常未中断安装",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "输入法：适配百度输入法"
+                            "text": "更换掉老旧的全屏设置逻辑 & 部分设备无法正常禁用全屏"
                         }
                     ]
                 }
