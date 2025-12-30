@@ -1,37 +1,37 @@
 {
-    "code": 190025,
-    "version": "2.0.0_pre-release_3",
-    "created_at": "2025-12-29T06:08:32Z",
+    "code": 190026,
+    "version": "2.0.0_rc1",
+    "created_at": "2025-12-30T12:26:08Z",
     "files": [
         {
-            "file_name": "ZalithLauncher-2.0.0_pre-release_3-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_pre-release_3/ZalithLauncher-2.0.0_pre-release_3-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.0.0_rc1-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc1/ZalithLauncher-2.0.0_rc1-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 128908777
+            "size": 128917237
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_pre-release_3-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_pre-release_3/ZalithLauncher-2.0.0_pre-release_3-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.0.0_rc1-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc1/ZalithLauncher-2.0.0_rc1-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 122289766
+            "size": 122298290
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_pre-release_3-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_pre-release_3/ZalithLauncher-2.0.0_pre-release_3-x86.apk",
+            "file_name": "ZalithLauncher-2.0.0_rc1-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc1/ZalithLauncher-2.0.0_rc1-x86.apk",
             "arch": "x86",
-            "size": 112984987
+            "size": 112993539
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_pre-release_3-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_pre-release_3/ZalithLauncher-2.0.0_pre-release_3-x86_64.apk",
+            "file_name": "ZalithLauncher-2.0.0_rc1-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc1/ZalithLauncher-2.0.0_rc1-x86_64.apk",
             "arch": "x86_64",
-            "size": 132561051
+            "size": 132569527
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_pre-release_3.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_pre-release_3/ZalithLauncher-2.0.0_pre-release_3.apk",
+            "file_name": "ZalithLauncher-2.0.0_rc1.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc1/ZalithLauncher-2.0.0_rc1.apk",
             "arch": "all",
-            "size": 255983045
+            "size": 255991657
         }
     ],
     "default_body": {
@@ -41,89 +41,15 @@
                 "title": "Updates:",
                 "texts": [
                     {
-                        "text": "Synchronized languages with the",
-                        "links": [
-                            {
-                                "text": "Weblate project",
-                                "link": "https://hosted.weblate.org/projects/zalithlauncher2/"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Multiplayer: updated to",
-                        "links": [
-                            {
-                                "text": "v0.4.1-rc2",
-                                "link": "https://github.com/burningtnt/Terracotta/releases/tag/v0.4.1-rc.2"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Highlights: integrated international EasyTier public servers",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Renderer: built-in Krypton Wrapper renderer by",
-                        "links": [
-                            {
-                                "text": "TNTyep520",
-                                "link": "https://github.com/TNTyep520"
-                            },
-                            {
-                                "text": "aaaapai",
-                                "link": "https://github.com/aaaapai"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Joystick Component: added support for adjusting the dead zone range"
-                    },
-                    {
-                        "text": "Control Layout Editor: added joystick reminder dialog"
+                        "text": "Add an input field UI for input method proxy input."
                     }
                 ]
             },
             {
-                "title": "Refactors:",
+                "title": "Adjustments:",
                 "texts": [
                     {
-                        "text": "Update Check: improved update checking logic"
-                    },
-                    {
-                        "text": "Joystick Component: improved drag handling logic"
-                    }
-                ]
-            },
-            {
-                "title": "Fixes:",
-                "texts": [
-                    {
-                        "text": "Update Check: fixed unhandled exceptions when checking China-region mirror sources"
-                    },
-                    {
-                        "text": "Offline Accounts: fixed SHA-256 calculation crash when using custom skins on some systems due to library conflicts"
-                    },
-                    {
-                        "text": "UI-Related:"
-                    },
-                    {
-                        "text": "Fixed state read crashes caused by inconsistent Compose snapshot timing in rare cases",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Fixed fullscreen navigation components not being hidden on some systems",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Control Layout:"
-                    },
-                    {
-                        "text": "Cleared key states when no touch input is detected",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Dynamically adjusted line spacing based on font size",
-                        "indentation": 1
+                        "text": "Check for updates: Prevent selecting installation packages that do not support the current device architecture"
                     }
                 ]
             }
@@ -137,89 +63,15 @@
                     "title": "更新：",
                     "texts": [
                         {
-                            "text": "同步 Weblate 项目语言",
-                            "links": [
-                                {
-                                    "text": "Weblate",
-                                    "link": "https://hosted.weblate.org/projects/zalithlauncher2/"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "多人联机：更新至",
-                            "links": [
-                                {
-                                    "text": "v0.4.1-rc2",
-                                    "link": "https://github.com/burningtnt/Terracotta/releases/tag/v0.4.1-rc.2"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "亮点介绍：集成国际 EasyTier 公共服务器（海外联机）",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "渲染器：内置 Krypton Wrapper 渲染器 by",
-                            "links": [
-                                {
-                                    "text": "TNTyep520",
-                                    "link": "https://github.com/TNTyep520"
-                                },
-                                {
-                                    "text": "aaaapai",
-                                    "link": "https://github.com/aaaapai"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "摇杆组件：允许调节死区范围"
-                        },
-                        {
-                            "text": "控制布局编辑器：加入摇杆提醒对话框"
+                            "text": "使用输入栏 UI 代理输入法输入"
                         }
                     ]
                 },
                 {
-                    "title": "重构：",
+                    "title": "调整：",
                     "texts": [
                         {
-                            "text": "检查更新：更好的检查逻辑"
-                        },
-                        {
-                            "text": "摇杆组件：更好的拖动逻辑"
-                        }
-                    ]
-                },
-                {
-                    "title": "修复：",
-                    "texts": [
-                        {
-                            "text": "检查更新：中国地区镜像源检查时，未捕获异常"
-                        },
-                        {
-                            "text": "离线账号：某系统因库冲突导致使用自定义皮肤时，计算SHA-256崩溃"
-                        },
-                        {
-                            "text": "UI 相关："
-                        },
-                        {
-                            "text": "少数情况因 Compose 快照时序不一致导致的状态读取崩溃问题",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "部分系统全面屏导航组件未隐藏",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "控制布局："
-                        },
-                        {
-                            "text": "未触摸时清除按键状态",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "根据字体大小动态调整行间距",
-                            "indentation": 1
+                            "text": "检查更新：禁止选择不支持当前设备架构的安装包"
                         }
                     ]
                 }
