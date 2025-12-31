@@ -1,55 +1,93 @@
 {
-    "code": 190026,
-    "version": "2.0.0_rc1",
-    "created_at": "2025-12-30T12:26:08Z",
+    "code": 190027,
+    "version": "2.0.0_rc2",
+    "created_at": "2025-12-31T06:29:52Z",
     "files": [
         {
-            "file_name": "ZalithLauncher-2.0.0_rc1-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc1/ZalithLauncher-2.0.0_rc1-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.0.0_rc2-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc2/ZalithLauncher-2.0.0_rc2-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 128917237
+            "size": 128949047
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_rc1-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc1/ZalithLauncher-2.0.0_rc1-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.0.0_rc2-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc2/ZalithLauncher-2.0.0_rc2-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 122298290
+            "size": 122330004
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_rc1-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc1/ZalithLauncher-2.0.0_rc1-x86.apk",
+            "file_name": "ZalithLauncher-2.0.0_rc2-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc2/ZalithLauncher-2.0.0_rc2-x86.apk",
             "arch": "x86",
-            "size": 112993539
+            "size": 113025341
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_rc1-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc1/ZalithLauncher-2.0.0_rc1-x86_64.apk",
+            "file_name": "ZalithLauncher-2.0.0_rc2-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc2/ZalithLauncher-2.0.0_rc2-x86_64.apk",
             "arch": "x86_64",
-            "size": 132569527
+            "size": 132601381
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_rc1.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc1/ZalithLauncher-2.0.0_rc1.apk",
+            "file_name": "ZalithLauncher-2.0.0_rc2.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc2/ZalithLauncher-2.0.0_rc2.apk",
             "arch": "all",
-            "size": 255991657
+            "size": 256023431
         }
     ],
     "default_body": {
         "language": "en",
         "chunks": [
             {
-                "title": "Updates:",
+                "title": "Update:",
                 "texts": [
                     {
-                        "text": "Add an input field UI for input method proxy input."
+                        "text": "Synchronized languages from",
+                        "links": [
+                            {
+                                "text": "Weblate project",
+                                "link": "https://hosted.weblate.org/projects/zalithlauncher2/"
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "title": "Adjustments:",
+                "title": "Refactor:",
                 "texts": [
                     {
-                        "text": "Check for updates: Prevent selecting installation packages that do not support the current device architecture"
+                        "text": "Input Proxy: Improved the input experience"
+                    },
+                    {
+                        "text": "Removed the send button",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Input content is directly sent to the game",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Tried to synchronize the cursor position in the in-game input box with the input proxy",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Avoid handling Shift and Ctrl keys; Tab key no longer selects components",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Close input proxy when the game cursor capture state changes",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Allow toggling the operation bar",
+                        "indentation": 1
+                    }
+                ]
+            },
+            {
+                "title": "Fix:",
+                "texts": [
+                    {
+                        "text": "Control Layout Editor: Should not continue processing key events while editing control layouts"
                     }
                 ]
             }
@@ -63,15 +101,52 @@
                     "title": "更新：",
                     "texts": [
                         {
-                            "text": "使用输入栏 UI 代理输入法输入"
+                            "text": "同步 Weblate 项目语言",
+                            "links": [
+                                {
+                                    "text": "Weblate",
+                                    "link": "https://hosted.weblate.org/projects/zalithlauncher2/"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "title": "调整：",
+                    "title": "重构：",
                     "texts": [
                         {
-                            "text": "检查更新：禁止选择不支持当前设备架构的安装包"
+                            "text": "输入代理：改进输入代理的输入体验"
+                        },
+                        {
+                            "text": "移除发送按钮",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "输入的内容直接同步发送至游戏",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "尽量让游戏内输入框的指针位置与输入代理同步",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "避免处理 Shift、Ctrl 按键，Tab 键不再选择组件",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "游戏指针捕获状态变更时，关闭输入代理",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "允许开关操作栏"
+                        }
+                    ]
+                },
+                {
+                    "title": "修复：",
+                    "texts": [
+                        {
+                            "text": "控制布局编辑器：编辑控制布局时不应该继续处理按键事件"
                         }
                     ]
                 }
