@@ -1,37 +1,41 @@
 {
-    "code": 190027,
-    "version": "2.0.0_rc2",
-    "created_at": "2025-12-31T06:29:52Z",
+    "code": 200000,
+    "version": "2.0.0",
+    "created_at": "2026-01-01T03:53:06Z",
+    "default_cloud_drive": {
+        "language": "zh",
+        "link": "https://www.123865.com/s/YLIUVv-aeZ0v"
+    },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.0.0_rc2-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc2/ZalithLauncher-2.0.0_rc2-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.0.0-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0/ZalithLauncher-2.0.0-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 128949047
+            "size": 128952787
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_rc2-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc2/ZalithLauncher-2.0.0_rc2-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.0.0-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0/ZalithLauncher-2.0.0-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 122330004
+            "size": 122333880
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_rc2-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc2/ZalithLauncher-2.0.0_rc2-x86.apk",
+            "file_name": "ZalithLauncher-2.0.0-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0/ZalithLauncher-2.0.0-x86.apk",
             "arch": "x86",
-            "size": 113025341
+            "size": 113029069
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_rc2-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc2/ZalithLauncher-2.0.0_rc2-x86_64.apk",
+            "file_name": "ZalithLauncher-2.0.0-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0/ZalithLauncher-2.0.0-x86_64.apk",
             "arch": "x86_64",
-            "size": 132601381
+            "size": 132605141
         },
         {
-            "file_name": "ZalithLauncher-2.0.0_rc2.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_rc2/ZalithLauncher-2.0.0_rc2.apk",
+            "file_name": "ZalithLauncher-2.0.0.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0/ZalithLauncher-2.0.0.apk",
             "arch": "all",
-            "size": 256023431
+            "size": 256027195
         }
     ],
     "default_body": {
@@ -52,34 +56,10 @@
                 ]
             },
             {
-                "title": "Refactor:",
+                "title": "Adjustment:",
                 "texts": [
                     {
-                        "text": "Input Proxy: Improved the input experience"
-                    },
-                    {
-                        "text": "Removed the send button",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Input content is directly sent to the game",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Tried to synchronize the cursor position in the in-game input box with the input proxy",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Avoid handling Shift and Ctrl keys; Tab key no longer selects components",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Close input proxy when the game cursor capture state changes",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Allow toggling the operation bar",
-                        "indentation": 1
+                        "text": "Input Proxy: Also close the input method when tapping the close button"
                     }
                 ]
             },
@@ -87,7 +67,7 @@
                 "title": "Fix:",
                 "texts": [
                     {
-                        "text": "Control Layout Editor: Should not continue processing key events while editing control layouts"
+                        "text": "VMActivity: Back key incorrectly exited VMActivity & improved back key handling"
                     }
                 ]
             }
@@ -112,33 +92,10 @@
                     ]
                 },
                 {
-                    "title": "重构：",
+                    "title": "调整：",
                     "texts": [
                         {
-                            "text": "输入代理：改进输入代理的输入体验"
-                        },
-                        {
-                            "text": "移除发送按钮",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "输入的内容直接同步发送至游戏",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "尽量让游戏内输入框的指针位置与输入代理同步",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "避免处理 Shift、Ctrl 按键，Tab 键不再选择组件",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "游戏指针捕获状态变更时，关闭输入代理",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "允许开关操作栏"
+                            "text": "输入代理：点击关闭按钮时同时关闭输入法"
                         }
                     ]
                 },
@@ -146,7 +103,7 @@
                     "title": "修复：",
                     "texts": [
                         {
-                            "text": "控制布局编辑器：编辑控制布局时不应该继续处理按键事件"
+                            "text": "VMActivity：返回键错误地退出 VMActivity & 更好的返回键处理"
                         }
                     ]
                 }
