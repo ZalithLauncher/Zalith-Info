@@ -1,41 +1,41 @@
 {
-    "code": 0,
+    "code": 200003,
     "version": "2.0.1-HOTFIX",
     "created_at": "2026-01-29T13:32:54Z",
     "default_cloud_drive": {
-        "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-Mfc0v"
+      "language": "zh",
+      "link": "https://www.123865.com/s/YLIUVv-wfc0v"
     },
     "files": [
         {
             "file_name": "ZalithLauncher-2.0.1-arm64-v8a.apk",
             "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.1/ZalithLauncher-2.0.1-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 131739155
+            "size": 128551271
         },
         {
             "file_name": "ZalithLauncher-2.0.1-armeabi-v7a.apk",
             "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.1/ZalithLauncher-2.0.1-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 121863644
+            "size": 121980780
         },
         {
             "file_name": "ZalithLauncher-2.0.1-x86.apk",
             "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.1/ZalithLauncher-2.0.1-x86.apk",
             "arch": "x86",
-            "size": 112557145
+            "size": 112691825
         },
         {
             "file_name": "ZalithLauncher-2.0.1-x86_64.apk",
             "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.1/ZalithLauncher-2.0.1-x86_64.apk",
             "arch": "x86_64",
-            "size": 132024849
+            "size": 132199717
         },
         {
             "file_name": "ZalithLauncher-2.0.1.apk",
             "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.1/ZalithLauncher-2.0.1.apk",
             "arch": "all",
-            "size": 256867287
+            "size": 254105967
         }
     ],
   "default_body": {
