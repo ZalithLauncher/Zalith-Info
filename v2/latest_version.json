@@ -1,41 +1,41 @@
 {
-    "code": 200000,
-    "version": "2.0.0",
-    "created_at": "2026-01-01T03:53:06Z",
+    "code": 200001,
+    "version": "2.0.1",
+    "created_at": "2026-01-29T13:32:54Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-aeZ0v"
+        "link": "https://www.123865.com/s/YLIUVv-xfc0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.0.0-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0/ZalithLauncher-2.0.0-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.0.1-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.1/ZalithLauncher-2.0.1-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 128952787
+            "size": 129195363
         },
         {
-            "file_name": "ZalithLauncher-2.0.0-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0/ZalithLauncher-2.0.0-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.0.1-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.1/ZalithLauncher-2.0.1-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 122333880
+            "size": 122489784
         },
         {
-            "file_name": "ZalithLauncher-2.0.0-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0/ZalithLauncher-2.0.0-x86.apk",
+            "file_name": "ZalithLauncher-2.0.1-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.1/ZalithLauncher-2.0.1-x86.apk",
             "arch": "x86",
-            "size": 113029069
+            "size": 113204953
         },
         {
-            "file_name": "ZalithLauncher-2.0.0-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0/ZalithLauncher-2.0.0-x86_64.apk",
+            "file_name": "ZalithLauncher-2.0.1-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.1/ZalithLauncher-2.0.1-x86_64.apk",
             "arch": "x86_64",
-            "size": 132605141
+            "size": 132685021
         },
         {
-            "file_name": "ZalithLauncher-2.0.0.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0/ZalithLauncher-2.0.0.apk",
+            "file_name": "ZalithLauncher-2.0.1.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.1/ZalithLauncher-2.0.1.apk",
             "arch": "all",
-            "size": 256027195
+            "size": 254916615
         }
     ],
     "default_body": {
@@ -52,6 +52,79 @@
                                 "link": "https://hosted.weblate.org/projects/zalithlauncher2/"
                             }
                         ]
+                    },
+                    {
+                        "text": "Terracotta: Updated library to",
+                        "links": [
+                            {
+                                "text": "v0.4.1",
+                                "link": "https://github.com/burningtnt/Terracotta/releases/tag/v0.4.1"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "LWJGL: Updated to 3.4.0-snapshot by",
+                        "links": [
+                            {
+                                "text": "aaaapai",
+                                "link": "https://github.com/aaaapai"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Added support for MCIM mirror sources in China"
+                    },
+                    {
+                        "text": "About page:"
+                    },
+                    {
+                        "text": "Added MCIM mirror source to the acknowledgements section",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Added missing dependency information for Terracotta",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Input Proxy: Added three input modes to meet different player needs"
+                    },
+                    {
+                        "text": "Real-time Mode: Same as the original input, with an input box, attempting to “simulate synchronization” with the in-game text state",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Simple Mode: Removes the input box; input is sent immediately without preserving text state (consistent with other launchers)",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Send Mode: Includes an input box; input content is sent to the game by tapping the send button"
+                    },
+                    {
+                        "text": "Launcher: Prevent the device from sleeping while tasks are running (restore after tasks complete)"
+                    },
+                    {
+                        "text": "Control Layout Editor: Added control layer property “Do not hide when joystick is enabled”"
+                    },
+                    {
+                        "text": "Added in-launcher language switching feature by",
+                        "links": [
+                            {
+                                "text": "由风",
+                                "link": "https://github.com/youfeng11"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "When the game crashes, support uploading logs to third-party hosting platforms, origin:",
+                        "links": [
+                            {
+                                "text": "柠枺",
+                                "link": "https://github.com/leemwood"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Microsoft Login: Added a clickable link at the top to open browser login"
                     }
                 ]
             },
@@ -59,7 +132,68 @@
                 "title": "Adjustment:",
                 "texts": [
                     {
-                        "text": "Input Proxy: Also close the input method when tapping the close button"
+                        "text": "Adjusted language tag matching rules for control layouts"
+                    },
+                    {
+                        "text": "Support direct language code matching, such as \"zh\" and \"en\"",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Prefer language tags with region codes, such as \"zh-CN\" and \"en-US\"",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Adjusted language tag matching rules for update checking"
+                    },
+                    {
+                        "text": "Support matching language tags with region codes, such as \"zh_cn\" and \"en_us\"",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Improved state management of MCOptions to ease future maintenance"
+                    },
+                    {
+                        "text": "Removed deprecated code for generating offline account skin resource packs"
+                    },
+                    {
+                        "text": "UI related:"
+                    },
+                    {
+                        "text": "Mod Manager: Use a more prominent way to notify players when the current version has no mod loader",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Optimized the display of used memory text",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Game file cleanup: No longer clean unused files inside libraries"
+                    },
+                    {
+                        "text": "Control related: Joystick can trigger forced sprint as long as it is lockable"
+                    }
+                ]
+            },
+            {
+                "title": "Refactor:",
+                "texts": [
+                    {
+                        "text": "Game: Reworked the FPS state synchronization mechanism"
+                    },
+                    {
+                        "text": "Renderer: Switched to the precompiled Krypton Wrapper renderer"
+                    },
+                    {
+                        "text": "Launch: Improved bridge state management"
+                    },
+                    {
+                        "text": "Reworked Minecraft version comparison logic to support new naming schemes"
+                    },
+                    {
+                        "text": "Download related: Abstracted resource search logic for easier future maintenance"
+                    },
+                    {
+                        "text": "UI related: Reworked the file picker page and logic"
                     }
                 ]
             },
@@ -67,7 +201,43 @@
                 "title": "Fix:",
                 "texts": [
                     {
-                        "text": "VMActivity: Back key incorrectly exited VMActivity & improved back key handling"
+                        "text": "App: Initializing paths at an inappropriate time caused the app to fail to launch on some systems"
+                    },
+                    {
+                        "text": "UI related:"
+                    },
+                    {
+                        "text": "Game menu floating window disappearing under RTL layouts",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Incorrect task menu switch animation under RTL layouts",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Background not being forcibly refreshed when returning to the launcher",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Dialog height exceeding the screen on some systems",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Launcher: Refreshing data at unnecessary stages"
+                    },
+                    {
+                        "text": "Launch:"
+                    },
+                    {
+                        "text": "Improper screen size parameter passing",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Auto-join server: Launcher crashing when the IP cannot be resolved",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Download related: Resource version list sorting by date"
                     }
                 ]
             }
@@ -88,6 +258,80 @@
                                     "link": "https://hosted.weblate.org/projects/zalithlauncher2/"
                                 }
                             ]
+                        },
+                        {
+                            "text": "陶瓦联机：将库更新至",
+                            "links": [
+                                {
+                                    "text": "v0.4.1",
+                                    "link": "https://github.com/burningtnt/Terracotta/releases/tag/v0.4.1"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "LWJGL：更新至 3.4.0-snapshot by",
+                            "links": [
+                                {
+                                    "text": "aaaapai",
+                                    "link": "https://github.com/aaaapai"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "支持在中国地区使用 MCIM 镜像源"
+                        },
+                        {
+                            "text": "关于页面："
+                        },
+                        {
+                            "text": "鸣谢板块增加 MCIM 镜像源",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "补充 Terracotta 的依赖信息",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "输入代理：加入三种输入模式，满足不同玩家的需求"
+                        },
+                        {
+                            "text": "实时模式：和原来的输入一样，拥有输入框，尽可能”模拟同步“游戏内文本状态",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "简单模式：移除输入框，输入内容即发送，不保留文本状态（和其他启动器一致）",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "发送模式：拥有输入框，需要点击发送按钮，将输入框的内容发送到游戏",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "启动器：在执行任务时，避免设备熄屏（任务结束后恢复）"
+                        },
+                        {
+                            "text": "控制布局编辑器：新增控件层属性 “在摇杆组件启用时不隐藏”"
+                        },
+                        {
+                            "text": "新增启动器内语言切换功能 by",
+                            "links": [
+                                {
+                                    "text": "由风",
+                                    "link": "https://github.com/youfeng11"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "游戏崩溃时，支持将日志上传到第三方托管平台 origin",
+                            "links": [
+                                {
+                                    "text": "柠枺",
+                                    "link": "https://github.com/leemwood"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "微软登录：可点击顶部链接跳转到浏览器登录"
                         }
                     ]
                 },
@@ -95,7 +339,68 @@
                     "title": "调整：",
                     "texts": [
                         {
-                            "text": "输入代理：点击关闭按钮时同时关闭输入法"
+                            "text": "调整控制布局语言标签判定规则"
+                        },
+                        {
+                            "text": "支持直接判定语言代码，如判定 \"zh\"、\"en\"",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "优先判定包含国家/地区代码的语言，如优先判定 \"zh-CN\"、\"en-US\"",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "调整检查更新部分的语言标签判定规则"
+                        },
+                        {
+                            "text": "支持判定包含国家/地区代码的语言，如判定 \"zh_cn\"、\"en_us\"",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "改进 MCOptions 的状态管理，便于后续维护"
+                        },
+                        {
+                            "text": "移除弃用的生成离线账号皮肤资源包的代码"
+                        },
+                        {
+                            "text": "UI 相关："
+                        },
+                        {
+                            "text": "模组管理器：使用更醒目的方式提醒玩家当前版本无模组加载器",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "优化已使用内存文本显示效果",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "清理游戏文件：取消清理 libraries 内的无用文件"
+                        },
+                        {
+                            "text": "控制相关：摇杆在可锁定时即可触发强制疾跑"
+                        }
+                    ]
+                },
+                {
+                    "title": "重构：",
+                    "texts": [
+                        {
+                            "text": "游戏：重做帧率状态同步机制"
+                        },
+                        {
+                            "text": "渲染器：使用已经完成编译的 Krypton Wrapper 渲染器"
+                        },
+                        {
+                            "text": "启动：改进桥接状态管理"
+                        },
+                        {
+                            "text": "重做 Minecraft 版本号比较逻辑，支持新命名规则"
+                        },
+                        {
+                            "text": "下载相关：抽象资源搜索逻辑，便于后续维护"
+                        },
+                        {
+                            "text": "UI 相关：重做文件选择器页面 & 逻辑"
                         }
                     ]
                 },
@@ -103,7 +408,43 @@
                     "title": "修复：",
                     "texts": [
                         {
-                            "text": "VMActivity：返回键错误地退出 VMActivity & 更好的返回键处理"
+                            "text": "软件：在不合适的时机初始化路径，导致部分系统无法正常打开软件"
+                        },
+                        {
+                            "text": "UI 相关："
+                        },
+                        {
+                            "text": "RTL 布局下，游戏菜单悬浮窗消失",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "RTL 布局下，任务菜单切换动画不正确",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "回到启动器时，需要强制刷新背景",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "少部分系统上对话框高度超出画面",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "启动器：在不必要的阶段刷新数据"
+                        },
+                        {
+                            "text": "启动："
+                        },
+                        {
+                            "text": "不合理的屏幕大小参数传递",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "自动加入服务器：IP 无法被解析时，启动器会崩溃",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "下载相关：资源版本列表根据日期进行排序"
                         }
                     ]
                 }
