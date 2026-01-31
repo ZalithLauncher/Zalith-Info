@@ -1,41 +1,41 @@
 {
-    "code": 200004,
-    "version": "2.0.2",
-    "created_at": "2026-01-30T04:29:15Z",
+    "code": 200005,
+    "version": "2.0.3",
+    "created_at": "2026-01-31T11:39:52Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-Rfc0v"
+        "link": "https://www.123865.com/s/YLIUVv-gBc0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.0.2-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.2/ZalithLauncher-2.0.2-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.0.3-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.3/ZalithLauncher-2.0.3-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 129197323
+            "size": 129205827
         },
         {
-            "file_name": "ZalithLauncher-2.0.2-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.2/ZalithLauncher-2.0.2-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.0.3-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.3/ZalithLauncher-2.0.3-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 122572928
+            "size": 122581444
         },
         {
-            "file_name": "ZalithLauncher-2.0.2-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.2/ZalithLauncher-2.0.2-x86.apk",
+            "file_name": "ZalithLauncher-2.0.3-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.3/ZalithLauncher-2.0.3-x86.apk",
             "arch": "x86",
-            "size": 113295241
+            "size": 113303761
         },
         {
-            "file_name": "ZalithLauncher-2.0.2-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.2/ZalithLauncher-2.0.2-x86_64.apk",
+            "file_name": "ZalithLauncher-2.0.3-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.3/ZalithLauncher-2.0.3-x86_64.apk",
             "arch": "x86_64",
-            "size": 132871433
+            "size": 132879949
         },
         {
-            "file_name": "ZalithLauncher-2.0.2.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.2/ZalithLauncher-2.0.2.apk",
+            "file_name": "ZalithLauncher-2.0.3.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.3/ZalithLauncher-2.0.3.apk",
             "arch": "all",
-            "size": 256611999
+            "size": 256620535
         }
     ],
     "default_body": {
@@ -52,9 +52,6 @@
                                 "link": "https://hosted.weblate.org/projects/zalithlauncher2/"
                             }
                         ]
-                    },
-                    {
-                        "text": "Input Proxy: Added a button to invoke the input method in Simple Mode"
                     }
                 ]
             },
@@ -62,21 +59,13 @@
                 "title": "Fix:",
                 "texts": [
                     {
-                        "text": "Game Launch:"
+                        "text": "UI related: Ensure the keep-screen-on function is called on the UI thread"
                     },
                     {
-                        "text": "Screen content not aligned when refreshing window resolution",
-                        "indentation": 1
+                        "text": "Game Launch: Fixed abnormal rendering issues"
                     },
                     {
-                        "text": "Redirected resource indexes for older versions",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Terracotta: Launcher crashing due to unexpected corruption of the multiplayer core"
-                    },
-                    {
-                        "text": "Launcher paths: Manually construct paths when external storage path cannot be obtained"
+                        "text": "Modpack Import: \"client-overrides\" directory from Modrinth modpacks was not imported"
                     }
                 ]
             }
@@ -97,9 +86,6 @@
                                     "link": "https://hosted.weblate.org/projects/zalithlauncher2/"
                                 }
                             ]
-                        },
-                        {
-                            "text": "输入代理：为简单模式加入拉起输入法按钮"
                         }
                     ]
                 },
@@ -107,21 +93,13 @@
                     "title": "修复：",
                     "texts": [
                         {
-                            "text": "启动游戏："
+                            "text": "UI 相关：确保防熄屏函数在 UI 线程内调用"
                         },
                         {
-                            "text": "刷新窗口分辨率时，画面未对齐",
-                            "indentation": 1
+                            "text": "启动游戏：修复画面显示异常"
                         },
                         {
-                            "text": "对旧版本的资源索引进行重定向",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "陶瓦联机：联机核心意外损坏导致启动器崩溃"
-                        },
-                        {
-                            "text": "启动器路径：在无法获取外部存储路径时，手动拼接"
+                            "text": "导入整合包：未导入 Modrinth 整合包中的 \"client-overrides\" 目录"
                         }
                     ]
                 }
