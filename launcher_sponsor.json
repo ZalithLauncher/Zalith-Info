@@ -1,6 +1,20 @@
 {
   "sponsors": [
     {
+      "name": "py",
+      "time": "2026/02/09",
+      "identifier": "202602091715134957525327019",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0
+    },
+    {
+      "name": "爱发电用户_39a09",
+      "time": "2026/02/08",
+      "identifier": "202602082212131005649511463",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.2
+    },
+    {
       "name": "志鹏",
       "time": "2026/02/07",
       "identifier": "202602072304599854524815828",
