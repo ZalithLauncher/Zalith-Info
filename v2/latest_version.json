@@ -1,41 +1,41 @@
 {
-    "code": 200006,
-    "version": "2.1.0",
-    "created_at": "2026-02-16T08:43:34Z",
+    "code": 200007,
+    "version": "2.1.1",
+    "created_at": "2026-02-26T06:47:40Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-sKc0v"
+        "link": "https://www.123865.com/s/YLIUVv-V7c0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.1.0-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.0/ZalithLauncher-2.1.0-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.1.1-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.1/ZalithLauncher-2.1.1-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 129670709
+            "size": 130203359
         },
         {
-            "file_name": "ZalithLauncher-2.1.0-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.0/ZalithLauncher-2.1.0-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.1.1-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.1/ZalithLauncher-2.1.1-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 123065446
+            "size": 123549952
         },
         {
-            "file_name": "ZalithLauncher-2.1.0-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.0/ZalithLauncher-2.1.0-x86.apk",
+            "file_name": "ZalithLauncher-2.1.1-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.1/ZalithLauncher-2.1.1-x86.apk",
             "arch": "x86",
-            "size": 113624995
+            "size": 114228481
         },
         {
-            "file_name": "ZalithLauncher-2.1.0-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.0/ZalithLauncher-2.1.0-x86_64.apk",
+            "file_name": "ZalithLauncher-2.1.1-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.1/ZalithLauncher-2.1.1-x86_64.apk",
             "arch": "x86_64",
-            "size": 133352315
+            "size": 133918693
         },
         {
-            "file_name": "ZalithLauncher-2.1.0.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.0/ZalithLauncher-2.1.0.apk",
+            "file_name": "ZalithLauncher-2.1.1.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.1/ZalithLauncher-2.1.1.apk",
             "arch": "all",
-            "size": 257110025
+            "size": 258770551
         }
     ],
     "default_body": {
@@ -48,73 +48,32 @@
                         "text": "Synchronized languages from",
                         "links": [
                             {
-                                "text": "Weblate project",
+                                "text": "Weblate",
                                 "link": "https://hosted.weblate.org/projects/zalithlauncher2/"
                             }
                         ]
                     },
                     {
-                        "text": "Game Download:"
+                        "text": "Launcher: Display a sponsorship prompt after launching the game 100 times"
                     },
                     {
-                        "text": "Automatically select Fabric API and Quilted Fabric API",
+                        "text": "Mod Manager: Support selecting all to update all mods"
+                    },
+                    {
+                        "text": "Version Manager: Support exporting modpacks in MCBBS, Modrinth, and MultiMC formats"
+                    },
+                    {
+                        "text": "UI related:"
+                    },
+                    {
+                        "text": "Game Menu: Slider configuration values can be modified via manual input",
                         "indentation": 1
                     },
                     {
-                        "text": "Show a warning when only Fabric or Quilt is selected without the API mod installed",
-                        "indentation": 1
+                        "text": "Gamepad Controls: Support saving multiple mapping profiles"
                     },
                     {
-                        "text": "Download related: Warn users when downloading over mobile data"
-                    },
-                    {
-                        "text": "Account Management: Support custom UUID when creating offline accounts"
-                    },
-                    {
-                        "text": "Content Management:"
-                    },
-                    {
-                        "text": "Support managing the server list",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Mod Manager: Display mod count statistics",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Logs: Idea-style syntax highlighting"
-                    },
-                    {
-                        "text": "Language Settings: Added Uyghur and reordered the language list"
-                    },
-                    {
-                        "text": "Terracotta: Updated library to",
-                        "links": [
-                            {
-                                "text": "v0.4.2",
-                                "link": "https://github.com/burningtnt/Terracotta/releases/tag/v0.4.2"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Renderer:"
-                    },
-                    {
-                        "text": "Updated Krypton Wrapper to",
-                        "indentation": 1,
-                        "links": [
-                            {
-                                "text": "0.4.4",
-                                "link": "https://github.com/BZLZHH/NG-GL4ES/releases/tag/R0.4.4"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Updated ANGLE",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Joystick Controls: Support customizing the forward lock detection range"
+                        "text": "Game Download: Support downloading versions not listed in the official launcher"
                     }
                 ]
             },
@@ -122,18 +81,7 @@
                 "title": "Refactor:",
                 "texts": [
                     {
-                        "text": "UI related: Refactored Minecraft-style text color rendering"
-                    },
-                    {
-                        "text": "Gamepad Controls:"
-                    },
-                    {
-                        "text": "Handle key events earlier to prevent the 'B' button from being treated as the system back key",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Completely block gamepad events when gamepad control is disabled",
-                        "indentation": 1
+                        "text": "UI related: Optimized game menu rendering performance"
                     }
                 ]
             },
@@ -141,19 +89,13 @@
                 "title": "Adjustment:",
                 "texts": [
                     {
-                        "text": "UI related:"
+                        "text": "Control Layout Editor: Allow closing the edit control dialog by tapping outside the dialog"
                     },
                     {
-                        "text": "Web pages: Adjusted web screen UI",
-                        "indentation": 1
+                        "text": "JVM: No longer pass the system language when running Jar files"
                     },
                     {
-                        "text": "Version Management: Adjusted version description text opacity",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Logs: Dynamically adjust line spacing",
-                        "indentation": 1
+                        "text": "Renderer: Freedreno renderer no longer loads Vulkan"
                     }
                 ]
             },
@@ -161,38 +103,16 @@
                 "title": "Fix:",
                 "texts": [
                     {
-                        "text": "Controls:"
+                        "text": "Renderer: Fixed crashes caused by ANGLE on some devices by",
+                        "links": [
+                            {
+                                "text": "aaaapai",
+                                "link": "https://github.com/aaaapai"
+                            }
+                        ]
                     },
                     {
-                        "text": "Thread-safety issues in the key event handler",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Only forcibly close the input method when the mouse is captured",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Game Display: Use the actual screen size as the launch resolution"
-                    },
-                    {
-                        "text": "Input Proxy: Simple Mode could not use input method keys such as Enter"
-                    },
-                    {
-                        "text": "Mod Manager: Occasional thread-safety issues when refreshing the mod list"
-                    },
-                    {
-                        "text": "UI related:"
-                    },
-                    {
-                        "text": "Crash when entering settings without a Java runtime environment",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Single-line input fields not preventing issues caused by pasting multi-line text",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Renderer: Environment variables for the Krypton Wrapper renderer not configured correctly"
+                        "text": "Version Management: Crash when no third-party app is available to handle directory sharing requests"
                     }
                 ]
             }
@@ -215,67 +135,26 @@
                             ]
                         },
                         {
-                            "text": "下载游戏："
+                            "text": "启动器：在启动 100 次游戏后，显示赞助支持弹窗"
                         },
                         {
-                            "text": "自动选择 Fabric API、Quilted Fabric API",
+                            "text": "模组管理器：支持全选更新所有模组"
+                        },
+                        {
+                            "text": "版本管理器：支持导出 MCBBS、Modrinth、MultiMC 格式的整合包"
+                        },
+                        {
+                            "text": "UI 相关："
+                        },
+                        {
+                            "text": "游戏菜单：滑动条配置项可通过手动输入值修改",
                             "indentation": 1
                         },
                         {
-                            "text": "只选择 Fabric 或 Quilt 时，弹出 API 模组未安装警告",
-                            "indentation": 1
+                            "text": "手柄控制：支持保存多套映射方案"
                         },
                         {
-                            "text": "下载相关：在使用移动网络下载时，警告用户"
-                        },
-                        {
-                            "text": "账号管理：创建离线账号时，支持自定义 UUID"
-                        },
-                        {
-                            "text": "内容管理："
-                        },
-                        {
-                            "text": "支持管理服务器列表",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "模组管理器：统计模组数量信息",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "日志：仿 Idea 日志上色"
-                        },
-                        {
-                            "text": "语言设置：选项中新增维吾尔语，对列表进行重排序"
-                        },
-                        {
-                            "text": "陶瓦联机：将库更新至",
-                            "links": [
-                                {
-                                    "text": "v0.4.2",
-                                    "link": "https://github.com/burningtnt/Terracotta/releases/tag/v0.4.2"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "渲染器："
-                        },
-                        {
-                            "text": "将 Krypton Wrapper 更新至",
-                            "indentation": 1,
-                            "links": [
-                                {
-                                    "text": "0.4.4",
-                                    "link": "https://github.com/BZLZHH/NG-GL4ES/releases/tag/R0.4.4"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "更新 ANGLE",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "摇杆控制：支持自定义前进锁判定范围"
+                            "text": "下载游戏：支持下载官方未展示的版本"
                         }
                     ]
                 },
@@ -283,18 +162,7 @@
                     "title": "重构：",
                     "texts": [
                         {
-                            "text": "UI 相关：重构仿 Minecraft 文本颜色渲染"
-                        },
-                        {
-                            "text": "手柄控制："
-                        },
-                        {
-                            "text": "提前处理按键事件，避免 'B' 键被当作系统返回键处理",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "禁用手柄控制时，完全阻止手柄事件向下传递",
-                            "indentation": 1
+                            "text": "UI 相关：优化游戏菜单渲染性能"
                         }
                     ]
                 },
@@ -302,19 +170,13 @@
                     "title": "调整：",
                     "texts": [
                         {
-                            "text": "UI 相关："
+                            "text": "控制布局编辑器：编辑控件对话框允许点击空白部分关闭"
                         },
                         {
-                            "text": "网页：调整网页屏幕UI",
-                            "indentation": 1
+                            "text": "JVM：运行 Jar 时，不再传入系统语言"
                         },
                         {
-                            "text": "版本管理：调整版本描述文本不透明度",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "日志：动态调整文本行间距",
-                            "indentation": 1
+                            "text": "渲染器：Freedreno 渲染器未加载 Vulkan"
                         }
                     ]
                 },
@@ -322,38 +184,16 @@
                     "title": "修复：",
                     "texts": [
                         {
-                            "text": "控制："
+                            "text": "渲染器：修复 ANGLE 在部分设备上导致的崩溃 by ",
+                            "links": [
+                                {
+                                    "text": "aaaapai",
+                                    "link": "https://github.com/aaaapai"
+                                }
+                            ]
                         },
                         {
-                            "text": "按键事件处理器的线程安全问题",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "仅在鼠标被抓获时，强行关闭输入法",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "游戏画面：改用屏幕画面的实际大小作为分辨率启动游戏"
-                        },
-                        {
-                            "text": "输入代理：简单模式无法使用输入法的回车等键"
-                        },
-                        {
-                            "text": "模组管理器：刷新模组列表时，偶发的线程安全问题"
-                        },
-                        {
-                            "text": "UI 相关："
-                        },
-                        {
-                            "text": "无 Java 运行环境时，进入设置页面导致崩溃",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "单行编辑的输入框未避免粘贴多行文本带来的问题",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "渲染器：未正确配置 Krypton Wrapper 渲染器的环境变量"
+                            "text": "版本管理：无第三方应用可以处理目录分享请求时崩溃"
                         }
                     ]
                 }
