@@ -1,41 +1,41 @@
 {
-    "code": 200007,
-    "version": "2.1.1",
-    "created_at": "2026-02-26T06:47:40Z",
+    "code": 200008,
+    "version": "2.1.2",
+    "created_at": "2026-03-05T10:13:51Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-V7c0v"
+        "link": "https://www.123865.com/s/YLIUVv-Atc0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.1.1-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.1/ZalithLauncher-2.1.1-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.1.2-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.2/ZalithLauncher-2.1.2-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 130203359
+            "size": 130242095
         },
         {
-            "file_name": "ZalithLauncher-2.1.1-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.1/ZalithLauncher-2.1.1-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.1.2-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.2/ZalithLauncher-2.1.2-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 123549952
+            "size": 123588684
         },
         {
-            "file_name": "ZalithLauncher-2.1.1-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.1/ZalithLauncher-2.1.1-x86.apk",
+            "file_name": "ZalithLauncher-2.1.2-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.2/ZalithLauncher-2.1.2-x86.apk",
             "arch": "x86",
-            "size": 114228481
+            "size": 114267201
         },
         {
-            "file_name": "ZalithLauncher-2.1.1-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.1/ZalithLauncher-2.1.1-x86_64.apk",
+            "file_name": "ZalithLauncher-2.1.2-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.2/ZalithLauncher-2.1.2-x86_64.apk",
             "arch": "x86_64",
-            "size": 133918693
+            "size": 133957433
         },
         {
-            "file_name": "ZalithLauncher-2.1.1.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.1/ZalithLauncher-2.1.1.apk",
+            "file_name": "ZalithLauncher-2.1.2.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.2/ZalithLauncher-2.1.2.apk",
             "arch": "all",
-            "size": 258770551
+            "size": 258809291
         }
     ],
     "default_body": {
@@ -54,26 +54,10 @@
                         ]
                     },
                     {
-                        "text": "Launcher: Display a sponsorship prompt after launching the game 100 times"
+                        "text": "Open Link: Added a button to copy the link"
                     },
                     {
-                        "text": "Mod Manager: Support selecting all to update all mods"
-                    },
-                    {
-                        "text": "Version Manager: Support exporting modpacks in MCBBS, Modrinth, and MultiMC formats"
-                    },
-                    {
-                        "text": "UI related:"
-                    },
-                    {
-                        "text": "Game Menu: Slider configuration values can be modified via manual input",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Gamepad Controls: Support saving multiple mapping profiles"
-                    },
-                    {
-                        "text": "Game Download: Support downloading versions not listed in the official launcher"
+                        "text": "Modpacks: Added hint messages to the modpack export page"
                     }
                 ]
             },
@@ -81,7 +65,10 @@
                 "title": "Refactor:",
                 "texts": [
                     {
-                        "text": "UI related: Optimized game menu rendering performance"
+                        "text": "UI related: Reworked the modpack export information page & significantly optimized page performance"
+                    },
+                    {
+                        "text": "Input Proxy: Use the legacy input method as the simple input mode"
                     }
                 ]
             },
@@ -89,13 +76,13 @@
                 "title": "Adjustment:",
                 "texts": [
                     {
-                        "text": "Control Layout Editor: Allow closing the edit control dialog by tapping outside the dialog"
+                        "text": "Copy Text: Unified label"
                     },
                     {
-                        "text": "JVM: No longer pass the system language when running Jar files"
+                        "text": "Logs: Write device architecture information to logs when the launcher crashes"
                     },
                     {
-                        "text": "Renderer: Freedreno renderer no longer loads Vulkan"
+                        "text": "UI related: Allow input fields to hide the input method when pressing Enter"
                     }
                 ]
             },
@@ -103,16 +90,40 @@
                 "title": "Fix:",
                 "texts": [
                     {
-                        "text": "Renderer: Fixed crashes caused by ANGLE on some devices by",
-                        "links": [
-                            {
-                                "text": "aaaapai",
-                                "link": "https://github.com/aaaapai"
-                            }
-                        ]
+                        "text": "Control Layout: In tap control mode, controls that move the mouse only move the mouse"
                     },
                     {
-                        "text": "Version Management: Crash when no third-party app is available to handle directory sharing requests"
+                        "text": "UI related:"
+                    },
+                    {
+                        "text": "Version icon not refreshing correctly after being changed",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Incorrect parameter passing in some settings components",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Modpack Export:"
+                    },
+                    {
+                        "text": "Enabled mods were incorrectly marked as optional",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Disabled mods should also output paths with the .jar suffix",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Modrinth modpacks do not require specifying an author",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "File list sorting algorithm causing crashes",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Launch: Version 2.0 April Fools build failed to launch due to incorrect language configuration"
                     }
                 ]
             }
@@ -135,26 +146,10 @@
                             ]
                         },
                         {
-                            "text": "启动器：在启动 100 次游戏后，显示赞助支持弹窗"
+                            "text": "打开链接：添加复制链接的按钮"
                         },
                         {
-                            "text": "模组管理器：支持全选更新所有模组"
-                        },
-                        {
-                            "text": "版本管理器：支持导出 MCBBS、Modrinth、MultiMC 格式的整合包"
-                        },
-                        {
-                            "text": "UI 相关："
-                        },
-                        {
-                            "text": "游戏菜单：滑动条配置项可通过手动输入值修改",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "手柄控制：支持保存多套映射方案"
-                        },
-                        {
-                            "text": "下载游戏：支持下载官方未展示的版本"
+                            "text": "整合包：为导出整合包页面增加提示信息"
                         }
                     ]
                 },
@@ -162,7 +157,10 @@
                     "title": "重构：",
                     "texts": [
                         {
-                            "text": "UI 相关：优化游戏菜单渲染性能"
+                            "text": "UI 相关：重做导出整合包信息页 & 大幅优化页面性能"
+                        },
+                        {
+                            "text": "输入代理：使用旧版输入方式作为简单输入"
                         }
                     ]
                 },
@@ -170,13 +168,13 @@
                     "title": "调整：",
                     "texts": [
                         {
-                            "text": "控制布局编辑器：编辑控件对话框允许点击空白部分关闭"
+                            "text": "复制文本：统一 Label"
                         },
                         {
-                            "text": "JVM：运行 Jar 时，不再传入系统语言"
+                            "text": "日志：启动器崩溃时，在日志中写入设备架构信息"
                         },
                         {
-                            "text": "渲染器：Freedreno 渲染器未加载 Vulkan"
+                            "text": "UI 相关：让输入框支持回车收起输入法"
                         }
                     ]
                 },
@@ -184,16 +182,40 @@
                     "title": "修复：",
                     "texts": [
                         {
-                            "text": "渲染器：修复 ANGLE 在部分设备上导致的崩溃 by ",
-                            "links": [
-                                {
-                                    "text": "aaaapai",
-                                    "link": "https://github.com/aaaapai"
-                                }
-                            ]
+                            "text": "控制布局：点击控制模式下，带动鼠标的控件仅移动鼠标"
                         },
                         {
-                            "text": "版本管理：无第三方应用可以处理目录分享请求时崩溃"
+                            "text": "UI 相关："
+                        },
+                        {
+                            "text": "更换版本图标后未正常刷新",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "部分设置组件传参不正确",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "导出整合包："
+                        },
+                        {
+                            "text": "未被禁用的模组意外的被标记为可选项",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "被禁用的模组也应当输出 .jar 后缀的路径",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "Modrinth 整合包不要求设置作者",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "文件列表排序算法导致崩溃",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "启动：2.0 愚人节因语言配置不正确无法启动"
                         }
                     ]
                 }
