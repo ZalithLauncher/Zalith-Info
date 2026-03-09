@@ -1,41 +1,41 @@
 {
-    "code": 200008,
-    "version": "2.1.2",
-    "created_at": "2026-03-05T10:13:51Z",
+    "code": 200009,
+    "version": "2.1.3",
+    "created_at": "2026-03-09T05:14:22Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-Atc0v"
+        "link": "https://www.123865.com/s/YLIUVv-2zc0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.1.2-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.2/ZalithLauncher-2.1.2-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.1.3-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.3/ZalithLauncher-2.1.3-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 130242095
+            "size": 130275887
         },
         {
-            "file_name": "ZalithLauncher-2.1.2-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.2/ZalithLauncher-2.1.2-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.1.3-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.3/ZalithLauncher-2.1.3-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 123588684
+            "size": 123630220
         },
         {
-            "file_name": "ZalithLauncher-2.1.2-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.2/ZalithLauncher-2.1.2-x86.apk",
+            "file_name": "ZalithLauncher-2.1.3-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.3/ZalithLauncher-2.1.3-x86.apk",
             "arch": "x86",
-            "size": 114267201
+            "size": 114299693
         },
         {
-            "file_name": "ZalithLauncher-2.1.2-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.2/ZalithLauncher-2.1.2-x86_64.apk",
+            "file_name": "ZalithLauncher-2.1.3-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.3/ZalithLauncher-2.1.3-x86_64.apk",
             "arch": "x86_64",
-            "size": 133957433
+            "size": 133980929
         },
         {
-            "file_name": "ZalithLauncher-2.1.2.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.2/ZalithLauncher-2.1.2.apk",
+            "file_name": "ZalithLauncher-2.1.3.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.3/ZalithLauncher-2.1.3.apk",
             "arch": "all",
-            "size": 258809291
+            "size": 258850431
         }
     ],
     "default_body": {
@@ -54,35 +54,10 @@
                         ]
                     },
                     {
-                        "text": "Open Link: Added a button to copy the link"
+                        "text": "Game: When browsing the game directory, support importing files"
                     },
                     {
-                        "text": "Modpacks: Added hint messages to the modpack export page"
-                    }
-                ]
-            },
-            {
-                "title": "Refactor:",
-                "texts": [
-                    {
-                        "text": "UI related: Reworked the modpack export information page & significantly optimized page performance"
-                    },
-                    {
-                        "text": "Input Proxy: Use the legacy input method as the simple input mode"
-                    }
-                ]
-            },
-            {
-                "title": "Adjustment:",
-                "texts": [
-                    {
-                        "text": "Copy Text: Unified label"
-                    },
-                    {
-                        "text": "Logs: Write device architecture information to logs when the launcher crashes"
-                    },
-                    {
-                        "text": "UI related: Allow input fields to hide the input method when pressing Enter"
+                        "text": "Terracotta: Added support for custom server nodes and restored cross-launcher multiplayer"
                     }
                 ]
             },
@@ -90,40 +65,10 @@
                 "title": "Fix:",
                 "texts": [
                     {
-                        "text": "Control Layout: In tap control mode, controls that move the mouse only move the mouse"
+                        "text": "Terracotta: After a guest enters an invite code, the input dialog did not close in time"
                     },
                     {
-                        "text": "UI related:"
-                    },
-                    {
-                        "text": "Version icon not refreshing correctly after being changed",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Incorrect parameter passing in some settings components",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Modpack Export:"
-                    },
-                    {
-                        "text": "Enabled mods were incorrectly marked as optional",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Disabled mods should also output paths with the .jar suffix",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Modrinth modpacks do not require specifying an author",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "File list sorting algorithm causing crashes",
-                        "indentation": 1
-                    },
-                    {
-                        "text": "Launch: Version 2.0 April Fools build failed to launch due to incorrect language configuration"
+                        "text": "UI related: Auto-scroll could crash in rare cases due to index out-of-bounds"
                     }
                 ]
             }
@@ -146,35 +91,10 @@
                             ]
                         },
                         {
-                            "text": "打开链接：添加复制链接的按钮"
+                            "text": "游戏：浏览游戏打开的目录，支持导入文件"
                         },
                         {
-                            "text": "整合包：为导出整合包页面增加提示信息"
-                        }
-                    ]
-                },
-                {
-                    "title": "重构：",
-                    "texts": [
-                        {
-                            "text": "UI 相关：重做导出整合包信息页 & 大幅优化页面性能"
-                        },
-                        {
-                            "text": "输入代理：使用旧版输入方式作为简单输入"
-                        }
-                    ]
-                },
-                {
-                    "title": "调整：",
-                    "texts": [
-                        {
-                            "text": "复制文本：统一 Label"
-                        },
-                        {
-                            "text": "日志：启动器崩溃时，在日志中写入设备架构信息"
-                        },
-                        {
-                            "text": "UI 相关：让输入框支持回车收起输入法"
+                            "text": "陶瓦联机：接入自定义服务器节点，恢复跨启动器联机"
                         }
                     ]
                 },
@@ -182,40 +102,10 @@
                     "title": "修复：",
                     "texts": [
                         {
-                            "text": "控制布局：点击控制模式下，带动鼠标的控件仅移动鼠标"
+                            "text": "陶瓦联机：房客输入邀请码后，输入对话框未及时关闭"
                         },
                         {
-                            "text": "UI 相关："
-                        },
-                        {
-                            "text": "更换版本图标后未正常刷新",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "部分设置组件传参不正确",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "导出整合包："
-                        },
-                        {
-                            "text": "未被禁用的模组意外的被标记为可选项",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "被禁用的模组也应当输出 .jar 后缀的路径",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "Modrinth 整合包不要求设置作者",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "文件列表排序算法导致崩溃",
-                            "indentation": 1
-                        },
-                        {
-                            "text": "启动：2.0 愚人节因语言配置不正确无法启动"
+                            "text": "UI 相关：自动滚动少数情况因索引越界导致崩溃"
                         }
                     ]
                 }
