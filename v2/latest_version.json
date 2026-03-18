@@ -1,41 +1,41 @@
 {
-    "code": 200009,
-    "version": "2.1.3",
-    "created_at": "2026-03-09T05:14:22Z",
+    "code": 200010,
+    "version": "2.2.0",
+    "created_at": "2026-03-18T06:42:30Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-2zc0v"
+        "link": "https://www.123865.com/s/YLIUVv-wjc0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.1.3-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.3/ZalithLauncher-2.1.3-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.2.0-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.0/ZalithLauncher-2.2.0-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 130275887
+            "size": 136452651
         },
         {
-            "file_name": "ZalithLauncher-2.1.3-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.3/ZalithLauncher-2.1.3-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.2.0-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.0/ZalithLauncher-2.2.0-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 123630220
+            "size": 129806976
         },
         {
-            "file_name": "ZalithLauncher-2.1.3-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.3/ZalithLauncher-2.1.3-x86.apk",
+            "file_name": "ZalithLauncher-2.2.0-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.0/ZalithLauncher-2.2.0-x86.apk",
             "arch": "x86",
-            "size": 114299693
+            "size": 120476457
         },
         {
-            "file_name": "ZalithLauncher-2.1.3-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.3/ZalithLauncher-2.1.3-x86_64.apk",
+            "file_name": "ZalithLauncher-2.2.0-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.0/ZalithLauncher-2.2.0-x86_64.apk",
             "arch": "x86_64",
-            "size": 133980929
+            "size": 140157693
         },
         {
-            "file_name": "ZalithLauncher-2.1.3.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.1.3/ZalithLauncher-2.1.3.apk",
+            "file_name": "ZalithLauncher-2.2.0.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.0/ZalithLauncher-2.2.0.apk",
             "arch": "all",
-            "size": 258850431
+            "size": 265027191
         }
     ],
     "default_body": {
@@ -54,10 +54,68 @@
                         ]
                     },
                     {
-                        "text": "Game: When browsing the game directory, support importing files"
+                        "text": "CurseForge Modpacks:"
                     },
                     {
-                        "text": "Terracotta: Added support for custom server nodes and restored cross-launcher multiplayer"
+                        "text": "Added support for Quilt loader",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Support setting recommended memory allocation",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Modpack Export: Support exporting modpacks in CurseForge format"
+                    },
+                    {
+                        "text": "Crash Page: Added log upload functionality and refactored the error UI by",
+                        "links": [
+                            {
+                                "text": "leemwood",
+                                "link": "https://github.com/leemwood"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Download related:"
+                    },
+                    {
+                        "text": "Support automatic installation of Cleanroom and Legacy Fabric",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Loaders are only selectable when supported by the selected version",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Version Management:"
+                    },
+                    {
+                        "text": "Support detecting Legacy Fabric and Babric",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Support installing mod loaders on vanilla versions",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Launcher: Update the top bar title based on the current page"
+                    }
+                ]
+            },
+            {
+                "title": "Adjustment:",
+                "texts": [
+                    {
+                        "text": "Input Proxy: Adjusted logic for Simple Mode"
+                    }
+                ]
+            },
+            {
+                "title": "Refactor:",
+                "texts": [
+                    {
+                        "text": "Controls: Optimized key deduplication logic"
                     }
                 ]
             },
@@ -65,10 +123,30 @@
                 "title": "Fix:",
                 "texts": [
                     {
-                        "text": "Terracotta: After a guest enters an invite code, the input dialog did not close in time"
+                        "text": "Download related:"
                     },
                     {
-                        "text": "UI related: Auto-scroll could crash in rare cases due to index out-of-bounds"
+                        "text": "Dependencies for Forge and NeoForge were not fully downloaded during installation",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Download tasks were not terminated when errors occurred while downloading vanilla versions",
+                        "indentation": 1
+                    },
+                    {
+                        "text": "Loader Update: Canceling a loader update could accidentally delete version data"
+                    },
+                    {
+                        "text": "Cleanroom: Runtime issues caused by icu4j library loading order"
+                    },
+                    {
+                        "text": "Babric: Duplicate asm libraries preventing Babric from working"
+                    },
+                    {
+                        "text": "LWJGL: Unable to run TouchController 1.12.2 Forge"
+                    },
+                    {
+                        "text": "Gamepad Mapping: Incorrect logic caused directional key mappings to overwrite each other when saving"
                     }
                 ]
             }
@@ -91,10 +169,68 @@
                             ]
                         },
                         {
-                            "text": "游戏：浏览游戏打开的目录，支持导入文件"
+                            "text": "CurseForge 整合包："
                         },
                         {
-                            "text": "陶瓦联机：接入自定义服务器节点，恢复跨启动器联机"
+                            "text": "支持 Quilt 加载器",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "支持设置推荐内存分配",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "导出整合包：支持导出 CurseForge 格式的整合包"
+                        },
+                        {
+                            "text": "崩溃页面：添加错误日志上传功能并重构错误界面 by",
+                            "links": [
+                                {
+                                    "text": "柠枺",
+                                    "link": "https://github.com/leemwood"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "下载相关："
+                        },
+                        {
+                            "text": "支持自动安装 Cleanroom、Legacy Fabric",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "加载器仅在支持当版本时可选择",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "版本管理："
+                        },
+                        {
+                            "text": "支持识别 Legacy Fabric、Babric",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "支持在原版上安装模组加载器",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "启动器：根据页面变更顶部栏标题"
+                        }
+                    ]
+                },
+                {
+                    "title": "调整：",
+                    "texts": [
+                        {
+                            "text": "输入代理：调整简单输入部分逻辑"
+                        }
+                    ]
+                },
+                {
+                    "title": "重构：",
+                    "texts": [
+                        {
+                            "text": "控制：优化按键去重逻辑"
                         }
                     ]
                 },
@@ -102,10 +238,30 @@
                     "title": "修复：",
                     "texts": [
                         {
-                            "text": "陶瓦联机：房客输入邀请码后，输入对话框未及时关闭"
+                            "text": "下载相关："
                         },
                         {
-                            "text": "UI 相关：自动滚动少数情况因索引越界导致崩溃"
+                            "text": "安装时，未完整下载 Forge、NeoForge 的依赖库",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "下载原版出现异常时，未终止下载任务",
+                            "indentation": 1
+                        },
+                        {
+                            "text": "更新加载器：更新加载器时取消，误删版本数据"
+                        },
+                        {
+                            "text": "Cleanroom：因 icu4j 库加载顺序问题导致的运行异常"
+                        },
+                        {
+                            "text": "Babric：asm 库重复导致无法使用 Babric"
+                        },
+                        {
+                            "text": "LWJGL：无法运行 TouchController 1.12.2 Forge"
+                        },
+                        {
+                            "text": "手柄映射：保存时，错误的逻辑导致方向按键的映射被相互覆盖"
                         }
                     ]
                 }
