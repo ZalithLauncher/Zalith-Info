@@ -1,51 +1,51 @@
 {
     "code": 200010,
-    "version": "2.2.0",
-    "created_at": "2026-03-18T06:42:30Z",
+    "version": "2.2.1",
+    "created_at": "2026-03-23T14:30:26Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-wjc0v"
+        "link": "https://www.123865.com/s/YLIUVv-6ve0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.2.0-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.0/ZalithLauncher-2.2.0-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.2.1-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.1/ZalithLauncher-2.2.1-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 136452651
+            "size": 182780134
         },
         {
-            "file_name": "ZalithLauncher-2.2.0-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.0/ZalithLauncher-2.2.0-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.2.1-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.1/ZalithLauncher-2.2.1-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 129806976
+            "size": 175925959
         },
         {
-            "file_name": "ZalithLauncher-2.2.0-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.0/ZalithLauncher-2.2.0-x86.apk",
+            "file_name": "ZalithLauncher-2.2.1-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.1/ZalithLauncher-2.2.1-x86.apk",
             "arch": "x86",
-            "size": 120476457
+            "size": 167176416
         },
         {
-            "file_name": "ZalithLauncher-2.2.0-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.0/ZalithLauncher-2.2.0-x86_64.apk",
+            "file_name": "ZalithLauncher-2.2.1-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.1/ZalithLauncher-2.2.1-x86_64.apk",
             "arch": "x86_64",
-            "size": 140157693
+            "size": 186576670
         },
         {
-            "file_name": "ZalithLauncher-2.2.0.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.0/ZalithLauncher-2.2.0.apk",
+            "file_name": "ZalithLauncher-2.2.1.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.1/ZalithLauncher-2.2.1.apk",
             "arch": "all",
-            "size": 265027191
+            "size": 320282108
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Update:\n- Synchronized languages from [Weblate](https://hosted.weblate.org/projects/zalithlauncher2/)\n- CurseForge Modpacks:\n  - Added support for Quilt loader\n  - Support setting recommended memory allocation\n- Modpack Export: Support exporting modpacks in CurseForge format\n- Crash Page: Added log upload functionality and refactored the error UI by [leemwood](https://github.com/leemwood)\n- Download related:\n  - Support automatic installation of Cleanroom and Legacy Fabric\n  - Loaders are only selectable when supported by the selected version\n- Version Management:\n  - Support detecting Legacy Fabric and Babric\n  - Support installing mod loaders on vanilla versions\n- Launcher: Update the top bar title based on the current page\n\n\n## Adjustment:\n- Input Proxy: Adjusted logic for Simple Mode\n\n\n## Refactor:\n- Controls: Optimized key deduplication logic\n\n\n## Fix:\n- Download related:\n  - Dependencies for Forge and NeoForge were not fully downloaded during installation\n  - Download tasks were not terminated when errors occurred while downloading vanilla versions\n- Loader Update: Canceling a loader update could accidentally delete version data\n- Cleanroom: Runtime issues caused by icu4j library loading order\n- Babric: Duplicate asm libraries preventing Babric from working\n- LWJGL: Unable to run TouchController 1.12.2 Forge\n- Gamepad Mapping: Incorrect logic caused directional key mappings to overwrite each other when saving"
+        "markdown": "## Update:\n- Synchronized languages from [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- LWJGL: Updated to 3.3.6\n- Java Runtime: Added JRE 25\n- Updates: Changelogs now use Markdown format\n- CurseForge: Added Performance and Other categories\n- Patcher: Disabled Create mod warnings on Pojav\n- Settings: Added Filipino to the language list\n\n\n## Fix:\n- Options:\n  - Always disable the \"Narrator\" option\n  - Always disable the \"Touchscreen Mode\" option\n- Save Management: Unable to read seeds from the new save data structure"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- CurseForge 整合包：\n  - 支持 Quilt 加载器\n  - 支持设置推荐内存分配\n- 导出整合包：支持导出 CurseForge 格式的整合包\n- 崩溃页面：添加错误日志上传功能并重构错误界面 by 柠枺\n- 下载相关：\n  - 支持自动安装 Cleanroom、Legacy Fabric\n  - 加载器仅在支持当版本时可选择\n- 版本管理：\n  - 支持识别 Legacy Fabric、Babric\n  - 支持在原版上安装模组加载器\n- 启动器：根据页面变更顶部栏标题\n\n## 调整：\n- 输入代理：调整简单输入部分逻辑\n\n## 重构：\n- 控制：优化按键去重逻辑\n\n## 修复：\n- 下载相关：\n  - 安装时，未完整下载 Forge、NeoForge 的依赖库\n  - 下载原版出现异常时，未终止下载任务\n- 更新加载器：更新加载器时取消，误删版本数据\n- Cleanroom：因 icu4j 库加载顺序问题导致的运行异常\n- Babric：asm 库重复导致无法使用 Babric\n- LWJGL：无法运行 TouchController 1.12.2 Forge\n- 手柄映射：保存时，错误的逻辑导致方向按键的映射被相互覆盖\n"
+            "markdown": "## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- LWJGL：更新至 3.3.6\n- Java环境：加入 JRE 25\n- 更新：更新日志使用 Markdown 格式\n- CurseForge：加入性能优化、其他类别选项\n- Patcher：禁用机械动力对 Pojav 端的警告\n\n\n## 修复：\n- options：\n  - 始终关闭“复述功能”选项\n  - 始终关闭“触屏模式”选项\n- 存档管理：无法读取新存档数据结构中的种子"
         }
     ]
 }
