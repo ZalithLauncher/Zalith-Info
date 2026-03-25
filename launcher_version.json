@@ -1,23 +1,23 @@
 {
-  "version_code": 141300,
-  "version_name": "1.4.1.3",
+  "version_code": 141400,
+  "version_name": "1.4.1.4",
   "title": {
     "en_us": "NONE",
     "zh_cn": "NONE",
     "zh_tw": "NONE"
   },
   "description": {
-    "en_us": "### New Features:\r\n- **LWJGL**: Updated to version 3.3.6.\r\n- **Java**: Added support for Java 25.",
-    "zh_cn": "### 更新内容:\n- **LWJGL**: 更新至 3.3.6\n- **Java**: 加入 Java 25",
-    "zh_tw": "### 更新內容:\n- **LWJGL**: 更新至 3.3.6\n- **Java**: 新增對 Java 25 的支援"
+    "en_us": "### Fixes:\r\n- **LWJGL**:  \r\n  - Fixed severe LWJGL-OpenGL mapping errors.  \r\n  - Fixed issue where certain versions of JourneyMap prevented the game from launching.  \r\n  - Fixed inability to launch version 1.7.2.  \r\n- **Download**:  \r\n  - Fixed incorrect parsing of date strings.  ",
+    "zh_cn": "### 修复内容:\n- **LWJGL**: \n  - 严重的 LWJGL-OpenGL 映射错误\n  - 部分版本 JourneyMap 导致游戏无法启动\n  - 无法启动 1.7.2\n- **下载**:\n  - 无法正确解析日期字符串",
+    "zh_tw": "### 修復內容:\n- **LWJGL**:  \n  - 修復嚴重的 LWJGL-OpenGL 映射錯誤。  \n  - 修復部分版本 JourneyMap 導致遊戲無法啟動的問題。  \n  - 修復無法啟動 1.7.2 版本的問題。  \n- **下載**:  \n  - 修復日期字串解析錯誤的問題。  "
   },
-  "published_at": "2026-03-23T08:02:37Z",
+  "published_at": "2026-03-25T05:15:30Z",
   "file_size": {
-    "all": 263171316,
-    "arm": 147330272,
-    "arm64": 152040489,
-    "x86": 136744198,
-    "x86_64": 155780658
+    "all": 263182936,
+    "arm": 147342116,
+    "arm64": 152052433,
+    "x86": 136756042,
+    "x86_64": 155792546
   },
   "pre_release": false
 }
