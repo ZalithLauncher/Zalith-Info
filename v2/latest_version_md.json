@@ -1,51 +1,51 @@
 {
-    "code": 200011,
-    "version": "2.2.1",
-    "created_at": "2026-03-23T14:30:26Z",
+    "code": 200012,
+    "version": "2.2.2",
+    "created_at": "2026-03-25T04:52:48Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-6ve0v"
+        "link": "https://www.123865.com/s/YLIUVv-lde0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.2.1-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.1/ZalithLauncher-2.2.1-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.2.2-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.2/ZalithLauncher-2.2.2-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 182780134
+            "size": 182796398
         },
         {
-            "file_name": "ZalithLauncher-2.2.1-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.1/ZalithLauncher-2.2.1-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.2.2-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.2/ZalithLauncher-2.2.2-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 175925959
+            "size": 175942243
         },
         {
-            "file_name": "ZalithLauncher-2.2.1-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.1/ZalithLauncher-2.2.1-x86.apk",
+            "file_name": "ZalithLauncher-2.2.2-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.2/ZalithLauncher-2.2.2-x86.apk",
             "arch": "x86",
-            "size": 167176416
+            "size": 167192692
         },
         {
-            "file_name": "ZalithLauncher-2.2.1-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.1/ZalithLauncher-2.2.1-x86_64.apk",
+            "file_name": "ZalithLauncher-2.2.2-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.2/ZalithLauncher-2.2.2-x86_64.apk",
             "arch": "x86_64",
-            "size": 186576670
+            "size": 186592950
         },
         {
-            "file_name": "ZalithLauncher-2.2.1.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.1/ZalithLauncher-2.2.1.apk",
+            "file_name": "ZalithLauncher-2.2.2.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.2/ZalithLauncher-2.2.2.apk",
             "arch": "all",
-            "size": 320282108
+            "size": 320298388
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Update:\n- Synchronized languages from [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- LWJGL: Updated to 3.3.6\n- Java Runtime: Added JRE 25\n- Updates: Changelogs now use Markdown format\n- CurseForge: Added Performance and Other categories\n- Patcher: Disabled Create mod warnings on Pojav\n- Settings: Added Filipino to the language list\n\n\n## Fix:\n- Options:\n  - Always disable the \"Narrator\" option\n  - Always disable the \"Touchscreen Mode\" option\n- Save Management: Unable to read seeds from the new save data structure"
+        "markdown": "## Updates:\n- Synced translations from the [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- Download:\n  - Reduced the notification priority of the JVM runtime service\n  - Added progress and description to notifications during Forge-like installer installation\n\n## Fixes:\n- LWJGL:\n  - Fixed Vulkan Mod failing to run due to missing UNSAFE\n  - Fixed Minecraft 1.7.2 failing to launch properly\n  - Fixed critical LWJGL-OpenGL mapping errors\n  - Fixed certain versions of JourneyMap preventing the game from launching (rendering issues may still persist)"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- LWJGL：更新至 3.3.6\n- Java环境：加入 JRE 25\n- 更新：更新日志使用 Markdown 格式\n- CurseForge：加入性能优化、其他类别选项\n- Patcher：禁用机械动力对 Pojav 端的警告\n\n\n## 修复：\n- options：\n  - 始终关闭“复述功能”选项\n  - 始终关闭“触屏模式”选项\n- 存档管理：无法读取新存档数据结构中的种子"
+            "markdown": "## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- 下载：\n  - 降低 JVM 运行服务通知级别\n  - 为 Forge 类安装器安装过程的通知添加进度和描述\n\n\n## 修复：\n- LWJGL：\n  - Vulkan Mod 因为缺少 UNSAFE 无法运行\n  - 1.7.2 无法正常启动\n  - 严重的 LWJGL-OpenGL 映射错误\n  - 部分版本 JourneyMap 导致游戏无法启动（但仍有渲染错误）"
         }
     ]
 }
