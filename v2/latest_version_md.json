@@ -1,51 +1,51 @@
 {
-    "code": 200012,
-    "version": "2.2.2",
-    "created_at": "2026-03-25T04:52:48Z",
+    "code": 200013,
+    "version": "2.2.3",
+    "created_at": "2026-03-27T06:46:28Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-lde0v"
+        "link": "https://www.123865.com/s/YLIUVv-L3e0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.2.2-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.2/ZalithLauncher-2.2.2-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.2.3-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.3/ZalithLauncher-2.2.3-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 182796398
+            "size": 182634011
         },
         {
-            "file_name": "ZalithLauncher-2.2.2-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.2/ZalithLauncher-2.2.2-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.2.3-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.3/ZalithLauncher-2.2.3-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 175942243
+            "size": 175792534
         },
         {
-            "file_name": "ZalithLauncher-2.2.2-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.2/ZalithLauncher-2.2.2-x86.apk",
+            "file_name": "ZalithLauncher-2.2.3-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.3/ZalithLauncher-2.2.3-x86.apk",
             "arch": "x86",
-            "size": 167192692
+            "size": 167012983
         },
         {
-            "file_name": "ZalithLauncher-2.2.2-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.2/ZalithLauncher-2.2.2-x86_64.apk",
+            "file_name": "ZalithLauncher-2.2.3-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.3/ZalithLauncher-2.2.3-x86_64.apk",
             "arch": "x86_64",
-            "size": 186592950
+            "size": 186426710
         },
         {
-            "file_name": "ZalithLauncher-2.2.2.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.2/ZalithLauncher-2.2.2.apk",
+            "file_name": "ZalithLauncher-2.2.3.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.3/ZalithLauncher-2.2.3.apk",
             "arch": "all",
-            "size": 320298388
+            "size": 319613043
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Updates:\n- Synced translations from the [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- Download:\n  - Reduced the notification priority of the JVM runtime service\n  - Added progress and description to notifications during Forge-like installer installation\n\n## Fixes:\n- LWJGL:\n  - Fixed Vulkan Mod failing to run due to missing UNSAFE\n  - Fixed Minecraft 1.7.2 failing to launch properly\n  - Fixed critical LWJGL-OpenGL mapping errors\n  - Fixed certain versions of JourneyMap preventing the game from launching (rendering issues may still persist)"
+        "markdown": "## Updates:\n- Synced translations from the [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- Control layout: added support for copying control layouts to a new file\n\n\n## Changes:\n- Joystick: the movable range is now determined by the background shape\n\n\n## Fixes:\n- NeoForge: fixed failure to properly detect and download versions 26.1+\n- Update loader: fixed incorrect logic when waiting for the loader list\n- Resolution: now calculated using only the Surface size\n- LWJGL: fixed missing legacy stb API causing some mods to fail to run properly by [ShirosakiMio](https://github.com/ShirosakiMio)"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- 下载：\n  - 降低 JVM 运行服务通知级别\n  - 为 Forge 类安装器安装过程的通知添加进度和描述\n\n\n## 修复：\n- LWJGL：\n  - Vulkan Mod 因为缺少 UNSAFE 无法运行\n  - 1.7.2 无法正常启动\n  - 严重的 LWJGL-OpenGL 映射错误\n  - 部分版本 JourneyMap 导致游戏无法启动（但仍有渲染错误）"
+            "markdown": "## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- 控制布局：支持复制控制布局到新文件\n\n\n## 调整：\n- 摇杆：摇杆可移动范围由背景形状决定\n\n\n## 修复：\n- NeoForge：无法正确识别并下载 26.1+\n- 更新加载器：等待加载器列表逻辑错误\n- 分辨率：仅使用 Surface 的大小进行计算\n- LWJGL：缺失旧版 stb API 导致部分模组无法正常运行 by [ShirosakiMio](https://github.com/ShirosakiMio)"
         }
     ]
 }
