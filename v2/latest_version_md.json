@@ -1,51 +1,51 @@
 {
-    "code": 200013,
-    "version": "2.2.3",
-    "created_at": "2026-03-27T06:46:28Z",
+    "code": 200014,
+    "version": "2.2.4",
+    "created_at": "2026-03-30T07:57:22Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-L3e0v"
+        "link": "https://www.123865.com/s/YLIUVv-zHe0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.2.3-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.3/ZalithLauncher-2.2.3-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.2.4-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.4/ZalithLauncher-2.2.4-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 182634011
+            "size": 182910121
         },
         {
-            "file_name": "ZalithLauncher-2.2.3-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.3/ZalithLauncher-2.2.3-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.2.4-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.4/ZalithLauncher-2.2.4-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 175792534
+            "size": 176068664
         },
         {
-            "file_name": "ZalithLauncher-2.2.3-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.3/ZalithLauncher-2.2.3-x86.apk",
+            "file_name": "ZalithLauncher-2.2.4-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.4/ZalithLauncher-2.2.4-x86.apk",
             "arch": "x86",
-            "size": 167012983
+            "size": 167289113
         },
         {
-            "file_name": "ZalithLauncher-2.2.3-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.3/ZalithLauncher-2.2.3-x86_64.apk",
+            "file_name": "ZalithLauncher-2.2.4-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.4/ZalithLauncher-2.2.4-x86_64.apk",
             "arch": "x86_64",
-            "size": 186426710
+            "size": 186702844
         },
         {
-            "file_name": "ZalithLauncher-2.2.3.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.3/ZalithLauncher-2.2.3.apk",
+            "file_name": "ZalithLauncher-2.2.4.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.4/ZalithLauncher-2.2.4.apk",
             "arch": "all",
-            "size": 319613043
+            "size": 319889129
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Updates:\n- Synced translations from the [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- Control layout: added support for copying control layouts to a new file\n\n\n## Changes:\n- Joystick: the movable range is now determined by the background shape\n\n\n## Fixes:\n- NeoForge: fixed failure to properly detect and download versions 26.1+\n- Update loader: fixed incorrect logic when waiting for the loader list\n- Resolution: now calculated using only the Surface size\n- LWJGL: fixed missing legacy stb API causing some mods to fail to run properly by [ShirosakiMio](https://github.com/ShirosakiMio)"
+        "markdown": "## Updates:\n- Synced translations from the [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- Added support for loading native library plugins, plugin repository: [NativeLibPlugin](https://github.com/ZalithLauncher/NativeLibPlugin/releases)\n- Controls: added support for using a stylus to interact with the game view\n\n## Changes:\n- Modpack installation: users can now cancel when entering the version name\n\n## Refactors:\n- Rewrote the account management screen using Hilt and MVI architecture. by [youfeng](https://github.com/youfeng11)\n\n## Fixes:\n- LWJGL: fixed inability to interact with Axiom mod GUI (imgui-java)\n- Fixed path formatting issues in the in-game file browser\n- Background: reduced frequent launcher background reloads\n- Resolution: fully fixed mouse offset issues on some devices"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- 控制布局：支持复制控制布局到新文件\n\n\n## 调整：\n- 摇杆：摇杆可移动范围由背景形状决定\n\n\n## 修复：\n- NeoForge：无法正确识别并下载 26.1+\n- 更新加载器：等待加载器列表逻辑错误\n- 分辨率：仅使用 Surface 的大小进行计算\n- LWJGL：缺失旧版 stb API 导致部分模组无法正常运行 by [ShirosakiMio](https://github.com/ShirosakiMio)"
+            "markdown": "## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- 支持加载原生库插件，插件库：[NativeLibPlugin](https://github.com/ZalithLauncher/NativeLibPlugin/releases)\n- 控制：允许使用触控笔操作游戏画面\n\n\n## 调整：\n- 安装整合包：输入版本名称时，允许用户取消\n\n\n## 重构：\n- 使用 hilt 与 MVI 架构重构账号管理屏幕 by [由风](https://github.com/youfeng11)\n\n\n## 修复：\n- LWJGL：无法点击 Axiom 模组的 GUI（imgui-java）\n- 游戏内文件夹浏览的路径格式化问题\n- 背景：不再频繁重载启动器背景\n- 分辨率：彻底解决部分设备的鼠标错位问题"
         }
     ]
 }
