@@ -1,51 +1,51 @@
 {
-    "code": 200015,
-    "version": "2.2.5",
-    "created_at": "2026-04-02T15:57:03Z",
+    "code": 200016,
+    "version": "2.3.0",
+    "created_at": "2026-04-11T11:40:15Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-S9e0v"
+        "link": "https://www.123865.com/s/YLIUVv-yme0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.2.5-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.5/ZalithLauncher-2.2.5-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.3.0-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.0/ZalithLauncher-2.3.0-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 180423985
+            "size": 189712382
         },
         {
-            "file_name": "ZalithLauncher-2.2.5-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.5/ZalithLauncher-2.2.5-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.3.0-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.0/ZalithLauncher-2.3.0-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 173815494
+            "size": 183368889
         },
         {
-            "file_name": "ZalithLauncher-2.2.5-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.5/ZalithLauncher-2.2.5-x86.apk",
+            "file_name": "ZalithLauncher-2.3.0-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.0/ZalithLauncher-2.3.0-x86.apk",
             "arch": "x86",
-            "size": 164452579
+            "size": 174802038
         },
         {
-            "file_name": "ZalithLauncher-2.2.5-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.5/ZalithLauncher-2.2.5-x86_64.apk",
+            "file_name": "ZalithLauncher-2.3.0-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.0/ZalithLauncher-2.3.0-x86_64.apk",
             "arch": "x86_64",
-            "size": 184064067
+            "size": 193849759
         },
         {
-            "file_name": "ZalithLauncher-2.2.5.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.2.5/ZalithLauncher-2.2.5.apk",
+            "file_name": "ZalithLauncher-2.3.0.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.0/ZalithLauncher-2.3.0.apk",
             "arch": "all",
-            "size": 309536077
+            "size": 326153019
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Updates:\n- Synced translations from the [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- Versions: added description for 26w14a (2026 April Fools version HerdCraft)\n\n## Changes:\n- Versions: switched to HMCL tools for version comparison\n\n## Fixes:\n- LWJGL: removed redundant shaderc, by [ShirosakiMio](https://github.com/ShirosakiMio)\n- In-game menu: prevented the floating button from moving off-screen when the screen size changes\n- Controls: prevented repeated events when long-pressing keyboard buttons"
+        "markdown": "## Notice:\n- Starting from 26.2+, Mojang has introduced the Vulkan rendering engine. If your device does not support **Vulkan 1.2**, you **may** be unable to launch the latest versions of Minecraft\n\n## Updates:\n- Synced translations from the [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- Settings: added option to disable persistent seasonal easter egg effects\n- Account management:\n  - Preview player model when changing skins/capes. by [youfeng](https://github.com/youfeng11), [MovTery](https://github.com/MovTery)\n  - Automatically detect and select the correct skin model when changing skins. by [youfeng](https://github.com/youfeng11), [MovTery](https://github.com/MovTery)\n- Control layout editor:\n  - Control layer list:\n    - Automatically scroll to the currently selected control layer\n    - Automatically scroll to the top when creating a control layer\n  - Automatically open the control layer properties dialog when creating a control layer\n  - Added support for copying control layers\n  - Synced background from the launcher main page settings\n  - Added support for styles to ignore dark theme\n  - Added confirmation dialog to prevent accidental deletion\n- Added support for importing control layouts via external app sharing\n- TouchController:\n  - Added support for configuring vibration types. by [fifth_light](https://github.com/fifth-light)\n  - Automatically enables control proxy before launching the game if TouchController is installed\n- Resource download: added support for jumping to a specific page by input\n\n## Refactors:\n- Input method: removed input proxy, now using View to handle input\n- Controls: removed prevention of continuous key event handling\n- Refactored account management action bar, introduced login menu and player model preview\n- Technical updates:\n  - Significantly improved archive content reading performance using Okio\n  - Updated launcher dependencies\n\n## Changes:\n- Control layout editor:\n  - Replaced checkboxes with radio buttons for applying control styles\n  - Preview colors in color editor entry items\n- In-game menu:\n  - Send key-value dialog switched to toggle mode\n  - Show reminder on every game launch after closing the game menu\n- Network: increased timeout to 30s\n- Downloads:\n  - Search input now triggers via button or Enter key\n  - When searching mods/modpacks with Chinese input, provide a reference list and recommend selecting English names for better accuracy\n\n## Fixes:\n- OptiFine: no longer sorts versions, now follows the official website\n- Fixed update check failing if system time is set to the future until that date is reached\n- Added file extension restrictions and validation when importing files\n- Control layout:\n  - Fixed key events not being released when buttons are hidden\n  - Toggle buttons should not only affect the visibility of the assigned control layer\n- Control layout editor:\n  - Fixed opacity percentage display issues in styles\n  - Fixed duplicated controls being assigned the same UUID\n- Color editor: no longer always intercepts the alpha channel value\n- Resolution: refresh resolution after returning from background to prevent display issues on some devices\n- Launch:\n  - Fixed failure to properly load Java environment on 26.2+\n  - Added system \"/system_ext\" path to support loading certain libraries\n- LWJGL:\n  - Added missing `org.lwjgl.util.mapped` to support some mods\n  - Completed Vulkan module, fixed spirv-cross library loading\n  - Fixed OOB caused by glfwGetKey GLFW_KEY_LAST. by [ShirosakiMio](https://github.com/ShirosakiMio)\n- Media selection: using `Intent.createChooser` may cause issues on some systems\n- CurseForge: fixed crash when handling projects without icons or screenshot configurations"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- 版本：为 26w14a（26年愚人节版本HerdCraft）添加描述\n\n\n## 调整：\n- 版本：使用 HMCL 的工具进行版本比较\n\n\n## 修复：\n- LWJGL：删除多余的 shaderc，by [ShirosakiMio](https://github.com/ShirosakiMio)\n- 游戏菜单：屏幕大小变更时，防止悬浮球移出屏幕\n- 控制：避免长按键盘按钮触发重复事件"
+            "markdown": "## 提示：\n- 26.2+ Mojang 引入了 Vulkan 渲染引擎，若您的设备不支持 **Vulkan 1.2**，**可能**无法启动 Minecraft 最新版本\n\n\n## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- 设置：允许关闭持续型节日彩蛋效果\n- 账号管理：\n  - 更换皮肤/披风时，预览玩家模型 by [由风](https://github.com/youfeng11)，[墨北](https://github.com/MovTery)\n  - 更改皮肤时，自动识别并选中皮肤模型 by [由风](https://github.com/youfeng11)，[墨北](https://github.com/MovTery)\n- 控制布局编辑器：\n  - 控件层列表：\n    - 自动滚动到当前选中的控件层\n    - 创建控件层时，自动滚动到顶部\n  - 创建控件层时，默认打开控件层属性对话框\n  - 支持复制控件层\n  - 同步启动器主页面设置的背景\n  - 支持为样式设置“不区分暗色主题”\n  - 为删除操作添加防误触确认对话框\n- 允许通过外部应用分享导入控制布局\n- TouchController：\n  - 支持设置震动类型 by [fifth_light](https://github.com/fifth-light)\n  - 启动游戏前，检查到安装 TouchController 时，自动开启控制代理\n- 下载资源：支持输入页码跳转\n\n\n## 重构：\n- 输入法：移除输入代理，使用 View 控制输入\n- 控制：取消按键事件防连续处理\n- 重构账号管理操作栏，引入登录菜单、玩家模型预览\n- 技术性更新：\n  - 使用 Okio 库大幅优化压缩包内容读取性能\n  - 更新启动器依赖库\n\n\n## 调整：\n- 控制布局编辑器：\n  - 应用控件样式：使用单选按钮代替复选按钮\n  - 在颜色编辑入口项上预览颜色\n- 游戏菜单：\n  - 发送键值对话框改为切换模式\n  - 关闭游戏菜单之后，每次启动游戏都提醒\n- 网络：网络超时时间增加到 30s\n- 下载：\n  - 搜索名称输入框改为使用按钮、回车触发搜索\n  - 搜索模组/整合包时，若包含中文，列出对照列表，选择项目使用英文搜索更准确\n\n\n## 修复：\n- OptiFine：不再对版本进行排序，以官网为准\n- 将系统时间调至未来后，启动器更新检查在到达该日期前将无法生效\n- 导入文件时，添加后缀限制，导入时再次进行判断\n- 控制布局：\n  - 按钮被隐藏时，未释放按键事件\n  - 可开关按钮不应该只切换设定的控件层的隐藏状态\n- 控制布局编辑器：\n  - 样式不透明度百分比显示问题\n  - 复制控件时，新的控件意外的分配了同一个 UUID\n- 颜色编辑器：不应永远拦截颜色的 Alpha 通道值\n- 分辨率：切后台后，应当刷新一次分辨率，防止部分设备画面异常\n- 启动：\n  - 26.2+ 无法正常加载 Java 环境\n  - 添加系统 \"/system_ext\" 路径，以支持加载部分库文件\n- LWJGL：\n  - 添加缺失的 `org.lwjgl.util.mapped`，以运行部分模组\n  - 填补 Vulkan 模块，修复 spirv-cross 库加载\n  - glfwGetKey GLFW_KEY_LAST 导致 OOB by [ShirosakiMio](https://github.com/ShirosakiMio)\n- 选择媒体：使用 `Intent.createChooser` 可能会在某些系统上引发问题\n- CurseForge：处理某些不包含图标、屏幕截图配置的项目时崩溃"
         }
     ]
 }
