@@ -1,35 +1,35 @@
 {
-    "code": 200018,
+    "code": 200019,
     "version": "2.3.2",
     "created_at": "2026-04-13T14:14:33Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-Z4e0v"
+        "link": "https://www.123865.com/s/YLIUVv-i4e0v"
     },
     "files": [
         {
             "file_name": "ZalithLauncher-2.3.2-arm64-v8a.apk",
             "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.2/ZalithLauncher-2.3.2-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 189747434
+            "size": 189747442
         },
         {
             "file_name": "ZalithLauncher-2.3.2-armeabi-v7a.apk",
             "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.2/ZalithLauncher-2.3.2-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 183403909
+            "size": 183403901
         },
         {
             "file_name": "ZalithLauncher-2.3.2-x86.apk",
             "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.2/ZalithLauncher-2.3.2-x86.apk",
             "arch": "x86",
-            "size": 174837078
+            "size": 174837082
         },
         {
             "file_name": "ZalithLauncher-2.3.2-x86_64.apk",
             "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.2/ZalithLauncher-2.3.2-x86_64.apk",
             "arch": "x86_64",
-            "size": 193884755
+            "size": 193884759
         },
         {
             "file_name": "ZalithLauncher-2.3.2.apk",
@@ -40,12 +40,12 @@
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Notes:\n- Since version 26.2+, Mojang has introduced the Vulkan rendering engine. If your device does **not** support **Vulkan 1.2**, you **may** be unable to launch the latest version of Minecraft.\n\n## Updates:\n- Synced translations from [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- Added Thai language option to the language list by [youfeng11](https://github.com/youfeng11)\n- Added support for rendering with SurfaceView\n\n## Changes:\n- Accounts: Refresh Microsoft account only when the token expires\n\n## Fixes:\n- Input method:\n  - Crashes related to focus issues\n  - Enter key not responding properly in the input method"
+        "markdown": "## Notes:\n- Since version 26.2+, Mojang has introduced the Vulkan rendering engine. If your device does **not** support **Vulkan 1.2**, you **may** be unable to launch the latest version of Minecraft.\n\n## Hotfix:\n- Logic error caused the game to force offline login\n\n\n## Updates:\n- Synced translations from [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- Added Thai language option to the language list by [youfeng11](https://github.com/youfeng11)\n- Added support for rendering with SurfaceView\n\n## Changes:\n- Accounts: Refresh Microsoft account only when the token expires\n\n## Fixes:\n- Input method:\n  - Crashes related to focus issues\n  - Enter key not responding properly in the input method"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 提示：\n- 26.2+ Mojang 引入了 Vulkan 渲染引擎，若您的设备不支持 **Vulkan 1.2**，**可能**无法启动 Minecraft 最新版本\n\n\n## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- 语言列表增加泰语选项 by [由风](https://github.com/youfeng11)\n- 支持使用 SurfaceView 渲染\n\n\n## 调整：\n- 账号：仅在令牌过期时，刷新微软账号\n\n\n## 修复：\n- 输入法：\n  - 焦点相关问题引起的崩溃\n  - 输入法回车无法正常响应"
+            "markdown": "## 提示：\n- 26.2+ Mojang 引入了 Vulkan 渲染引擎，若您的设备不支持 **Vulkan 1.2**，**可能**无法启动 Minecraft 最新版本\n\n\n## 热修复：\n- 逻辑错误导致游戏内强制使用离线登录\n\n\n## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- 语言列表增加泰语选项 by [由风](https://github.com/youfeng11)\n- 支持使用 SurfaceView 渲染\n\n\n## 调整：\n- 账号：仅在令牌过期时，刷新微软账号\n\n\n## 修复：\n- 输入法：\n  - 焦点相关问题引起的崩溃\n  - 输入法回车无法正常响应"
         }
     ]
 }
