@@ -1,51 +1,51 @@
 {
-    "code": 200017,
-    "version": "2.3.1",
-    "created_at": "2026-04-12T14:57:25Z",
+    "code": 200018,
+    "version": "2.3.2",
+    "created_at": "2026-04-13T14:14:33Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://www.123865.com/s/YLIUVv-h4e0v"
+        "link": "https://www.123865.com/s/YLIUVv-Z4e0v"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.3.1-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.1/ZalithLauncher-2.3.1-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.3.2-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.2/ZalithLauncher-2.3.2-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 189723110
+            "size": 189747434
         },
         {
-            "file_name": "ZalithLauncher-2.3.1-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.1/ZalithLauncher-2.3.1-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.3.2-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.2/ZalithLauncher-2.3.2-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 183379617
+            "size": 183403909
         },
         {
-            "file_name": "ZalithLauncher-2.3.1-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.1/ZalithLauncher-2.3.1-x86.apk",
+            "file_name": "ZalithLauncher-2.3.2-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.2/ZalithLauncher-2.3.2-x86.apk",
             "arch": "x86",
-            "size": 174812774
+            "size": 174837078
         },
         {
-            "file_name": "ZalithLauncher-2.3.1-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.1/ZalithLauncher-2.3.1-x86_64.apk",
+            "file_name": "ZalithLauncher-2.3.2-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.2/ZalithLauncher-2.3.2-x86_64.apk",
             "arch": "x86_64",
-            "size": 193860495
+            "size": 193884755
         },
         {
-            "file_name": "ZalithLauncher-2.3.1.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.1/ZalithLauncher-2.3.1.apk",
+            "file_name": "ZalithLauncher-2.3.2.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.3.2/ZalithLauncher-2.3.2.apk",
             "arch": "all",
-            "size": 326163747
+            "size": 326188447
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Notice:\n- Starting from 26.2+, Mojang has introduced the Vulkan rendering engine. If your device does not support **Vulkan 1.2**, you **may** be unable to launch the latest versions of Minecraft\n\n## Updates:\n- Synced translations from the [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- Added support for configuring the graphics API within the launcher\n- Updated Minecraft version metadata\n\n## Fixes:\n- Control layout:\n  - Fixed abnormal multiple event triggering for toggle buttons\n  - Fixed incorrect handling logic for continuous key events in control layouts\n- Fixed issues with input method initialization and delete text event handling\n- Fixed issues related to cape handling logic by [youfeng](https://github.com/youfeng11)\n- Account management: display default player model when no account is present"
+        "markdown": "## Notes:\n- Since version 26.2+, Mojang has introduced the Vulkan rendering engine. If your device does **not** support **Vulkan 1.2**, you **may** be unable to launch the latest version of Minecraft.\n\n## Updates:\n- Synced translations from [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- Added Thai language option to the language list by [youfeng11](https://github.com/youfeng11)\n- Added support for rendering with SurfaceView\n\n## Changes:\n- Accounts: Refresh Microsoft account only when the token expires\n\n## Fixes:\n- Input method:\n  - Crashes related to focus issues\n  - Enter key not responding properly in the input method"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 提示：\n- 26.2+ Mojang 引入了 Vulkan 渲染引擎，若您的设备不支持 **Vulkan 1.2**，**可能**无法启动 Minecraft 最新版本\n\n\n## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- 支持在启动器内设置图形 API\n- 更新 Minecraft 版本数据文件\n\n\n## 修复：\n- 控制布局：\n  - 可切换按钮多事件触发异常\n  - 控制布局连续按键事件处理逻辑不正确\n- 输入法初始化、删除文本事件的处理问题\n- 更改披风相关逻辑问题 by [由风](https://github.com/youfeng11)\n- 账号管理：无账号时，显示默认玩家模型"
+            "markdown": "## 提示：\n- 26.2+ Mojang 引入了 Vulkan 渲染引擎，若您的设备不支持 **Vulkan 1.2**，**可能**无法启动 Minecraft 最新版本\n\n\n## 更新：\n- 同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- 语言列表增加泰语选项 by [由风](https://github.com/youfeng11)\n- 支持使用 SurfaceView 渲染\n\n\n## 调整：\n- 账号：仅在令牌过期时，刷新微软账号\n\n\n## 修复：\n- 输入法：\n  - 焦点相关问题引起的崩溃\n  - 输入法回车无法正常响应"
         }
     ]
 }
