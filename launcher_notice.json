@@ -1,14 +1,14 @@
 {
   "title": {
-    "zh_cn": "重要通知",
-    "zh_tw": "重要通知",
-    "en_us": "Important Notice"
+    "zh_cn": "服务器状态更新",
+    "zh_tw": "伺服器狀態更新",
+    "en_us": "Server Status Update"
   },
   "content": {
-    "zh_cn": "你好，玩家！我是 ZL 的开发者墨北，很抱歉哦，ZalithLauncher 一代已宣布归档，也就是不再更新了。\n为什么呢？其实很简单，我实在没有更多的精力继续维护这个混乱的项目了，早期我技术有限，没有考虑长期发展，只是一味的深入魔改，导致这个项目越来越混乱。现在的我看这些代码都会感觉有些头疼（\n关于后续，你可以继续使用 ZL1，也可以考虑切换到 ZalithLauncher2。\n感谢你长久以来的支持！",
-    "zh_tw": "你好，玩家！我是 ZL 的開發者墨北，很抱歉喔，ZalithLauncher 一代已宣布封存，也就是不再更新了。\n為什麼呢？其實很簡單，我真的沒有更多精力繼續維護這個混亂的專案了。早期我技術有限，沒有考慮長期發展，只是一味地深入魔改，導致這個專案越來越混亂。現在的我看著這些程式碼都會覺得有點頭痛（\n關於後續，你可以繼續使用 ZL1，也可以考慮切換到 ZalithLauncher2。\n感謝你長久以來的支持！",
-    "en_us": "Hello players! I\'m MovTery, the developer of ZL. I'm sorry to announce that ZalithLauncher Generation 1 has been archived, meaning it will no longer be updated.\nWhy? Simply put, I no longer have the energy to maintain this messy project. In the early days, my technical skills were limited, and I didn't consider long-term development, I just kept modifying things deeply, which made the project increasingly chaotic. Even I find the code a bit headache-inducing now XD\nAs for what's next, you can continue using ZL1, or consider switching to ZalithLauncher2.\nThank you for your long-standing support!"
+    "zh_cn": "由于某些原因，我已无法访问我的Discord账号，目前已无法继续对\"ZalithLauncher Discord Server\"进行管理和运营。\n\n在与 Confectionary(@confectionaryuwu) ，也就是本服务器目前唯一的 Admin 进行沟通并讨论后，我们决定正式停止本 Discord 服务器的使用。由于服务器拥有者账号无法访问，当前该服务器无法被删除。\n\n因此，所有频道将被隐藏和锁定，不会再进行任何更新或活动。在之后，我们会重新建立一个新的 Discord 服务器，在此期间，请不要再过多打扰 Confectionary(@confectionaryuwu)\n\n感谢大家的理解与支持。",
+    "zh_tw": "由於某些原因，我已無法存取我的 Discord 帳號，目前已無法繼續對「ZalithLauncher Discord 伺服器」進行管理與營運。\n\n在與 Confectionary（@confectionaryuwu），也就是本伺服器目前唯一的管理員進行溝通與討論後，我們決定正式停止本 Discord 伺服器的使用。由於伺服器擁有者帳號無法存取，目前該伺服器無法被刪除。\n\n因此，所有頻道將被隱藏與鎖定，不會再進行任何更新或活動。之後我們會重新建立一個新的 Discord 伺服器，在此期間，請不要再過度打擾 Confectionary（@confectionaryuwu）。\n\n感謝大家的理解與支持。",
+    "en_us": "Due to certain circumstances, I have lost access to my Discord account and am no longer able to manage or operate the \"ZalithLauncher Discord Server\".\n\nAfter discussing with Confectionary (@confectionaryuwu), who is currently the only administrator of the ZalithLauncher Discord Server, we have decided to officially discontinue this server. As the server owner's account is no longer accessible, the server cannot be deleted at this time.\n\nTherefore, all channels will be hidden and locked, and there will be no further updates or activities. In the future, we will establish a new Discord server. In the meantime, please refrain from unnecessarily disturbing Confectionary (@confectionaryuwu).\n\nThank you all for your understanding and support."
   },
-  "date": "2026/04/12",
-  "numbering": 23
+  "date": "2026/04/14",
+  "numbering": 24
 }
