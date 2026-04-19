@@ -1,6 +1,13 @@
 {
   "sponsors": [
     {
+      "name": "gbh2024",
+      "time": "2026/04/19",
+      "identifier": "202604190934254950515539721",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.2
+    },
+    {
       "name": "小新",
       "time": "2026/04/18",
       "identifier": "202604181924129949545512224",
