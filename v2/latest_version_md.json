@@ -1,51 +1,51 @@
 {
-    "code": 200023,
-    "version": "2.4.1",
-    "created_at": "2026-04-25T13:10:46Z",
+    "code": 200024,
+    "version": "2.4.2",
+    "created_at": "2026-04-28T15:29:31Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-mwe0v"
+        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-qbUUv"
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.4.1-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.1/ZalithLauncher-2.4.1-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.4.2-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.2/ZalithLauncher-2.4.2-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 186497973
+            "size": 186518369
         },
         {
-            "file_name": "ZalithLauncher-2.4.1-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.1/ZalithLauncher-2.4.1-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.4.2-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.2/ZalithLauncher-2.4.2-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 180154428
+            "size": 180174812
         },
         {
-            "file_name": "ZalithLauncher-2.4.1-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.1/ZalithLauncher-2.4.1-x86.apk",
+            "file_name": "ZalithLauncher-2.4.2-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.2/ZalithLauncher-2.4.2-x86.apk",
             "arch": "x86",
-            "size": 171590029
+            "size": 171610425
         },
         {
-            "file_name": "ZalithLauncher-2.4.1-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.1/ZalithLauncher-2.4.1-x86_64.apk",
+            "file_name": "ZalithLauncher-2.4.2-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.2/ZalithLauncher-2.4.2-x86_64.apk",
             "arch": "x86_64",
-            "size": 190636278
+            "size": 190656658
         },
         {
-            "file_name": "ZalithLauncher-2.4.1.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.1/ZalithLauncher-2.4.1.apk",
+            "file_name": "ZalithLauncher-2.4.2.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.2/ZalithLauncher-2.4.2.apk",
             "arch": "all",
-            "size": 322838650
+            "size": 322859042
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Notes:\n- Since version 26.2+, Mojang has introduced the Vulkan rendering engine. If your device does **not** support **Vulkan 1.2**, please do **not** use the **Vulkan backend** to launch the latest version of Minecraft.\n\n## Updates:\n- [GP#1112](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1112): Synced translations from [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- [GP#1074](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1074): Use concurrency to check for updates when updating mods. by youfeng11\n- [GP#1078](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1078): Added Korean language option. by youfeng11\n- [GP#1080](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1080): Added screenshot manager to view/save all in-game screenshots. by youfeng11, MovTery\n- [GP#1095](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1095): Removed high-overhead theme switch transition animations, only transition when toggling dark mode. by MovTery\n- [GP#1099](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1099): Rewrote full-screen exit implementation to support SDK 35. by youfeng11, MovTery\n- [GP#1103](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1103): Added extraction task description for JNA dependency project. by MovTery\n\n## Refactors:\n- [GP#1072](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1072): Do not enable domestic mirrors when downloading resources outside of China. by MovTery\n- [GP#1083](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1083), [GP#1107](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1107): Refactored launcher theme to better align with [Material 3 Expressive](https://m3.material.io/blog/building-with-m3-expressive) design standards. by MovTery\n\n## Changes:\n- [GP#1086](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1086): Select All/Deselect All in Content Manager only applies to filtered results. by MovTery\n- [GP#1111](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1111): Added ability to bypass account check through specific methods. by MovTery\n\n## Fixes:\n- [GP#1073](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1073): Fixed issues where some devices could not properly exit full-screen, potentially causing touch position anomalies. by MovTery\n- [GP#1077](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1077): Added support for updating mods by selecting the version based on the mod's own loader. by youfeng11\n- [GP#1089](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1089): Game info display window can now be manually closed. by MovTery\n- [GP#1096](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1096): Adapted foreground service type restrictions for Android 14. by MovTery\n- [GP#1106](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1106): Fixed top bar being obscured when full-screening the app on ChromeOS. by youfeng11\n- [GP#1113](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1113): Prevented OptiFine and similar versions from entering the update loader page. by MovTery"
+        "markdown": "## Notes:\n- Since version 26.2+, Mojang has introduced the Vulkan rendering engine. If your device does **not** support **Vulkan 1.2**, please do **not** use the **Vulkan backend** to launch the latest version of Minecraft.\n\n## Updates:\n- [GP#1169](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1169): Synced translations from [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2/)\n- [GP#1136](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1136): Display download speed for download tasks (by MovTery)\n- [GP#1151](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1151): Clicking on a screenshot in the screenshot manager opens it with the system image viewer (by youfeng11)\n- [GP#1152](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1152): Check for content count changes when returning to Content Manager to auto-refresh the list (by MovTery)\n- [GP#1160](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1160): Updated launcher to support using multi-cloud storage links (by MovTery)\n- [GP#1161](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1161): Apply fullscreen to launch extraction page according to settings (by youfeng11)\n- [GP#1143](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1143): Added JVM keep-alive foreground service (by MovTery)\n\n## Changes:\n- [GP#1145](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1145): Only use default name when the name is empty when modifying/adding a server (by MovTery)\n- [GP#1146](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1146): Adjusted prompt text color for overwriting an existing version installation (by MovTery)\n- [GP#1147](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1147): Automatically select the newly added account when adding an account (by MovTery)\n- [GP#1162](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1162): Adjusted theme configuration for the Terracotta multiplayer menu (by MovTery)\n\n## Fixes:\n- [Main#71125970](https://github.com/ZalithLauncher/ZalithLauncher2/commit/7112597021a0b6ad9ddde7bac3933b840cef77c6), [Main#20054dac](https://github.com/ZalithLauncher/ZalithLauncher2/commit/20054dac5b12da4b4236c2a92c726fdfad3cd5a6): Reverted changes that caused display anomalies on some devices (by MovTery)\n- [GP#1133](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1133): 26.2 snapshot4 failing to run (by MovTery)\n- [GP#1137](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1137): Added path traversal check for filename legality validation (by MovTery)\n- [GP#1142](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1142): Activity configuration issue causing multiple launcher instances to exist (by MovTery)\n- [GP#1149](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1149): UI anomalies on some devices when entering fullscreen (by MovTery)\n- [GP#1150](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1150): Launch extraction page should ignore Java runtime environments not supported by the current device (by MovTery)\n- [GP#1165](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1165): Replaced domestic mirror API domain within China (by leemwood)\n"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 提示：\n- 26.2+ Mojang 引入了 Vulkan 渲染引擎，若您的设备不支持 **Vulkan 1.2**，请勿使用 **Vulkan 后端**启动 Minecraft 最新版本\n\n\n## 更新：\n- [GP#1112](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1112)：同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- [GP#1074](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1074)：更新模组时，使用并发检查更新情况 by 由风\n- [GP#1078](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1078)：增加韩语选项 by 由风\n- [GP#1080](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1080)：新增截图管理器，可查看/保存所有游戏内截图 by 由风，MovTery\n- [GP#1095](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1095)：移除高性能开销的主题切换过渡动画，仅在深色模式切换时过渡 by MovTery\n- [GP#1099](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1099)：重写关闭全屏实现以支持 SDK 35 by 由风，MovTery\n- [GP#1103](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1103)：为 JNA 依赖项目添加解压任务描述 by MovTery\n\n\n## 重构：\n- [GP#1072](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1072)：在中国境外下载资源时，不启用中国境内的镜像源 by MovTery\n- [GP#1083](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1083)，[GP#1107](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1107)：重构启动器主题，使其更贴近 [Material 3 Expressive](https://m3.material.io/blog/building-with-m3-expressive) 的设计标准 by MovTery\n\n\n## 调整：\n- [GP#1086](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1086)：内容管理器 全选/清除选择 仅对已过滤的结果生效 by MovTery\n- [GP#1111](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1111)：可通过特定方式绕过账号检查 by MovTery\n\n\n## 修复：\n- [GP#1073](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1073)：部分设备无法正确关闭全屏，同时可能导致触摸位置异常的问题 by MovTery\n- [GP#1077](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1077)：支持根据模组自身的加载器选择版本进行更新 by 由风\n- [GP#1089](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1089)：游戏信息显示窗口可手动关闭 by MovTery\n- [GP#1096](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1096)：适配 Android 14 的前台服务类型限制 by MovTery\n- [GP#1106](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1106)：ChromeOS 全屏化应用时，顶栏被遮挡 by 由风\n- [GP#1113](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1113)：不允许 OptiFine 等版本进入更新加载器页面 by MovTery"
+            "markdown": "## 提示：\n- 26.2+ Mojang 引入了 Vulkan 渲染引擎，若您的设备不支持 **Vulkan 1.2**，请勿使用 **Vulkan 后端**启动 Minecraft 最新版本\n\n\n## 更新：\n- [GP#1169](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1169)：同步 [Weblate 项目](https://hosted.weblate.org/projects/zalithlauncher2/) 语言\n- [GP#1136](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1136)：下载任务显示下载速率 (by MovTery)\n- [GP#1151](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1151)：截图管理内，点击截图可唤起系统软件查看图片 (by 由风)\n- [GP#1152](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1152)：在回到内容管理器时，检查内容数量变更，以自动刷新列表 (by MovTery)\n- [GP#1160](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1160)：更新启动器，支持使用多网盘链接 (by MovTery)\n- [GP#1161](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1161)：启动解压页面根据设置应用全屏 (by 由风)\n- [GP#1143](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1143)：增加 JVM 保活前台服务 (by MovTery)\n\n\n## 调整：\n- [GP#1145](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1145)：修改/添加服务器时，仅在名称为空时使用默认名称 (by MovTery)\n- [GP#1146](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1146)：调整覆盖安装版本的提示文本的颜色 (by MovTery)\n- [GP#1147](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1147)：添加账号时，自动选择新的账号 (by MovTery)\n- [GP#1162](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1162)：调整陶瓦联机菜单的主题配置 (by MovTery)\n\n\n## 修复：\n- [Main#71125970](https://github.com/ZalithLauncher/ZalithLauncher2/commit/7112597021a0b6ad9ddde7bac3933b840cef77c6)，[Main#20054dac](https://github.com/ZalithLauncher/ZalithLauncher2/commit/20054dac5b12da4b4236c2a92c726fdfad3cd5a6)：回退导致部分设备画面显示异常的修改 (by MovTery)\n- [GP#1133](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1133)：26.2 snapshot4 无法运行 (by MovTery)\n- [GP#1137](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1137)：文件名合法性判断添加路径穿越检查 (by MovTery)\n- [GP#1142](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1142)：Activity 配置问题，导致可能存在多个启动器实例 (by MovTery)\n- [GP#1149](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1149)：部分设备全屏化出现UI异常 (by MovTery)\n- [GP#1150](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1150)：启动解压页面应忽略当前设备不支持的 Java 运行环境 (by MovTery)\n- [GP#1165](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1165)：更换中国境内镜像 API 域名 (by 柠枺)\n"
         }
     ]
 }
