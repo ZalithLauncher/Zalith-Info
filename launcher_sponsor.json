@@ -1,6 +1,20 @@
 {
   "sponsors": [
     {
+      "name": "nn",
+      "time": "2026/05/16",
+      "identifier": "202605160813309757501038301",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 20.0
+    },
+    {
+      "name": "席",
+      "time": "2026/05/15",
+      "identifier": "202605160745524848515247447",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/02feb58786bdd30a365fdc4524c32904_w132_h132_s4.jpeg",
+      "amount": 20.0
+    },
+    {
       "name": "yue",
       "time": "2026/05/15",
       "identifier": "202605151045011009751528137",
