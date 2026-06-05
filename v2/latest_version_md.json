@@ -1,61 +1,61 @@
 {
-    "code": 200027,
-    "version": "2.4.5",
-    "created_at": "2026-06-05T03:00:22Z",
+    "code": 200028,
+    "version": "2.4.6",
+    "created_at": "2026-06-05T13:10:05Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-eR1Uv",
+        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-fcHUv",
         "links": [
             {
                 "name": "123 云盘",
-                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-eR1Uv"
+                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-fcHUv"
             },
             {
-                "name": "夸克网盘（提取码：KaaD）",
-                "link": "https://pan.quark.cn/s/a2b5f9edc81f?pwd=KaaD"
+                "name": "夸克网盘（提取码：rnCu）",
+                "link": "https://pan.quark.cn/s/bdf5ef18ab51?pwd=rnCu"
             }
         ]
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.4.5-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.5/ZalithLauncher-2.4.5-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.4.6-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.6/ZalithLauncher-2.4.6-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 159104686
+            "size": 159127382
         },
         {
-            "file_name": "ZalithLauncher-2.4.5-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.5/ZalithLauncher-2.4.5-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.4.6-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.6/ZalithLauncher-2.4.6-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 151535593
+            "size": 151558265
         },
         {
-            "file_name": "ZalithLauncher-2.4.5-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.5/ZalithLauncher-2.4.5-x86.apk",
+            "file_name": "ZalithLauncher-2.4.6-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.6/ZalithLauncher-2.4.6-x86.apk",
             "arch": "x86",
-            "size": 138794607
+            "size": 138817283
         },
         {
-            "file_name": "ZalithLauncher-2.4.5-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.5/ZalithLauncher-2.4.5-x86_64.apk",
+            "file_name": "ZalithLauncher-2.4.6-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.6/ZalithLauncher-2.4.6-x86_64.apk",
             "arch": "x86_64",
-            "size": 164272313
+            "size": 164295005
         },
         {
-            "file_name": "ZalithLauncher-2.4.5.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.5/ZalithLauncher-2.4.5.apk",
+            "file_name": "ZalithLauncher-2.4.6.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.6/ZalithLauncher-2.4.6.apk",
             "arch": "all",
-            "size": 306069407
+            "size": 306092079
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Notes:\n- Since version 26.2+, Mojang has introduced the Vulkan rendering engine. If your device does **not** support **Vulkan 1.2**, please do **not** use the **Vulkan backend** to launch the latest version of Minecraft.\n\n## Updates:\n- [GP#1316](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1316): Added support for background blur/foreground blur effects (by @MovTery)\n- [GP#1320](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1320): Apply theme colors to native dialogs (by @MovTery)\n- [GP#1330](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1330): Localized cape Builder and Crafter (by @MovTery)\n- [GP#1333](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1333): Added more hotbar interactions: double-tap to swap to offhand, long-press to drop (by @MovTery)\n- [GP#1340](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1340): Localized more network error interpretations (by @MovTery)\n\n## Refactors:\n- [GP#1303](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1303): Upgraded AGP and dependencies, enabled R8 to optimize launcher performance (by @MovTery)\n- [GP#1303](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1303): Removed StringFog library, replaced with BuildKeys library to dynamically generate configuration classes (by @MovTery)\n- [GP#1303](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1303): Manually record launcher log tags (by @MovTery)\n\n## Changes:\n- [GP#1290](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1290): Improved reliability of account skin/cape downloads (by @dryfish09)\n- [GP#1312](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1312): No longer repeat line prefixes when logging game environment information (by @MovTery)\n- [Main#1c65a20](https://github.com/ZalithLauncher/ZalithLauncher2/commit/1c65a2064acf278aff9c82244585588f85f2a12a): Language: Revised English source text (by @MovTery)\n- [GP#1342](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1342): Record package architecture information in launcher logs/crash reports (by @MovTery)\n\n## Fixes:\n- [GP#1303](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1303): Fixed multi-architecture builds not cleaning up redundant Jre25 architectures (by @MovTery)\n- [GP#1304](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1304): Crash when requesting permissions on systems that do not support \"Manage all device files\" permission (by @MovTery)\n- [GP#1305](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1305): Version list component issues in the main menu (by @MovTery)\n- [GP#1321](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1321): Fixed MIME type filtering for imports from the in-game directory menu (by @sdf123098)\n- [GP#1319](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1319): Fixed physical mouse event handling (by @MovTery)"
+        "markdown": "## Notes:\n- Since version 26.2+, Mojang has introduced the Vulkan rendering engine. If your device does **not** support **Vulkan 1.2**, please do **not** use the **Vulkan backend** to launch the latest version of Minecraft.\n\n## Updates:\n- [GP#1348](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1348): Added support for fetching target resources by project ID (by @MovTery)\n\n## Fixes:\n- [GP#1345](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1345): Removed library deduplication mechanism due to impact on game launch (by @MovTery)\n- [GP#1346](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1346): Some features not working after enabling R8 obfuscation (by @MovTery)\n- [GP#1349](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1349): MC 26.2-pre-4 failing to launch due to missing LWJGL functions (by @MovTery)"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 提示：\n- 26.2+ Mojang 引入了 Vulkan 渲染引擎，若您的设备不支持 **Vulkan 1.2**，请勿使用 **Vulkan 后端**启动 Minecraft 最新版本\n\n\n## 更新：\n- [GP#1316](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1316)：支持为背景设置背景模糊效果/前景模糊效果 (by @MovTery)\n- [GP#1320](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1320)：为原生对话框应用主题配色 (by @MovTery)\n- [GP#1330](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1330)：本地化披风 Builder、Crafter (by @MovTery)\n- [GP#1333](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1333)：支持更多快捷栏交互：双击切换副手，长按丢弃 (by @MovTery)\n- [GP#1340](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1340)：本地化更多网络错误解读 (by @MovTery)\n\n\n## 重构：\n- [GP#1303](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1303)：升级 AGP 与依赖库，启用 R8 优化启动器性能 (by @MovTery)\n- [GP#1303](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1303)：移除 StringFog 库，改用 BuildKeys 库动态生成配置类 (by @MovTery)\n- [GP#1303](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1303)：手动记录启动器日志的标签 (by @MovTery)\n\n\n## 调整：\n- [GP#1290](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1290)：提高账号皮肤/披风下载的可靠性 (by @dryfish09)\n- [GP#1312](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1312)：日志输出游戏环境信息时，不再重复输出行首标注 (by @MovTery)\n- [Main#1c65a20](https://github.com/ZalithLauncher/ZalithLauncher2/commit/1c65a2064acf278aff9c82244585588f85f2a12a)：语言：修订英文原文 (by @MovTery)\n- [GP#1342](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1342)：在启动器日志/崩溃报告中记录安装包架构信息 (by @MovTery)\n\n\n## 修复：\n- [GP#1303](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1303)：修复多架构构建未清理冗余 Jre25 架构的问题 (by @MovTery)\n- [GP#1304](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1304)：系统不支持“管理设备所有文件”权限时，申请权限导致崩溃 (by @MovTery)\n- [GP#1305](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1305)：主菜单内，版本列表组件相关的问题 (by @MovTery)\n- [GP#1321](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1321)：修复游戏内目录菜单导入的 MIME 类型过滤 (by @sdf123098)\n- [GP#1319](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1319)：修复实体鼠标事件处理 (by @MovTery)\n"
+            "markdown": "## 提示：\n- 26.2+ Mojang 引入了 Vulkan 渲染引擎，若您的设备不支持 **Vulkan 1.2**，请勿使用 **Vulkan 后端**启动 Minecraft 最新版本\n\n\n## 更新：\n- [GP#1348](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1348)：支持通过项目 ID 获取目标资源 (by @MovTery)\n\n\n## 修复：\n- [GP#1345](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1345)：因影响游戏启动，移除库去重机制 (by @MovTery)\n- [GP#1346](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1346)：启用 R8 混淆导致的部分功能不可用 (by @MovTery)\n- [GP#1349](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1349)：LWJGL 缺失函数导致 MC 26.2-pre-4 无法启动 (by @MovTery)"
         }
     ]
 }
