@@ -1,61 +1,61 @@
 {
-    "code": 200031,
-    "version": "2.4.9",
-    "created_at": "2026-06-26T05:09:37Z",
+    "code": 200032,
+    "version": "2.4.9_hotfix1",
+    "created_at": "2026-06-26T11:37:10Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-uD1Uv",
+        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-lD1Uv",
         "links": [
             {
                 "name": "123 云盘",
-                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-uD1Uv"
+                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-lD1Uv"
             },
             {
-                "name": "百度网盘（提取码：xfp5）",
-                "link": "https://pan.baidu.com/s/1iWlyckTkDEkuMy-BXkspAg?pwd=xfp5"
+                "name": "百度网盘（提取码：9wg8）",
+                "link": "https://pan.baidu.com/s/1hrEPy8HxRABUWG-jh2nhOA?pwd=9wg8"
             }
         ]
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.4.9-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9/ZalithLauncher-2.4.9-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.4.9_hotfix1-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9_hotfix1/ZalithLauncher-2.4.9_hotfix1-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 159097706
+            "size": 159098066
         },
         {
-            "file_name": "ZalithLauncher-2.4.9-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9/ZalithLauncher-2.4.9-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.4.9_hotfix1-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9_hotfix1/ZalithLauncher-2.4.9_hotfix1-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 151525457
+            "size": 151525805
         },
         {
-            "file_name": "ZalithLauncher-2.4.9-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9/ZalithLauncher-2.4.9-x86.apk",
+            "file_name": "ZalithLauncher-2.4.9_hotfix1-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9_hotfix1/ZalithLauncher-2.4.9_hotfix1-x86.apk",
             "arch": "x86",
-            "size": 138791079
+            "size": 138791431
         },
         {
-            "file_name": "ZalithLauncher-2.4.9-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9/ZalithLauncher-2.4.9-x86_64.apk",
+            "file_name": "ZalithLauncher-2.4.9_hotfix1-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9_hotfix1/ZalithLauncher-2.4.9_hotfix1-x86_64.apk",
             "arch": "x86_64",
-            "size": 164266101
+            "size": 164266441
         },
         {
-            "file_name": "ZalithLauncher-2.4.9.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9/ZalithLauncher-2.4.9.apk",
+            "file_name": "ZalithLauncher-2.4.9_hotfix1.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9_hotfix1/ZalithLauncher-2.4.9_hotfix1.apk",
             "arch": "all",
-            "size": 306099679
+            "size": 306100031
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Updates:\n- [GP#1465](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1465): Updated local Minecraft version list (by @MovTery)\n- [GP#1466](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1466): Include API Key when downloading files from CurseForge source (by @MovTery)\n\n## Fixes:\n- [GP#1443](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1443): Version configuration enum serialization broken due to obfuscation (by @MovTery)\n- [Main#1679297](https://github.com/ZalithLauncher/ZalithLauncher2/commit/1679297): Use launcher UA directly when downloading (by @MovTery)\n- [GP#1467](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1467): Clipboard content read in-game may be null (by @MovTery)\n- [Main#132b8d1](https://github.com/ZalithLauncher/ZalithLauncher2/commit/132b8d1): Fixed JVM argument parsing causing incorrect argument concatenation (by @MovTery)"
+        "markdown": "## Updates:\n- [GP#1465](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1465): Updated local Minecraft version list (by @MovTery)\n- [GP#1466](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1466): Include API Key when downloading files from CurseForge source (by @MovTery)\n\n## Fixes:\n- [GP#1443](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1443): Version configuration enum serialization broken due to obfuscation (by @MovTery)\n- [Main#1679297](https://github.com/ZalithLauncher/ZalithLauncher2/commit/1679297): Use launcher UA directly when downloading (by @MovTery)\n- [GP#1467](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1467): Clipboard content read in-game may be null (by @MovTery)\n- [Main#132b8d1](https://github.com/ZalithLauncher/ZalithLauncher2/commit/132b8d1): Fixed JVM argument parsing causing incorrect argument concatenation (by @MovTery)\n- [GP#1479](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1479): Roll back the Material3 library to version 1.5.0-alpha20 (by @MovTery)"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 更新：\n- [GP#1465](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1465)：更新本地 Minecraft 版本列表 (by @MovTery)\n- [GP#1466](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1466)：CurseForge 源下载文件时携带 API Key (by @MovTery)\n\n\n## 修复：\n- [GP#1443](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1443)：版本配置枚举序列化因混淆导致失效 (by @MovTery)\n- [Main#1679297](https://github.com/ZalithLauncher/ZalithLauncher2/commit/1679297)：下载时，直接使用启动器 UA (by @MovTery)\n- [GP#1467](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1467)：游戏内读取剪贴板内容可能为 null (by @MovTery)\n- [Main#132b8d1](https://github.com/ZalithLauncher/ZalithLauncher2/commit/132b8d1)：修复 JVM 参数解析导致参数拼接错误的问题 (by @MovTery)\n"
+            "markdown": "## 更新：\n- [GP#1465](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1465)：更新本地 Minecraft 版本列表 (by @MovTery)\n- [GP#1466](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1466)：CurseForge 源下载文件时携带 API Key (by @MovTery)\n\n\n## 修复：\n- [GP#1443](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1443)：版本配置枚举序列化因混淆导致失效 (by @MovTery)\n- [Main#1679297](https://github.com/ZalithLauncher/ZalithLauncher2/commit/1679297)：下载时，直接使用启动器 UA (by @MovTery)\n- [GP#1467](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1467)：游戏内读取剪贴板内容可能为 null (by @MovTery)\n- [Main#132b8d1](https://github.com/ZalithLauncher/ZalithLauncher2/commit/132b8d1)：修复 JVM 参数解析导致参数拼接错误的问题 (by @MovTery)\n- [GP#1479](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1479): 将 Material3 库回退到 1.5.0-alpha20 (by @MovTery)\n"
         }
     ]
 }
