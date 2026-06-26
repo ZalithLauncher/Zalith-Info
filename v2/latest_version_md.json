@@ -1,65 +1,61 @@
 {
-    "code": 200030,
-    "version": "2.4.8",
-    "created_at": "2026-06-17T06:47:44Z",
+    "code": 200031,
+    "version": "2.4.9",
+    "created_at": "2026-06-26T05:09:37Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-SeUUv",
+        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-uD1Uv",
         "links": [
             {
                 "name": "123 云盘",
-                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-SeUUv"
+                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-uD1Uv"
             },
             {
-                "name": "夸克网盘（提取码：vVgB）",
-                "link": "https://pan.quark.cn/s/36af2856d010?pwd=vVgB"
-            },
-            {
-                "name": "百度网盘（提取码：q4iz）",
-                "link": "https://pan.baidu.com/s/1Hs4WKWlrSFSyFVGfUjslgw?pwd=q4iz"
+                "name": "百度网盘（提取码：xfp5）",
+                "link": "https://pan.baidu.com/s/1iWlyckTkDEkuMy-BXkspAg?pwd=xfp5"
             }
         ]
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.4.8-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.8/ZalithLauncher-2.4.8-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.4.9-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9/ZalithLauncher-2.4.9-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 159083559
+            "size": 159097706
         },
         {
-            "file_name": "ZalithLauncher-2.4.8-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.8/ZalithLauncher-2.4.8-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.4.9-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9/ZalithLauncher-2.4.9-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 151511322
+            "size": 151525457
         },
         {
-            "file_name": "ZalithLauncher-2.4.8-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.8/ZalithLauncher-2.4.8-x86.apk",
+            "file_name": "ZalithLauncher-2.4.9-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9/ZalithLauncher-2.4.9-x86.apk",
             "arch": "x86",
-            "size": 138776944
+            "size": 138791079
         },
         {
-            "file_name": "ZalithLauncher-2.4.8-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.8/ZalithLauncher-2.4.8-x86_64.apk",
+            "file_name": "ZalithLauncher-2.4.9-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9/ZalithLauncher-2.4.9-x86_64.apk",
             "arch": "x86_64",
-            "size": 164251934
+            "size": 164266101
         },
         {
-            "file_name": "ZalithLauncher-2.4.8.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.8/ZalithLauncher-2.4.8.apk",
+            "file_name": "ZalithLauncher-2.4.9.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.9/ZalithLauncher-2.4.9.apk",
             "arch": "all",
-            "size": 306085548
+            "size": 306099679
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Notes:\n- Since version 26.2+, Mojang has introduced the Vulkan rendering engine. If your device does **not** support **Vulkan 1.2**, please do **not** use the **Vulkan backend** to launch the latest version of Minecraft.\n\n## Updates:\n- [GP#1379](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1379): Optimized rendering performance and quality for player avatar and cape previews (by @MovTery)\n- [GP#1381](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1381): Added Vietnamese translation for Terracotta multiplayer (by @dryfish09)\n- [GP#1406](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1406): Added scrollbars to some scrollable UI components (by @MovTery)\n- [Main#1c1973d4](https://github.com/ZalithLauncher/ZalithLauncher2/commit/1c1973d): Check OptiFine mod separately, no longer fetching its project remotely (by @MovTery)\n\n## Changes:\n- [GP#1404](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1404): Crash page now uses buttons to switch between landscape/portrait orientation (by @MovTery)\n- [Main#cc39747d](https://github.com/ZalithLauncher/ZalithLauncher2/commit/cc39747d): Use loader icon as fallback when local mod fails to fetch its icon (by @MovTery)\n- [Main#5db42d44](https://github.com/ZalithLauncher/ZalithLauncher2/commit/5db42d44): Exclude mods that cannot fetch remote projects when updating mods (by @MovTery)\n\n## Fixes:\n- [GP#1385](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1385): Unable to search for mods or modpacks using Chinese (by @MovTery)\n- [GP#1390](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1390): Use OkHttp for file downloads to fix timeout and freeze issues (by @MovTery)\n- [GP#1420](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1420): Control layout - filtering valid events unexpectedly disrupted the original order (by @MovTery)\n- [GP#1421](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1421): Filter out non-publicly visible remote projects when searching (by @MovTery)\n- [GP#1422](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1422): Reserve safe area for title bar in multi-window mode (by @MovTery)\n- [GP#1423](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1423): Persistent black screen when switching to background while using SurfaceView (by @MovTery)"
+        "markdown": "## Updates:\n- [GP#1465](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1465): Updated local Minecraft version list (by @MovTery)\n- [GP#1466](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1466): Include API Key when downloading files from CurseForge source (by @MovTery)\n\n## Fixes:\n- [GP#1443](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1443): Version configuration enum serialization broken due to obfuscation (by @MovTery)\n- [Main#1679297](https://github.com/ZalithLauncher/ZalithLauncher2/commit/1679297): Use launcher UA directly when downloading (by @MovTery)\n- [GP#1467](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1467): Clipboard content read in-game may be null (by @MovTery)\n- [Main#132b8d1](https://github.com/ZalithLauncher/ZalithLauncher2/commit/132b8d1): Fixed JVM argument parsing causing incorrect argument concatenation (by @MovTery)"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 提示：\n- 26.2+ Mojang 引入了 Vulkan 渲染引擎，若您的设备不支持 **Vulkan 1.2**，请勿使用 **Vulkan 后端**启动 Minecraft 最新版本\n\n\n## 更新：\n- [GP#1379](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1379)：优化玩家头像、披风预览的渲染性能与效果 (by @MovTery)\n- [GP#1381](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1381)：为陶瓦联机添加越南语翻译 (by @dryfish09)\n- [GP#1406](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1406)：为部分可滚动的UI组件添加滚动条 (by @MovTery)\n- [Main#1c1973d4](https://github.com/ZalithLauncher/ZalithLauncher2/commit/1c1973d)：单独检查 OptiFine 模组，不再远端获取其项目 (by @MovTery)\n\n\n## 调整：\n- [GP#1404](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1404)：崩溃页面使用按钮切换横屏/竖屏 (by @MovTery)\n- [Main#cc39747d](https://github.com/ZalithLauncher/ZalithLauncher2/commit/cc39747d)：本地模组无法获取图标时，使用加载器图标代替 (by @MovTery)\n- [Main#5db42d44](https://github.com/ZalithLauncher/ZalithLauncher2/commit/5db42d44)：更新模组时，排除不可获取远端项目的模组 (by @MovTery)\n\n\n## 修复：\n- [GP#1385](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1385)：无法用中文搜索模组、整合包的问题 (by @MovTery)\n- [GP#1390](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1390)：使用 OkHttp 处理文件下载，修复超时卡死问题 (by @MovTery)\n- [GP#1420](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1420)：控制布局，过滤有效事件时意外打乱了原有顺序 (by @MovTery)\n- [GP#1421](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1421)：搜索项目时，过滤掉不公开可见的远端项目 (by @MovTery)\n- [GP#1422](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1422)：在多窗口模式下为标题栏留出安全区 (by @MovTery)\n- [GP#1423](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1423)：使用 SurfaceView 时切换后台导致持续黑屏 (by @MovTery)\n"
+            "markdown": "## 更新：\n- [GP#1465](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1465)：更新本地 Minecraft 版本列表 (by @MovTery)\n- [GP#1466](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1466)：CurseForge 源下载文件时携带 API Key (by @MovTery)\n\n\n## 修复：\n- [GP#1443](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1443)：版本配置枚举序列化因混淆导致失效 (by @MovTery)\n- [Main#1679297](https://github.com/ZalithLauncher/ZalithLauncher2/commit/1679297)：下载时，直接使用启动器 UA (by @MovTery)\n- [GP#1467](https://github.com/ZalithLauncher/ZalithLauncher2/pull/1467)：游戏内读取剪贴板内容可能为 null (by @MovTery)\n- [Main#132b8d1](https://github.com/ZalithLauncher/ZalithLauncher2/commit/132b8d1)：修复 JVM 参数解析导致参数拼接错误的问题 (by @MovTery)\n"
         }
     ]
 }
