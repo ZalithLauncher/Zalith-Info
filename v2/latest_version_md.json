@@ -1,61 +1,61 @@
 {
-    "code": 200033,
-    "version": "2.4.10",
-    "created_at": "2026-07-20T23:08:52Z",
+    "code": 200034,
+    "version": "2.4.11",
+    "created_at": "2026-08-09T20:32:24Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-oiUUv",
+        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-pnn7v",
         "links": [
             {
-                "name": "123云盘",
-                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-oiUUv"
+                "name": "123 云盘",
+                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-pnn7v"
             },
             {
-                "name": "百度网盘（提取码：tp9p）",
-                "link": "https://pan.baidu.com/s/17eZjIqizWgLajo_glC24GA?pwd=tp9p"
+                "name": "百度网盘（提取码：9eg7）",
+                "link": "https://pan.baidu.com/s/11_lXaWT5kYw3V94mouHBmQ?pwd=9eg7"
             }
         ]
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.4.10-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.10/ZalithLauncher-2.4.10-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.4.11-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.11/ZalithLauncher-2.4.11-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 162966317
+            "size": 162976549
         },
         {
-            "file_name": "ZalithLauncher-2.4.10-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.10/ZalithLauncher-2.4.10-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.4.11-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.11/ZalithLauncher-2.4.11-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 155375058
+            "size": 155385306
         },
         {
-            "file_name": "ZalithLauncher-2.4.10-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.10/ZalithLauncher-2.4.10-x86.apk",
+            "file_name": "ZalithLauncher-2.4.11-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.11/ZalithLauncher-2.4.11-x86.apk",
             "arch": "x86",
-            "size": 142787804
+            "size": 142798052
         },
         {
-            "file_name": "ZalithLauncher-2.4.10-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.10/ZalithLauncher-2.4.10-x86_64.apk",
+            "file_name": "ZalithLauncher-2.4.11-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.11/ZalithLauncher-2.4.11-x86_64.apk",
             "arch": "x86_64",
-            "size": 168308505
+            "size": 168318761
         },
         {
-            "file_name": "ZalithLauncher-2.4.10.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.10/ZalithLauncher-2.4.10.apk",
+            "file_name": "ZalithLauncher-2.4.11.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.11/ZalithLauncher-2.4.11.apk",
             "arch": "all",
-            "size": 321803959
+            "size": 321814207
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Updates:\n- GP#1188: Updated Angle (by aaaapai)\n- GP#1496: Terracotta multiplayer: Added support for custom EasyTier server nodes (by @MovTery)\n- GP#1500: Updated OpenAL-Soft (by aaaapai)\n- GP#1506: Added 26.2 to the list of major versions with common mod support (by @MovTery)\n- GP#1545: View mod info and switch to a dedicated mod version screen in mod management (by @MovTery)\n- GP#1543: Added support for renderer plugins on new architectures (by @MovTery)\n- GP#1555: Replaced VulkanZink renderer with Kopper Zink (by @MovTery)\n\n## Refactors:\n- GP#1522: Refactored version list state retrieval mechanism (by @MovTery)\n- GP#1545: Refactored launcher localization text construction (by @MovTery)\n- GP#1557: Replaced fullscreen implementation (by @MovTery)\n\n## Changes:\n- GP#1529: Added scrollbars to game menu and control layout editor menus (by @MovTery)\n\n## Fixes:\n- GP#1495: Newly installed versions may crash due to missing log directory (by @MovTery)\n- GP#1505: No longer check Modrinth project existence on the launcher side; Modrinth handles it itself (by @MovTery)\n- GP#1505: Skip 404 projects when installing modpacks (by @MovTery)\n- GP#1507: Foreground blur effect still active when no background is set (by @MovTery)\n- GP#1526: Crash due to mismatched Compose color space IDs between old and new versions (by @MovTery)\n- GP#1533: Right sidebar obscured in Jar execution log output (by @MovTery)\n- GP#1538: Crash during Parcel deserialization due to obfuscation (by @MovTery)\n- GP#1539: Always include launcher UA when downloading files (by @MovTery)\n- GP#1546: Duplicate configuration of java.library.path when launching the game (by @MovTery)\n- GP#1571: Axiom mod failing to load imgui via imgui.library.path (by @MovTery)\n- GP#1573: Switched to OkHttp engine to resolve some Microsoft login issues (by @MovTery)\n- GP#1578: Specified openal library loading & fixed missing Platform$Architecture.is64Bit() (by @MovTery)"
+        "markdown": "## Updates:\n- GP#1631: Refactored joystick implementation, added support for embedding joystick components into control layouts (by @MovTery)\n\n## Fixes:\n- GP#1590: Crash when entering a page number while total pages is 0 (by @MovTery)\n- GP#1645: Reverted to HTTP/1.1 to avoid silent native crashes with OkHttp engine when using Terracotta multiplayer (by @MovTery)"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 更新：\n- GP#1188：更新 Angle (by aaaapai)\n- GP#1496：陶瓦联机：支持使用自定义的 EasyTier 服务器节点 (by @MovTery)\n- GP#1500：更新 OpenAL-Soft (by aaaapai)\n- GP#1506：将 26.2 添加进常见模组支持大版本列表 (by @MovTery)\n- GP#1545：管理模组时查看信息，切换到独立的模组版本屏幕 (by @MovTery)\n- GP#1543：支持新架构的渲染器插件 (by @MovTery)\n- GP#1555：将 VulkanZink 渲染器更换为 Kopper Zink (by @MovTery)\n\n## 重构：\n- GP#1522：重构版本列表状态获取机制 (by @MovTery)\n- GP#1545：重构启动器本地化文本构建方式 (by @MovTery)\n- GP#1557：更换全屏实现 (by @MovTery)\n\n## 调整：\n- GP#1529：游戏菜单、控制布局编辑器菜单添加滚动条 (by @MovTery)\n\n## 修复：\n- GP#1495：新安装的版本可能因日志所在目录不存在导致崩溃 (by @MovTery)\n- GP#1505：不再在启动器侧检查 Modrinth 项目是否存在，Modrinth 自己会处理 (by @MovTery)\n- GP#1505：安装整合包时，跳过已 404 的项目 (by @MovTery)\n- GP#1507：未设置背景时，前景模糊效果仍在生效 (by @MovTery)\n- GP#1526：新旧 Compose 色彩空间 ID 不再匹配导致的崩溃 (by @MovTery)\n- GP#1533：执行 Jar 文件日志输入右侧栏被遮挡 (by @MovTery)\n- GP#1538：混淆导致 Parcel 反序列化时崩溃 (by @MovTery)\n- GP#1539：下载文件时，始终标注启动器UA (by @MovTery)\n- GP#1546：启动游戏时重复配置 java.library.path (by @MovTery)\n- GP#1571：Axiom 模组无法通过 imgui.library.path 路径加载 imgui (by @MovTery)\n- GP#1573：切换到 OkHttp 引擎尝试解决部分微软登录不可用的问题 (by @MovTery)\n- GP#1578：指定 openal 库加载 & 缺失 Platform$Architecture.is64Bit() (by @MovTery)\n"
+            "markdown": "## 更新：\n- GP#1631：重构摇杆实现，支持内嵌摇杆组件到控制布局 (by @MovTery)\n\n## 修复：\n- GP#1590：填写页码时，若总页数为 0 则导致崩溃 (by @MovTery)\n- GP#1645：回到 HTTP/1.1，避免使用陶瓦联机时 OkHttp 引擎下 native 静默闪退 (by @MovTery)"
         }
     ]
 }
