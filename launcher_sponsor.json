@@ -1,6 +1,27 @@
 {
   "sponsors": [
     {
+      "name": "[FISH]",
+      "time": "2026/08/10",
+      "identifier": "202608101533191025654519094",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.2
+    },
+    {
+      "name": "星太",
+      "time": "2026/08/10",
+      "identifier": "202608101424334951529918376",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/776ac46f46239dacb6ff7342e2b068c8_w132_h132_s8.jpeg",
+      "amount": 5.2
+    },
+    {
+      "name": "爱发电用户_QfBj",
+      "time": "2026/08/10",
+      "identifier": "202608100858175752505719398",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 8.0
+    },
+    {
       "name": "爱发电用户_XQK6",
       "time": "2026/08/08",
       "identifier": "202608090033405256554923735",
