@@ -1,61 +1,61 @@
 {
-    "code": 200034,
-    "version": "2.4.11",
-    "created_at": "2026-08-09T20:32:24Z",
+    "code": 200036,
+    "version": "2.5",
+    "created_at": "2026-09-05T11:24:04Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-pnn7v",
+        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-HorZv",
         "links": [
             {
-                "name": "123 云盘",
-                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-pnn7v"
+                "name": "123云盘",
+                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-HorZv"
             },
             {
-                "name": "百度网盘（提取码：9eg7）",
-                "link": "https://pan.baidu.com/s/11_lXaWT5kYw3V94mouHBmQ?pwd=9eg7"
+                "name": "百度网盘（提取码：ugmm）",
+                "link": "https://pan.baidu.com/s/1fEZZ1MjGOWfbfR1bT3G3cA?pwd=ugmm"
             }
         ]
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.4.11-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.11/ZalithLauncher-2.4.11-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.5-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5/ZalithLauncher-2.5-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 162976549
+            "size": 180985019
         },
         {
-            "file_name": "ZalithLauncher-2.4.11-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.11/ZalithLauncher-2.4.11-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.5-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5/ZalithLauncher-2.5-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 155385306
+            "size": 172904272
         },
         {
-            "file_name": "ZalithLauncher-2.4.11-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.11/ZalithLauncher-2.4.11-x86.apk",
+            "file_name": "ZalithLauncher-2.5-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5/ZalithLauncher-2.5-x86.apk",
             "arch": "x86",
-            "size": 142798052
+            "size": 161440338
         },
         {
-            "file_name": "ZalithLauncher-2.4.11-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.11/ZalithLauncher-2.4.11-x86_64.apk",
+            "file_name": "ZalithLauncher-2.5-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5/ZalithLauncher-2.5-x86_64.apk",
             "arch": "x86_64",
-            "size": 168318761
+            "size": 186813729
         },
         {
-            "file_name": "ZalithLauncher-2.4.11.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.4.11/ZalithLauncher-2.4.11.apk",
+            "file_name": "ZalithLauncher-2.5.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5/ZalithLauncher-2.5.apk",
             "arch": "all",
-            "size": 321814207
+            "size": 354039444
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Updates:\n- GP#1631: Refactored joystick implementation, added support for embedding joystick components into control layouts (by @MovTery)\n\n## Fixes:\n- GP#1590: Crash when entering a page number while total pages is 0 (by @MovTery)\n- GP#1645: Reverted to HTTP/1.1 to avoid silent native crashes with OkHttp engine when using Terracotta multiplayer (by @MovTery)"
+        "markdown": "## Updates:\n- GP#1625: Updated authlib-injector to v1.2.8 (by @TNTyep520)\n- GP#1692, GP#1701: Hybrid LWJGL 3.3.3 + 3.4.1 (by @MovTery)\n- GP#1690: Display saved game playtime (by @CiiLu)\n- GP#1685: Added file manager (by @MovTery)\n- GP#1708: Updated background task titles (by @MovTery)\n- GP#1721: Added SDL3 to support launching 26.3 snapshot 4+ (by @MovTery)\n- GP#1721: Added support for Controlify mod (by @MovTery)\n- GP#1735: Guide users to re-login when account credentials expire (by @MovTery)\n- GP#1735: Refactored game launch into a task flow (by @MovTery)\n- GP#1748: Updated recorded dependency library information (by @TNTyep520)\n\n## Refactors:\n- GP#1727: Refactored download system into a unified multi-threaded download engine, consolidated mirror source settings (by @MovTery)\n- GP#1741: Refactored UI of the version list in the version management page (by @MovTery)\n- GP#1743: Refactored game version dependency library deduplication mechanism (by @MovTery)\n\n## Changes:\n- GP#1672: Updated dependency library project information (by @TNTyep520)\n- GP#1699: Disable \"Install\" button when no game version is selected during resource installation (by @CiiLu)\n- GP#1729: Changed default resource search platform to CurseForge (by @MovTery)\n- GP#1715: Lock aspect ratio when resizing joystick (by @youfeng11)\n- GP#1736: Skip integrity check entirely when not enabled (by @MovTery)\n- GP#1778: Adjusted maximum MC version supported by renderer (by @MovTery)\n- GP#1778: Early Vulkan support check to determine whether to show renderer compatibility warning (by @MovTery)\n\n## Fixes:\n- GP#1609: OpenAL-Soft: Default to OpenSL as backend (by @aaaapai)\n- GP#1676: CPU showing Unknown in F3 info on some devices (by @TNTyep520)\n- GP#1677: NG-GL4ES defensive fix for SIGSEGV caused by glGetString null pointer (by @TNTyep520)\n- GP#1686: Symbolic link creation failure spam when extracting JRE (by @MovTery)\n- GP#1687: In-game Toast display event not handled (by @MovTery)\n- GP#1707: Should not create Activity in caller's task stack when launched by other apps (by @MovTery)\n- GP#1723: Clicking desktop icon no longer reopens the main interface while game is running (by @MovTery)\n- GP#1732: Crash caused by abnormal game version sorting comparison algorithm (by @MovTery)\n- GP#1740: Fixed some description texts missing placeholder substitutions (by @MovTery)\n- GP#1742: \"Search ID\" screen navigation to project page locks download to mod folder (by @MovTery)\n- GP#1749: SmoothFont font scaling error after font selection on restart (by @MovTery)\n- GP#1758: Dialog bouncing issue when typing in dialogs (by @MovTery)\n- GP#1765: Mitigated foreground service creation failure when installing mod loaders (by @MovTery)\n- GP#1771: Fixed inability to resolve SRV records in-game (by @MovTery)\n- GP#1772: Crash triggered when CurseForge pagination cancels request on main thread (by @MovTery)\n- GP#1777: Parent directory not checked before creating .nomedia file (by @MovTery)\n- GP#1778: Fixed Turnip driver initialization and retrieval (by @MovTery)"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 更新：\n- GP#1631：重构摇杆实现，支持内嵌摇杆组件到控制布局 (by @MovTery)\n\n## 修复：\n- GP#1590：填写页码时，若总页数为 0 则导致崩溃 (by @MovTery)\n- GP#1645：回到 HTTP/1.1，避免使用陶瓦联机时 OkHttp 引擎下 native 静默闪退 (by @MovTery)"
+            "markdown": "## 更新：\n- GP#1625：更新 authlib-injector 至 v1.2.8 (by @TNTyep520)\n- GP#1692、GP#1701：混合 LWJGL 3.3.3 + 3.4.1 (by @MovTery)\n- GP#1690：显示存档游戏时长 (by @CiiLu)\n- GP#1685：加入文件管理器 (by @MovTery)\n- GP#1708：更新后台任务标题名称 (by @MovTery)\n- GP#1721：添加 SDL3 以支持启动 26.3 snapshot 4+ (by @MovTery)\n- GP#1721：支持使用 Controlify 模组 (by @MovTery)\n- GP#1735：账号凭据失效时引导重新登录 (by @MovTery)\n- GP#1735：重构启动游戏为任务流形式 (by @MovTery)\n- GP#1748：更新记录的依赖库信息 (by @TNTyep520)\n\n\n## 重构：\n- GP#1727：重构下载体系为统一的多线程下载引擎，收敛镜像源设置项 (by @MovTery)\n- GP#1741：重构版本管理页面版本列表的 UI (by @MovTery)\n- GP#1743：重构游戏版本依赖库去重机制 (by @MovTery)\n\n\n## 调整：\n- GP#1672：更新依赖库项目信息 (by @TNTyep520)\n- GP#1699：安装资源时未选择游戏版本则禁用“安装”按钮 (by @CiiLu)\n- GP#1729：调整资源搜索默认平台为 CurseForge (by @MovTery)\n- GP#1715：调整摇杆大小时锁定宽高比 (by @youfeng11)\n- GP#1736：不检查游戏完整性时，完全跳过检查任务 (by @MovTery)\n- GP#1778：调整渲染器最大支持的 MC 版本 (by @MovTery)\n- GP#1778：提前检查 Vulkan 支持情况决定是否弹出渲染器兼容性警告 (by @MovTery)\n\n\n## 修复：\n- GP#1609：OpenAL-Soft：默认 OpenSL 作为后端 (by @aaaapai)\n- GP#1676：部分设备 F3 信息 CPU 显示 Unknown (by @TNTyep520)\n- GP#1677：NG-GL4ES 为防御 glGetString 空指针导致的 SIGSEGV (by @TNTyep520)\n- GP#1686：解压 JRE 时符号链接创建失败报错刷屏 (by @MovTery)\n- GP#1687：游戏内未处理展示 Toast 的事件 (by @MovTery)\n- GP#1707：被其他应用唤起时，不应在调用方的任务栈创建 Activity (by @MovTery)\n- GP#1723：游戏运行时点击桌面图标不再重复打开主界面 (by @MovTery)\n- GP#1732：游戏版本排序比较算法异常导致崩溃 (by @MovTery)\n- GP#1740：修正一些描述文本未使用替换符的问题 (by @MovTery)\n- GP#1742：“搜索ID”屏幕跳转的项目页面内下载会锁定到模组文件夹 (by @MovTery)\n- GP#1749：SmoothFont 选择字体后重启字体缩放错误 (by @MovTery)\n- GP#1758：对话框内输入时，对话框弹跳的问题 (by @MovTery)\n- GP#1765：缓解安装模组加载器时前台服务创建失败的问题 (by @MovTery)\n- GP#1771：修复游戏内无法解析 SRV 记录的问题 (by @MovTery)\n- GP#1772：CurseForge 分页加载在主线程取消请求时触发崩溃 (by @MovTery)\n- GP#1777：.nomedia 文件创建前未检查父目录是否存在 (by @MovTery)\n- GP#1778：修正 Turnip 驱动器初始化与获取 (by @MovTery)\n"
         }
     ]
 }
