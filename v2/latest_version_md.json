@@ -1,61 +1,61 @@
 {
-    "code": 200039,
-    "version": "2.5.2_hotfix",
-    "created_at": "2026-09-14T03:19:28Z",
+    "code": 200040,
+    "version": "2.5.3",
+    "created_at": "2026-09-15T01:02:31Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-nZzZv",
+        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-4Mzbv",
         "links": [
             {
                 "name": "123云盘",
-                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-nZzZv"
+                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-4Mzbv"
             },
             {
-                "name": "百度网盘（提取码：nk6u）",
-                "link": "https://pan.baidu.com/s/1r2sxyeLzDi863vCLElfZWw?pwd=nk6u"
+                "name": "百度网盘（提取码：7zk6）",
+                "link": "https://pan.baidu.com/s/1r841WejYDEca-Y_s-vXScA?pwd=7zk6"
             }
         ]
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.5.2_hotfix-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5.2_hotfix/ZalithLauncher-2.5.2_hotfix-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.5.3-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5.3/ZalithLauncher-2.5.3-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 181160752
+            "size": 181168072
         },
         {
-            "file_name": "ZalithLauncher-2.5.2_hotfix-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5.2_hotfix/ZalithLauncher-2.5.2_hotfix-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.5.3-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5.3/ZalithLauncher-2.5.3-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 173079339
+            "size": 173086587
         },
         {
-            "file_name": "ZalithLauncher-2.5.2_hotfix-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5.2_hotfix/ZalithLauncher-2.5.2_hotfix-x86.apk",
+            "file_name": "ZalithLauncher-2.5.3-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5.3/ZalithLauncher-2.5.3-x86.apk",
             "arch": "x86",
-            "size": 161616605
+            "size": 161623941
         },
         {
-            "file_name": "ZalithLauncher-2.5.2_hotfix-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5.2_hotfix/ZalithLauncher-2.5.2_hotfix-x86_64.apk",
+            "file_name": "ZalithLauncher-2.5.3-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5.3/ZalithLauncher-2.5.3-x86_64.apk",
             "arch": "x86_64",
-            "size": 186989693
+            "size": 186997057
         },
         {
-            "file_name": "ZalithLauncher-2.5.2_hotfix.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5.2_hotfix/ZalithLauncher-2.5.2_hotfix.apk",
+            "file_name": "ZalithLauncher-2.5.3.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.5.3/ZalithLauncher-2.5.3.apk",
             "arch": "all",
-            "size": 354238187
+            "size": 354246515
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Hotfix\n- R8 obfuscation causing Vulkan detection crash (by @MovTery)\n\n\n## Updates:\n- GP#1805: Added two-finger swipe scroll gesture in-game (by @MovTery)\n- GP#1811: Check and mark mods already installed for the current version on the mod download page (by @MovTery)\n- GP#1824: Added support for custom game resolution (by @MovTery)\n- GP#1821: Added support for using the Narrator in-game (by @MovTery)\n- GP#1827: File manager entries now use MD3E cards and colored circular icons (by @MovTery)\n- GP#1829: Foreground keep-alive for tasks to prevent interruption when switched to background (by @MovTery)\n- GP#1830: Added support for selecting and installing dependency projects when downloading resources (by @MovTery)\n- GP#1838: Display resource type badges in project details on the right side of the resource download screen (by @MovTery)\n\n## Refactors:\n- GP#1819: Refactored Vulkan detection, annotate dependencies by Minecraft version range (by @MovTery)\n\n## Changes:\n- GP#1830: On the resource download page, dependency project info is now cached asynchronously in the background (by @MovTery)\n- GP#1833: Version management top action bar adjusted to semi-transparent when custom background content is set (by @MovTery)\n\n## Fixes:\n- GP#1803: Corrected renderer version compatibility (by @Xirren)\n- GP#1804: Save playtime formatting not correctly decomposed into non-overlapping components (by @MovTery)\n- GP#1810: Removed frame rate lock to screen refresh rate (by @MovTery)\n- GP#1822: Floating ball position becomes off-screen and invisible after window size changes (by @MovTery)\n- GP#1844: Window size not refreshing properly when switching launcher to background (by @MovTery)\n- GP#1849: Terracotta multiplayer VPN service not entering foreground in time causing game process crash\n- GP#1850: SDL input method routed by render path, fixed inability to invoke soft keyboard in Controlify environment (by @MovTery)"
+        "markdown": "## Updates:\n- GP#1843: Added support for selecting a Java runtime once by long-pressing the run jar file button (by @CiiLu)\n- GP#1867: Added a real-time JVM installation log card to the task flow dialog (by @MovTery)\n\n## Changes:\n- GP#1868: Updated default control layout (by @MovTery)\n- GP#1869: In control layout, newly created joystick controls now default to Ctrl as the lock event modifier (by @MovTery)\n\n## Fixes:\n- GP#1864: Force game JVM to use UTF-8 encoding, fixing FTB mods failing to initialize properly (by @MovTery)\n- GP#1865: Installer failing to start in foreground service when GlobalContext is not initialized (by @MovTery)\n- GP#1871: Fixed corner radius distribution issue for file manager entries (by @MovTery)\n- GP#1874: GLFW bridge initialization now uses the calling thread's JNIEnv, fixing crashes and freezes caused by cross-thread reuse (by @MovTery)"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## Hotfix\n- R8 混淆导致 Vulkan 检测崩溃 (by @MovTery)\n\n\n## 更新：\n- GP#1805：新增游戏内双指滑动滚动手势 (by @MovTery)\n- GP#1811：下载模组页面检查并标记当前版本已安装的模组 (by @MovTery)\n- GP#1824：支持自定义游戏分辨率 (by @MovTery)\n- GP#1821：支持在游戏内使用复述功能 (by @MovTery)\n- GP#1827：文件管理器条目 MD3E 卡片化与彩色圆底图标 (by @MovTery)\n- GP#1829：任务前台保活，避免切后台被系统中断 (by @MovTery)\n- GP#1830：下载资源时支持勾选并安装依赖项目 (by @MovTery)\n- GP#1838：下载资源屏幕右侧项目详情展示资源类型徽标 (by @MovTery)\n\n\n## 重构：\n- GP#1819：重构 Vulkan 检测，按 Minecraft 版本范围标注依赖 (by @MovTery)\n\n\n## 调整：\n- GP#1830：下载资源页面，依赖项目信息改为后台异步缓存 (by @MovTery)\n- GP#1833：版本管理顶部操作栏在自定义背景内容时调整为半透明 (by @MovTery)\n\n\n## 修复：\n- GP#1803：修正渲染器版本适配情况 (by @Xirren)\n- GP#1804：存档游玩时间格式化未正确分解为互不重叠的分量 (by @MovTery)\n- GP#1810：解除游戏帧率对屏幕刷新率的锁定 (by @MovTery)\n- GP#1822：悬浮球位置在窗口尺寸变化后超出屏幕不可见 (by @MovTery)\n- GP#1844：切换启动器至后台时，未正常刷新窗口大小 (by @MovTery)\n- GP#1849：陶瓦联机 VPN 服务未及时进入前台导致游戏进程崩溃\n- GP#1850：SDL 输入法按渲染路径分流，修复 Controlify 环境无法呼出软键盘 (by @MovTery)\n"
+            "markdown": "## 更新：\n- GP#1843：支持长按运行 jar 文件按钮时单次选择 Java 运行时 (by @CiiLu)\n- GP#1867：任务流对话框新增安装 JVM 实时日志卡片 (by @MovTery)\n\n\n## 调整：\n- GP#1868：更新默认控制布局 (by @MovTery)\n- GP#1869：控制布局中，新创建的摇杆控件的锁定事件默认添加 Ctrl (by @MovTery)\n\n\n## 修复：\n- GP#1864：强制游戏 JVM 使用 UTF-8 编码，修复 FTB 系模组无法正常初始化 (by @MovTery)\n- GP#1865：未初始化 GlobalContext 安装器在前台服务中启动失败 (by @MovTery)\n- GP#1871：修复文件管理器条目的圆角分配问题 (by @MovTery)\n- GP#1874：GLFW 桥初始化改用调用线程 JNIEnv，修复跨线程复用导致的崩溃与卡死 (by @MovTery)\n"
         }
     ]
 }
