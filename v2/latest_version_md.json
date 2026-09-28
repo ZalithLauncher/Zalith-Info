@@ -1,61 +1,61 @@
 {
-    "code": 200042,
-    "version": "2.6_hotfix",
-    "created_at": "2026-09-24T14:25:44Z",
+    "code": 200043,
+    "version": "2.6.1",
+    "created_at": "2026-09-28T07:42:00Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-3t7ev",
+        "link": "https://pan.baidu.com/s/1Jhn-AMFr4QaTeNVFTKIrtA?pwd=d2fv",
         "links": [
             {
-                "name": "123云盘",
-                "link": "https://1813283584.share.123pan.cn/123pan/YLIUVv-3t7ev"
+                "name": "百度网盘（提取码：d2fv）",
+                "link": "https://pan.baidu.com/s/1Jhn-AMFr4QaTeNVFTKIrtA?pwd=d2fv"
             },
             {
-                "name": "百度网盘（提取码：jmb6）",
-                "link": "https://pan.baidu.com/s/1yPikEr0T4iZOd2a9ZxNtYg?pwd=jmb6"
+                "name": "夸克网盘（提取码：u9Nq）",
+                "link": "https://pan.quark.cn/s/704efa313a71?pwd=u9Nq"
             }
         ]
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.6_hotfix-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6/ZalithLauncher-2.6_hotfix-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.6.1-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6.1/ZalithLauncher-2.6.1-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 181357034
+            "size": 181469527
         },
         {
-            "file_name": "ZalithLauncher-2.6_hotfix-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6/ZalithLauncher-2.6_hotfix-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.6.1-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6.1/ZalithLauncher-2.6.1-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 173275725
+            "size": 173388198
         },
         {
-            "file_name": "ZalithLauncher-2.6_hotfix-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6/ZalithLauncher-2.6_hotfix-x86.apk",
+            "file_name": "ZalithLauncher-2.6.1-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6.1/ZalithLauncher-2.6.1-x86.apk",
             "arch": "x86",
-            "size": 161813579
+            "size": 161926048
         },
         {
-            "file_name": "ZalithLauncher-2.6_hotfix-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6/ZalithLauncher-2.6_hotfix-x86_64.apk",
+            "file_name": "ZalithLauncher-2.6.1-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6.1/ZalithLauncher-2.6.1-x86_64.apk",
             "arch": "x86_64",
-            "size": 187186347
+            "size": 187298808
         },
         {
-            "file_name": "ZalithLauncher-2.6_hotfix.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6/ZalithLauncher-2.6_hotfix.apk",
+            "file_name": "ZalithLauncher-2.6.1.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6.1/ZalithLauncher-2.6.1.apk",
             "arch": "all",
-            "size": 354439913
+            "size": 354552390
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Hotfix:\n- Main interface card width stalling on ultra-wide windows (by @MovTery)\n- Touch coordinate offset after closing page fullscreen (by @MovTery)\n\n\n## Updates:\n- GP#1891: Updated mod data (by @MovTery)\n- GP#1892: Use relevance sorting when searching translation keywords in Chinese (by @MovTery)\n- GP#1897: Added resource favorites feature to the download screen (by @MovTery)\n- GP#1906: Added game argument configuration options (by @MovTery)\n- GP#1925: Updated Vulkan detection (26.4-snapshot-1) (by @MovTery)\n- GP#1926: Removed custom home page, added card-based main interface system (by @MovTery)\n- GP#1934: Main interface action menu bar supports long-press drag to switch sides (by @MovTery)\n\n\n## Refactors:\n- GP#1911: Version encapsulates game directory, version chain paths now provided by Version instances (by @MovTery)\n- GP#1929: Refactored downloader engine, referencing HMCL FetchTask (by @MovTery)\n\n## Changes:\n- GP#1885: Adjusted Java runtime selection dialog style (by @youfeng11)\n- GP#1889: Expand compatible versions by default in the version list when downloading mods (by @youfeng11)\n- GP#1897: Resource platform badges now distinguished by platform brand colors (by @MovTery)\n\n\n## Fixes:\n- GP#1884: Unified single initialization of LWJGL natives paths, auto re-extract when self-check detects missing files before launch (by @MovTery)\n- GP#1890: Added SDL dlsym layer proxy, destroy gating covers reused windows (by @MovTery)\n- GP#1898: Abnormally long author names displayed incorrectly on the download screen (by @MovTery)\n- GP#1905: Byte-by-byte boxing during mod fingerprint scanning causes GC pressure and slow loading when loading installed mods (by @MovTery)\n- GP#1906: Misaligned game arguments and JVM arguments when importing/exporting MCBBS modpacks (by @MovTery)\n- GP#1923: Completed paired sending of key and character events, fixing Cleanroom letter keys and chat input not working (by @MovTery)\n- GP#1920: Some systems scale app windows, causing decorView size to differ from physical display size and leading to multi-touch coordinate offset (by @Leowly)\n- GP#1932: Fixed physical mouse movement being dispatched as key events after switching system input method (by @MovTery)"
+        "markdown": "## Updates:\n- GP#1950: Added onboarding guide to launcher main interface & control layout editor (by @MovTery)\n- GP#1956: Refactored existing easter egg effect layer, added easter egg effects for multiple holidays (by @MovTery)\n- GP#1957: Added compatibility with lwjgl3ify & use MioLauncherWrapper (by @MovTery)\n- GP#1963: Card grid supports free placement, allowing vertical gaps between cards (by @MovTery)\n\n## Refactors:\n- GP#1972: Optimized main interface card repositioning logic, card drag displacement changed to chain-style door-opening semantics (by @MovTery)\n- GP#1974: Refactored tablet main interface layout (by @MovTery)\n\n## Changes:\n- GP#1973: Adjusted launcher update dialog style (by @MovTery)\n\n## Fixes:\n- GP#1964: SDL message box message mistakenly set as title causing incomplete error info display (by @MovTery)\n- GP#1971: Fixed Cleanroom input method input being misidentified as key presses (by @MovTery)"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## hotfix:\n- 超宽窗口下主界面卡片宽度停滞 (by @MovTery)\n- 关闭页面全屏化后触摸坐标偏移 (by @MovTery)\n\n\n## 更新：\n- GP#1891：更新模组数据 (by @MovTery)\n- GP#1892：中文搜索翻译关键词时固定使用相关性排序 (by @MovTery)\n- GP#1897：下载屏幕新增资源收藏功能 (by @MovTery)\n- GP#1906：加入游戏参数配置项 (by @MovTery)\n- GP#1925：更新 Vulkan 检测 (26.4-snapshot-1) (by @MovTery)\n- GP#1926：移除自定义主页，加入卡片式主界面系统 (by @MovTery)\n- GP#1934：主界面操作菜单栏支持长按提起拖拽换边 (by @MovTery)\n\n\n## 重构：\n- GP#1911：Version 封装游戏目录，版本链路路径由 Version 实例提供 (by @MovTery)\n- GP#1929：重构下载器引擎，参考 HMCL FetchTask (by @MovTery)\n\n\n## 调整：\n- GP#1885：调整选择Java运行时对话框样式 (by @youfeng11)\n- GP#1889：下载模组时模组版本列表默认展开适配的版本 (by @youfeng11)\n- GP#1897：资源平台标识标签按平台品牌色区分 (by @MovTery)\n\n\n## 修复：\n- GP#1884：统一 LWJGL natives 路径单次初始化，启动前自检缺失时自动重解包 (by @MovTery)\n- GP#1890：新增 SDL dlsym 层代理，销毁门控覆盖复用窗口 (by @MovTery)\n- GP#1898：下载屏幕内，平台项目作者名称太长时，显示异常 (by @MovTery)\n- GP#1905：加载已安装模组时，模组指纹扫描逐字节装箱导致 GC 压力与加载缓慢 (by @MovTery)\n- GP#1906：MCBBS 整合包游戏参数与 JVM 参数导入导出错位 (by @MovTery)\n- GP#1923：补齐按键与字符事件成对发送，修复 Cleanroom 字母键与聊天输入失效 (by @MovTery)\n- GP#1920：部分系统会对应用窗口做缩放，decorView 尺寸与物理显示尺寸不一致，导致多指触控坐标偏移 (by @Leowly)\n- GP#1932：修复切换系统输入法后实体鼠标移动被当作按键事件下发 (by @MovTery)\n"
+            "markdown": "## 更新：\n- GP#1950：启动器主界面 & 控制布局编辑器 加入新手引导 (by @MovTery)\n- GP#1956：重构现有彩蛋效果层，为多个节日添加彩蛋效果 (by @MovTery)\n- GP#1957：兼容 lwjgl3ify & 使用 MioLauncherWrapper (by @MovTery)\n- GP#1963：卡片网格支持自由摆放，允许卡片间纵向留空 (by @MovTery)\n\n\n## 重构：\n- GP#1972：优化主界面卡片换位逻辑，卡片拖动让位改为链式开门语义 (by @MovTery)\n- GP#1974：重构平板下主界面的布局 (by @MovTery)\n\n\n## 调整：\n- GP#1973：调整启动器更新对话框的样式 (by @MovTery)\n\n\n## 修复：\n- GP#1964：SDL 消息框 message 误设为标题导致错误信息显示不全 (by @MovTery)\n- GP#1971：修复 Cleanroom 输入法输入被误判为按键 (by @MovTery)\n"
         }
     ]
 }
