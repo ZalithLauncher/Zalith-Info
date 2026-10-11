@@ -1,61 +1,61 @@
 {
-    "code": 200043,
-    "version": "2.6.1",
-    "created_at": "2026-09-28T07:42:00Z",
+    "code": 200044,
+    "version": "2.7",
+    "created_at": "2026-10-11T04:32:14Z",
     "default_cloud_drive": {
         "language": "zh",
-        "link": "https://pan.baidu.com/s/1Jhn-AMFr4QaTeNVFTKIrtA?pwd=d2fv",
+        "link": "https://pan.baidu.com/s/1xB5ZHENBspe0ehewuCVuxg?pwd=fuph",
         "links": [
             {
-                "name": "百度网盘（提取码：d2fv）",
-                "link": "https://pan.baidu.com/s/1Jhn-AMFr4QaTeNVFTKIrtA?pwd=d2fv"
+                "name": "百度网盘（提取码：fuph）",
+                "link": "https://pan.baidu.com/s/1xB5ZHENBspe0ehewuCVuxg?pwd=fuph"
             },
             {
-                "name": "夸克网盘（提取码：u9Nq）",
-                "link": "https://pan.quark.cn/s/704efa313a71?pwd=u9Nq"
+                "name": "夸克网盘（提取码：v77e）",
+                "link": "https://pan.quark.cn/s/4b8be872c7c7?pwd=v77e"
             }
         ]
     },
     "files": [
         {
-            "file_name": "ZalithLauncher-2.6.1-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6.1/ZalithLauncher-2.6.1-arm64-v8a.apk",
+            "file_name": "ZalithLauncher-2.7-arm64-v8a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7/ZalithLauncher-2.7-arm64-v8a.apk",
             "arch": "arm64",
-            "size": 181469527
+            "size": 180825671
         },
         {
-            "file_name": "ZalithLauncher-2.6.1-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6.1/ZalithLauncher-2.6.1-armeabi-v7a.apk",
+            "file_name": "ZalithLauncher-2.7-armeabi-v7a.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7/ZalithLauncher-2.7-armeabi-v7a.apk",
             "arch": "arm",
-            "size": 173388198
+            "size": 172744438
         },
         {
-            "file_name": "ZalithLauncher-2.6.1-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6.1/ZalithLauncher-2.6.1-x86.apk",
+            "file_name": "ZalithLauncher-2.7-x86.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7/ZalithLauncher-2.7-x86.apk",
             "arch": "x86",
-            "size": 161926048
+            "size": 161282284
         },
         {
-            "file_name": "ZalithLauncher-2.6.1-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6.1/ZalithLauncher-2.6.1-x86_64.apk",
+            "file_name": "ZalithLauncher-2.7-x86_64.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7/ZalithLauncher-2.7-x86_64.apk",
             "arch": "x86_64",
-            "size": 187298808
+            "size": 186655092
         },
         {
-            "file_name": "ZalithLauncher-2.6.1.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.6.1/ZalithLauncher-2.6.1.apk",
+            "file_name": "ZalithLauncher-2.7.apk",
+            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7/ZalithLauncher-2.7.apk",
             "arch": "all",
-            "size": 354552390
+            "size": 353908894
         }
     ],
     "default_body": {
         "language": "en",
-        "markdown": "## Updates:\n- GP#1950: Added onboarding guide to launcher main interface & control layout editor (by @MovTery)\n- GP#1956: Refactored existing easter egg effect layer, added easter egg effects for multiple holidays (by @MovTery)\n- GP#1957: Added compatibility with lwjgl3ify & use MioLauncherWrapper (by @MovTery)\n- GP#1963: Card grid supports free placement, allowing vertical gaps between cards (by @MovTery)\n\n## Refactors:\n- GP#1972: Optimized main interface card repositioning logic, card drag displacement changed to chain-style door-opening semantics (by @MovTery)\n- GP#1974: Refactored tablet main interface layout (by @MovTery)\n\n## Changes:\n- GP#1973: Adjusted launcher update dialog style (by @MovTery)\n\n## Fixes:\n- GP#1964: SDL message box message mistakenly set as title causing incomplete error info display (by @MovTery)\n- GP#1971: Fixed Cleanroom input method input being misidentified as key presses (by @MovTery)"
+        "markdown": "## Updates:\n- GP#1991: Improved log display for mod loader installation (by @MovTery)\n- GP#1990: Removed update loader/install loader and overwrite installation features & added modify version feature (by @MovTery)\n- GP#1994: Added in-game frame rate chart display mode (by @MovTery)\n- GP#2027: Main interface now supports adding server cards & removed offline account restrictions (by @MovTery)\n- GP#2045: Game requests the highest refresh rate tier at the same resolution, removing the 60fps lock on some devices (by @MovTery)\n\n## Refactors:\n- GP#1984: Rewrote background glass blur using Modifier nodes and removed Haze dependency (by @MovTery)\n- GP#1990: Refactored OptiFine installation method, added support for combined installation with Forge (by @MovTery)\n- GP#2036: Corrected semantics of renderer configuration titles, properly display plugin configuration titles (by @youfeng11, @MovTery)\n\n## Changes:\n- GP#1985: Adjusted version card content layout (by @MovTery)\n- GP#2035: Adjusted styling of disabled mods in the mod management list (by @MovTery)\n\n## Fixes:\n- GP#1984: GIF background stops playing when switching pages (by @MovTery)\n- GP#1998: Fixed game input issues with control layout keys and input method character events (by @MovTery)\n- GP#2005: Card toolbar promoted to an independent floating layer, fixing buttons not being clickable (by @MovTery)\n- GP#1997: Fixed touchpad treating absolute surface coordinates as displacement, causing erratic camera movement in-game (by @MovTery)\n- GP#2001: Modpack download failures no longer falsely reported as successful, restored batch retry for failed files (by @MovTery)\n- GP#2010: Added missing LWJGL glfwGetWindowPos function (by @MovTery)\n- GP#2024: Complete component libraries when installing OptiFine, fixing launch failure due to missing launchwrapper (by @MovTery)\n- GP#2025: Possible crash when disabling SDL input method (by @MovTery)\n- GP#2026: Downloader failure retry rolled back duplicate byte statistics, fixing progress exceeding task completion (by @MovTery)\n- GP#2028: Crash caused by initial window size refresh on background thread during game launch (by @MovTery)\n- GP#2029: Control layout quick text input not working on SDL side (by @MovTery)\n- GP#2038: Version management ViewModels now follow the version object lifecycle (by @MovTery)\n- GP#2041: Fixed TouchController proxy pointer not being released (by @MovTery)"
     },
     "bodies": [
         {
             "language": "zh",
-            "markdown": "## 更新：\n- GP#1950：启动器主界面 & 控制布局编辑器 加入新手引导 (by @MovTery)\n- GP#1956：重构现有彩蛋效果层，为多个节日添加彩蛋效果 (by @MovTery)\n- GP#1957：兼容 lwjgl3ify & 使用 MioLauncherWrapper (by @MovTery)\n- GP#1963：卡片网格支持自由摆放，允许卡片间纵向留空 (by @MovTery)\n\n\n## 重构：\n- GP#1972：优化主界面卡片换位逻辑，卡片拖动让位改为链式开门语义 (by @MovTery)\n- GP#1974：重构平板下主界面的布局 (by @MovTery)\n\n\n## 调整：\n- GP#1973：调整启动器更新对话框的样式 (by @MovTery)\n\n\n## 修复：\n- GP#1964：SDL 消息框 message 误设为标题导致错误信息显示不全 (by @MovTery)\n- GP#1971：修复 Cleanroom 输入法输入被误判为按键 (by @MovTery)\n"
+            "markdown": "## 更新：\n- GP#1991：改良模组加载器安装的日志显示 (by @MovTery)\n- GP#1990：移除更新加载器/安装加载器、覆盖安装功能 & 加入修改版本功能 (by @MovTery)\n- GP#1994：新增游戏内帧率图表显示模式 (by @MovTery)\n- GP#2027：主界面支持新增服务器卡片 & 移除离线账号限制 (by @MovTery)\n- GP#2045：游戏请求同分辨率最高刷新率档位，解除部分设备 60fps 锁定 (by @MovTery)\n\n\n## 重构：\n- GP#1984：使用 Modifier 节点重写背景玻璃模糊并移除 Haze 依赖 (by @MovTery)\n- GP#1990：重构 OptiFine 安装方式，支持与 Forge 组合安装 (by @MovTery)\n- GP#2036：修正渲染器配置项标题的语义，正确显示插件配置的标题 (by @youfeng11、@MovTery)\n\n\n## 调整：\n- GP#1985：调整版本卡片内容布局 (by @MovTery)\n- GP#2035：整模组管理列表内已禁用的模组的样式 (by @MovTery)\n\n\n## 修复：\n- GP#1984：切换页面导致 GIF 背景停止播放 (by @MovTery)\n- GP#1998：修复控制布局按键与输入法字符事件的游戏输入问题 (by @MovTery)\n- GP#2005：卡片工具条提为独立悬浮层，修复按钮无法点击 (by @MovTery)\n- GP#1997：修复触控板把板面绝对坐标当作位移导致游戏内视角乱转 (by @MovTery)\n- GP#2001：整合包下载失败不再误报成功，恢复失败文件整批重试 (by @MovTery)\n- GP#2010：补齐 LWJGL 缺失的 glfwGetWindowPos 函数 (by @MovTery)\n- GP#2024：OptiFine 安装时补全组件类库，修复 launchwrapper 缺失导致无法启动 (by @MovTery)\n- GP#2025：关闭 SDL 输入法时可能出现的崩溃问题 (by @MovTery)\n- GP#2026：下载器失败重试回滚重复字节统计，修复进度超额完成任务 (by @MovTery)\n- GP#2028：游戏启动时窗口尺寸初始刷新位于后台线程导致崩溃 (by @MovTery)\n- GP#2029：控制布局快捷输入文本在 SDL 端失效 (by @MovTery)\n- GP#2038：使版本管理相关 ViewModel 的生命周期跟随版本对象 (by @MovTery)\n- GP#2041：修复 TouchController 代理指针无法释放的问题 (by @MovTery)\n"
         }
     ]
 }
