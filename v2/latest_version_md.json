@@ -1,61 +1,62 @@
 {
-    "code": 200044,
-    "version": "2.7",
-    "created_at": "2026-10-11T04:32:14Z",
-    "default_cloud_drive": {
-        "language": "zh",
-        "link": "https://pan.baidu.com/s/1xB5ZHENBspe0ehewuCVuxg?pwd=fuph",
-        "links": [
-            {
-                "name": "百度网盘（提取码：fuph）",
-                "link": "https://pan.baidu.com/s/1xB5ZHENBspe0ehewuCVuxg?pwd=fuph"
-            },
-            {
-                "name": "夸克网盘（提取码：v77e）",
-                "link": "https://pan.quark.cn/s/4b8be872c7c7?pwd=v77e"
-            }
-        ]
-    },
-    "files": [
-        {
-            "file_name": "ZalithLauncher-2.7-arm64-v8a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7/ZalithLauncher-2.7-arm64-v8a.apk",
-            "arch": "arm64",
-            "size": 180825671
-        },
-        {
-            "file_name": "ZalithLauncher-2.7-armeabi-v7a.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7/ZalithLauncher-2.7-armeabi-v7a.apk",
-            "arch": "arm",
-            "size": 172744438
-        },
-        {
-            "file_name": "ZalithLauncher-2.7-x86.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7/ZalithLauncher-2.7-x86.apk",
-            "arch": "x86",
-            "size": 161282284
-        },
-        {
-            "file_name": "ZalithLauncher-2.7-x86_64.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7/ZalithLauncher-2.7-x86_64.apk",
-            "arch": "x86_64",
-            "size": 186655092
-        },
-        {
-            "file_name": "ZalithLauncher-2.7.apk",
-            "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7/ZalithLauncher-2.7.apk",
-            "arch": "all",
-            "size": 353908894
-        }
-    ],
-    "default_body": {
-        "language": "en",
-        "markdown": "## Updates:\n- GP#1991: Improved log display for mod loader installation (by @MovTery)\n- GP#1990: Removed update loader/install loader and overwrite installation features & added modify version feature (by @MovTery)\n- GP#1994: Added in-game frame rate chart display mode (by @MovTery)\n- GP#2027: Main interface now supports adding server cards & removed offline account restrictions (by @MovTery)\n- GP#2045: Game requests the highest refresh rate tier at the same resolution, removing the 60fps lock on some devices (by @MovTery)\n\n## Refactors:\n- GP#1984: Rewrote background glass blur using Modifier nodes and removed Haze dependency (by @MovTery)\n- GP#1990: Refactored OptiFine installation method, added support for combined installation with Forge (by @MovTery)\n- GP#2036: Corrected semantics of renderer configuration titles, properly display plugin configuration titles (by @youfeng11, @MovTery)\n\n## Changes:\n- GP#1985: Adjusted version card content layout (by @MovTery)\n- GP#2035: Adjusted styling of disabled mods in the mod management list (by @MovTery)\n\n## Fixes:\n- GP#1984: GIF background stops playing when switching pages (by @MovTery)\n- GP#1998: Fixed game input issues with control layout keys and input method character events (by @MovTery)\n- GP#2005: Card toolbar promoted to an independent floating layer, fixing buttons not being clickable (by @MovTery)\n- GP#1997: Fixed touchpad treating absolute surface coordinates as displacement, causing erratic camera movement in-game (by @MovTery)\n- GP#2001: Modpack download failures no longer falsely reported as successful, restored batch retry for failed files (by @MovTery)\n- GP#2010: Added missing LWJGL glfwGetWindowPos function (by @MovTery)\n- GP#2024: Complete component libraries when installing OptiFine, fixing launch failure due to missing launchwrapper (by @MovTery)\n- GP#2025: Possible crash when disabling SDL input method (by @MovTery)\n- GP#2026: Downloader failure retry rolled back duplicate byte statistics, fixing progress exceeding task completion (by @MovTery)\n- GP#2028: Crash caused by initial window size refresh on background thread during game launch (by @MovTery)\n- GP#2029: Control layout quick text input not working on SDL side (by @MovTery)\n- GP#2038: Version management ViewModels now follow the version object lifecycle (by @MovTery)\n- GP#2041: Fixed TouchController proxy pointer not being released (by @MovTery)"
-    },
-    "bodies": [
-        {
-            "language": "zh",
-            "markdown": "## 更新：\n- GP#1991：改良模组加载器安装的日志显示 (by @MovTery)\n- GP#1990：移除更新加载器/安装加载器、覆盖安装功能 & 加入修改版本功能 (by @MovTery)\n- GP#1994：新增游戏内帧率图表显示模式 (by @MovTery)\n- GP#2027：主界面支持新增服务器卡片 & 移除离线账号限制 (by @MovTery)\n- GP#2045：游戏请求同分辨率最高刷新率档位，解除部分设备 60fps 锁定 (by @MovTery)\n\n\n## 重构：\n- GP#1984：使用 Modifier 节点重写背景玻璃模糊并移除 Haze 依赖 (by @MovTery)\n- GP#1990：重构 OptiFine 安装方式，支持与 Forge 组合安装 (by @MovTery)\n- GP#2036：修正渲染器配置项标题的语义，正确显示插件配置的标题 (by @youfeng11、@MovTery)\n\n\n## 调整：\n- GP#1985：调整版本卡片内容布局 (by @MovTery)\n- GP#2035：整模组管理列表内已禁用的模组的样式 (by @MovTery)\n\n\n## 修复：\n- GP#1984：切换页面导致 GIF 背景停止播放 (by @MovTery)\n- GP#1998：修复控制布局按键与输入法字符事件的游戏输入问题 (by @MovTery)\n- GP#2005：卡片工具条提为独立悬浮层，修复按钮无法点击 (by @MovTery)\n- GP#1997：修复触控板把板面绝对坐标当作位移导致游戏内视角乱转 (by @MovTery)\n- GP#2001：整合包下载失败不再误报成功，恢复失败文件整批重试 (by @MovTery)\n- GP#2010：补齐 LWJGL 缺失的 glfwGetWindowPos 函数 (by @MovTery)\n- GP#2024：OptiFine 安装时补全组件类库，修复 launchwrapper 缺失导致无法启动 (by @MovTery)\n- GP#2025：关闭 SDL 输入法时可能出现的崩溃问题 (by @MovTery)\n- GP#2026：下载器失败重试回滚重复字节统计，修复进度超额完成任务 (by @MovTery)\n- GP#2028：游戏启动时窗口尺寸初始刷新位于后台线程导致崩溃 (by @MovTery)\n- GP#2029：控制布局快捷输入文本在 SDL 端失效 (by @MovTery)\n- GP#2038：使版本管理相关 ViewModel 的生命周期跟随版本对象 (by @MovTery)\n- GP#2041：修复 TouchController 代理指针无法释放的问题 (by @MovTery)\n"
-        }
+  "code": 200045,
+  "version": "2.7.1",
+  "created_at": "2026-10-18T06:55:56Z",
+  "default_cloud_drive": {
+    "language": "zh",
+    "link": "https://pan.baidu.com/s/1wOeocUhwEU6GCE5bu-ll7Q?pwd=v7wh",
+    "links": [
+      {
+        "name": "百度网盘（提取码：v7wh）",
+        "link": "https://pan.baidu.com/s/1wOeocUhwEU6GCE5bu-ll7Q?pwd=v7wh"
+      },
+      {
+        "name": "夸克网盘（提取码：Z7XP）",
+        "link": "https://pan.quark.cn/s/2d040f320e23?pwd=Z7XP"
+      }
     ]
+  },
+  "cloud_drives": [],
+  "files": [
+    {
+      "file_name": "ZalithLauncher-2.7.1-arm64-v8a.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.1/ZalithLauncher-2.7.1-arm64-v8a.apk",
+      "arch": "arm64",
+      "size": 180844527
+    },
+    {
+      "file_name": "ZalithLauncher-2.7.1-armeabi-v7a.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.1/ZalithLauncher-2.7.1-armeabi-v7a.apk",
+      "arch": "arm",
+      "size": 172763258
+    },
+    {
+      "file_name": "ZalithLauncher-2.7.1-x86.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.1/ZalithLauncher-2.7.1-x86.apk",
+      "arch": "x86",
+      "size": 161301100
+    },
+    {
+      "file_name": "ZalithLauncher-2.7.1-x86_64.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.1/ZalithLauncher-2.7.1-x86_64.apk",
+      "arch": "x86_64",
+      "size": 186673920
+    },
+    {
+      "file_name": "ZalithLauncher-2.7.1.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.1/ZalithLauncher-2.7.1.apk",
+      "arch": "all",
+      "size": 353927710
+    }
+  ],
+  "default_body": {
+    "language": "en",
+    "markdown": "## Updates:\r- GP#2065: Added Compress and Share Save feature to the saves management screen (by @MovTery)\r- GP#2062: Added support for independently configuring renderer plugin environment variables in version settings (by @youfeng11, @MovTery)\r- GP#2083: Added \"Browse in Other File Managers\" option to the file manager more menu (by @MovTery)\r\r## Refactors:\r- GP#2066: Pinned the main interface card toolbar to the bottom of the screen (by @MovTery)\r\r## Changes:\r- GP#2077: Dialogs displaying SDL-side messages now use the launcher theme (by @MovTery)\r\r## Fixes:\r- GP#2053: Percent-encode the file name in CurseForge download links (by @MovTery)\r- GP#2049: Validate the displacement direction input when dragging cards, rejecting invalid direction vectors (by @dryfish09)\r- GP#2064: Fixed skin preview in the wardrobe not displaying until capes finish loading (by @youfeng11)\r- GP#2068: Mod update check repeatedly prompting for the same version due to an expired baseline date (by @MovTery)\r- GP#2078: SDL side unable to properly open links or browse directories (by @MovTery)\r- GP#2079: Render state not restored after the in-game surface is rebuilt, causing misaligned rendering (by @MovTery)\r- GP#2080: Removed the NeoForge early loading screen, fixing the interface freeze issue (by @MovTery)\r- GP#2082: SDL_EGL_LIBRARY is now constructed following the plugin path convention and validated for existence (by @MovTery)\r- GP#2089: Fixed the internal dialog popped up by the input method being mistakenly closed by the launcher (by @MovTery)"
+  },
+  "bodies": [
+    {
+      "language": "zh",
+      "markdown": "## 更新：\r- GP#2065：存档管理屏幕新增 “压缩存档并分享” (by @MovTery)\r- GP#2062：支持在版本设置中独立配置渲染器插件的环境变量 (by @youfeng11，@MovTery)\r- GP#2083：在文件管理器更多菜单中新增 “在其他管理器应用内浏览” (by @MovTery)\r\r\r## 重构：\r- GP#2066：使主界面卡片的工具栏固定屏幕底部 (by @MovTery)\r\r\r## 调整：\r- GP#2077：展示 SDL 端消息时，对话框使用启动器主题 (by @MovTery)\r\r\r## 修复：\r- GP#2053：CurseForge 下载链接应对文件名进行百分号编码 (by @MovTery)\r- GP#2049：校验卡片拖动的让位方向输入，拒绝非法方向向量 (by @dryfish09)\r- GP#2064：修复衣橱中的皮肤预览在加载完披风前不显示的问题 (by @youfeng11)\r- GP#2068：模组更新检查因基准日期过期导致同版本反复提示更新的问题 (by @MovTery)\r- GP#2078：SDL 端无法正常打开链接、浏览目录 (by @MovTery)\r- GP#2079：游戏运行中 surface 重建后渲染状态未恢复导致画面错位 (by @MovTery)\r- GP#2080：去掉 NeoForge 早期加载屏，解决界面冻死的问题 (by @MovTery)\r- GP#2082：SDL_EGL_LIBRARY 按插件路径约定拼接并校验存在性 (by @MovTery)\r- GP#2089：修复输入法弹出内部对话框后被启动器误关闭的问题 (by @MovTery)\r"
+    }
+  ]
 }
