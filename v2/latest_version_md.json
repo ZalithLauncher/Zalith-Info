@@ -1,62 +1,62 @@
 {
-  "code": 200045,
-  "version": "2.7.1",
-  "created_at": "2026-10-18T06:55:56Z",
+  "code": 200046,
+  "version": "2.7.2",
+  "created_at": "2026-10-20T10:21:08Z",
   "default_cloud_drive": {
     "language": "zh",
-    "link": "https://pan.baidu.com/s/1wOeocUhwEU6GCE5bu-ll7Q?pwd=v7wh",
+    "link": "https://pan.baidu.com/s/1NwiXpPw7mmhOvw6GnOcJrA?pwd=p96a",
     "links": [
       {
-        "name": "百度网盘（提取码：v7wh）",
-        "link": "https://pan.baidu.com/s/1wOeocUhwEU6GCE5bu-ll7Q?pwd=v7wh"
+        "name": "百度网盘（提取码：p96a）",
+        "link": "https://pan.baidu.com/s/1NwiXpPw7mmhOvw6GnOcJrA?pwd=p96a"
       },
       {
-        "name": "夸克网盘（提取码：Z7XP）",
-        "link": "https://pan.quark.cn/s/2d040f320e23?pwd=Z7XP"
+        "name": "夸克网盘（提取码：guNM）",
+        "link": "https://pan.quark.cn/s/e45d60c18a4f?pwd=guNM"
       }
     ]
   },
   "cloud_drives": [],
   "files": [
     {
-      "file_name": "ZalithLauncher-2.7.1-arm64-v8a.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.1/ZalithLauncher-2.7.1-arm64-v8a.apk",
+      "file_name": "ZalithLauncher-2.7.2-arm64-v8a.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.2/ZalithLauncher-2.7.2-arm64-v8a.apk",
       "arch": "arm64",
-      "size": 180844527
+      "size": 180847003
     },
     {
-      "file_name": "ZalithLauncher-2.7.1-armeabi-v7a.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.1/ZalithLauncher-2.7.1-armeabi-v7a.apk",
+      "file_name": "ZalithLauncher-2.7.2-armeabi-v7a.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.2/ZalithLauncher-2.7.2-armeabi-v7a.apk",
       "arch": "arm",
-      "size": 172763258
+      "size": 172765722
     },
     {
-      "file_name": "ZalithLauncher-2.7.1-x86.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.1/ZalithLauncher-2.7.1-x86.apk",
+      "file_name": "ZalithLauncher-2.7.2-x86.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.2/ZalithLauncher-2.7.2-x86.apk",
       "arch": "x86",
-      "size": 161301100
+      "size": 161303560
     },
     {
-      "file_name": "ZalithLauncher-2.7.1-x86_64.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.1/ZalithLauncher-2.7.1-x86_64.apk",
+      "file_name": "ZalithLauncher-2.7.2-x86_64.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.2/ZalithLauncher-2.7.2-x86_64.apk",
       "arch": "x86_64",
-      "size": 186673920
+      "size": 186676384
     },
     {
-      "file_name": "ZalithLauncher-2.7.1.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.1/ZalithLauncher-2.7.1.apk",
+      "file_name": "ZalithLauncher-2.7.2.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.7.2/ZalithLauncher-2.7.2.apk",
       "arch": "all",
-      "size": 353927710
+      "size": 353930174
     }
   ],
   "default_body": {
     "language": "en",
-    "markdown": "## Updates:\r- GP#2065: Added Compress and Share Save feature to the saves management screen (by @MovTery)\r- GP#2062: Added support for independently configuring renderer plugin environment variables in version settings (by @youfeng11, @MovTery)\r- GP#2083: Added \"Browse in Other File Managers\" option to the file manager more menu (by @MovTery)\r\r## Refactors:\r- GP#2066: Pinned the main interface card toolbar to the bottom of the screen (by @MovTery)\r\r## Changes:\r- GP#2077: Dialogs displaying SDL-side messages now use the launcher theme (by @MovTery)\r\r## Fixes:\r- GP#2053: Percent-encode the file name in CurseForge download links (by @MovTery)\r- GP#2049: Validate the displacement direction input when dragging cards, rejecting invalid direction vectors (by @dryfish09)\r- GP#2064: Fixed skin preview in the wardrobe not displaying until capes finish loading (by @youfeng11)\r- GP#2068: Mod update check repeatedly prompting for the same version due to an expired baseline date (by @MovTery)\r- GP#2078: SDL side unable to properly open links or browse directories (by @MovTery)\r- GP#2079: Render state not restored after the in-game surface is rebuilt, causing misaligned rendering (by @MovTery)\r- GP#2080: Removed the NeoForge early loading screen, fixing the interface freeze issue (by @MovTery)\r- GP#2082: SDL_EGL_LIBRARY is now constructed following the plugin path convention and validated for existence (by @MovTery)\r- GP#2089: Fixed the internal dialog popped up by the input method being mistakenly closed by the launcher (by @MovTery)"
+    "markdown": "## Updates:\rDue to relevant laws and regulations, downloading games, downloading and installing modpacks, and using Terracotta multiplayer are temporarily unavailable in the launcher in mainland China (by @MovTery)"
   },
   "bodies": [
     {
       "language": "zh",
-      "markdown": "## 更新：\r- GP#2065：存档管理屏幕新增 “压缩存档并分享” (by @MovTery)\r- GP#2062：支持在版本设置中独立配置渲染器插件的环境变量 (by @youfeng11，@MovTery)\r- GP#2083：在文件管理器更多菜单中新增 “在其他管理器应用内浏览” (by @MovTery)\r\r\r## 重构：\r- GP#2066：使主界面卡片的工具栏固定屏幕底部 (by @MovTery)\r\r\r## 调整：\r- GP#2077：展示 SDL 端消息时，对话框使用启动器主题 (by @MovTery)\r\r\r## 修复：\r- GP#2053：CurseForge 下载链接应对文件名进行百分号编码 (by @MovTery)\r- GP#2049：校验卡片拖动的让位方向输入，拒绝非法方向向量 (by @dryfish09)\r- GP#2064：修复衣橱中的皮肤预览在加载完披风前不显示的问题 (by @youfeng11)\r- GP#2068：模组更新检查因基准日期过期导致同版本反复提示更新的问题 (by @MovTery)\r- GP#2078：SDL 端无法正常打开链接、浏览目录 (by @MovTery)\r- GP#2079：游戏运行中 surface 重建后渲染状态未恢复导致画面错位 (by @MovTery)\r- GP#2080：去掉 NeoForge 早期加载屏，解决界面冻死的问题 (by @MovTery)\r- GP#2082：SDL_EGL_LIBRARY 按插件路径约定拼接并校验存在性 (by @MovTery)\r- GP#2089：修复输入法弹出内部对话框后被启动器误关闭的问题 (by @MovTery)\r"
+      "markdown": "## 更新：\r根据相关法律法规，中国大陆地区暂不支持在启动器内下载游戏、下载并安装整合包，以及使用陶瓦联机。  \r非常抱歉zzzzz......"
     }
   ]
 }
