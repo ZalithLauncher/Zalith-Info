@@ -1,0 +1,31 @@
+name: Notify ZalithWebsite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - launcher_version.json
+      - v2/latest_version.json
+      - v2/latest_version_md.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch zalith-info-updated
+        env:
+          GH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "${GH_TOKEN}" ]; then
+            echo "::error::Missing repository secret WEBSITE_DISPATCH_TOKEN (fine-grained PAT with Contents: write on ZalithLauncher/ZalithWebsite)."
+            exit 1
+          fi
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            repos/ZalithLauncher/ZalithWebsite/dispatches \
+            -f event_type=zalith-info-updated
