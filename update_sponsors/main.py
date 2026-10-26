@@ -13,8 +13,17 @@ from datetime import datetime
 AFDIAN_USER_ID = os.environ.get("AFDIAN_USER_ID")
 AFDIAN_TOKEN = os.environ.get("AFDIAN_TOKEN")
 
-AFDIAN_ORDER_API_URL = "https://afdian.com/api/open/query-order"
-AFDIAN_SPONSOR_API_URL = "https://afdian.com/api/open/query-sponsor"
+# 爱发电会拦截部分海外数据中心 IP，返回非 JSON 的拦截页，两个官方域名互为备援
+AFDIAN_API_HOSTS = ("https://afdian.com", "https://ifdian.net")
+AFDIAN_ORDER_API_PATH = "/api/open/query-order"
+AFDIAN_SPONSOR_API_PATH = "/api/open/query-sponsor"
+
+REQUEST_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
+    " (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+}
+REQUEST_RETRY = 3
+REQUEST_RETRY_INTERVAL = 2
 
 
 def get_params(page=1, per_page=100):
@@ -29,7 +38,29 @@ def make_sign(token: str, user_id: str, params: str, ts: int) -> str:
     return sign
 
 
-def fetch_data(api_url: str, process_item_func, per_page=50):
+def request_api(api_path: str, payload: dict) -> dict:
+    attempts = len(AFDIAN_API_HOSTS) * REQUEST_RETRY
+    for attempt in range(1, attempts + 1):
+        url = AFDIAN_API_HOSTS[(attempt - 1) % len(AFDIAN_API_HOSTS)] + api_path
+        try:
+            response = requests.post(
+                url, json=payload, timeout=10, headers=REQUEST_HEADERS
+            )
+            return response.json()
+        except requests.RequestException as exc:
+            print(f"[WARN] Request to {url} failed (attempt {attempt}): {exc}")
+        except ValueError:
+            print(
+                f"[WARN] {url} returned a non-JSON body (attempt {attempt}): "
+                f"status={response.status_code} body={response.text[:300]!r}"
+            )
+        time.sleep(REQUEST_RETRY_INTERVAL)
+
+    print(f"[ERROR] Cannot get information from {api_path} after {attempts} attempts")
+    sys.exit(1)
+
+
+def fetch_data(api_path: str, process_item_func, per_page=50):
     page = 1
     retry_count = 0
     results = []
@@ -49,14 +80,13 @@ def fetch_data(api_url: str, process_item_func, per_page=50):
             "sign": sign,
         }
 
-        response = requests.post(api_url, json=payload, timeout=10)
-        data = response.json()
+        data = request_api(api_path, payload)
 
         if data.get("ec") != 200:
             retry_count += 1
             print(f"[WARN] API returned error (attempt {retry_count}): {data}")
             if retry_count >= 3:
-                print(f"[ERROR] Cannot get information from {api_url}")
+                print(f"[ERROR] Cannot get information from {api_path}")
                 sys.exit(1)
             time.sleep(2)
             continue
@@ -108,9 +138,9 @@ def process_order(item, sponsors):
 
 
 def fetch_orders():
-    sponsors = fetch_data(AFDIAN_SPONSOR_API_URL, process_sponsor)
+    sponsors = fetch_data(AFDIAN_SPONSOR_API_PATH, process_sponsor)
     return fetch_data(
-        AFDIAN_ORDER_API_URL,
+        AFDIAN_ORDER_API_PATH,
         lambda item: process_order(item, sponsors)
     )
 
