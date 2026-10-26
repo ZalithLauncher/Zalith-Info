@@ -105,16 +105,21 @@ def fetch_data(api_path: str, per_page=50):
     return results
 
 
-def fetch_plan_names(plan_ids):
-    names = {}
+def fetch_plans(plan_ids):
+    plans = {}
     for plan_id in plan_ids:
         params = json.dumps({"plan_id": plan_id})
         data = request_api(AFDIAN_PLAN_API_PATH, make_payload(params))
         if data.get("ec") == 200:
-            names[plan_id] = data.get("data", {}).get("plan", {}).get("name", "")
+            plan = data.get("data", {}).get("plan", {})
+            raw_price = plan.get("price")
+            plans[plan_id] = {
+                "name": plan.get("name", ""),
+                "price": float(raw_price) if raw_price is not None else None,
+            }
         else:
             print(f"[WARN] query-plan failed for {plan_id}: {data}")
-    return names
+    return plans
 
 
 def build_sponsor_map(sponsor_items):
@@ -210,16 +215,19 @@ def update_monthly_sponsors(order_items, sponsor_map):
 
     monthly_orders = [o for o in paid_orders if beijing_month(o["create_time"]) in keep]
     plan_ids = sorted({o["plan_id"] for o in monthly_orders if o.get("plan_id")})
-    plan_names = fetch_plan_names(plan_ids)
+    plans = fetch_plans(plan_ids)
 
     entries = []
     for item in monthly_orders:
         user = sponsor_map.get(item.get("user_id"))
         plan_id = item.get("plan_id") or ""
         if plan_id:
-            plan_name = plan_names.get(plan_id, "")
+            plan_info = plans.get(plan_id)
+            plan_name = plan_info["name"] if plan_info else ""
+            plan_price = plan_info["price"] if plan_info else None
         else:
             plan_name = "自选金额"
+            plan_price = float(item.get("total_amount"))
         entries.append(
             {
                 "user": {
@@ -230,6 +238,7 @@ def update_monthly_sponsors(order_items, sponsor_map):
                 "plan": {
                     "id": plan_id,
                     "name": plan_name,
+                    "price": plan_price,
                     "total_amount": float(item.get("total_amount")),
                     "show_amount": float(item.get("show_amount")),
                     "count": item.get("month", 1),
