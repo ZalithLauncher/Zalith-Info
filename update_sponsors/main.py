@@ -8,7 +8,7 @@ import time
 import hashlib
 
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 AFDIAN_USER_ID = os.environ.get("AFDIAN_USER_ID")
 AFDIAN_TOKEN = os.environ.get("AFDIAN_TOKEN")
@@ -17,6 +17,7 @@ AFDIAN_TOKEN = os.environ.get("AFDIAN_TOKEN")
 AFDIAN_API_HOSTS = ("https://afdian.com", "https://ifdian.net")
 AFDIAN_ORDER_API_PATH = "/api/open/query-order"
 AFDIAN_SPONSOR_API_PATH = "/api/open/query-sponsor"
+AFDIAN_PLAN_API_PATH = "/api/open/query-plan"
 
 REQUEST_HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
@@ -24,6 +25,10 @@ REQUEST_HEADERS = {
 }
 REQUEST_RETRY = 3
 REQUEST_RETRY_INTERVAL = 2
+
+BEIJING_TZ = timezone(timedelta(hours=8))
+LAUNCHER_SPONSOR_FILE = "launcher_sponsor.json"
+MONTHLY_FILE = "monthly_sponsors.json"
 
 
 def get_params(page=1, per_page=100):
@@ -36,6 +41,18 @@ def make_sign(token: str, user_id: str, params: str, ts: int) -> str:
     md5_obj = hashlib.md5(raw_str.encode("utf-8"))
     sign = md5_obj.hexdigest()
     return sign
+
+
+def make_payload(params: str) -> dict:
+    ts = int(time.time())
+    return {
+        "user_id": AFDIAN_USER_ID,
+        "params": params,
+        "ts": ts,
+        "sign": make_sign(
+            token=AFDIAN_TOKEN, user_id=AFDIAN_USER_ID, params=params, ts=ts
+        ),
+    }
 
 
 def request_api(api_path: str, payload: dict) -> dict:
@@ -60,27 +77,14 @@ def request_api(api_path: str, payload: dict) -> dict:
     sys.exit(1)
 
 
-def fetch_data(api_path: str, process_item_func, per_page=50):
+def fetch_data(api_path: str, per_page=50):
     page = 1
     retry_count = 0
     results = []
 
     while True:
         params = get_params(page=page, per_page=per_page)
-        ts = int(time.time())
-
-        sign = make_sign(
-            token=AFDIAN_TOKEN, user_id=AFDIAN_USER_ID, params=params, ts=ts
-        )
-
-        payload = {
-            "user_id": AFDIAN_USER_ID,
-            "params": params,
-            "ts": ts,
-            "sign": sign,
-        }
-
-        data = request_api(api_path, payload)
+        data = request_api(api_path, make_payload(params))
 
         if data.get("ec") != 200:
             retry_count += 1
@@ -91,11 +95,7 @@ def fetch_data(api_path: str, process_item_func, per_page=50):
             time.sleep(2)
             continue
 
-        item_list = data.get("data", {}).get("list", [])
-        for item in item_list:
-            processed_item = process_item_func(item)
-            if processed_item:
-                results.append(processed_item)
+        results.extend(data.get("data", {}).get("list", []))
 
         if data.get("data", {}).get("total_page") == page:
             break
@@ -105,63 +105,74 @@ def fetch_data(api_path: str, process_item_func, per_page=50):
     return results
 
 
-def process_sponsor(item):
-    user = item.get("user", {})
-    return {
-        "user_id": user.get("user_id"),
-        "user_name": user.get("name"),
-        "avatar": user.get("avatar"),
-    }
+def fetch_plan_names(plan_ids):
+    names = {}
+    for plan_id in plan_ids:
+        params = json.dumps({"plan_id": plan_id})
+        data = request_api(AFDIAN_PLAN_API_PATH, make_payload(params))
+        if data.get("ec") == 200:
+            names[plan_id] = data.get("data", {}).get("plan", {}).get("name", "")
+        else:
+            print(f"[WARN] query-plan failed for {plan_id}: {data}")
+    return names
 
 
-def process_order(item, sponsors):
-    out_trade_no = item.get("out_trade_no")
-    user_id = item.get("user_id")
-    pay_time = item.get("create_time")
-    pay_amount = item.get("total_amount")
-
-    sponsor_name_map = {
-        sponsor["user_id"]: {
-            "name": sponsor["user_name"],
-            "avatar": sponsor["avatar"]
-        } for sponsor in sponsors
-    }
-    user = sponsor_name_map.get(user_id, None)
-
-    return {
-        "name": user["name"],
-        "time": datetime.fromtimestamp(pay_time).strftime("%Y/%m/%d"),
-        "identifier": out_trade_no,
-        "avatar": user["avatar"],
-        "amount": float(pay_amount),
-    }
+def build_sponsor_map(sponsor_items):
+    sponsor_map = {}
+    for item in sponsor_items:
+        user = item.get("user", {})
+        if user.get("user_id"):
+            sponsor_map[user["user_id"]] = user
+    return sponsor_map
 
 
-def fetch_orders():
-    sponsors = fetch_data(AFDIAN_SPONSOR_API_PATH, process_sponsor)
-    return fetch_data(
-        AFDIAN_ORDER_API_PATH,
-        lambda item: process_order(item, sponsors)
-    )
+def beijing_month(ts: int) -> str:
+    return datetime.fromtimestamp(ts, BEIJING_TZ).strftime("%Y-%m")
 
 
+def beijing_date(ts: int) -> str:
+    return datetime.fromtimestamp(ts, BEIJING_TZ).strftime("%Y/%m/%d")
 
-def main():
-    orders_data = fetch_orders()
 
-    if not orders_data:
-        print("No order data fetched or API error.")
-        return
+def previous_month(month: str) -> str:
+    year, mon = int(month[:4]), int(month[5:7])
+    if mon == 1:
+        return f"{year - 1}-12"
+    return f"{year}-{mon - 1:02d}"
 
-    sponsor_file = "launcher_sponsor.json"
 
-    if os.path.exists(sponsor_file):
-        with open(sponsor_file, 'r', encoding='utf-8') as file:
+def read_previous_month(path):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            month = json.load(f).get("month")
+    except (OSError, ValueError):
+        return None
+    return month if isinstance(month, str) else None
+
+
+def update_launcher_sponsor(order_items, sponsor_map):
+    orders = []
+    for item in order_items:
+        user = sponsor_map.get(item.get("user_id"))
+        orders.append(
+            {
+                "name": user["name"],
+                "time": datetime.fromtimestamp(
+                    item.get("create_time")
+                ).strftime("%Y/%m/%d"),
+                "identifier": item.get("out_trade_no"),
+                "avatar": user["avatar"],
+                "amount": float(item.get("total_amount")),
+            }
+        )
+
+    if os.path.exists(LAUNCHER_SPONSOR_FILE):
+        with open(LAUNCHER_SPONSOR_FILE, "r", encoding="utf-8") as file:
             local_sponsor_content = json.loads(file.read())
             local_sponsor_list = local_sponsor_content.get("sponsors", [])
 
         updated_sponsor_list_correct = []
-        for new_order in orders_data:
+        for new_order in orders:
             new_identifier = new_order["identifier"]
             found = False
             for old_order in reversed(local_sponsor_list):
@@ -175,16 +186,80 @@ def main():
                 print(f"[INFO] New data has been added to the list: {new_identifier}")
                 updated_sponsor_list_correct.append(new_order)
 
-        orders_data = updated_sponsor_list_correct
+        orders = updated_sponsor_list_correct
 
-    result_json = {"sponsors": orders_data}
-
-    with open(sponsor_file, "w", encoding="utf-8") as f:
-        json.dump(result_json, f, ensure_ascii=False, indent=2)
+    with open(LAUNCHER_SPONSOR_FILE, "w", encoding="utf-8") as f:
+        json.dump({"sponsors": orders}, f, ensure_ascii=False, indent=2)
 
     print(
         "[INFO] Successfully updated launcher_sponsor.json with sponsors data from AFDian."
     )
+
+
+def update_monthly_sponsors(order_items, sponsor_map):
+    paid_orders = [o for o in order_items if o.get("status") == 2]
+    if not paid_orders:
+        print("[INFO] No successful orders found; monthly file left unchanged.")
+        return
+
+    current = beijing_month(max(o["create_time"] for o in paid_orders))
+    keep = {current}
+    if read_previous_month(MONTHLY_FILE) not in (None, current):
+        # 换月宽限：新月份首次同步时保留上一自然月的条目，下次同步删除
+        keep.add(previous_month(current))
+
+    monthly_orders = [o for o in paid_orders if beijing_month(o["create_time"]) in keep]
+    plan_ids = sorted({o["plan_id"] for o in monthly_orders if o.get("plan_id")})
+    plan_names = fetch_plan_names(plan_ids)
+
+    entries = []
+    for item in monthly_orders:
+        user = sponsor_map.get(item.get("user_id"))
+        plan_id = item.get("plan_id") or ""
+        if plan_id:
+            plan_name = plan_names.get(plan_id, "")
+        else:
+            plan_name = "自选金额"
+        entries.append(
+            {
+                "user": {
+                    "name": user["name"] if user else "匿名赞助者",
+                    "avatar": user["avatar"] if user else "",
+                },
+                "time": beijing_date(item["create_time"]),
+                "plan": {
+                    "id": plan_id,
+                    "name": plan_name,
+                    "total_amount": float(item.get("total_amount")),
+                    "show_amount": float(item.get("show_amount")),
+                    "count": item.get("month", 1),
+                },
+            }
+        )
+
+    with open(MONTHLY_FILE, "w", encoding="utf-8") as f:
+        json.dump(
+            {"month": current, "sponsors": entries}, f, ensure_ascii=False, indent=2
+        )
+
+    print(
+        f"[INFO] Successfully updated {MONTHLY_FILE} for {current}"
+        f" ({len(entries)} entries)."
+    )
+
+
+def main():
+    sponsor_items = fetch_data(AFDIAN_SPONSOR_API_PATH)
+    order_items = fetch_data(AFDIAN_ORDER_API_PATH)
+
+    if not order_items:
+        print("No order data fetched or API error.")
+        return
+
+    sponsor_map = build_sponsor_map(sponsor_items)
+
+    update_launcher_sponsor(order_items, sponsor_map)
+    update_monthly_sponsors(order_items, sponsor_map)
 
 
 if __name__ == "__main__":
