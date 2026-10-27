@@ -146,13 +146,78 @@ def previous_month(month: str) -> str:
     return f"{year}-{mon - 1:02d}"
 
 
-def read_previous_month(path):
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            month = json.load(f).get("month")
-    except (OSError, ValueError):
-        return None
-    return month if isinstance(month, str) else None
+def build_monthly_entries(orders, sponsor_map, plans):
+    entries = []
+    for item in orders:
+        user = sponsor_map.get(item.get("user_id"))
+        plan_id = item.get("plan_id") or ""
+        if plan_id:
+            plan_info = plans.get(plan_id)
+            plan_name = plan_info["name"] if plan_info else ""
+            plan_price = plan_info["price"] if plan_info else None
+        else:
+            plan_name = "自选金额"
+            plan_price = float(item.get("total_amount"))
+        entries.append(
+            {
+                "user": {
+                    "name": user["name"] if user else "匿名赞助者",
+                    "avatar": user["avatar"] if user else "",
+                },
+                "time": beijing_date(item["create_time"]),
+                "plan": {
+                    "id": plan_id,
+                    "name": plan_name,
+                    "price": plan_price,
+                    "total_amount": float(item.get("total_amount")),
+                    "show_amount": float(item.get("show_amount")),
+                    "count": item.get("month", 1),
+                },
+            }
+        )
+    return entries
+
+
+def update_monthly_sponsors(order_items, sponsor_map):
+    paid_orders = [o for o in order_items if o.get("status") == 2]
+    if not paid_orders:
+        print("[INFO] No successful orders found; monthly file left unchanged.")
+        return
+
+    current = beijing_month(max(o["create_time"] for o in paid_orders))
+    last = previous_month(current)
+    current_orders = [
+        o for o in paid_orders if beijing_month(o["create_time"]) == current
+    ]
+    last_orders = [
+        o for o in paid_orders if beijing_month(o["create_time"]) == last
+    ]
+
+    plan_ids = sorted(
+        {o["plan_id"] for o in current_orders + last_orders if o.get("plan_id")}
+    )
+    plans = fetch_plans(plan_ids)
+
+    with open(MONTHLY_FILE, "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "month": current,
+                "sponsors": build_monthly_entries(current_orders, sponsor_map, plans),
+                "last_month": {
+                    "month": last,
+                    "list": build_monthly_entries(last_orders, sponsor_map, plans),
+                },
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    print(
+        f"[INFO] Successfully updated {MONTHLY_FILE}: settled {last}"
+        f" ({len(last_orders)} entries), current {current}"
+        f" ({len(current_orders)} entries)."
+    )
 
 
 def update_launcher_sponsor(order_items, sponsor_map):
@@ -198,62 +263,6 @@ def update_launcher_sponsor(order_items, sponsor_map):
 
     print(
         "[INFO] Successfully updated launcher_sponsor.json with sponsors data from AFDian."
-    )
-
-
-def update_monthly_sponsors(order_items, sponsor_map):
-    paid_orders = [o for o in order_items if o.get("status") == 2]
-    if not paid_orders:
-        print("[INFO] No successful orders found; monthly file left unchanged.")
-        return
-
-    current = beijing_month(max(o["create_time"] for o in paid_orders))
-    keep = {current}
-    if read_previous_month(MONTHLY_FILE) not in (None, current):
-        # 换月宽限：新月份首次同步时保留上一自然月的条目，下次同步删除
-        keep.add(previous_month(current))
-
-    monthly_orders = [o for o in paid_orders if beijing_month(o["create_time"]) in keep]
-    plan_ids = sorted({o["plan_id"] for o in monthly_orders if o.get("plan_id")})
-    plans = fetch_plans(plan_ids)
-
-    entries = []
-    for item in monthly_orders:
-        user = sponsor_map.get(item.get("user_id"))
-        plan_id = item.get("plan_id") or ""
-        if plan_id:
-            plan_info = plans.get(plan_id)
-            plan_name = plan_info["name"] if plan_info else ""
-            plan_price = plan_info["price"] if plan_info else None
-        else:
-            plan_name = "自选金额"
-            plan_price = float(item.get("total_amount"))
-        entries.append(
-            {
-                "user": {
-                    "name": user["name"] if user else "匿名赞助者",
-                    "avatar": user["avatar"] if user else "",
-                },
-                "time": beijing_date(item["create_time"]),
-                "plan": {
-                    "id": plan_id,
-                    "name": plan_name,
-                    "price": plan_price,
-                    "total_amount": float(item.get("total_amount")),
-                    "show_amount": float(item.get("show_amount")),
-                    "count": item.get("month", 1),
-                },
-            }
-        )
-
-    with open(MONTHLY_FILE, "w", encoding="utf-8") as f:
-        json.dump(
-            {"month": current, "sponsors": entries}, f, ensure_ascii=False, indent=2
-        )
-
-    print(
-        f"[INFO] Successfully updated {MONTHLY_FILE} for {current}"
-        f" ({len(entries)} entries)."
     )
 
 
