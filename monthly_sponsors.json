@@ -3,6 +3,36 @@
   "sponsors": [
     {
       "user": {
+        "name": "巴巴博一统治地球",
+        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/48a0f1d74f1441e1a6fcf4ade4b5cbec_w132_h132_s6.jpeg"
+      },
+      "time": "2026/10/31",
+      "plan": {
+        "id": "",
+        "name": "自选金额",
+        "price": 5.0,
+        "total_amount": 5.0,
+        "show_amount": 5.0,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_ymEe",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
+      },
+      "time": "2026/10/31",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "唉咦耶咦耶",
         "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3d6cbe765c82e21bb7caa538b299323b_w100_h100_s3.jpeg"
       },
