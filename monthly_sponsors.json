@@ -1,462 +1,27 @@
 {
-  "month": "2026-10",
+  "month": "2026-11",
   "sponsors": [
     {
       "user": {
-        "name": "巴巴博一统治地球",
-        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/48a0f1d74f1441e1a6fcf4ade4b5cbec_w132_h132_s6.jpeg"
-      },
-      "time": "2026/10/31",
-      "plan": {
-        "id": "",
-        "name": "自选金额",
-        "price": 5.0,
-        "total_amount": 5.0,
-        "show_amount": 5.0,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_ymEe",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
-      },
-      "time": "2026/10/31",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "唉咦耶咦耶",
-        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3d6cbe765c82e21bb7caa538b299323b_w100_h100_s3.jpeg"
-      },
-      "time": "2026/10/30",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "XIAO BAI",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png"
-      },
-      "time": "2026/10/30",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_08b72",
+        "name": "爱发电用户_95ba8",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
       },
-      "time": "2026/10/26",
+      "time": "2026/11/01",
       "plan": {
-        "id": "",
-        "name": "自选金额",
-        "price": 5.0,
-        "total_amount": 5.0,
-        "show_amount": 5.0,
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
         "count": 1
       }
     },
     {
       "user": {
-        "name": "爱发电用户_4d863",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
-      },
-      "time": "2026/10/24",
-      "plan": {
-        "id": "",
-        "name": "自选金额",
-        "price": 5.0,
-        "total_amount": 5.0,
-        "show_amount": 5.0,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "信息",
+        "name": "The_XiaoTianY",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
       },
-      "time": "2026/10/23",
-      "plan": {
-        "id": "c3a32536a69011f0906052540025c377",
-        "name": "红🐱帽",
-        "price": 10.45,
-        "total_amount": 10.45,
-        "show_amount": 10.45,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "予墨清澜723",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png"
-      },
-      "time": "2026/10/22",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_H9xF",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
-      },
-      "time": "2026/10/21",
-      "plan": {
-        "id": "",
-        "name": "自选金额",
-        "price": 5.0,
-        "total_amount": 5.0,
-        "show_amount": 5.0,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "林禾初",
-        "avatar": "https://pic1.afdiancdn.com/user/31662b685d8f11f08df852540025c377/avatar/b9fc462240ae733ba11776cdf8b3a0d1_w720_h720_s62.jpeg"
-      },
-      "time": "2026/10/21",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_d076a",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
-      },
-      "time": "2026/10/21",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_hd4Q",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png"
-      },
-      "time": "2026/10/20",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "雅相",
-        "avatar": "https://pic1.afdiancdn.com/user/094d153ab21a11f08f1d5254001e7c00/avatar/2c3ff42c9485f825ce24c7cfadc18777_w1080_h1080_s717.png"
-      },
-      "time": "2026/10/20",
-      "plan": {
-        "id": "c3a32536a69011f0906052540025c377",
-        "name": "红🐱帽",
-        "price": 10.45,
-        "total_amount": 10.45,
-        "show_amount": 10.45,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_07e6a",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
-      },
-      "time": "2026/10/19",
-      "plan": {
-        "id": "c3a32536a69011f0906052540025c377",
-        "name": "红🐱帽",
-        "price": 10.45,
-        "total_amount": 10.45,
-        "show_amount": 10.45,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "QeLᴗ.ᴗ",
-        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7b7c58fdb290ac2efb0ba44169dc53d9_w100_h100_s3.jpeg"
-      },
-      "time": "2026/10/18",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "吾",
-        "avatar": "https://pic1.afdiancdn.com/user/7b5cb820de2011efa8db52540025c377/avatar/b697dbfea884ee78052d13cbb509e135_w999_h999_s32.jpeg"
-      },
-      "time": "2026/10/17",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "小林xiaolin",
-        "avatar": "https://pic1.afdiancdn.com/user/31e7d6d40d8511edb0a752540025c377/avatar/a06afa728c8ae90deb130a070ce54b98_w1079_h1080_s94.jpeg"
-      },
-      "time": "2026/10/15",
-      "plan": {
-        "id": "c4b309b8a69111f08d0352540025c377",
-        "name": "闪闪黄金令牌",
-        "price": 20.0,
-        "total_amount": 20.0,
-        "show_amount": 20.0,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "无",
-        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a8357094801e304d6a155f28743898de_w132_h132_s8.jpeg"
-      },
-      "time": "2026/10/15",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "安兔兔",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
-      },
-      "time": "2026/10/11",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_08b72",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
-      },
-      "time": "2026/10/11",
-      "plan": {
-        "id": "",
-        "name": "自选金额",
-        "price": 5.0,
-        "total_amount": 5.0,
-        "show_amount": 5.0,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_VmB6",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
-      },
-      "time": "2026/10/11",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_44c8c",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
-      },
-      "time": "2026/10/11",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "Augenstern",
-        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a8958f8562a59d39478250daebb45d1a_w100_h100_s2.jpeg"
-      },
-      "time": "2026/10/10",
-      "plan": {
-        "id": "c4b309b8a69111f08d0352540025c377",
-        "name": "闪闪黄金令牌",
-        "price": 20.0,
-        "total_amount": 20.0,
-        "show_amount": 20.0,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "陈",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
-      },
-      "time": "2026/10/08",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_a1bd3",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
-      },
-      "time": "2026/10/08",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_VqmW",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
-      },
-      "time": "2026/10/07",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "ciallo",
-        "avatar": "https://pic1.afdiancdn.com/user/5f5d1b8a9dcb11f187225254001e7c00/avatar/ce7e89431e4684ebe20cb79c4fc3f534_w1272_h1272_s580.png"
-      },
-      "time": "2026/10/06",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_afec6",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
-      },
-      "time": "2026/10/06",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_52228",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
-      },
-      "time": "2026/10/06",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "ZhiXiaoXuanQAQ",
-        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0e7e1962aae38ace065f8b9173555ee4_w100_h100_s1.jpeg"
-      },
-      "time": "2026/10/05",
-      "plan": {
-        "id": "c1e7e62ea68f11f08f2a52540025c377",
-        "name": "咬过一口的青金石",
-        "price": 5.2,
-        "total_amount": 5.2,
-        "show_amount": 5.2,
-        "count": 1
-      }
-    },
-    {
-      "user": {
-        "name": "爱发电用户_gFw9",
-        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
-      },
-      "time": "2026/10/01",
+      "time": "2026/11/01",
       "plan": {
         "id": "c1e7e62ea68f11f08f2a52540025c377",
         "name": "咬过一口的青金石",
@@ -468,314 +33,104 @@
     }
   ],
   "last_month": {
-    "month": "2026-09",
+    "month": "2026-10",
     "list": [
       {
         "user": {
-          "name": "爱发电用户_c38b4",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+          "name": "巴巴博一统治地球",
+          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/48a0f1d74f1441e1a6fcf4ade4b5cbec_w132_h132_s6.jpeg"
         },
-        "time": "2026/09/28",
+        "time": "2026/10/31",
         "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
+          "id": "",
+          "name": "自选金额",
+          "price": 5.0,
+          "total_amount": 5.0,
+          "show_amount": 5.0,
           "count": 1
         }
       },
       {
         "user": {
-          "name": "爱发电用户_f79c8",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
-        },
-        "time": "2026/09/27",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "Freeazen 155",
-          "avatar": "https://pic1.afdiancdn.com/user/f7c00a76b9b011f196c252540025c377/avatar/ee34493e8d0e8a52cf00f76bfd69be21_w800_h800_s284.png"
-        },
-        "time": "2026/09/26",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "BZLCLA",
-          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/2696554d01ef76ed50b76ebe324975c9_w100_h100_s1.jpeg"
-        },
-        "time": "2026/09/25",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "青衣",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
-        },
-        "time": "2026/09/25",
-        "plan": {
-          "id": "c4b309b8a69111f08d0352540025c377",
-          "name": "闪闪黄金令牌",
-          "price": 20.0,
-          "total_amount": 20.0,
-          "show_amount": 20.0,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "爱发电用户_SqFk",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
-        },
-        "time": "2026/09/25",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "Shi_",
-          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b1defeee57b863bb72fecfefccb46415_w132_h132_s4.jpeg"
-        },
-        "time": "2026/09/25",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 15.6,
-          "show_amount": 15.6,
-          "count": 3
-        }
-      },
-      {
-        "user": {
-          "name": "等着我OwO",
-          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/199a0ac2476467ad388214e907135b75_w132_h132_s7.jpeg"
-        },
-        "time": "2026/09/22",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "宇",
-          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/03db2c9019aa64d16cad88ac256df12b_w132_h132_s2.jpeg"
-        },
-        "time": "2026/09/21",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "爱发电用户_7c6f8",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
-        },
-        "time": "2026/09/20",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "chenhui2011",
+          "name": "爱发电用户_ymEe",
           "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
         },
-        "time": "2026/09/18",
+        "time": "2026/10/31",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "唉咦耶咦耶",
+          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3d6cbe765c82e21bb7caa538b299323b_w100_h100_s3.jpeg"
+        },
+        "time": "2026/10/30",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "XIAO BAI",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png"
+        },
+        "time": "2026/10/30",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_08b72",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+        },
+        "time": "2026/10/26",
         "plan": {
           "id": "",
           "name": "自选金额",
-          "price": 6.66,
-          "total_amount": 6.66,
-          "show_amount": 6.66,
+          "price": 5.0,
+          "total_amount": 5.0,
+          "show_amount": 5.0,
           "count": 1
         }
       },
       {
         "user": {
-          "name": "叶茶欲Pro",
+          "name": "爱发电用户_4d863",
           "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
         },
-        "time": "2026/09/18",
+        "time": "2026/10/24",
         "plan": {
           "id": "",
           "name": "自选金额",
-          "price": 100.0,
-          "total_amount": 100.0,
-          "show_amount": 100.0,
+          "price": 5.0,
+          "total_amount": 5.0,
+          "show_amount": 5.0,
           "count": 1
         }
       },
       {
         "user": {
-          "name": "爱发电用户_1443f",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+          "name": "信息",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
         },
-        "time": "2026/09/18",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "洧",
-          "avatar": "https://pic1.afdiancdn.com/user/b3ce0e0cef9c11eeaf0d52540025c377/avatar/73af4aea4f023c16bc1fd5a22df239f8_w1000_h1000_s293.png"
-        },
-        "time": "2026/09/16",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "ggcok",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
-        },
-        "time": "2026/09/16",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "orange",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
-        },
-        "time": "2026/09/15",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "爱发电用户_0d1b8",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
-        },
-        "time": "2026/09/14",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "晚铭",
-          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8641b0f98acb09f75076585738c3ca68_w100_h100_s2.jpeg"
-        },
-        "time": "2026/09/14",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "挽秋",
-          "avatar": "https://pic1.afdiancdn.com/user/630349b4de3111ee8b1952540025c377/avatar/9318de3c7f074157521d93432dc12d97_w1526_h1920_s202.jpeg"
-        },
-        "time": "2026/09/14",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "xiumua",
-          "avatar": "https://pic1.afdiancdn.com/user/5f4379ac354211eb927a52540025c377/avatar/e25050d159534afdcf9c83e93608b86e_w640_h640_s56.jpg"
-        },
-        "time": "2026/09/14",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "微笑",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/default-avatar@2x.png"
-        },
-        "time": "2026/09/14",
+        "time": "2026/10/23",
         "plan": {
           "id": "c3a32536a69011f0906052540025c377",
           "name": "红🐱帽",
@@ -787,10 +142,10 @@
       },
       {
         "user": {
-          "name": "爱发电用户_msU4",
+          "name": "予墨清澜723",
           "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png"
         },
-        "time": "2026/09/14",
+        "time": "2026/10/22",
         "plan": {
           "id": "c1e7e62ea68f11f08f2a52540025c377",
           "name": "咬过一口的青金石",
@@ -802,25 +157,100 @@
       },
       {
         "user": {
-          "name": "爱发电用户_ah4A",
+          "name": "爱发电用户_H9xF",
           "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
         },
-        "time": "2026/09/11",
+        "time": "2026/10/21",
+        "plan": {
+          "id": "",
+          "name": "自选金额",
+          "price": 5.0,
+          "total_amount": 5.0,
+          "show_amount": 5.0,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "林禾初",
+          "avatar": "https://pic1.afdiancdn.com/user/31662b685d8f11f08df852540025c377/avatar/b9fc462240ae733ba11776cdf8b3a0d1_w720_h720_s62.jpeg"
+        },
+        "time": "2026/10/21",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_d076a",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+        },
+        "time": "2026/10/21",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_hd4Q",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png"
+        },
+        "time": "2026/10/20",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "雅相",
+          "avatar": "https://pic1.afdiancdn.com/user/094d153ab21a11f08f1d5254001e7c00/avatar/2c3ff42c9485f825ce24c7cfadc18777_w1080_h1080_s717.png"
+        },
+        "time": "2026/10/20",
         "plan": {
           "id": "c3a32536a69011f0906052540025c377",
           "name": "红🐱帽",
           "price": 10.45,
-          "total_amount": 31.35,
-          "show_amount": 31.35,
-          "count": 3
+          "total_amount": 10.45,
+          "show_amount": 10.45,
+          "count": 1
         }
       },
       {
         "user": {
-          "name": "爱发电用户_443e1",
+          "name": "爱发电用户_07e6a",
           "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
         },
-        "time": "2026/09/09",
+        "time": "2026/10/19",
+        "plan": {
+          "id": "c3a32536a69011f0906052540025c377",
+          "name": "红🐱帽",
+          "price": 10.45,
+          "total_amount": 10.45,
+          "show_amount": 10.45,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "QeLᴗ.ᴗ",
+          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7b7c58fdb290ac2efb0ba44169dc53d9_w100_h100_s3.jpeg"
+        },
+        "time": "2026/10/18",
         "plan": {
           "id": "c1e7e62ea68f11f08f2a52540025c377",
           "name": "咬过一口的青金石",
@@ -832,10 +262,25 @@
       },
       {
         "user": {
-          "name": "叶茶欲Pro",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+          "name": "吾",
+          "avatar": "https://pic1.afdiancdn.com/user/7b5cb820de2011efa8db52540025c377/avatar/b697dbfea884ee78052d13cbb509e135_w999_h999_s32.jpeg"
         },
-        "time": "2026/09/09",
+        "time": "2026/10/17",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "小林xiaolin",
+          "avatar": "https://pic1.afdiancdn.com/user/31e7d6d40d8511edb0a752540025c377/avatar/a06afa728c8ae90deb130a070ce54b98_w1079_h1080_s94.jpeg"
+        },
+        "time": "2026/10/15",
         "plan": {
           "id": "c4b309b8a69111f08d0352540025c377",
           "name": "闪闪黄金令牌",
@@ -847,10 +292,10 @@
       },
       {
         "user": {
-          "name": "远池星",
-          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1eca7b0b630fb0128d0365bd2c758c35_w100_h100_s3.jpeg"
+          "name": "无",
+          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a8357094801e304d6a155f28743898de_w132_h132_s8.jpeg"
         },
-        "time": "2026/09/08",
+        "time": "2026/10/15",
         "plan": {
           "id": "c1e7e62ea68f11f08f2a52540025c377",
           "name": "咬过一口的青金石",
@@ -862,61 +307,196 @@
       },
       {
         "user": {
-          "name": "爱发电用户_3e1c6",
+          "name": "安兔兔",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
+        },
+        "time": "2026/10/11",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_08b72",
           "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
         },
-        "time": "2026/09/06",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "5877",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
-        },
-        "time": "2026/09/03",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "桔音音",
-          "avatar": "https://pic1.afdiancdn.com/user/0623f70c545111efba4f5254001e7c00/avatar/36af6bc3d3a0abf8d913a1ba9ae77b21_w1200_h1200_s1982.png"
-        },
-        "time": "2026/09/02",
-        "plan": {
-          "id": "c1e7e62ea68f11f08f2a52540025c377",
-          "name": "咬过一口的青金石",
-          "price": 5.2,
-          "total_amount": 5.2,
-          "show_amount": 5.2,
-          "count": 1
-        }
-      },
-      {
-        "user": {
-          "name": "驖·Synapse",
-          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e0de1373b96335d94495d65b4c8e2a38_w100_h100_s4.jpeg"
-        },
-        "time": "2026/09/01",
+        "time": "2026/10/11",
         "plan": {
           "id": "",
           "name": "自选金额",
           "price": 5.0,
           "total_amount": 5.0,
           "show_amount": 5.0,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_VmB6",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
+        },
+        "time": "2026/10/11",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_44c8c",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+        },
+        "time": "2026/10/11",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "Augenstern",
+          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a8958f8562a59d39478250daebb45d1a_w100_h100_s2.jpeg"
+        },
+        "time": "2026/10/10",
+        "plan": {
+          "id": "c4b309b8a69111f08d0352540025c377",
+          "name": "闪闪黄金令牌",
+          "price": 20.0,
+          "total_amount": 20.0,
+          "show_amount": 20.0,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "陈",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
+        },
+        "time": "2026/10/08",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_a1bd3",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+        },
+        "time": "2026/10/08",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_VqmW",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
+        },
+        "time": "2026/10/07",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "ciallo",
+          "avatar": "https://pic1.afdiancdn.com/user/5f5d1b8a9dcb11f187225254001e7c00/avatar/ce7e89431e4684ebe20cb79c4fc3f534_w1272_h1272_s580.png"
+        },
+        "time": "2026/10/06",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_afec6",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+        },
+        "time": "2026/10/06",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_52228",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+        },
+        "time": "2026/10/06",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "ZhiXiaoXuanQAQ",
+          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0e7e1962aae38ace065f8b9173555ee4_w100_h100_s1.jpeg"
+        },
+        "time": "2026/10/05",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
+          "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_gFw9",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
+        },
+        "time": "2026/10/01",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 5.2,
+          "show_amount": 5.2,
           "count": 1
         }
       }
