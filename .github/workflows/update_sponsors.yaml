@@ -3,7 +3,8 @@ name: Update AFDian Sponsors
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 12 * * *'
+    # UTC 04:00 = 北京时间 12:00（Actions 的 cron 仅支持 UTC）
+    - cron: '0 4 * * *'
 
 permissions:
   contents: write
