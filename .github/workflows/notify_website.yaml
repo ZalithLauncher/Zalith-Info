@@ -8,9 +8,18 @@ on:
       - v2/latest_version.json
       - v2/latest_version_md.json
   workflow_dispatch:
+    inputs:
+      reason:
+        description: "手动触发原因（可选，仅写入日志）"
+        required: false
+        default: "manual"
 
 permissions:
   contents: read
+
+concurrency:
+  group: notify-zalith-website
+  cancel-in-progress: false
 
 jobs:
   dispatch:
@@ -19,13 +28,24 @@ jobs:
       - name: Dispatch zalith-info-updated
         env:
           GH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+          TRIGGER_REASON: ${{ inputs.reason || 'push' }}
         run: |
-          if [ -z "${GH_TOKEN}" ]; then
-            echo "::error::Missing repository secret WEBSITE_DISPATCH_TOKEN (fine-grained PAT with Contents: write on ZalithLauncher/ZalithWebsite)."
+          set -euo pipefail
+          echo "触发来源: ${TRIGGER_REASON}"
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "::error title=缺少 WEBSITE_DISPATCH_TOKEN::在 Settings → Secrets and variables → Actions 添加 fine-grained PAT（仅选 ZalithLauncher/ZalithWebsite，权限 Contents: Read and write）。"
             exit 1
           fi
-          gh api \
-            --method POST \
+          status=$(curl -sS -o /tmp/dispatch.json -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
             -H "Accept: application/vnd.github+json" \
-            repos/ZalithLauncher/ZalithWebsite/dispatches \
-            -f event_type=zalith-info-updated
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/ZalithLauncher/ZalithWebsite/dispatches \
+            -d '{"event_type":"zalith-info-updated"}')
+          echo "dispatch HTTP ${status}"
+          if [ "${status}" != "204" ]; then
+            cat /tmp/dispatch.json || true
+            echo "::error title=Dispatch 失败::HTTP ${status}，检查 token 是否有效、是否对 ZalithLauncher/ZalithWebsite 具备 Contents: write。"
+            exit 1
+          fi
+          echo "✅ 已通知 ZalithWebsite 重建"
