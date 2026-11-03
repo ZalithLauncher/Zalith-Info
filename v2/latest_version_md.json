@@ -52,7 +52,7 @@
   "bodies": [
     {
       "language": "zh",
-      "markdown": "## 更新发布页\r- B站：https://www.bilibili.com/read/readlist/rl1103422\r- 爱发电：https://ifdian.net/album/40422970d64c11f1a1cd5254001e7c00\r- Github：https://github.com/ZalithLauncher/ZalithLauncher2/releases\r\r\r## 更新：\r- GP#2177：使用 SHA-1 清单校验内置组件资源 (by @MovTery)\r\r\r## 修复：\r- GP#2178：修复微软登录无法持续轮询设备码令牌的问题 (by @MovTery)\r- GP#2181：修复 Kopper Zink 与 VirGL 环境变量缺失 (by @MovTery)\r"
+      "markdown": "## 更新发布页\r- [B站](https://www.bilibili.com/read/readlist/rl1103422)，[爱发电](https://ifdian.net/album/40422970d64c11f1a1cd5254001e7c00)，[GitHub](https://github.com/ZalithLauncher/ZalithLauncher2/releases)\r\r\r## 更新：\r- GP#2177：使用 SHA-1 清单校验内置组件资源 (by @MovTery)\r\r\r## 修复：\r- GP#2178：修复微软登录无法持续轮询设备码令牌的问题 (by @MovTery)\r- GP#2181：修复 Kopper Zink 与 VirGL 环境变量缺失 (by @MovTery)\r"
     }
   ]
 }
