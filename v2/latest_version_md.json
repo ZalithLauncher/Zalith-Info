@@ -1,62 +1,58 @@
 {
-  "code": 200047,
-  "version": "2.8",
-  "created_at": "2026-11-01T23:06:48Z",
+  "code": 200048,
+  "version": "2.8.1",
+  "created_at": "2026-11-03T03:44:28Z",
   "default_cloud_drive": {
     "language": "zh",
-    "link": "https://pan.baidu.com/s/1aPxRqWwCXNQ71R8y4BM8NA?pwd=d4u5",
+    "link": "https://pan.quark.cn/s/8574ebe6a84a?pwd=RqKR",
     "links": [
       {
-        "name": "百度网盘（提取码：d4u5）",
-        "link": "https://pan.baidu.com/s/1aPxRqWwCXNQ71R8y4BM8NA?pwd=d4u5"
-      },
-      {
-        "name": "夸克网盘（提取码：FYT5）",
-        "link": "https://pan.quark.cn/s/ad2eddf79bce?pwd=FYT5"
+        "name": "夸克网盘（提取码：RqKR）",
+        "link": "https://pan.quark.cn/s/8574ebe6a84a?pwd=RqKR"
       }
     ]
   },
   "cloud_drives": [],
   "files": [
     {
-      "file_name": "ZalithLauncher-2.8-arm64-v8a.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8/ZalithLauncher-2.8-arm64-v8a.apk",
+      "file_name": "ZalithLauncher-2.8.1-arm64-v8a.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.1/ZalithLauncher-2.8.1-arm64-v8a.apk",
       "arch": "arm64",
-      "size": 184728434
+      "size": 184739568
     },
     {
-      "file_name": "ZalithLauncher-2.8-armeabi-v7a.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8/ZalithLauncher-2.8-armeabi-v7a.apk",
+      "file_name": "ZalithLauncher-2.8.1-armeabi-v7a.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.1/ZalithLauncher-2.8.1-armeabi-v7a.apk",
       "arch": "arm",
-      "size": 176282163
+      "size": 176293289
     },
     {
-      "file_name": "ZalithLauncher-2.8-x86.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8/ZalithLauncher-2.8-x86.apk",
+      "file_name": "ZalithLauncher-2.8.1-x86.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.1/ZalithLauncher-2.8.1-x86.apk",
       "arch": "x86",
-      "size": 165625845
+      "size": 165636947
     },
     {
-      "file_name": "ZalithLauncher-2.8-x86_64.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8/ZalithLauncher-2.8-x86_64.apk",
+      "file_name": "ZalithLauncher-2.8.1-x86_64.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.1/ZalithLauncher-2.8.1-x86_64.apk",
       "arch": "x86_64",
-      "size": 190855666
+      "size": 190866860
     },
     {
-      "file_name": "ZalithLauncher-2.8.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8/ZalithLauncher-2.8.apk",
+      "file_name": "ZalithLauncher-2.8.1.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.1/ZalithLauncher-2.8.1.apk",
       "arch": "all",
-      "size": 372752801
+      "size": 372766263
     }
   ],
   "default_body": {
     "language": "en",
-    "markdown": "## Updates:\r- Restored the ability to download and install games/modpacks and use Terracotta multiplayer in mainland China & removed the related code\r- GP#2099: Refactored player model rendering and introduced some interactions (by @MovTery)\r- GP#2102: Removed Cleanroom loader support (by @MovTery)\r- GP#2103: Removed SurfaceView game screen rendering (by @MovTery)\r- GP#2106: Page state is now preserved when switching between nested pages (by @MovTery)\r- GP#2107: Modpacks can preset renderers, drivers, and graphics APIs via overrides (by @AfrobamaYT)\r- GP#2113: Added support for blocking half-screen virtual mouse touch input to prevent accidental touches (by @MovTery)\r- GP#2120: Added a Style Cabinet to the control layout editor (by @MovTery)\r- GP#2123: Removed MultiMC modpack export support (by @MovTery)\r- GP#2133: Added current/last month sponsor lists viewable in the launcher (by @MovTery)\r- GP#2134: Added pull-to-refresh support for most pages (by @MovTery)\r- GP#2135: Microsoft login now supports choosing the system browser or the built-in browser to complete device code verification (by @MovTery)\r- GP#2147: Added built-in MobileGlues renderer and SimpleFPEWrapper (by @MovTery)\r- GP#2148: Added a welcome screen shown on first launch (by @MovTery)\r- GP#2149: Added a game screen magnifier shown when the input method is open (by @MovTery)\r- GP#2153: Added support for accessing NeoForge-related files via the CurseForge CDN (by @MovTery)\r\r\r## Refactors:\r- GP#2104: Migrated mod/modpack translation data to HMCL's AddonProjectInfo system (by @MovTery)\r- GP#2128: Optimized Compose UI, addressing I/O operations performed on the main thread (by @MovTery)\r- GP#2136: Refactored the page transition animation system, unified enter/exit animation APIs and reset animation settings (by @MovTery)\r- GP#2143: Replaced JSound with native libjsound.so (by @MovTery)\r- GP#2146: Refactored the JNA extraction task & now only includes 5.13.0 - 5.19.1 (by @MovTery)\r- GP#2163: Refactored state management of the version config screen (by @MovTery)\r\r\r## Changes:\r- GP#2114: Adjusted the style of file manager dialogs (by @MovTery)\r- GP#2121: The onboarding guide replays after its content is updated (by @MovTery)\r- GP#2124: The language settings title and Follow System option are now always displayed in the system language (by @MovTery)\r- GP#2139: Added a loading screen while the launcher validates data on startup (by @MovTery)\r- GP#2154: Adjusted the timeout of a single network request to 10s (by @MovTery)\r- GP#2156: Adjusted the author of the Simplified Chinese default control layout (by @TNTyep520)\r- GP#2157: Display the corresponding icon based on version type (by @TNTyep520, @MovTery)\r- GP#2158: File manager dropdown menus now use a uniform rounded-corner style on all four corners (by @TNTyep520)\r- GP#2164: Adjusted the height configuration of background cards (by @MovTery)\r\r\r## Fixes:\r- GP#2110: Mod list filename sorting is now case-insensitive (by @MovTery)\r- GP#2115: Blocked the leaked eMudhra CA public key, hardening process-level TLS verification (by @MovTery)\r- GP#2109: Prevented selecting a skin model for legacy single-layer skins (by @MovTery)\r- GP#2116: Some floating action bars could not be expanded with the mouse wheel after collapsing (by @MovTery)\r- GP#2120: Unnamed components in the control layout editor now display as \"Unspecified\" (by @MovTery)\r- GP#2120: Joystick style names could not be modified in the control layout editor (by @MovTery)\r- GP#2137: Fixed an NPE crash caused by library download entries missing download URLs (by @MovTery)\r- GP#2141: Raised the Surface.clearFrameRate guard to API 34, fixing a crash when entering the game on Android 13 (by @MovTery)\r- GP#2142: LWJGL did not intercept illegal window size settings (by @MovTery)\r- GP#2144: Fixed missing version inheritance manifest & launch exception handling (by @MovTery)\r- GP#2145: VirGL color buffers now use actually allocated writable memory (by @MovTery)\r- GP#2151: Fixed a crash caused by rapidly stopping the task keep-alive service (by @MovTery)\r- GP#2152: Physical keyboard number keys typing duplicate characters in non-SDL game environments (by @MovTery)\r- GP#2152: Most physical keyboard keys not being delivered to the game in SDL environments (by @MovTery)"
+    "markdown": "## Updates:\r- GP#2177: Built-in component resources are now verified against a SHA-1 manifest (by @MovTery)\r\r\r## Fixes:\r- GP#2178: Fixed Microsoft login being unable to continuously poll for device code tokens (by @MovTery)\r- GP#2181: Fixed missing environment variables for Kopper Zink and VirGL (by @MovTery)"
   },
   "bodies": [
     {
       "language": "zh",
-      "markdown": "## 更新：\r- 恢复中国大陆地区下载安装游戏、整合包，使用陶瓦联机的功能 & 移除相关代码\r- GP#2099：重构玩家模型渲染，并引入部分交互 (by @MovTery)\r- GP#2102：移除 Cleanroom 加载器支持 (by @MovTery)\r- GP#2103：移除 SurfaceView 渲染游戏画面的功能 (by @MovTery)\r- GP#2106：嵌套页面切换后保留页面状态 (by @MovTery)\r- GP#2107：整合包可通过 overrides 预置渲染器、驱动与图形 API (by @AfrobamaYT)\r- GP#2113：支持阻止半屏虚拟鼠标触摸输入，防止误触 (by @MovTery)\r- GP#2120：为控制布局编辑器新增样式收藏柜 (by @MovTery)\r- GP#2123：不再支持 MultiMC 整合包导出功能 (by @MovTery)\r- GP#2133：在启动器内可查看当月/上月赞助者列表 (by @MovTery)\r- GP#2134：为大部分页面支持下拉刷新 (by @MovTery)\r- GP#2135：微软登录支持选择系统浏览器或内置浏览器完成设备码验证 (by @MovTery)\r- GP#2147：内置 MobileGlues 渲染器与 SimpleFPEWrapper (by @MovTery)\r- GP#2148：首次打开启动器时进入欢迎页面 (by @MovTery)\r- GP#2149：切出输入法时，提供游戏画面放大镜功能 (by @MovTery)\r- GP#2153：支持使用 CurseForge CDN 访问 NeoForge 相关文件 (by @MovTery)\r\r\r## 重构：\r- GP#2104：模组/整合包翻译数据迁移至 HMCL 的 AddonProjectInfo 体系 (by @MovTery)\r- GP#2128：Compose 界面优化，处理在主线程使用 I/O 的问题 (by @MovTery)\r- GP#2136：重构页面切换动画体系，统一进出场动画 API 并重设动画设置 (by @MovTery)\r- GP#2143：JSound 替换为原生 libjsound.so (by @MovTery)\r- GP#2146：重构 JNA 解压任务 & 仅包含 5.13.0 - 5.19.1 (by @MovTery)\r- GP#2163：重构版本配置屏幕的状态管理 (by @MovTery)\r\r\r## 调整：\r- GP#2114：调整文件管理器的对话框的样式 (by @MovTery)\r- GP#2121：引导的内容更新后会再次播放 (by @MovTery)\r- GP#2124：语言设置标题与\"跟随系统\"选项固定按系统语言显示 (by @MovTery)\r- GP#2139：打开启动器验证数据时提供加载页面 (by @MovTery)\r- GP#2154：调整单次网络请求的超时时长为 10s (by @MovTery)\r- GP#2156：调整默认控制布局简体中文的作者 (by @TNTyep520)\r- GP#2157：按版本类型显示对应图标 (by @TNTyep520、@MovTery)\r- GP#2158：文件管理器下拉菜单统一使用四角圆角样式 (by @TNTyep520)\r- GP#2164：调整背景卡片的高度配置 (by @MovTery)\r\r\r## 修复：\r- GP#2110：模组管理列表文件名排序忽略大小写 (by @MovTery)\r- GP#2115：封锁已泄露的 eMudhra CA 公钥，加固进程级 TLS 校验 (by @MovTery)\r- GP#2109：旧版单层皮肤禁止选择皮肤模型 (by @MovTery)\r- GP#2116：部分悬浮操作栏收起后无法通过鼠标滚轮展开的问题 (by @MovTery)\r- GP#2120：控制布局编辑器内组件未命名时应显示为“未指定” (by @MovTery)\r- GP#2120：控制布局编辑器内无法为摇杆样式修改名称 (by @MovTery)\r- GP#2137：修复库下载条目缺失下载链接导致的 NPE 崩溃 (by @MovTery)\r- GP#2141：Surface.clearFrameRate 守卫提升到 API 34，修复 Android 13 进游戏闪退 (by @MovTery)\r- GP#2142：LWJGL 未拦截非法窗口尺寸设置 (by @MovTery)\r- GP#2144：修复继承清单缺失与启动异常处理 (by @MovTery)\r- GP#2145：VirGL 颜色缓冲改用真实分配的可写内存 (by @MovTery)\r- GP#2151：修复任务保活服务快速停止导致的崩溃 (by @MovTery)\r- GP#2152：非 SDL 游戏环境下，物理键盘数字键输入重复 (by @MovTery)\r- GP#2152：SDL 游戏环境下，物理键盘大部分按键无法传达给游戏 (by @MovTery)\r"
+      "markdown": "## 更新发布页\r- B站：https://www.bilibili.com/read/readlist/rl1103422\r- 爱发电：https://ifdian.net/album/40422970d64c11f1a1cd5254001e7c00\r- Github：https://github.com/ZalithLauncher/ZalithLauncher2/releases\r\r\r## 更新：\r- GP#2177：使用 SHA-1 清单校验内置组件资源 (by @MovTery)\r\r\r## 修复：\r- GP#2178：修复微软登录无法持续轮询设备码令牌的问题 (by @MovTery)\r- GP#2181：修复 Kopper Zink 与 VirGL 环境变量缺失 (by @MovTery)\r"
     }
   ]
 }
