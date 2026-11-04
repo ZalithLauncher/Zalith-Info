@@ -3,6 +3,126 @@
   "sponsors": [
     {
       "user": {
+        "name": "爱发电用户_760e3",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+      },
+      "time": "2026/11/04",
+      "plan": {
+        "id": "",
+        "name": "自选金额",
+        "price": 30.0,
+        "total_amount": 30.0,
+        "show_amount": 30.0,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_f155e",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+      },
+      "time": "2026/11/04",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "wyh",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
+      },
+      "time": "2026/11/04",
+      "plan": {
+        "id": "",
+        "name": "自选金额",
+        "price": 10.0,
+        "total_amount": 10.0,
+        "show_amount": 10.0,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_13e34",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+      },
+      "time": "2026/11/04",
+      "plan": {
+        "id": "",
+        "name": "自选金额",
+        "price": 5.0,
+        "total_amount": 5.0,
+        "show_amount": 5.0,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_1f35a",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+      },
+      "time": "2026/11/04",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_3516b",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+      },
+      "time": "2026/11/04",
+      "plan": {
+        "id": "c3a32536a69011f0906052540025c377",
+        "name": "红🐱帽",
+        "price": 10.45,
+        "total_amount": 10.45,
+        "show_amount": 10.45,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_2e8d1",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+      },
+      "time": "2026/11/03",
+      "plan": {
+        "id": "",
+        "name": "自选金额",
+        "price": 5.0,
+        "total_amount": 5.0,
+        "show_amount": 5.0,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_8abcc",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+      },
+      "time": "2026/11/03",
+      "plan": {
+        "id": "c3a32536a69011f0906052540025c377",
+        "name": "红🐱帽",
+        "price": 10.45,
+        "total_amount": 10.45,
+        "show_amount": 10.45,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "爱发电用户_e632b",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
       },
