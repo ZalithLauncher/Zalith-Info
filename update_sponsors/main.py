@@ -146,6 +146,16 @@ def previous_month(month: str) -> str:
     return f"{year}-{mon - 1:02d}"
 
 
+def month_index(month: str) -> int:
+    return int(month[:4]) * 12 + int(month[5:7])
+
+
+def order_covers_month(order, month: str) -> bool:
+    # 订单从购买月起保留 count 个自然月，覆盖判断含首尾两端
+    start = month_index(beijing_month(order["create_time"]))
+    return start <= month_index(month) <= start + int(order.get("month", 1)) - 1
+
+
 def build_monthly_entries(orders, sponsor_map, plans):
     entries = []
     for item in orders:
@@ -186,12 +196,8 @@ def update_monthly_sponsors(order_items, sponsor_map):
 
     current = beijing_month(max(o["create_time"] for o in paid_orders))
     last = previous_month(current)
-    current_orders = [
-        o for o in paid_orders if beijing_month(o["create_time"]) == current
-    ]
-    last_orders = [
-        o for o in paid_orders if beijing_month(o["create_time"]) == last
-    ]
+    current_orders = [o for o in paid_orders if order_covers_month(o, current)]
+    last_orders = [o for o in paid_orders if order_covers_month(o, last)]
 
     plan_ids = sorted(
         {o["plan_id"] for o in current_orders + last_orders if o.get("plan_id")}
