@@ -3,6 +3,81 @@
   "sponsors": [
     {
       "user": {
+        "name": "爱发电用户_5gdk",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
+      },
+      "time": "2026/11/05",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_3b1fe",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+      },
+      "time": "2026/11/05",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "Noregret",
+        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d93ff534f144e6d841988354339aade1_w100_h100_s1.jpeg"
+      },
+      "time": "2026/11/04",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_gynW",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
+      },
+      "time": "2026/11/04",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "核桃仁（人）",
+        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/abc6da4135496919c15d19360f028641_w128_h128_s8.jpeg"
+      },
+      "time": "2026/11/04",
+      "plan": {
+        "id": "c3a32536a69011f0906052540025c377",
+        "name": "红🐱帽",
+        "price": 10.45,
+        "total_amount": 10.45,
+        "show_amount": 10.45,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "爱发电用户_760e3",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
       },
@@ -1027,8 +1102,8 @@
       },
       {
         "user": {
-          "name": "爱发电用户_VqmW",
-          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
+          "name": "一个致力于让手机软件的无名氏",
+          "avatar": "https://pic1.afdiancdn.com/user/1d845244c1f911f1902852540025c377/avatar/ddfcc044460e096a1e9e8dd6ea7117db_w872_h1906_s1468.jpeg"
         },
         "time": "2026/10/07",
         "plan": {
