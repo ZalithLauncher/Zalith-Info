@@ -3,6 +3,21 @@
   "sponsors": [
     {
       "user": {
+        "name": "无敌",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
+      },
+      "time": "2026/11/05",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "爱发电用户_5gdk",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
       },
@@ -720,6 +735,51 @@
         "show_amount": 5.2,
         "count": 1
       }
+    },
+    {
+      "user": {
+        "name": "Shi_",
+        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b1defeee57b863bb72fecfefccb46415_w132_h132_s4.jpeg"
+      },
+      "time": "2026/09/25",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 15.6,
+        "show_amount": 15.6,
+        "count": 3
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_ah4A",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
+      },
+      "time": "2026/09/11",
+      "plan": {
+        "id": "c3a32536a69011f0906052540025c377",
+        "name": "红🐱帽",
+        "price": 10.45,
+        "total_amount": 31.35,
+        "show_amount": 31.35,
+        "count": 3
+      }
+    },
+    {
+      "user": {
+        "name": "小只",
+        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d0bcb8f771061e3924913d720eae1061_w132_h132_s4.jpeg"
+      },
+      "time": "2026/04/10",
+      "plan": {
+        "id": "",
+        "name": "自选金额",
+        "price": 100.0,
+        "total_amount": 100.0,
+        "show_amount": 100.0,
+        "count": 10
+      }
     }
   ],
   "last_month": {
@@ -1188,6 +1248,81 @@
           "total_amount": 5.2,
           "show_amount": 5.2,
           "count": 1
+        }
+      },
+      {
+        "user": {
+          "name": "Shi_",
+          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b1defeee57b863bb72fecfefccb46415_w132_h132_s4.jpeg"
+        },
+        "time": "2026/09/25",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 15.6,
+          "show_amount": 15.6,
+          "count": 3
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_ah4A",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
+        },
+        "time": "2026/09/11",
+        "plan": {
+          "id": "c3a32536a69011f0906052540025c377",
+          "name": "红🐱帽",
+          "price": 10.45,
+          "total_amount": 31.35,
+          "show_amount": 31.35,
+          "count": 3
+        }
+      },
+      {
+        "user": {
+          "name": "爱发电用户_fc32f",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+        },
+        "time": "2026/08/26",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 15.6,
+          "show_amount": 15.6,
+          "count": 3
+        }
+      },
+      {
+        "user": {
+          "name": "临时性永恒",
+          "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png"
+        },
+        "time": "2026/08/23",
+        "plan": {
+          "id": "c1e7e62ea68f11f08f2a52540025c377",
+          "name": "咬过一口的青金石",
+          "price": 5.2,
+          "total_amount": 15.6,
+          "show_amount": 15.6,
+          "count": 3
+        }
+      },
+      {
+        "user": {
+          "name": "小只",
+          "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d0bcb8f771061e3924913d720eae1061_w132_h132_s4.jpeg"
+        },
+        "time": "2026/04/10",
+        "plan": {
+          "id": "",
+          "name": "自选金额",
+          "price": 100.0,
+          "total_amount": 100.0,
+          "show_amount": 100.0,
+          "count": 10
         }
       }
     ]
