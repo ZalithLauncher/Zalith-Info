@@ -52,7 +52,7 @@
   "bodies": [
     {
       "language": "zh",
-      "markdown": "## 更新发布页\r- B站：https://www.bilibili.com/read/readlist/rl1103422\r- 爱发电：https://ifdian.net/album/40422970d64c11f1a1cd5254001e7c00\r- Github：https://github.com/ZalithLauncher/ZalithLauncher2/releases\r\r\r## 更新：\r- GP#2188：为 MobileGlues 新增 SFPEW 兼容层开关 (by @MovTery)\r\r\r## 调整：\r- GP#2188：调整渲染器配置对话框内重置按钮的位置 (by @MovTery)\r\r\r## 修复：\r- GP#2188：修复 MobileGlues 配置显示与生效不符 (by @MovTery)\r- GP#2187：修复部分设备实体鼠标按键点击无效的问题 (by @mvanhorn)\r- GP#2194：导出整合包的过滤机制缺陷，导致导出文件可能不完整 (by @MovTery)\r- GP#2195：Java 管理屏幕列表高度不正确，导致背景画面异常 (by @MovTery)\r- GP#2199：Android 8.x 未在主线程创建并复制文本导致崩溃 (by @MovTery)\r- GP#2204：主动同步 SDL 手柄设备枚举，修复 Controlify 需重连手柄才能直通 (by @MovTery)\r- GP#2205：服务器图标的本地缓存始终无法更新 (by @MovTery)\r- GP#2206：更新模组时保持原文件的禁用状态 (by @MovTery)\r"
+      "markdown": "## 更新发布页\r- [B站](https://www.bilibili.com/read/readlist/rl1103422)，[爱发电](https://ifdian.net/album/40422970d64c11f1a1cd5254001e7c00)，[GitHub](https://github.com/ZalithLauncher/ZalithLauncher2/releases)\r\r\r## 更新：\r- GP#2188：为 MobileGlues 新增 SFPEW 兼容层开关 (by @MovTery)\r\r\r## 调整：\r- GP#2188：调整渲染器配置对话框内重置按钮的位置 (by @MovTery)\r\r\r## 修复：\r- GP#2188：修复 MobileGlues 配置显示与生效不符 (by @MovTery)\r- GP#2187：修复部分设备实体鼠标按键点击无效的问题 (by @mvanhorn)\r- GP#2194：导出整合包的过滤机制缺陷，导致导出文件可能不完整 (by @MovTery)\r- GP#2195：Java 管理屏幕列表高度不正确，导致背景画面异常 (by @MovTery)\r- GP#2199：Android 8.x 未在主线程创建并复制文本导致崩溃 (by @MovTery)\r- GP#2204：主动同步 SDL 手柄设备枚举，修复 Controlify 需重连手柄才能直通 (by @MovTery)\r- GP#2205：服务器图标的本地缓存始终无法更新 (by @MovTery)\r- GP#2206：更新模组时保持原文件的禁用状态 (by @MovTery)\r"
     }
   ]
 }
