@@ -1,58 +1,58 @@
 {
-  "code": 200048,
-  "version": "2.8.1",
-  "created_at": "2026-11-03T03:44:28Z",
+  "code": 200049,
+  "version": "2.8.2",
+  "created_at": "2026-11-06T09:21:06Z",
   "default_cloud_drive": {
     "language": "zh",
-    "link": "https://pan.quark.cn/s/8574ebe6a84a?pwd=RqKR",
+    "link": "https://pan.quark.cn/s/110d6f48eebc?pwd=MQZa",
     "links": [
       {
-        "name": "夸克网盘（提取码：RqKR）",
-        "link": "https://pan.quark.cn/s/8574ebe6a84a?pwd=RqKR"
+        "name": "夸克网盘（提取码：MQZa）",
+        "link": "https://pan.quark.cn/s/110d6f48eebc?pwd=MQZa"
       }
     ]
   },
   "cloud_drives": [],
   "files": [
     {
-      "file_name": "ZalithLauncher-2.8.1-arm64-v8a.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.1/ZalithLauncher-2.8.1-arm64-v8a.apk",
+      "file_name": "ZalithLauncher-2.8.2-arm64-v8a.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-arm64-v8a.apk",
       "arch": "arm64",
-      "size": 184739568
+      "size": 184771868
     },
     {
-      "file_name": "ZalithLauncher-2.8.1-armeabi-v7a.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.1/ZalithLauncher-2.8.1-armeabi-v7a.apk",
+      "file_name": "ZalithLauncher-2.8.2-armeabi-v7a.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-armeabi-v7a.apk",
       "arch": "arm",
-      "size": 176293289
+      "size": 176325597
     },
     {
-      "file_name": "ZalithLauncher-2.8.1-x86.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.1/ZalithLauncher-2.8.1-x86.apk",
+      "file_name": "ZalithLauncher-2.8.2-x86.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-x86.apk",
       "arch": "x86",
-      "size": 165636947
+      "size": 165669255
     },
     {
-      "file_name": "ZalithLauncher-2.8.1-x86_64.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.1/ZalithLauncher-2.8.1-x86_64.apk",
+      "file_name": "ZalithLauncher-2.8.2-x86_64.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-x86_64.apk",
       "arch": "x86_64",
-      "size": 190866860
+      "size": 190899104
     },
     {
-      "file_name": "ZalithLauncher-2.8.1.apk",
-      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.1/ZalithLauncher-2.8.1.apk",
+      "file_name": "ZalithLauncher-2.8.2.apk",
+      "uri": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2.apk",
       "arch": "all",
-      "size": 372766263
+      "size": 372798571
     }
   ],
   "default_body": {
     "language": "en",
-    "markdown": "## Updates:\r- GP#2177: Built-in component resources are now verified against a SHA-1 manifest (by @MovTery)\r\r\r## Fixes:\r- GP#2178: Fixed Microsoft login being unable to continuously poll for device code tokens (by @MovTery)\r- GP#2181: Fixed missing environment variables for Kopper Zink and VirGL (by @MovTery)"
+    "markdown": "## Updates:\r- GP#2188: Added an SFPEW compatibility layer switch for MobileGlues (by @MovTery)\r\r## Changes:\r- GP#2188: Adjusted the position of the reset button in the renderer config dialog (by @MovTery)\r\r## Fixes:\r- GP#2188: Fixed MobileGlues config display not matching what actually takes effect (by @MovTery)\r- GP#2187: Physical mouse button clicks not working on some devices (by @mvanhorn)\r- GP#2194: Flaw in the modpack export filtering mechanism, resulting in possibly incomplete exported files (by @MovTery)\r- GP#2195: Incorrect list height on the Java management screen, causing abnormal background rendering (by @MovTery)\r- GP#2199: Crash on Android 8.x due to text being created and copied off the main thread (by @MovTery)\r- GP#2204: Actively sync SDL gamepad device enumeration, fixing Controlify requiring a gamepad reconnect before passthrough works (by @MovTery)\r- GP#2205: Local cache of server icons never updates (by @MovTery)\r- GP#2206: The disabled state of the original file is now preserved when updating mods (by @MovTery)"
   },
   "bodies": [
     {
       "language": "zh",
-      "markdown": "## 更新发布页\r- [B站](https://www.bilibili.com/read/readlist/rl1103422)，[爱发电](https://ifdian.net/album/40422970d64c11f1a1cd5254001e7c00)，[GitHub](https://github.com/ZalithLauncher/ZalithLauncher2/releases)\r\r\r## 更新：\r- GP#2177：使用 SHA-1 清单校验内置组件资源 (by @MovTery)\r\r\r## 修复：\r- GP#2178：修复微软登录无法持续轮询设备码令牌的问题 (by @MovTery)\r- GP#2181：修复 Kopper Zink 与 VirGL 环境变量缺失 (by @MovTery)\r"
+      "markdown": "## 更新发布页\r- B站：https://www.bilibili.com/read/readlist/rl1103422\r- 爱发电：https://ifdian.net/album/40422970d64c11f1a1cd5254001e7c00\r- Github：https://github.com/ZalithLauncher/ZalithLauncher2/releases\r\r\r## 更新：\r- GP#2188：为 MobileGlues 新增 SFPEW 兼容层开关 (by @MovTery)\r\r\r## 调整：\r- GP#2188：调整渲染器配置对话框内重置按钮的位置 (by @MovTery)\r\r\r## 修复：\r- GP#2188：修复 MobileGlues 配置显示与生效不符 (by @MovTery)\r- GP#2187：修复部分设备实体鼠标按键点击无效的问题 (by @mvanhorn)\r- GP#2194：导出整合包的过滤机制缺陷，导致导出文件可能不完整 (by @MovTery)\r- GP#2195：Java 管理屏幕列表高度不正确，导致背景画面异常 (by @MovTery)\r- GP#2199：Android 8.x 未在主线程创建并复制文本导致崩溃 (by @MovTery)\r- GP#2204：主动同步 SDL 手柄设备枚举，修复 Controlify 需重连手柄才能直通 (by @MovTery)\r- GP#2205：服务器图标的本地缓存始终无法更新 (by @MovTery)\r- GP#2206：更新模组时保持原文件的禁用状态 (by @MovTery)\r"
     }
   ]
 }
