@@ -3,6 +3,51 @@
   "sponsors": [
     {
       "user": {
+        "name": "爱发电用户_98e35",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+      },
+      "time": "2026/11/07",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "天玑破壁者_机制暴君",
+        "avatar": "https://pic1.afdiancdn.com/user/b6df5280d9ec11f1a9135254001e7c00/avatar/dfe46443ebd327da0275cb74dbc24278_w516_h511_s79.jpeg"
+      },
+      "time": "2026/11/06",
+      "plan": {
+        "id": "",
+        "name": "自选金额",
+        "price": 20.0,
+        "total_amount": 20.0,
+        "show_amount": 20.0,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "四格S",
+        "avatar": "https://pic1.afdiancdn.com/user/9a16218c82f011f09f6f52540025c377/avatar/bb45e822164a2d8b9bc1d0899643d375_w1080_h1080_s3414.jpg.gif"
+      },
+      "time": "2026/11/06",
+      "plan": {
+        "id": "c4b309b8a69111f08d0352540025c377",
+        "name": "闪闪黄金令牌",
+        "price": 20.0,
+        "total_amount": 20.0,
+        "show_amount": 20.0,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "爱发电用户_qnNw",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
       },
