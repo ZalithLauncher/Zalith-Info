@@ -1,6 +1,27 @@
 {
   "sponsors": [
     {
+      "name": "晴天",
+      "time": "2026/11/08",
+      "identifier": "202611090305489954485634398",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.2
+    },
+    {
+      "name": "爱发电用户_TY3w",
+      "time": "2026/11/08",
+      "identifier": "202611082219305010156112940",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.2
+    },
+    {
+      "name": "爱发电用户_afb2a",
+      "time": "2026/11/08",
+      "identifier": "202611082028141019910241223",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 20.0
+    },
+    {
       "name": "某阿魚",
       "time": "2026/11/08",
       "identifier": "202611081404055349102931322",
