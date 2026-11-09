@@ -1,6 +1,13 @@
 {
   "sponsors": [
     {
+      "name": "小小伍",
+      "time": "2026/11/09",
+      "identifier": "202611091909309710151547803",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0
+    },
+    {
       "name": "晴天",
       "time": "2026/11/08",
       "identifier": "202611090305489954485634398",

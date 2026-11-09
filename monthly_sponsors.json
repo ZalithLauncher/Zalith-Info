@@ -3,6 +3,21 @@
   "sponsors": [
     {
       "user": {
+        "name": "小小伍",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
+      },
+      "time": "2026/11/09",
+      "plan": {
+        "id": "",
+        "name": "自选金额",
+        "price": 5.0,
+        "total_amount": 5.0,
+        "show_amount": 5.0,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "晴天",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
       },
