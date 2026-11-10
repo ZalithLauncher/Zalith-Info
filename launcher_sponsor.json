@@ -1,6 +1,20 @@
 {
   "sponsors": [
     {
+      "name": "ZhangFuture",
+      "time": "2026/11/10",
+      "identifier": "2026111018054355985054559",
+      "avatar": "https://pic1.afdiancdn.com/user/e09ec656020611f0aa1552540025c377/avatar/6e81547d737965aba543688ec850e595_w743_h1067_s781.png",
+      "amount": 20.0
+    },
+    {
+      "name": "Axyu",
+      "time": "2026/11/10",
+      "identifier": "202611101656119854571010054",
+      "avatar": "https://pic1.afdiancdn.com/user/442411d64dba11f1817e52540025c377/avatar/85f8c52b0cdb2d6910007876efaac7a7_w1259_h1259_s693.jpeg",
+      "amount": 10.45
+    },
+    {
       "name": "小小伍",
       "time": "2026/11/09",
       "identifier": "202611091909309710151547803",

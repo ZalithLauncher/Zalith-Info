@@ -3,6 +3,36 @@
   "sponsors": [
     {
       "user": {
+        "name": "ZhangFuture",
+        "avatar": "https://pic1.afdiancdn.com/user/e09ec656020611f0aa1552540025c377/avatar/6e81547d737965aba543688ec850e595_w743_h1067_s781.png"
+      },
+      "time": "2026/11/10",
+      "plan": {
+        "id": "c4b309b8a69111f08d0352540025c377",
+        "name": "闪闪黄金令牌",
+        "price": 20.0,
+        "total_amount": 20.0,
+        "show_amount": 20.0,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "Axyu",
+        "avatar": "https://pic1.afdiancdn.com/user/442411d64dba11f1817e52540025c377/avatar/85f8c52b0cdb2d6910007876efaac7a7_w1259_h1259_s693.jpeg"
+      },
+      "time": "2026/11/10",
+      "plan": {
+        "id": "c3a32536a69011f0906052540025c377",
+        "name": "红🐱帽",
+        "price": 10.45,
+        "total_amount": 10.45,
+        "show_amount": 10.45,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "小小伍",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
       },
