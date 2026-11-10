@@ -3,6 +3,21 @@
   "sponsors": [
     {
       "user": {
+        "name": "夕夕",
+        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/54833ac9e4e489521b182f6a8bc83f8a_w132_h132_s7.jpeg"
+      },
+      "time": "2026/11/10",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "ZhangFuture",
         "avatar": "https://pic1.afdiancdn.com/user/e09ec656020611f0aa1552540025c377/avatar/6e81547d737965aba543688ec850e595_w743_h1067_s781.png"
       },
