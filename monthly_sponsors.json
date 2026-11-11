@@ -3,6 +3,36 @@
   "sponsors": [
     {
       "user": {
+        "name": "爱发电用户_cf697",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+      },
+      "time": "2026/11/11",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "Anduimy",
+        "avatar": "https://pic1.afdiancdn.com/user/e0184580ed3411f0852e52540025c377/avatar/7d241e4fe44a006a8ad2240e3068e545_w1080_h1080_s101.jpeg"
+      },
+      "time": "2026/11/11",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "夕夕",
         "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/54833ac9e4e489521b182f6a8bc83f8a_w132_h132_s7.jpeg"
       },
