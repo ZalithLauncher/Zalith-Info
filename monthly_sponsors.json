@@ -3,6 +3,21 @@
   "sponsors": [
     {
       "user": {
+        "name": "阮",
+        "avatar": "https://pic1.afdiancdn.com/user/3f98d782dfa011f1b62052540025c377/avatar/a7058ee4e294110d8d2c8919878c235a_w1259_h1259_s761.jpeg"
+      },
+      "time": "2026/11/14",
+      "plan": {
+        "id": "c3a32536a69011f0906052540025c377",
+        "name": "红🐱帽",
+        "price": 10.45,
+        "total_amount": 10.45,
+        "show_amount": 10.45,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "xL1u",
         "avatar": "https://pic1.afdiancdn.com/user/9772c702e37411eb91d252540025c377/avatar/bde969bc3527d32cc573636b8dfdb8e6_w640_h640_s188.jpg"
       },
