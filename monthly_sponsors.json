@@ -3,6 +3,21 @@
   "sponsors": [
     {
       "user": {
+        "name": "o.O",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
+      },
+      "time": "2026/11/14",
+      "plan": {
+        "id": "c4b309b8a69111f08d0352540025c377",
+        "name": "闪闪黄金令牌",
+        "price": 20.0,
+        "total_amount": 20.0,
+        "show_amount": 20.0,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "爱发电用户_hFDn",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
       },
