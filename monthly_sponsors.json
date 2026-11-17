@@ -3,6 +3,21 @@
   "sponsors": [
     {
       "user": {
+        "name": "青衫忆笙",
+        "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7790300eae89e7e7be0bc0755efef927_w132_h132_s5.jpeg"
+      },
+      "time": "2026/11/17",
+      "plan": {
+        "id": "",
+        "name": "自选金额",
+        "price": 5.0,
+        "total_amount": 5.0,
+        "show_amount": 5.0,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "45258",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png"
       },
