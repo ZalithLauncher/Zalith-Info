@@ -3,6 +3,21 @@
   "sponsors": [
     {
       "user": {
+        "name": "爱发电用户_fmtB",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png"
+      },
+      "time": "2026/11/22",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
         "name": "爱发电用户_rkTw",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png"
       },
