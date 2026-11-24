@@ -1,6 +1,13 @@
 {
   "sponsors": [
     {
+      "name": "格伦米尔",
+      "time": "2026/11/24",
+      "identifier": "20261124192232565110153745",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0
+    },
+    {
       "name": "Rainbow",
       "time": "2026/11/23",
       "identifier": "202611232244055350569923563",
