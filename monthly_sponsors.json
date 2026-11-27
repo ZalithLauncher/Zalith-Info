@@ -3,6 +3,51 @@
   "sponsors": [
     {
       "user": {
+        "name": "爱发电用户_19286",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/"
+      },
+      "time": "2026/11/27",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_PReg",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png"
+      },
+      "time": "2026/11/27",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 5.2,
+        "show_amount": 5.2,
+        "count": 1
+      }
+    },
+    {
+      "user": {
+        "name": "爱发电用户_bDqg",
+        "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
+      },
+      "time": "2026/11/27",
+      "plan": {
+        "id": "c1e7e62ea68f11f08f2a52540025c377",
+        "name": "咬过一口的青金石",
+        "price": 5.2,
+        "total_amount": 15.6,
+        "show_amount": 15.6,
+        "count": 3
+      }
+    },
+    {
+      "user": {
         "name": "爱发电用户_F4vH",
         "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
       },
